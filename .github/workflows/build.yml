@@ -94,6 +94,29 @@ jobs:
         env:
           CSC_IDENTITY_AUTO_DISCOVERY: 'false'
           USE_HARD_LINKS: 'false'
+      - name: Smoke-test the packaged app
+        shell: bash
+        timeout-minutes: 10
+        run: |
+          set +e
+          APP=${{ matrix.app }}
+          T=$APP; [ "$APP" = hub ] && T=all
+          PRODUCT=$(node -p "require('./dist/config-$APP.json').productName")
+          export WARSHA_SMOKE_DIR="$RUNNER_TEMP/smoke-pkg"
+          case "${{ runner.os }}" in
+            Linux)
+              sudo apt-get install -y -qq xvfb > /dev/null
+              BIN=$(find "dist/$APP/linux-unpacked" -maxdepth 1 -type f -name 'warsha*' -perm -u+x | head -1)
+              xvfb-run -a "$BIN" --smoke-test=$T --no-sandbox ;;
+            Windows)
+              "dist/$APP/win-unpacked/$PRODUCT.exe" --smoke-test=$T ;;
+            macOS)
+              DIR=$(ls -d dist/$APP/mac-arm64 2>/dev/null || ls -d dist/$APP/mac)
+              "$DIR/$PRODUCT.app/Contents/MacOS/$PRODUCT" --smoke-test=$T ;;
+          esac
+          STATUS=$?
+          cat "$WARSHA_SMOKE_DIR/report.json" | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>JSON.parse(s).forEach(r=>console.log((r.ok?'PASS ':'FAIL ')+r.id+(r.ok?'':' '+r.errors.join(' | ')))))"
+          exit $STATUS
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.app }}-${{ runner.os }}
