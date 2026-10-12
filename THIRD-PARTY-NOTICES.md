@@ -5,6 +5,9 @@
 - **pdf-lib** 1.17.1 — MIT
 - **pdfjs-dist** 3.11.174 — Apache-2.0
 - **jszip** 3.10.1 — MIT or GPLv3
+- **lamejs** 1.2.1 — LGPL-3.0 (unmodified, loaded as a separate file)
+- **mp4-muxer** 5.2.2 — MIT
+- **webm-muxer** 5.1.4 — MIT
 
 ## الخطوط العربية — SIL Open Font License 1.1
 
