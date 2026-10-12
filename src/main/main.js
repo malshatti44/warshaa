@@ -217,7 +217,8 @@ if (!gotLock) {
   });
 
   app.on('window-all-closed', () => {
-    if (process.platform !== 'darwin' || SMOKE) app.quit();
+    if (SMOKE) return; // يُنهي اختبار الدخان التطبيق بنفسه بعد آخر نافذة
+    if (process.platform !== 'darwin') app.quit();
   });
 }
 
@@ -375,7 +376,8 @@ ipcMain.handle('hub:checkUpdate', async () => {
 
 /* ───────── اختبار الدخان (CI) ───────── */
 async function runSmoke(target) {
-  const ids = target === 'all' ? ['hub'].concat(registry.apps.map((a) => a.id)) : [target];
+  const exists = (id) => fs.existsSync(path.join(ROOT, id === 'hub' ? 'hub' : path.join('apps', id), 'index.html'));
+  const ids = (target === 'all' ? ['hub'].concat(registry.apps.map((a) => a.id)) : [target]).filter(exists);
   const outDir = process.env.WARSHA_SMOKE_DIR || path.join(os.tmpdir(), 'warsha-smoke');
   fs.mkdirSync(outDir, { recursive: true });
   const report = [];
@@ -383,8 +385,8 @@ async function runSmoke(target) {
     const errors = [];
     const win = createWindow(id);
     const wc = win.webContents;
-    wc.on('console-message', (ev, level, message, line, sourceId) => {
-      const d = (ev && typeof ev === 'object' && 'message' in ev) ? ev : { level, message, lineNumber: line, sourceId };
+    wc.on('console-message', function (ev) {
+      const d = (ev && typeof ev === 'object' && 'message' in ev) ? ev : { level: arguments[1], message: arguments[2], lineNumber: arguments[3], sourceId: arguments[4] };
       const isErr = d.level === 'error' || d.level === 3;
       if (isErr) errors.push(String(d.message) + ' @' + (d.sourceId || '') + ':' + (d.lineNumber || ''));
     });
