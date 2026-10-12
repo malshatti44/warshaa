@@ -1063,6 +1063,46 @@
   W.ensureFont = async (family, weight) => {
     try { await document.fonts.load((weight || 400) + ' 16px "' + family + '"', 'ابجد abc'); } catch (e) { /* تجاهل */ }
   };
+  /** يجمع قواعد @font-face للعائلات المطلوبة مع تضمين ملفات الخطوط كـ data URLs (لتصدير SVG/PNG) */
+  const fontDataCache = new Map();
+  W.fontFaceCSS = async function (families) {
+    const want = new Set(Array.from(families || []).map((f) => String(f).replace(/["']/g, '').trim()));
+    const rules = [];
+    const walk = (sheet) => {
+      let list;
+      try { list = sheet.cssRules; } catch (e) { return; }
+      Array.from(list || []).forEach((r) => {
+        if (r.styleSheet) walk(r.styleSheet);
+        else if (typeof CSSFontFaceRule !== 'undefined' && r instanceof CSSFontFaceRule) rules.push(r);
+      });
+    };
+    Array.from(document.styleSheets).forEach(walk);
+    let css = '';
+    for (const r of rules) {
+      const fam = r.style.getPropertyValue('font-family').replace(/["']/g, '').trim();
+      if (!want.has(fam)) continue;
+      const m = /url\(["']?([^"')]+)["']?\)/.exec(r.style.getPropertyValue('src'));
+      if (!m) continue;
+      try {
+        const url = new URL(m[1], r.parentStyleSheet.href || location.href).href;
+        if (!fontDataCache.has(url)) fontDataCache.set(url, W.b64.encode(new Uint8Array(await (await fetch(url)).arrayBuffer())));
+        const range = r.style.getPropertyValue('unicode-range');
+        css += '@font-face{font-family:"' + fam + '";font-style:' + (r.style.getPropertyValue('font-style') || 'normal') + ';font-weight:' + (r.style.getPropertyValue('font-weight') || 400) +
+          ';src:url(data:font/woff2;base64,' + fontDataCache.get(url) + ') format("woff2");' + (range ? 'unicode-range:' + range + ';' : '') + '}';
+      } catch (e) { /* تجاهل */ }
+    }
+    return css;
+  };
+  /** يحو\u0651ل نص SVG إلى لوحة رسم (canvas) بالمقياس المطلوب */
+  W.rasterizeSVG = async function (svgText, w, h, scale, background) {
+    const img = await W.loadImage('data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgText));
+    const c = document.createElement('canvas');
+    c.width = Math.max(1, Math.round(w * (scale || 1))); c.height = Math.max(1, Math.round(h * (scale || 1)));
+    const g = c.getContext('2d');
+    if (background) { g.fillStyle = background; g.fillRect(0, 0, c.width, c.height); }
+    g.drawImage(img, 0, 0, c.width, c.height);
+    return c;
+  };
 
   /* ───────────── مكو\u0651نات صغيرة ───────────── */
   /** صف شريط تمرير مع حقل رقمي */

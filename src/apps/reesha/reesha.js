@@ -981,17 +981,6 @@
     if (res.path) W.recent.add(res.path, res.name);
     W.toast(W.t('ui.saved'), 'success');
   }
-  async function rasterize(scale) {
-    await W.fontsReady();
-    const svgStr = exportSVGString();
-    const img = await W.loadImage('data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgStr));
-    const c = document.createElement('canvas');
-    c.width = Math.round(doc.w * scale); c.height = Math.round(doc.h * scale);
-    const g = c.getContext('2d');
-    // النصوص لا ت\u064Fحم\u064E\u0651ل خطوطها داخل صورة SVG، لذلك نرسمها مباشرة عبر عنصر SVG حي
-    g.drawImage(img, 0, 0, c.width, c.height);
-    return c;
-  }
   async function exportAs(fmt) {
     if (!doc) return;
     selection = []; renderUI();
@@ -1003,40 +992,17 @@
     const r = await W.files.save({ data: await W.canvasToBytes(c, 'image/png'), name: baseName() + '.png', types: [{ name: { ar: 'صورة PNG', en: 'PNG' }, ext: ['png'] }] });
     if (r) W.toast(W.t('ui.exported'), 'success');
   }
-  /** تحويل إلى PNG مع خطوط صحيحة: نضم\u0651ن الخطوط المستخدمة كـ data URLs داخل SVG */
+  /** تحويل إلى PNG مع خطوط صحيحة: نضمّن الخطوط المستخدمة كـ data URLs داخل SVG */
   async function renderPNG(scale) {
+    await W.fontsReady();
     const used = new Set();
     const walk = (list) => list.forEach((o) => { if (o.type === 'text') used.add(o.font); if (o.children) walk(o.children); });
     walk(doc.objects);
-    let fontCSS = '';
-    for (const sheet of Array.from(document.styleSheets)) {
-      let rules;
-      try { rules = sheet.cssRules; } catch (e) { continue; }
-      for (const r of Array.from(rules || [])) {
-        const inner = r.styleSheet ? Array.from(r.styleSheet.cssRules || []) : [r];
-        for (const rr of inner) {
-          if (!(rr instanceof CSSFontFaceRule)) continue;
-          const fam = rr.style.getPropertyValue('font-family').replace(/["']/g, '').trim();
-          if (!used.has(fam)) continue;
-          const m = /url\(["']?([^"')]+)["']?\)/.exec(rr.style.getPropertyValue('src'));
-          if (!m) continue;
-          try {
-            const url = new URL(m[1], rr.parentStyleSheet.href || location.href).href;
-            const buf = new Uint8Array(await (await fetch(url)).arrayBuffer());
-            fontCSS += '@font-face{font-family:"' + fam + '";font-weight:' + (rr.style.getPropertyValue('font-weight') || 400) + ';src:url(data:font/woff2;base64,' + W.b64.encode(buf) + ') format("woff2");' + (rr.style.getPropertyValue('unicode-range') ? 'unicode-range:' + rr.style.getPropertyValue('unicode-range') + ';' : '') + '}';
-          } catch (e) { /* تجاهل */ }
-        }
-      }
-    }
+    const fontCSS = await W.fontFaceCSS(used);
     let s = exportSVGString();
     if (fontCSS) s = s.replace(/(<svg[^>]*>)/, '$1<style>' + fontCSS + '</style>');
-    const img = await W.loadImage('data:image/svg+xml;charset=utf-8,' + encodeURIComponent(s));
-    const c = document.createElement('canvas');
-    c.width = Math.round(doc.w * scale); c.height = Math.round(doc.h * scale);
-    c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
-    return c;
+    return W.rasterizeSVG(s, doc.w, doc.h, scale);
   }
-  void rasterize;
 
   /* ═══════════ القوائم ═══════════ */
   const needDoc = () => !doc;
