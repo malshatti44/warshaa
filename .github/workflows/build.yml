@@ -147,4 +147,6 @@ jobs:
           if ! gh release view "$TAG" > /dev/null 2>&1; then
             gh release create "$TAG" --target "$GITHUB_SHA" --title "ورشة WARSHA $VERSION" --notes-file RELEASE_NOTES.md
           fi
-          gh release upload "$TAG" out/* --clobber
+          # المثبّتات فقط (لا صور اختبار الدخان)
+          gh release upload "$TAG" out/*.exe out/*.dmg out/*.AppImage out/*.deb --clobber
+          gh release view "$TAG" --json assets -q '.assets[].name' | grep -vE '\.(exe|dmg|AppImage|deb)$' | while read -r a; do gh release delete-asset "$TAG" "$a" -y; done

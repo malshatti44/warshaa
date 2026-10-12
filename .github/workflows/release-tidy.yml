@@ -1,0 +1,25 @@
+name: release-tidy
+# يحذف من الإصدار أي ملفات ليست مثبّتات (exe/dmg/AppImage/deb).
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/release-tidy.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  tidy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove non-installer assets from v1.0.0
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          TAG=v1.0.0
+          gh release view "$TAG" --json assets -q '.assets[].name' | grep -vE '\.(exe|dmg|AppImage|deb)$' | while read -r a; do
+            echo "delete $a"; gh release delete-asset "$TAG" "$a" -y
+          done
+          gh release view "$TAG" --json assets -q '.assets | length'
