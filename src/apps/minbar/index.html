@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>منبر</title>
+  <link rel="stylesheet" href="../../shared/warsha.css">
+  <link rel="stylesheet" href="minbar.css">
+</head>
+<body>
+  <div class="w-app">
+    <div class="w-menubar"></div>
+    <div class="w-toolbar" id="toolbar"></div>
+    <div class="w-main">
+      <aside class="w-side start mb-slides" id="slides"></aside>
+      <div class="mb-center">
+        <div class="w-stage mb-stage" id="stage">
+          <div class="mb-canvas" id="canvas"></div>
+        </div>
+        <div class="mb-notes"><textarea id="notes" class="w-textarea" data-i18n-placeholder="m.notes"></textarea></div>
+      </div>
+      <aside class="w-side mb-props" id="props"></aside>
+    </div>
+    <div class="w-statusbar"></div>
+  </div>
+  <div class="mb-show hidden" id="show" tabindex="-1"></div>
+  <script src="../../shared/registry.js"></script>
+  <script src="../../shared/icons.js"></script>
+  <script src="../../shared/warsha.js"></script>
+  <script src="../../shared/vendor/jszip.min.js"></script>
+  <script src="themes.js"></script>
+  <script src="pptx.js"></script>
+  <script src="minbar.js"></script>
+</body>
+</html>
