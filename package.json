@@ -1,0 +1,29 @@
+{
+  "name": "warsha",
+  "productName": "Warsha",
+  "version": "1.0.0",
+  "description": "ورشة WARSHA — منصة تطبيقات إبداعية عربية متكاملة",
+  "main": "src/main/main.js",
+  "author": {
+    "name": "Mohammed Alshatti",
+    "email": "info@malshatti.com",
+    "url": "https://malshatti.com"
+  },
+  "homepage": "https://malshatti.com",
+  "repository": "github:malshatti44/warshaa",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "web": "http-server src -p 5173 -c-1",
+    "icons": "python3 scripts/gen-icons.py",
+    "vendor": "node scripts/vendor.js",
+    "build": "node scripts/build.js",
+    "smoke": "electron . --smoke-test=all",
+    "test:web": "node scripts/web-test.js"
+  },
+  "devDependencies": {
+    "electron": "^37.2.0",
+    "electron-builder": "^26.0.12"
+  }
+}

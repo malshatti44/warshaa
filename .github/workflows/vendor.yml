@@ -1,0 +1,41 @@
+name: vendor
+# يجلب المكتبات والخطوط العربية من npm ويضيفها للمستودع حتى تعمل التطبيقات دون إنترنت.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/vendor.js'
+      - '.github/workflows/vendor.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  vendor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install vendor packages
+        run: |
+          mkdir -p "$RUNNER_TEMP/v" && cd "$RUNNER_TEMP/v"
+          npm init -y > /dev/null
+          npm install --no-audit --no-fund \
+            pdf-lib@1.17.1 pdfjs-dist@3.11.174 jszip@3.10.1 \
+            @fontsource/ibm-plex-sans-arabic @fontsource/cairo @fontsource/tajawal @fontsource/almarai \
+            @fontsource/amiri @fontsource/noto-naskh-arabic @fontsource/noto-kufi-arabic @fontsource/reem-kufi \
+            @fontsource/el-messiri @fontsource/changa @fontsource/lalezar @fontsource/aref-ruqaa \
+            @fontsource/markazi-text @fontsource/jetbrains-mono
+          npm ls --depth=0 || true
+      - name: Copy into repository
+        run: VENDOR_NODE_MODULES="$RUNNER_TEMP/v/node_modules" node scripts/vendor.js
+      - name: Commit
+        run: |
+          git config user.name "warsha-bot"
+          git config user.email "warsha-bot@users.noreply.github.com"
+          git add src/shared/vendor src/shared/fonts THIRD-PARTY-NOTICES.md
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "chore(vendor): update bundled libraries and Arabic fonts"
+          git push

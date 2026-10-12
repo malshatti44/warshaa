@@ -1,0 +1,27 @@
+﻿ورشة WARSHA
+تطوير: محمد الشطي
+الموقع: https://malshatti.com
+البريد: info@malshatti.com
+
+© 2026 محمد الشطي. جميع الحقوق محفوظة.
+
+يُسمح لك بتنزيل هذا البرنامج وتثبيته واستخدامه مجانًا للأغراض الشخصية والتجارية.
+لا يجوز إعادة بيع البرنامج أو نسبته لغير مطوّره.
+يُقدَّم البرنامج "كما هو" دون أي ضمان صريح أو ضمني، ولا يتحمل المطوّر مسؤولية أي ضرر ينتج عن استخدامه.
+
+يتضمن البرنامج مكونات مفتوحة المصدر بتراخيصها الأصلية (Electron وJSZip وpdf-lib وpdf.js والخطوط العربية برخصة SIL OFL). راجع ملف THIRD-PARTY-NOTICES في المستودع.
+
+------------------------------------------------------------
+
+WARSHA
+Developed by Mohammed Alshatti
+Website: https://malshatti.com
+Email: info@malshatti.com
+
+© 2026 Mohammed Alshatti. All rights reserved.
+
+You may download, install and use this software free of charge for personal and commercial purposes.
+You may not resell the software or attribute it to anyone other than its developer.
+The software is provided "as is", without warranty of any kind. The developer is not liable for any damage arising from its use.
+
+This software includes open-source components under their original licenses (Electron, JSZip, pdf-lib, pdf.js and Arabic fonts under the SIL Open Font License). See THIRD-PARTY-NOTICES in the repository.
