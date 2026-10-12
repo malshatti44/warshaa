@@ -28,7 +28,7 @@
         'm.theme': 'Theme', 'm.layout': 'Layout', 'm.background': 'Background', 'm.bgTheme': 'Theme background', 'm.bgColor': 'Color', 'm.bgImage': 'Background image…',
         'm.transition': 'Transition', 'm.tr.none': 'None', 'm.tr.fade': 'Fade', 'm.tr.slide': 'Slide', 'm.tr.zoom': 'Zoom',
         'm.anim': 'Entrance animation', 'm.an.none': 'None', 'm.an.fade': 'Fade', 'm.an.fly': 'Fly in', 'm.an.zoom': 'Zoom', 'm.an.rise': 'Rise',
-        'm.notes': 'Speaker notes…', 'm.slideN': 'Slide {n}', 'm.slideOf': '{i} من {n}', 'm.slideProps': 'Slide properties', 'm.objProps': 'Object properties',
+        'm.notes': 'Speaker notes…', 'm.slideN': 'Slide {n}', 'm.slideOf': '{i} / {n}', 'm.slideProps': 'Slide properties', 'm.objProps': 'Object properties',
         'm.front': 'Bring to front', 'm.back': 'Send to back', 'm.alignSlide': 'Align to slide', 'm.bullets': 'Bullets', 'm.numbers': 'Numbering',
         'm.sh.rect': 'Rectangle', 'm.sh.roundrect': 'Rounded rectangle', 'm.sh.ellipse': 'Ellipse', 'm.sh.triangle': 'Triangle', 'm.sh.diamond': 'Diamond', 'm.sh.star': 'Star',
         'm.sh.arrow': 'Arrow', 'm.sh.arrowL': 'Reverse arrow', 'm.sh.line': 'Line', 'm.sh.hexagon': 'Hexagon', 'm.sh.heart': 'Heart', 'm.sh.callout': 'Speech bubble',
