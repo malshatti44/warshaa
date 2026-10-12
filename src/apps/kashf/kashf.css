@@ -1,0 +1,39 @@
+/* كشف — جداول البيانات */
+.kashf-body { display: flex; flex-direction: column; background: var(--bg); }
+.kashf-fbar { display: flex; align-items: center; gap: 6px; padding: 5px 8px; background: var(--bg-2); border-bottom: 1px solid var(--border); }
+.k-namebox { width: 96px; text-align: center; font-family: var(--font-mono); font-size: 12px; }
+.k-fx { font-style: italic; font-family: Georgia, serif; color: var(--fg-3); padding: 0 4px; }
+.k-formula { flex: 1; font-family: var(--font-mono), var(--font-ui); }
+.kashf-gridbox { position: relative; flex: 1; min-height: 0; overflow: hidden; }
+#grid { position: absolute; top: 0; z-index: 0; }
+.kashf-wrap { position: absolute; inset: 0; overflow: auto; z-index: 1; outline: none; }
+#spacer { position: relative; pointer-events: none; }
+.k-charts { position: absolute; top: 0; inset-inline-start: 0; pointer-events: none; }
+.k-chart {
+  position: absolute; pointer-events: auto; background: #fff; border: 1px solid #d6d9e0; border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .12); cursor: move; overflow: hidden;
+}
+.k-chart.selected { outline: 2px solid var(--accent); }
+.k-chart svg { display: block; pointer-events: none; }
+.k-chart-resize { position: absolute; bottom: 0; inset-inline-end: 0; width: 14px; height: 14px; cursor: nwse-resize; background: linear-gradient(135deg, transparent 50%, var(--accent) 50%); opacity: .7; }
+[dir='rtl'] .k-chart-resize { cursor: nesw-resize; background: linear-gradient(225deg, transparent 50%, var(--accent) 50%); }
+.k-editor {
+  position: absolute; z-index: 30; resize: none; border: 2px solid var(--accent); outline: none; padding: 1px 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .2); overflow: hidden; line-height: 1.3; white-space: pre; color: #1d2027; background: #fff;
+}
+.k-suggest {
+  position: absolute; z-index: 40; width: 220px; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 4px; font-family: var(--font-mono); font-size: 12px; direction: ltr;
+}
+.k-sug { padding: 4px 8px; border-radius: 4px; cursor: pointer; }
+.k-sug.active, .k-sug:hover { background: var(--accent); color: #fff; }
+.kashf-tabsbar { display: flex; align-items: center; gap: 8px; background: var(--bg-2); border-top: 1px solid var(--border); padding: 0 6px; height: 32px; }
+.k-tabs { display: flex; align-items: center; gap: 2px; overflow-x: auto; flex: 1; min-width: 0; }
+.k-tab { border: 0; background: transparent; color: var(--fg-2); padding: 5px 14px; border-radius: 0 0 6px 6px; cursor: pointer; white-space: nowrap; border-top: 2px solid transparent; }
+.k-tab:hover { background: var(--hover); }
+.k-tab.active { background: var(--bg); color: var(--fg); border-top-color: var(--accent); font-weight: 600; }
+.k-selstats { color: var(--fg-3); font-size: 12px; white-space: nowrap; }
+.w-toolbar .k-font { width: 140px; }
+.w-toolbar .k-size { width: 58px; direction: ltr; }
+.w-toolbar .k-fmt { width: 110px; }
+.k-sink { position: absolute; top: 0; inset-inline-start: 0; width: 1px; height: 1px; opacity: 0; resize: none; border: 0; padding: 0; z-index: -1; pointer-events: none; }

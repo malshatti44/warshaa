@@ -541,6 +541,7 @@
           class: 'w-btn' + (b.primary ? ' primary' : '') + (b.danger ? ' danger' : ''), type: 'button',
           text: b.i18n ? W.t(b.i18n) : b.label,
           onclick: async () => {
+            if (b.onClick) { await b.onClick(); if (b.keepOpen) return; }
             if (b.validate && !(await b.validate())) return;
             done(typeof b.value === 'function' ? b.value() : b.value);
           }

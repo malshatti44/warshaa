@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>كشف</title>
+  <link rel="stylesheet" href="../../shared/warsha.css">
+  <link rel="stylesheet" href="kashf.css">
+</head>
+<body>
+  <div class="w-app">
+    <div class="w-menubar"></div>
+    <div class="w-toolbar" id="toolbar"></div>
+    <div class="w-main">
+      <div class="kashf-body w-stage" id="stage">
+        <div class="kashf-fbar">
+          <input class="w-input k-namebox ltr" id="namebox" spellcheck="false">
+          <span class="k-fx">fx</span>
+          <input class="w-input k-formula" id="fbar" spellcheck="false" autocomplete="off">
+        </div>
+        <div class="kashf-gridbox">
+          <canvas id="grid"></canvas>
+          <textarea id="sink" class="k-sink" tabindex="-1" aria-hidden="true" spellcheck="false"></textarea>
+          <div class="kashf-wrap" id="wrap" tabindex="-1">
+            <div id="spacer"></div>
+            <div id="charts" class="k-charts"></div>
+          </div>
+        </div>
+        <div class="kashf-tabsbar">
+          <div class="k-tabs" id="tabs"></div>
+          <div class="k-selstats" id="selstats"></div>
+        </div>
+        <textarea id="cell-editor" class="k-editor hidden" spellcheck="false" dir="auto"></textarea>
+        <div id="suggest" class="k-suggest hidden"></div>
+      </div>
+    </div>
+    <div class="w-statusbar"></div>
+  </div>
+  <script src="../../shared/registry.js"></script>
+  <script src="../../shared/icons.js"></script>
+  <script src="../../shared/warsha.js"></script>
+  <script src="../../shared/vendor/jszip.min.js"></script>
+  <script src="formula.js"></script>
+  <script src="xlsx.js"></script>
+  <script src="kashf.js"></script>
+</body>
+</html>
