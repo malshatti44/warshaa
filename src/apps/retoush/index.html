@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>رتوش</title>
+  <link rel="stylesheet" href="../../shared/warsha.css">
+  <link rel="stylesheet" href="retoush.css">
+</head>
+<body>
+  <div class="w-app">
+    <div class="w-menubar"></div>
+    <div class="w-toolbar" id="toolbar"></div>
+    <div class="w-main">
+      <div class="w-tools" id="tools"></div>
+      <div class="w-stage" id="stage"><canvas id="view"></canvas></div>
+      <aside class="w-side r-side">
+        <div class="w-panel">
+          <div class="w-panel-title" data-i18n="r.colors"></div>
+          <div class="w-panel-body" id="color-panel"></div>
+        </div>
+        <div class="w-panel grow">
+          <div class="w-panel-title"><span data-i18n="ui.layers"></span><div class="w-spacer"></div><div class="row" id="layer-btns" style="gap:0"></div></div>
+          <div class="w-panel-body">
+            <div id="layer-opts"></div>
+            <div class="w-list" id="layers"></div>
+          </div>
+        </div>
+        <div class="w-panel r-hist">
+          <div class="w-panel-title" data-i18n="r.history"></div>
+          <div class="w-panel-body w-list" id="history"></div>
+        </div>
+      </aside>
+    </div>
+    <div class="w-statusbar"></div>
+  </div>
+  <script src="../../shared/registry.js"></script>
+  <script src="../../shared/icons.js"></script>
+  <script src="../../shared/warsha.js"></script>
+  <script src="../../shared/imgops.js"></script>
+  <script src="retoush.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+/* رتوش */
+#view { position: absolute; inset: 0; touch-action: none; }
+.r-side { width: 290px; }
+.r-hist { height: 170px; }
+.r-hist .w-panel-body { overflow-y: auto; }
+.r-hist .w-list-item { min-height: 26px; padding: 2px 8px; font-size: 12px; }
+.w-list-item.faded { opacity: .45; }
+.r-swatches { position: relative; width: 36px; height: 36px; margin: 4px auto 2px; }
+.r-sw { position: absolute; width: 24px; height: 24px; border: 2px solid var(--bg-2); outline: 1px solid var(--border-2); border-radius: 4px; cursor: pointer; }
+.r-sw.fg { top: 0; inset-inline-start: 0; z-index: 1; }
+.r-sw.bg { bottom: 0; inset-inline-end: 0; }
+.r-toolname { font-size: 12.5px; padding-inline: 4px; }
+#layers .w-thumb { width: 44px; height: 32px; }
+#layers .w-icon-btn.faint { opacity: .35; }
+#layers .w-icon-btn.faint:hover { opacity: 1; }
+#layer-opts { margin-bottom: 6px; }
+#layer-opts .w-field { margin-bottom: 4px; }
+.w-toolbar .w-range { width: 110px; }
