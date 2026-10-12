@@ -150,7 +150,7 @@
       'cmd.delete': 'حذف', 'cmd.duplicate': 'تكرار', 'cmd.selectAll': 'تحديد الكل', 'cmd.deselect': 'إلغاء التحديد',
       'cmd.zoomIn': 'تكبير', 'cmd.zoomOut': 'تصغير', 'cmd.fit': 'ملاءمة الشاشة', 'cmd.actualSize': 'الحجم الفعلي (100%)',
       'cmd.fullscreen': 'ملء الشاشة', 'cmd.about': 'حول {app}', 'cmd.shortcuts': 'اختصارات لوحة المفاتيح',
-      'cmd.website': 'موقع المطوّر', 'cmd.contact': 'راسل المطوّر', 'cmd.find': 'بحث…', 'cmd.replace': 'بحث واستبدال…',
+      'cmd.website': 'موقع المطو\u0651ر', 'cmd.contact': 'راسل المطو\u0651ر', 'cmd.find': 'بحث…', 'cmd.replace': 'بحث واستبدال…',
       'cmd.recent': 'الملفات الأخيرة', 'cmd.clearRecent': 'مسح القائمة', 'cmd.exportPDF': 'تصدير PDF…',
       'cmd.exportPNG': 'تصدير PNG…', 'cmd.exportJPG': 'تصدير JPG…', 'cmd.exportSVG': 'تصدير SVG…',
       'ui.language': 'اللغة', 'ui.theme': 'المظهر', 'ui.dark': 'داكن', 'ui.light': 'فاتح', 'ui.arabic': 'العربية', 'ui.english': 'English',
@@ -161,10 +161,10 @@
       'ui.font': 'الخط', 'ui.fontSize': 'حجم الخط', 'ui.text': 'نص', 'ui.image': 'صورة', 'ui.background': 'الخلفية',
       'ui.position': 'الموضع', 'ui.rotation': 'الدوران', 'ui.radius': 'نصف قطر الزوايا', 'ui.quality': 'الجودة', 'ui.format': 'الصيغة',
       'ui.scale': 'المقياس', 'ui.units': 'الوحدات', 'ui.none': 'بدون', 'ui.auto': 'تلقائي', 'ui.custom': 'مخصص',
-      'ui.properties': 'الخصائص', 'ui.layers': 'الطبقات', 'ui.pages': 'الصفحات', 'ui.zoom': 'التكبير', 'ui.loading': 'جارٍ التحميل…',
-      'ui.processing': 'جارٍ المعالجة…', 'ui.saved': 'تم الحفظ', 'ui.exported': 'تم التصدير', 'ui.error': 'حدث خطأ',
-      'ui.openFailed': 'تعذّر فتح الملف', 'ui.saveFailed': 'تعذّر حفظ الملف', 'ui.unsupported': 'صيغة غير مدعومة',
-      'ui.dropHere': 'أفلت الملفات هنا', 'ui.version': 'الإصدار {v}', 'ui.developedBy': 'تطوير', 'ui.dev': 'المطوّر',
+      'ui.properties': 'الخصائص', 'ui.layers': 'الطبقات', 'ui.pages': 'الصفحات', 'ui.zoom': 'التكبير', 'ui.loading': 'جار\u064D التحميل…',
+      'ui.processing': 'جار\u064D المعالجة…', 'ui.saved': 'تم الحفظ', 'ui.exported': 'تم التصدير', 'ui.error': 'حدث خطأ',
+      'ui.openFailed': 'تعذ\u0651ر فتح الملف', 'ui.saveFailed': 'تعذ\u0651ر حفظ الملف', 'ui.unsupported': 'صيغة غير مدعومة',
+      'ui.dropHere': 'أفلت الملفات هنا', 'ui.version': 'الإصدار {v}', 'ui.developedBy': 'تطوير', 'ui.dev': 'المطو\u0651ر',
       'ui.partOf': 'جزء من منصة {platform}', 'ui.rights': '© {year} {dev}. جميع الحقوق محفوظة.',
       'ui.unsavedTitle': 'تغييرات غير محفوظة', 'ui.unsavedMsg': 'لديك تغييرات غير محفوظة. هل تريد المتابعة وفقدانها؟',
       'ui.discard': 'تجاهل التغييرات', 'ui.continue': 'متابعة', 'ui.left': 'يسار', 'ui.right': 'يمين', 'ui.center': 'وسط',
@@ -172,7 +172,7 @@
       'ui.underline': 'تسطير', 'ui.strike': 'يتوسطه خط', 'ui.align': 'المحاذاة', 'ui.direction': 'الاتجاه',
       'ui.rtl': 'من اليمين لليسار', 'ui.ltr': 'من اليسار لليمين', 'ui.search': 'بحث', 'ui.all': 'الكل', 'ui.count': 'العدد',
       'ui.newDoc': 'مستند جديد', 'ui.openFile': 'فتح ملف', 'ui.recent': 'الأخيرة', 'ui.noRecent': 'لا توجد ملفات حديثة',
-      'ui.welcome': 'مرحبًا بك في {app}', 'ui.lineHeight': 'تباعد الأسطر', 'ui.letterSpacing': 'تباعد الأحرف',
+      'ui.welcome': 'مرحب\u064Bا بك في {app}', 'ui.lineHeight': 'تباعد الأسطر', 'ui.letterSpacing': 'تباعد الأحرف',
       'ui.shadow': 'الظل', 'ui.blur': 'التمويه', 'ui.x': 'س', 'ui.y': 'ص', 'ui.lock': 'قفل', 'ui.visible': 'إظهار/إخفاء',
       'ui.up': 'للأعلى', 'ui.down': 'للأسفل', 'ui.add': 'إضافة', 'ui.remove': 'إزالة', 'ui.rename': 'إعادة تسمية',
       'ui.preview': 'معاينة', 'ui.copySuffix': 'نسخة', 'ui.shortcutsTitle': 'اختصارات لوحة المفاتيح', 'ui.action': 'الأمر',
@@ -769,7 +769,7 @@
       try { return new TextDecoder('utf-8', { fatal: true }).decode(bytes); }
       catch (e) { try { return new TextDecoder('windows-1256').decode(bytes); } catch (e2) { return new TextDecoder().decode(bytes); } }
     },
-    /** يحوّل مواصفات الأنواع إلى صيغة accept/filters */
+    /** يحو\u0651ل مواصفات الأنواع إلى صيغة accept/filters */
     normalize(types) {
       // types: [{name|i18n, ext:[...]}] أو مصفوفة امتدادات
       if (!types || !types.length) return [];
@@ -823,7 +823,7 @@
     },
     /**
      * حفظ ملف: W.files.save({data, name, types, path}) → {path, name} | null
-     * إذا أُعطي path يُحفظ مباشرة دون حوار (أمر "حفظ").
+     * إذا أ\u064Fعطي path ي\u064Fحفظ مباشرة دون حوار (أمر "حفظ").
      */
     async save(o) {
       const bytes = await W.files.toBytes(o.data);
@@ -913,8 +913,25 @@
     }
   };
 
+  /* ───────────── تنقية HTML المستورد ───────────── */
+  /** يزيل السكربتات والمعالجات والروابط الخطرة من HTML خارجي */
+  W.sanitizeHTML = function (html, o) {
+    o = o || {};
+    const doc = new DOMParser().parseFromString(String(html || ''), 'text/html');
+    doc.querySelectorAll('script,iframe,object,embed,link,meta,base,form,input,button,textarea,select,noscript,template' + (o.keepStyle ? '' : ',style')).forEach((n) => n.remove());
+    doc.querySelectorAll('*').forEach((el) => {
+      for (const a of Array.from(el.attributes)) {
+        const n = a.name.toLowerCase();
+        const v = String(a.value || '').trim().toLowerCase();
+        if (n.startsWith('on') || n === 'contenteditable' && !o.keepEditable) el.removeAttribute(a.name);
+        else if ((n === 'href' || n === 'src' || n === 'xlink:href' || n === 'action') && (v.startsWith('javascript:') || v.startsWith('vbscript:') || (v.startsWith('data:') && !v.startsWith('data:image/')))) el.removeAttribute(a.name);
+      }
+    });
+    return o.full ? doc : doc.body.innerHTML;
+  };
+
   /* ───────────── PDF والطباعة ───────────── */
-  /** يحوّل HTML كامل إلى PDF (سطح المكتب) — أو يفتح نافذة الطباعة في المتصفح */
+  /** يحو\u0651ل HTML كامل إلى PDF (سطح المكتب) — أو يفتح نافذة الطباعة في المتصفح */
   W.htmlToPDF = async function (html, opts) {
     opts = opts || {};
     if (native && native.htmlToPDF) return native.htmlToPDF(html, opts);
@@ -1009,7 +1026,7 @@
     { family: 'Reem Kufi', label: { ar: 'ريم كوفي', en: 'Reem Kufi' } },
     { family: 'El Messiri', label: { ar: 'المسيري', en: 'El Messiri' } },
     { family: 'Changa', label: { ar: 'تشانجا', en: 'Changa' } },
-    { family: 'Lalezar', label: { ar: 'لاله‌زار', en: 'Lalezar' } },
+    { family: 'Lalezar', label: { ar: 'لاله\u200Cزار', en: 'Lalezar' } },
     { family: 'Aref Ruqaa', label: { ar: 'عارف رقعة', en: 'Aref Ruqaa' } },
     { family: 'Markazi Text', label: { ar: 'مركزي', en: 'Markazi Text' } },
     { family: 'Tahoma', label: { ar: 'تاهوما', en: 'Tahoma' } },
@@ -1038,7 +1055,7 @@
     try { await document.fonts.load((weight || 400) + ' 16px "' + family + '"', 'ابجد abc'); } catch (e) { /* تجاهل */ }
   };
 
-  /* ───────────── مكوّنات صغيرة ───────────── */
+  /* ───────────── مكو\u0651نات صغيرة ───────────── */
   /** صف شريط تمرير مع حقل رقمي */
   W.slider = function (o) {
     const range = W.h('input', { type: 'range', class: 'w-range', min: o.min, max: o.max, step: o.step || 1, value: o.value });
@@ -1068,7 +1085,7 @@
     if (onclick) b.addEventListener('click', onclick);
     return b;
   };
-  /** مجموعة أزرار مقسّمة */
+  /** مجموعة أزرار مقس\u0651مة */
   W.segmented = function (options, value, onChange) {
     const wrap = W.h('div', { class: 'w-seg' });
     const render = () => {
