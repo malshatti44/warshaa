@@ -1,0 +1,29 @@
+/* صدى */
+.s-center { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.s-ruler { height: 26px; width: 100%; display: block; flex: 0 0 auto; border-bottom: 1px solid var(--border); }
+.s-wave { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: text; touch-action: none; }
+.s-overview { height: 46px; width: 100%; display: block; flex: 0 0 auto; border-top: 1px solid var(--border); cursor: pointer; }
+body:not(.has-doc):not(.recording) .s-ruler, body:not(.has-doc):not(.recording) .s-overview { visibility: hidden; }
+body.recording .w-empty { display: none; }
+.s-side { width: 250px; overflow-y: auto; }
+.s-side > * { flex-shrink: 0; }
+.s-fxlist { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+.s-fx { display: flex; align-items: center; gap: 6px; padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg-2); color: var(--fg-2); cursor: pointer; font: inherit; font-size: 12px; text-align: start; min-width: 0; }
+.s-fx span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.s-fx svg { width: 15px; height: 15px; flex: 0 0 auto; }
+.s-fx:hover { border-color: var(--accent); color: var(--fg); }
+.s-row { display: flex; justify-content: space-between; padding: 3px 0; font-size: 12.5px; }
+.s-val { direction: ltr; font-variant-numeric: tabular-nums; }
+.s-clock { font: 600 20px/1 'JetBrains Mono', ui-monospace, monospace; background: #0b0b10; color: #a3e635; padding: 6px 12px; border-radius: 6px; margin-inline-end: 8px; display: flex; gap: 10px; align-items: center; letter-spacing: .5px; order: 99; }
+.s-rectime { color: #ef4444; font-size: 14px; }
+.s-rectime:empty { display: none; }
+.s-meter { width: 120px; height: 10px; border-radius: 5px; background: #0b0b10; overflow: hidden; position: relative; order: 100; margin-inline-end: 6px; }
+.s-meter span { position: absolute; inset: 0; width: var(--level, 0%); background: linear-gradient(90deg, #22c55e 0 70%, #facc15 70% 88%, #ef4444 88%); transition: width .06s linear; }
+.s-meter.clip { box-shadow: 0 0 0 2px #ef4444; }
+.s-rec { width: 30px; height: 30px; border-radius: 50%; border: 2px solid var(--border-2); background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; margin: 0 4px; }
+.s-rec span { width: 14px; height: 14px; border-radius: 50%; background: #ef4444; }
+.s-rec.on { border-color: #ef4444; animation: s-pulse 1s infinite; }
+.s-rec.on span { border-radius: 3px; }
+@keyframes s-pulse { 50% { box-shadow: 0 0 0 6px rgba(239, 68, 68, .25); } }
+.s-play svg { color: #22c55e; }
+.s-transport { display: flex; align-items: center; gap: 2px; }

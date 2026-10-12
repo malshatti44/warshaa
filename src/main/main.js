@@ -4,7 +4,7 @@
  * نسخة واحدة تشغّل: مكتبة ورشة (hub) أو تطبيقًا مستقلًا (حسب warshaApp في package.json)
  * أو تطبيقًا محددًا عبر الوسيط --app=<id>.
  */
-const { app, BrowserWindow, protocol, net, ipcMain, dialog, shell, Menu } = require('electron');
+const { app, BrowserWindow, protocol, net, ipcMain, dialog, shell, Menu, session } = require('electron');
 const path = require('path');
 const fs = require('fs');
 const os = require('os');
@@ -38,6 +38,15 @@ protocol.registerSchemesAsPrivileged([
 ]);
 
 const printJobs = new Map();
+
+/* الصلاحيات: الميكروفون والكاميرا (صدى ومونتير) وملء الشاشة فقط، ولصفحات ورشة الداخلية حصرًا */
+const ALLOWED_PERMISSIONS = new Set(['media', 'fullscreen', 'clipboard-sanitized-write', 'pointerLock']);
+function setupPermissions() {
+  const ses = session.defaultSession;
+  const internal = (u) => typeof u === 'string' && u.startsWith('app://warsha');
+  ses.setPermissionRequestHandler((wc, permission, cb, details) => cb(ALLOWED_PERMISSIONS.has(permission) && internal((details && details.requestingUrl) || wc.getURL())));
+  ses.setPermissionCheckHandler((wc, permission, origin) => ALLOWED_PERMISSIONS.has(permission) && internal(origin || (wc && wc.getURL())));
+}
 
 function registerProtocol() {
   protocol.handle('app', async (req) => {
@@ -201,6 +210,7 @@ if (!gotLock) {
 
   app.whenReady().then(() => {
     registerProtocol();
+    setupPermissions();
     setupMenu();
     if (SMOKE) { runSmoke(SMOKE); return; }
     const files = fileArgs(process.argv).concat(macOpenQueue);

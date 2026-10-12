@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>صدى</title>
+  <link rel="stylesheet" href="../../shared/warsha.css">
+  <link rel="stylesheet" href="sada.css">
+</head>
+<body>
+  <div class="w-app">
+    <div class="w-menubar"></div>
+    <div class="w-toolbar" id="toolbar">
+      <div class="s-clock" dir="ltr"><span id="time">00:00.000</span><span id="rectime" class="s-rectime"></span></div>
+      <div class="s-meter" id="meter" dir="ltr"><span></span></div>
+    </div>
+    <div class="w-main">
+      <div class="s-center">
+        <canvas id="ruler" class="s-ruler" dir="ltr"></canvas>
+        <div class="w-stage" id="stage"><canvas id="wave" class="s-wave" dir="ltr"></canvas></div>
+        <canvas id="overview" class="s-overview" dir="ltr"></canvas>
+      </div>
+      <aside class="w-side s-side">
+        <div class="w-panel">
+          <div class="w-panel-title" data-i18n="s.input"></div>
+          <div class="w-panel-body"><select class="w-select" id="device" style="width:100%"></select></div>
+        </div>
+        <div class="w-panel">
+          <div class="w-panel-title" data-i18n="s.effects"></div>
+          <div class="w-panel-body s-fxlist" id="fx"></div>
+        </div>
+        <div class="w-panel">
+          <div class="w-panel-title" data-i18n="s.generate"></div>
+          <div class="w-panel-body s-fxlist" id="gen"></div>
+        </div>
+        <div class="w-panel">
+          <div class="w-panel-title" data-i18n="s.info"></div>
+          <div class="w-panel-body" id="info"></div>
+        </div>
+      </aside>
+    </div>
+    <div class="w-statusbar"></div>
+  </div>
+  <script src="../../shared/registry.js"></script>
+  <script src="../../shared/icons.js"></script>
+  <script src="../../shared/warsha.js"></script>
+  <script src="../../shared/vendor/lame.min.js" onerror="this.remove()"></script>
+  <script src="../../shared/vendor/webm-muxer.min.js" onerror="this.remove()"></script>
+  <script src="sada.js"></script>
+</body>
+</html>

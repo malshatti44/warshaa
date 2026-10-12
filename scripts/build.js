@@ -104,7 +104,7 @@ function configFor(id) {
       gatekeeperAssess: false,
       artifactName: productName + '-${version}-mac-${arch}.${ext}',
       fileAssociations: assoc,
-      extendInfo: { CFBundleDisplayName: nameEn, NSHumanReadableCopyright: '© ' + dev.name.en }
+      extendInfo: { CFBundleDisplayName: nameEn, NSHumanReadableCopyright: '© ' + dev.name.en, NSMicrophoneUsageDescription: 'Recording audio for your projects / تسجيل الصوت لمشاريعك', NSCameraUsageDescription: 'Recording video for your projects / تسجيل الفيديو لمشاريعك' }
     },
     dmg: {
       title: productName + ' ${version}',
