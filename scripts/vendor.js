@@ -18,7 +18,11 @@ const FONTS = path.join(ROOT, 'src', 'shared', 'fonts');
 const LIBS = [
   { pkg: 'pdf-lib', files: [['dist/pdf-lib.min.js', 'pdf-lib.min.js']], license: 'MIT' },
   { pkg: 'pdfjs-dist', files: [['build/pdf.min.js', 'pdf.min.js'], ['build/pdf.worker.min.js', 'pdf.worker.min.js']], license: 'Apache-2.0' },
-  { pkg: 'jszip', files: [['dist/jszip.min.js', 'jszip.min.js']], license: 'MIT or GPLv3' }
+  { pkg: 'jszip', files: [['dist/jszip.min.js', 'jszip.min.js']], license: 'MIT or GPLv3' },
+  // ترميز MP3 في صدى، وحاويات MP4/WebM لتصدير الفيديو والصوت السريع في مونتير وصدى (WebCodecs)
+  { pkg: 'lamejs', files: [[['lame.min.js', 'lame.all.js'], 'lame.min.js']], license: 'LGPL-3.0 (unmodified, loaded as a separate file)' },
+  { pkg: 'mp4-muxer', files: [[['build/mp4-muxer.min.js', 'build/mp4-muxer.js'], 'mp4-muxer.min.js']], license: 'MIT' },
+  { pkg: 'webm-muxer', files: [[['build/webm-muxer.min.js', 'build/webm-muxer.js'], 'webm-muxer.min.js']], license: 'MIT' }
 ];
 
 // [حزمة fontsource, الأوزان, المجموعات]
@@ -50,8 +54,10 @@ for (const lib of LIBS) {
   if (!fs.existsSync(dir)) { console.warn('skip (missing) ' + lib.pkg); continue; }
   const version = JSON.parse(fs.readFileSync(path.join(dir, 'package.json'), 'utf8')).version;
   for (const [from, to] of lib.files) {
-    fs.copyFileSync(path.join(dir, from), path.join(VENDOR, to));
-    console.log('lib  ' + lib.pkg + '@' + version + ' → vendor/' + to);
+    const src = (Array.isArray(from) ? from : [from]).map((f) => path.join(dir, f)).find((f) => fs.existsSync(f));
+    if (!src) { console.warn('  missing file for ' + lib.pkg + ': ' + from); continue; }
+    fs.copyFileSync(src, path.join(VENDOR, to));
+    console.log('lib  ' + lib.pkg + '@' + version + ' → vendor/' + to + ' (' + path.relative(dir, src) + ')');
   }
   notices.push('- **' + lib.pkg + '** ' + version + ' — ' + lib.license);
 }

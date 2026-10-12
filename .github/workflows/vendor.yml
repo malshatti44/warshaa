@@ -23,7 +23,7 @@ jobs:
           mkdir -p "$RUNNER_TEMP/v" && cd "$RUNNER_TEMP/v"
           npm init -y > /dev/null
           npm install --no-audit --no-fund \
-            pdf-lib@1.17.1 pdfjs-dist@3.11.174 jszip@3.10.1 \
+            pdf-lib@1.17.1 pdfjs-dist@3.11.174 jszip@3.10.1 lamejs@1.2.1 mp4-muxer@^5 webm-muxer@^5 \
             @fontsource/ibm-plex-sans-arabic @fontsource/cairo @fontsource/tajawal @fontsource/almarai \
             @fontsource/amiri @fontsource/noto-naskh-arabic @fontsource/noto-kufi-arabic @fontsource/reem-kufi \
             @fontsource/el-messiri @fontsource/changa @fontsource/lalezar @fontsource/aref-ruqaa \
