@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>مخطط</title>
+  <link rel="stylesheet" href="../../shared/warsha.css">
+  <link rel="stylesheet" href="mukhattat.css">
+</head>
+<body>
+  <div class="w-app">
+    <div class="w-menubar"></div>
+    <div class="w-toolbar" id="toolbar"></div>
+    <div class="w-main">
+      <div class="w-tools" id="tools"></div>
+      <div class="k-center">
+        <div class="w-stage" id="stage"><canvas id="cad" class="k-canvas" tabindex="0"></canvas></div>
+        <div class="k-cmdbar">
+          <div class="k-history" id="history" dir="auto"></div>
+          <div class="k-cmdline"><span class="k-prompt" id="prompt"></span><input class="k-cmdinput" id="cmdinput" dir="auto" autocomplete="off" spellcheck="false"><div class="k-toggles" id="toggles"></div></div>
+        </div>
+      </div>
+      <aside class="w-side k-side">
+        <div class="w-panel grow">
+          <div class="w-panel-title"><span data-i18n="k.layers"></span><div class="w-spacer"></div><button class="w-icon-btn sm" id="newlayer" type="button" data-tip="k.newLayer"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button></div>
+          <div class="w-panel-body w-list" id="layers"></div>
+        </div>
+        <div class="w-panel">
+          <div class="w-panel-title" data-i18n="k.props"></div>
+          <div class="w-panel-body" id="props"></div>
+        </div>
+      </aside>
+    </div>
+    <div class="w-statusbar"></div>
+  </div>
+  <script src="../../shared/registry.js"></script>
+  <script src="../../shared/icons.js"></script>
+  <script src="../../shared/warsha.js"></script>
+  <script src="dxf.js"></script>
+  <script src="mukhattat.js"></script>
+</body>
+</html>

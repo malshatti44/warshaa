@@ -1,0 +1,23 @@
+/* مخطط */
+.k-center { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.k-canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: none; outline: none; touch-action: none; }
+body:not(.has-doc) .k-canvas { cursor: default; }
+.k-cmdbar { flex: 0 0 auto; background: #12151b; border-top: 1px solid var(--border); font: 12.5px/1.5 'IBM Plex Sans Arabic', 'JetBrains Mono', sans-serif; color: #cbd5e1; }
+body:not(.has-doc) .k-cmdbar { visibility: hidden; }
+.k-history { height: 58px; overflow-y: auto; padding: 4px 10px; color: #94a3b8; }
+.k-log.cmd { color: #e2e8f0; }
+.k-log.result { color: #facc15; }
+.k-cmdline { display: flex; align-items: center; gap: 8px; padding: 4px 10px 6px; border-top: 1px solid #1f2937; }
+.k-prompt { color: #93c5fd; white-space: nowrap; }
+.k-cmdinput { flex: 1; min-width: 80px; background: transparent; border: 0; outline: none; color: #fff; font: inherit; }
+.k-toggles { display: flex; gap: 3px; }
+.k-toggle { border: 1px solid #334155; background: transparent; color: #64748b; font: inherit; font-size: 11px; padding: 1px 7px; border-radius: 4px; cursor: pointer; }
+.k-toggle.on { color: #e2e8f0; border-color: var(--accent); background: color-mix(in srgb, var(--accent) 22%, transparent); }
+.k-side { width: 270px; }
+.k-side > * { flex-shrink: 0; }
+.k-side .w-panel.grow { flex: 1 1 auto; min-height: 160px; }
+.k-layer .w-name { font-size: 12.5px; }
+.k-layer .w-color.sm { width: 18px; height: 18px; }
+.w-icon-btn.faint { opacity: .35; }
+.k-ro { display: flex; justify-content: space-between; padding: 3px 0; font-size: 12.5px; }
+.k-ro span:last-child { direction: ltr; font-variant-numeric: tabular-nums; }
