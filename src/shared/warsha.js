@@ -837,6 +837,14 @@
       W.download(blob, o.name);
       return { name: o.name, path: null };
     },
+    /** حفظ عدة ملفات دفعة واحدة في مجلد يختاره المستخدم (أو تنزيلها في المتصفح) */
+    async saveMany(list) {
+      const files = [];
+      for (const f of list) files.push({ name: f.name, data: await W.files.toBytes(f.data) });
+      if (native && native.saveMany) return native.saveMany(files);
+      for (const f of files) { W.download(new Blob([f.data], { type: W.mime(W.files.ext(f.name)) }), f.name); await W.sleep(250); }
+      return { dir: null, files: files.map((f) => f.name) };
+    },
     async readPath(path, as) {
       if (!native || !native.readFile) throw new Error('no native');
       const f = await native.readFile(path);

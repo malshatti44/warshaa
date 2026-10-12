@@ -98,6 +98,46 @@
     return img;
   }
 
+  /** تعديل HSL حسب نطاقات الألوان الثمانية: bands = {red:{h,s,l}, orange, yellow, green, aqua, blue, purple, magenta} */
+  const BANDS = [['red', 0], ['orange', 30], ['yellow', 60], ['green', 120], ['aqua', 180], ['blue', 225], ['purple', 270], ['magenta', 315]];
+  function hslBands(img, bands) {
+    const active = BANDS.filter(([k]) => bands[k] && (bands[k].h || bands[k].s || bands[k].l));
+    if (!active.length) return img;
+    const d = img.data;
+    for (let i = 0; i < d.length; i += 4) {
+      const hsl = rgb2hsl(d[i], d[i + 1], d[i + 2]);
+      if (hsl[1] < 0.04) continue;
+      const hue = hsl[0] * 360;
+      let dh = 0, ds = 0, dl = 0;
+      for (const [k, c] of active) {
+        let dist = Math.abs(hue - c); if (dist > 180) dist = 360 - dist;
+        const wgt = dist >= 45 ? 0 : 1 - dist / 45;
+        if (!wgt) continue;
+        const b = bands[k];
+        dh += (b.h || 0) * wgt; ds += (b.s || 0) * wgt; dl += (b.l || 0) * wgt;
+      }
+      if (!dh && !ds && !dl) continue;
+      const h = ((hue + dh * 0.6) % 360 + 360) % 360 / 360;
+      const s2 = Math.max(0, Math.min(1, hsl[1] * (1 + ds / 100)));
+      const l2 = Math.max(0, Math.min(1, hsl[2] + dl / 100 * 0.35 * hsl[1]));
+      const c = hsl2rgb(h, s2, l2);
+      d[i] = clamp8(c[0]); d[i + 1] = clamp8(c[1]); d[i + 2] = clamp8(c[2]);
+    }
+    return img;
+  }
+  /** حبيبات فيلمية */
+  function grain(img, amount, size) {
+    if (!amount) return img;
+    const d = img.data, w = img.width, a = amount * 0.9, sz = Math.max(1, size | 0);
+    for (let i = 0; i < d.length; i += 4) {
+      const p = i / 4, x = p % w, y = (p - x) / w;
+      const seed = Math.sin(Math.floor(x / sz) * 12.9898 + Math.floor(y / sz) * 78.233) * 43758.5453;
+      const n = ((seed - Math.floor(seed)) - 0.5) * a;
+      d[i] = clamp8(d[i] + n); d[i + 1] = clamp8(d[i + 1] + n); d[i + 2] = clamp8(d[i + 2] + n);
+    }
+    return img;
+  }
+
   /** التفاف (convolution) 3×3 */
   function convolve(img, k, divisor, offset) {
     const w = img.width, h = img.height, src = img.data;
@@ -297,5 +337,5 @@
     c.width = Math.max(1, Math.round(w)); c.height = Math.max(1, Math.round(h));
     return c;
   }
-  globalThis.WarshaImg = { adjust, convolve, sharpen, emboss, edges, noise, pixelate, threshold, posterize, vignette, blurCanvas, clarity, histogram, drawHistogram, floodFill, magicWand, region, cloneCanvas, makeCanvas, rgb2hsl, hsl2rgb };
+  globalThis.WarshaImg = { adjust, convolve, sharpen, emboss, edges, noise, pixelate, threshold, posterize, vignette, blurCanvas, clarity, histogram, drawHistogram, floodFill, magicWand, region, hslBands, grain, BANDS, cloneCanvas, makeCanvas, rgb2hsl, hsl2rgb };
 })();

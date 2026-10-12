@@ -285,6 +285,28 @@ ipcMain.handle('warsha:saveFile', async (e, o) => {
   return { path: target, name: path.basename(target) };
 });
 
+ipcMain.handle('warsha:saveMany', async (e, files) => {
+  const st = stateFor(e);
+  const key = st ? st.appId : 'x';
+  const res = await dialog.showOpenDialog(st ? st.win : undefined, {
+    defaultPath: lastDirs[key] || app.getPath('pictures'),
+    properties: ['openDirectory', 'createDirectory']
+  });
+  if (res.canceled || !res.filePaths.length) return null;
+  const dir = res.filePaths[0];
+  lastDirs[key] = dir;
+  const written = [];
+  for (const f of files || []) {
+    let name = path.basename(String(f.name || 'file')).replace(/[\\/:*?"<>|]/g, '_');
+    let target = path.join(dir, name);
+    const ext = path.extname(name), base = name.slice(0, name.length - ext.length);
+    for (let i = 2; fs.existsSync(target) && !f.overwrite; i++) target = path.join(dir, base + ' (' + i + ')' + ext);
+    await fs.promises.writeFile(target, Buffer.from(f.data));
+    written.push(target);
+  }
+  return { dir, files: written };
+});
+
 ipcMain.handle('warsha:openExternal', (_e, url) => {
   if (/^(https?:|mailto:)/i.test(String(url))) return shell.openExternal(url);
   return false;
