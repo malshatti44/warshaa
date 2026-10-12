@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ريشة</title>
+  <link rel="stylesheet" href="../../shared/warsha.css">
+  <link rel="stylesheet" href="reesha.css">
+</head>
+<body>
+  <div class="w-app">
+    <div class="w-menubar"></div>
+    <div class="w-toolbar" id="toolbar"><span class="e-hint" id="hint"></span></div>
+    <div class="w-main">
+      <div class="w-tools" id="tools"></div>
+      <div class="w-stage" id="stage">
+        <svg id="svg" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="checker" width="16" height="16" patternUnits="userSpaceOnUse">
+              <rect width="16" height="16" fill="#ffffff"/><rect width="8" height="8" fill="#e5e7eb"/><rect x="8" y="8" width="8" height="8" fill="#e5e7eb"/>
+            </pattern>
+          </defs>
+          <g id="viewport">
+            <rect id="board" x="0" y="0" width="0" height="0" fill="#fff"/>
+            <g id="root"></g>
+            <g id="grid"></g>
+            <g id="ui"></g>
+          </g>
+        </svg>
+      </div>
+      <aside class="w-side e-side">
+        <div class="e-props" id="props"></div>
+        <div class="w-panel grow e-objects">
+          <div class="w-panel-title" data-i18n="e.objects"></div>
+          <div class="w-panel-body w-list" id="objects"></div>
+        </div>
+      </aside>
+    </div>
+    <div class="w-statusbar"></div>
+  </div>
+  <script src="../../shared/registry.js"></script>
+  <script src="../../shared/icons.js"></script>
+  <script src="../../shared/warsha.js"></script>
+  <script src="reesha.js"></script>
+</body>
+</html>
