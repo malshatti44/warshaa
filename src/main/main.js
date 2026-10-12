@@ -39,6 +39,37 @@ protocol.registerSchemesAsPrivileged([
 
 const printJobs = new Map();
 
+/* ملفات الوسائط (فيديو/صوت/صور) تُقدَّم مباشرة من القرص عبر app://warsha/__media/<رمز> مع دعم Range،
+   حتى لا تُحمَّل ملفات الفيديو الكبيرة كاملة في الذاكرة. يُسمح فقط بالملفات التي اختارها المستخدم. */
+const MEDIA_EXT = new Set(['mp4', 'm4v', 'mov', 'webm', 'mkv', 'ogv', 'avi', 'mp3', 'wav', 'ogg', 'oga', 'm4a', 'aac', 'flac', 'opus', 'png', 'jpg', 'jpeg', 'webp', 'gif', 'bmp']);
+const MEDIA_MIME = { mp4: 'video/mp4', m4v: 'video/mp4', mov: 'video/quicktime', webm: 'video/webm', mkv: 'video/x-matroska', ogv: 'video/ogg', avi: 'video/x-msvideo', mp3: 'audio/mpeg', wav: 'audio/wav', ogg: 'audio/ogg', oga: 'audio/ogg', m4a: 'audio/mp4', aac: 'audio/aac', flac: 'audio/flac', opus: 'audio/ogg', png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', webp: 'image/webp', gif: 'image/gif', bmp: 'image/bmp' };
+const mediaTokens = new Map(); // token -> path
+const mediaByPath = new Map(); // path -> token
+const extOf = (p) => path.extname(p).slice(1).toLowerCase();
+function mediaURL(p) {
+  if (!MEDIA_EXT.has(extOf(p))) return null;
+  let t = mediaByPath.get(p);
+  if (!t) { t = require('crypto').randomBytes(12).toString('hex') + '.' + extOf(p); mediaTokens.set(t, p); mediaByPath.set(p, t); }
+  return 'app://warsha/__media/' + t;
+}
+async function serveMedia(req, token) {
+  const p = mediaTokens.get(token);
+  if (!p) return new Response('Not found', { status: 404 });
+  let size;
+  try { size = (await fs.promises.stat(p)).size; } catch (e) { return new Response('Not found', { status: 404 }); }
+  const type = MEDIA_MIME[extOf(p)] || 'application/octet-stream';
+  const { Readable } = require('stream');
+  const range = /bytes=(\d*)-(\d*)/.exec(req.headers.get('range') || '');
+  if (range && size > 0) {
+    let start = range[1] ? parseInt(range[1], 10) : Math.max(0, size - parseInt(range[2] || '0', 10));
+    let end = range[1] && range[2] ? parseInt(range[2], 10) : size - 1;
+    end = Math.min(end, size - 1, start + 16 * 1024 * 1024 - 1);
+    if (start >= size || start > end) return new Response(null, { status: 416, headers: { 'Content-Range': 'bytes */' + size } });
+    return new Response(Readable.toWeb(fs.createReadStream(p, { start, end })), { status: 206, headers: { 'Content-Type': type, 'Accept-Ranges': 'bytes', 'Content-Range': 'bytes ' + start + '-' + end + '/' + size, 'Content-Length': String(end - start + 1) } });
+  }
+  return new Response(Readable.toWeb(fs.createReadStream(p)), { headers: { 'Content-Type': type, 'Accept-Ranges': 'bytes', 'Content-Length': String(size) } });
+}
+
 /* الصلاحيات: الميكروفون والكاميرا (صدى ومونتير) وملء الشاشة فقط، ولصفحات ورشة الداخلية حصرًا */
 const ALLOWED_PERMISSIONS = new Set(['media', 'fullscreen', 'clipboard-sanitized-write', 'pointerLock']);
 function setupPermissions() {
@@ -52,6 +83,7 @@ function registerProtocol() {
   protocol.handle('app', async (req) => {
     const url = new URL(req.url);
     const pathname = decodeURIComponent(url.pathname);
+    if (pathname.startsWith('/__media/')) return serveMedia(req, pathname.slice('/__media/'.length));
     if (pathname.startsWith('/__print/')) {
       const id = pathname.slice('/__print/'.length).replace(/\.html$/, '');
       const html = printJobs.get(id);
@@ -270,7 +302,22 @@ ipcMain.handle('warsha:openFile', async (e, o) => {
   if (res.canceled || !res.filePaths.length) return [];
   lastDirs[key] = path.dirname(res.filePaths[0]);
   const out = [];
-  for (const p of res.filePaths) out.push({ name: path.basename(p), path: p, data: await fs.promises.readFile(p) });
+  for (const p of res.filePaths) {
+    if (o.media) { const st = await fs.promises.stat(p); out.push({ name: path.basename(p), path: p, size: st.size, url: mediaURL(p) }); }
+    else out.push({ name: path.basename(p), path: p, data: await fs.promises.readFile(p) });
+  }
+  return out;
+});
+
+ipcMain.handle('warsha:allowMedia', async (_e, paths) => {
+  const out = [];
+  for (const p of Array.isArray(paths) ? paths : []) {
+    try {
+      if (typeof p !== 'string' || !path.isAbsolute(p) || !MEDIA_EXT.has(extOf(p))) { out.push(null); continue; }
+      const st = await fs.promises.stat(p);
+      out.push(st.isFile() ? { path: p, name: path.basename(p), size: st.size, url: mediaURL(p) } : null);
+    } catch (e) { out.push(null); }
+  }
   return out;
 });
 

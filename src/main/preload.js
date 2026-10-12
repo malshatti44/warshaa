@@ -13,6 +13,7 @@ contextBridge.exposeInMainWorld('warshaNative', {
   saveFile: (o) => invoke('warsha:saveFile', o),
   saveMany: (files) => invoke('warsha:saveMany', files),
   readFile: (p) => invoke('warsha:readFile', p),
+  allowMedia: (paths) => invoke('warsha:allowMedia', paths),
   getPathForFile: (file) => { try { return webUtils.getPathForFile(file); } catch (e) { return null; } },
   htmlToPDF: (html, o) => invoke('warsha:htmlToPDF', html, o),
   printHTML: (html, o) => invoke('warsha:printHTML', html, o),

@@ -787,7 +787,8 @@
       const all = filters.flatMap((f) => f.extensions);
       if (native && native.openFile) {
         const fl = all.length ? [{ name: W.t('fmt.allSupported'), extensions: all }, ...(filters.length > 1 ? filters : []), { name: W.t('fmt.all'), extensions: ['*'] }] : [];
-        const res = await native.openFile({ filters: fl, multiple: !!o.multiple });
+        const res = await native.openFile({ filters: fl, multiple: !!o.multiple, media: o.as === 'media' });
+        if (o.as === 'media') return (res || []).filter((f) => f.url).map((f) => ({ name: f.name, path: f.path, size: f.size, url: f.url, ext: W.files.ext(f.name) }));
         return (res || []).map((f) => W.files._wrap(f.name, f.path, f.data, o.as));
       }
       return new Promise((resolveP) => {
@@ -796,7 +797,7 @@
         if (all.length) input.accept = all.map((e) => '.' + e).join(',');
         input.addEventListener('change', async () => {
           const out = [];
-          for (const f of Array.from(input.files)) out.push(await W.files.fromFile(f, o.as));
+          for (const f of Array.from(input.files)) out.push(o.as === 'media' ? await W.files.mediaFromFile(f) : await W.files.fromFile(f, o.as));
           input.remove();
           resolveP(out);
         });
@@ -815,6 +816,20 @@
       else if (as === 'bytes') data = bytes;
       else data = bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength);
       return { name, path: path || null, data, size: bytes.byteLength, ext };
+    },
+    /** ملف وسائط دون قراءته في الذاكرة: رابط يُشغَّل مباشرة في عناصر video/audio/img */
+    async mediaFromFile(file) {
+      const p = native && native.getPathForFile ? native.getPathForFile(file) : null;
+      if (p && native.allowMedia) {
+        const [r] = await native.allowMedia([p]);
+        if (r) return { name: r.name, path: r.path, size: r.size, url: r.url, ext: W.files.ext(r.name) };
+      }
+      return { name: file.name, path: null, size: file.size, url: URL.createObjectURL(file), ext: W.files.ext(file.name), file };
+    },
+    /** إعادة السماح بمسارات وسائط محفوظة في مشروع */
+    async mediaFromPaths(paths) {
+      if (!native || !native.allowMedia) return paths.map(() => null);
+      return (await native.allowMedia(paths)).map((r) => (r ? { name: r.name, path: r.path, size: r.size, url: r.url, ext: W.files.ext(r.name) } : null));
     },
     async fromFile(file, as) {
       const buf = new Uint8Array(await file.arrayBuffer());
@@ -897,7 +912,11 @@
       if (!e.dataTransfer.files.length) return;
       e.preventDefault(); depth = 0; el.classList.remove('dragging');
       const out = [];
-      for (const f of Array.from(e.dataTransfer.files)) out.push(await W.files.fromFile(f, o.as));
+      for (const f of Array.from(e.dataTransfer.files)) {
+        // 'none': لا نقرأ الملف (ملفات فيديو كبيرة) — يكفي الاسم والكائن
+        if (o.as === 'none') out.push({ name: f.name, ext: W.files.ext(f.name), size: f.size, file: f, path: native && native.getPathForFile ? native.getPathForFile(f) : null });
+        else out.push(await W.files.fromFile(f, o.as));
+      }
       onFiles(out, e);
     });
   };
