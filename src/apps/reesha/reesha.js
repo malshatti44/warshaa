@@ -933,7 +933,7 @@
     const w = vb.length === 4 ? vb[2] : parseFloat(s.getAttribute('width')) || 1000;
     const h = vb.length === 4 ? vb[3] : parseFloat(s.getAttribute('height')) || 1000;
     const tmp = document.createElementNS(SVGNS, 'svg');
-    tmp.setAttribute('style', 'position:absolute;left:-99999px;top:0');
+    tmp.setAttribute('style', 'position:fixed;left:-99999px;top:0;visibility:hidden');
     tmp.setAttribute('width', w); tmp.setAttribute('height', h);
     document.body.append(tmp);
     const defs = Array.from(s.querySelectorAll('defs, style')).map((d) => d.outerHTML).join('');
