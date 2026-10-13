@@ -5,8 +5,9 @@ name: Warsha 2 — installers for Windows, macOS and Linux
 #   Windows: packaging/package.py       — Arabic Inno Setup installer per app, portable zips, the suite
 #   macOS:   packaging/package_unix.py  — universal .dmg per app («<الاسم>.app») and the suite
 #   Linux:   packaging/package_unix.py  — AppImage, .deb and .tar.gz per app, and the suite
-# The packages of each run are downloadable from the run page (warsha2-<os>). Pushing a tag
-# v2.* also collects them into a draft GitHub release, published by hand after a check.
+# The packages of each run are downloadable from the run page (warsha2-<os>); an app that failed to
+# build is left out of its system's packages there. Pushing a tag v2.* needs every app on every
+# system and collects the packages into a draft GitHub release, published by hand after a check.
 
 on:
   workflow_dispatch:
@@ -116,9 +117,10 @@ jobs:
       - name: Package (AppImage, deb, tar.gz, suite)
         env:
           APPIMAGETOOL: ${{ runner.temp }}/appimagetool
+          SKIP_MISSING: ${{ !startsWith(github.ref, 'refs/tags/') && '--skip-missing' || '' }}
         run: |
           chmod +x bins/*
-          python packaging/package_unix.py --os linux --bin-dir bins --version "${{ needs.version.outputs.version }}" --skip-missing
+          python packaging/package_unix.py --os linux --bin-dir bins --version "${{ needs.version.outputs.version }}" $SKIP_MISSING
       - uses: actions/upload-artifact@v4
         with:
           name: warsha2-linux
@@ -144,9 +146,11 @@ jobs:
           merge-multiple: true
           path: bins
       - name: Package (universal .dmg per app and the suite)
+        env:
+          SKIP_MISSING: ${{ !startsWith(github.ref, 'refs/tags/') && '--skip-missing' || '' }}
         run: |
           chmod +x bins/*
-          python packaging/package_unix.py --os macos --bin-dir bins --version "${{ needs.version.outputs.version }}" --skip-missing
+          python packaging/package_unix.py --os macos --bin-dir bins --version "${{ needs.version.outputs.version }}" $SKIP_MISSING
       - uses: actions/upload-artifact@v4
         with:
           name: warsha2-macos
