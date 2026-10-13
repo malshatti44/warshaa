@@ -1,0 +1,1838 @@
+[
+ {
+  "ctx": "",
+  "src": "Launcher",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Craft App Suite",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open Source Tools for Creatives, Makers, and Builders",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Settings",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Check for updates",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grid",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show apps as cards",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show apps as a table",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "All",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Updates",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Not installed",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Search apps",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sort",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Suite order",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Name",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Inspired by",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Status",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Installed version",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Latest version",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Newest release",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Discord",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "GitHub",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Website",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Classic apps",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Classic",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New apps",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "NEW",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Install",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update to {v}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Download for {os}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Download",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Coming soon",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Checking…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Not available",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Offline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Downloading {done} of {total}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Downloading…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reconnecting…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Verifying…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Installing, then restarting…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Installing…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Removing…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pause download",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cancel download",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Resume download",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Discard download",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Release notes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show in Finder",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show in Explorer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show in Files",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reinstall",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Uninstall…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "All releases",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Warsha {version} is available.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dismiss",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update and restart",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "A new version is available. Would you like to relaunch with the updated version?",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Later",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "What's new",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No notes were published with this release.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Released {date}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open on GitHub",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Close",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Warsha {version}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Only when I ask",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Automatically download and install updates",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Notify me when an installed app has an update",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Include pre-releases (betas and release candidates)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Installing on Linux",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Install new apps as",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "System package (recommended)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Updates always use the format an app was installed with.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Running in the background",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Keep running in the tray when the window is closed",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show the window on the current desktop",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start Warsha when I log in",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Community",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Questions, ideas and news from the developer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Appearance",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quit Warsha",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Done",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Uninstall {name}?",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "The app will be moved to the Trash. Your documents and settings stay.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Windows will remove it like any installed program. Your documents and settings stay.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Your system's package manager will remove it, and may ask for your password. Your documents and settings stay.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "The app will be removed. Your documents and settings stay.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Uninstall",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cancel",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Checked {ago}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "just now",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "yesterday",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{month} {day}, {year}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Automatically",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Every Craft app",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apps on this computer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Installed apps with a newer version",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apps you can install",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide App",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unhide App",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hidden Apps",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apps you hid",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Checked {ago} · using {sources}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{a} and {b}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contact the Developer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Learn more",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Minimize",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Maximize",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Restore",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "OK",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open link",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{name} icon",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Loading Warsha…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cancel update",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Stop waiting; the update can be started again later",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Download again",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Install cancelled",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Install cancelled. The download is kept for the next try.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update cancelled",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Uninstall cancelled",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Retry install",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Retry update to {version}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "The download is still here. It's checked again, then installed.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Waiting for another app…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Waiting for other installs…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Installer (.msi)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Portable (.zip)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Disk image (.dmg)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Debian package (.deb)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "RPM package (.rpm)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Flatpak bundle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tarball (.tar.gz)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "photocraft",
+  "src": "Image editing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "vectorcraft",
+  "src": "Vector illustration",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "filmcraft",
+  "src": "Video editing, color and sound",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "lightcraft",
+  "src": "Photo library and raw development",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "pdfcraft",
+  "src": "Reading, organizing and protecting PDFs",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "effectcraft",
+  "src": "Motion graphics and visual effects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "designcraft",
+  "src": "Page layout and publishing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "wordcraft",
+  "src": "Writing and document design",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "deckcraft",
+  "src": "Presentations and slide shows",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "gridcraft",
+  "src": "Spreadsheets and data",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "cadcraft",
+  "src": "Computer-aided design and drafting",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "soundcraft",
+  "src": "Recording, editing and mixing audio",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "month",
+  "src": "Jan",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "month",
+  "src": "Feb",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "month",
+  "src": "Mar",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "month",
+  "src": "Apr",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "month",
+  "src": "May",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "month",
+  "src": "Jun",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "month",
+  "src": "Jul",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "month",
+  "src": "Aug",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "month",
+  "src": "Sep",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "month",
+  "src": "Oct",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "month",
+  "src": "Nov",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "month",
+  "src": "Dec",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Not checked yet",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "GitHub's hourly limit was reached; full details return in {min} min",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "GitHub limit hit; back in {min} min",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Installing for {platform}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Downloads for {platform}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No downloads for this system",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contact the Developer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Warsha on {name}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Couldn't open {name}: {e}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Download cancelled",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Available to install",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Available",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Installed · up to date",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update available",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Installed",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "installed",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Not available here",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Updating…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update paused",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Download paused",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{version} installed → {latest} released",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version {version}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{installed} installed · latest {latest}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Installed · latest {latest}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version {version} installed",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version {latest}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No release published yet",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Warsha",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "App",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Latest",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Released",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Auto",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Language",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ascending",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Descending",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Click to reverse the order",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Click to sort by this column",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Like {name}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{done} of {total}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Downloading",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Verifying checksum…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Resume",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{done} of {total} downloaded",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{done} downloaded",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Checking for updates…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Downloads the new version, replaces this one and opens it again",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Couldn't check for updates: {f}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Website (coming soon)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "GitHub repository",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Warsha",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update 1 app",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update all ({count})",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "⊞  Grid",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "☰  Table",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "🔍  Search apps",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{name} {version}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Match system",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dark",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Light",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Full changelog",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "link",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No apps match",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open Warsha to update.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{name} {v} is available",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{count} updates are available",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "These notes weren't fetched (GitHub's request limit was reached). They're on the release page.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Couldn't change the login item: {e}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "column",
+  "src": "App",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "column",
+  "src": "Installed",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "column",
+  "src": "Latest",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "column",
+  "src": "Released",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "filter",
+  "src": "Installed",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "App details",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Close (Esc)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Features",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Latest release",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Platforms",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Releases",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enlarge picture",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Click to enlarge",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous picture (←)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next picture (→)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Loading pictures…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pictures couldn't be loaded. Reopen this page to try again.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{name} details",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@plural",
+  "src": "{n} app|{n} apps",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@plural",
+  "src": "{n} min ago|{n} min ago",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@plural",
+  "src": "{n} h ago|{n} h ago",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@plural",
+  "src": "{n} day ago|{n} days ago",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@msg",
+  "src": "Couldn't open {name}: {e}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@msg",
+  "src": "Download cancelled",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@msg",
+  "src": "{name} updated to {version}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@msg",
+  "src": "{name} installed: {version}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@msg",
+  "src": "{name} updated to {version} (this release publishes no checksum, so only its size was checked)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@msg",
+  "src": "{name} installed: {version} (this release publishes no checksum, so only its size was checked)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@msg",
+  "src": "{name} was removed",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@msg",
+  "src": "{name} is running. Quit it, then try again.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@id",
+  "src": "app.install",
+  "ar": null,
+  "hint": "fr: Installer"
+ },
+ {
+  "ctx": "@id",
+  "src": "app.update",
+  "ar": null,
+  "hint": "fr: Mettre à jour vers {v}"
+ },
+ {
+  "ctx": "@id",
+  "src": "app.open",
+  "ar": null,
+  "hint": "fr: Ouvrir"
+ },
+ {
+  "ctx": "@id",
+  "src": "app.download",
+  "ar": null,
+  "hint": "fr: Télécharger pour {os}"
+ },
+ {
+  "ctx": "@id",
+  "src": "app.reveal",
+  "ar": null,
+  "hint": "fr: Afficher dans le Finder"
+ },
+ {
+  "ctx": "@id",
+  "src": "app.reinstall",
+  "ar": null,
+  "hint": "fr: Réinstaller"
+ },
+ {
+  "ctx": "@id",
+  "src": "app.uninstall",
+  "ar": null,
+  "hint": "fr: Désinstaller…"
+ },
+ {
+  "ctx": "@id",
+  "src": "app.notes",
+  "ar": null,
+  "hint": "fr: Notes de version"
+ },
+ {
+  "ctx": "@id",
+  "src": "app.website",
+  "ar": null,
+  "hint": "fr: Site web"
+ },
+ {
+  "ctx": "@id",
+  "src": "app.github",
+  "ar": null,
+  "hint": "fr: Dépôt GitHub"
+ },
+ {
+  "ctx": "@id",
+  "src": "app.releases",
+  "ar": null,
+  "hint": "fr: Toutes les versions"
+ },
+ {
+  "ctx": "@id",
+  "src": "launcher.update",
+  "ar": null,
+  "hint": "fr: Mettre à jour et redémarrer"
+ },
+ {
+  "ctx": "@id",
+  "src": "launcher.download",
+  "ar": null,
+  "hint": "fr: Télécharger"
+ },
+ {
+  "ctx": "@id",
+  "src": "launcher.notes",
+  "ar": null,
+  "hint": "fr: Nouveautés"
+ },
+ {
+  "ctx": "@id",
+  "src": "launcher.dismiss",
+  "ar": null,
+  "hint": "fr: Ignorer"
+ },
+ {
+  "ctx": "@id",
+  "src": "settings.open",
+  "ar": null,
+  "hint": "fr: Réglages"
+ },
+ {
+  "ctx": "@id",
+  "src": "settings.quit",
+  "ar": null,
+  "hint": "fr: Quitter ArtCraft Launcher"
+ },
+ {
+  "ctx": "@id",
+  "src": "view.grid",
+  "ar": null,
+  "hint": "fr: Grille"
+ },
+ {
+  "ctx": "@id",
+  "src": "view.table",
+  "ar": null,
+  "hint": "fr: Tableau"
+ },
+ {
+  "ctx": "@id",
+  "src": "filter.all",
+  "ar": null,
+  "hint": "fr: Toutes"
+ },
+ {
+  "ctx": "@id",
+  "src": "filter.installed",
+  "ar": null,
+  "hint": "fr: Installées"
+ },
+ {
+  "ctx": "@id",
+  "src": "filter.updates",
+  "ar": null,
+  "hint": "fr: Mises à jour"
+ },
+ {
+  "ctx": "@id",
+  "src": "filter.notinstalled",
+  "ar": null,
+  "hint": "fr: Non installées"
+ },
+ {
+  "ctx": "@id",
+  "src": "sort.suite",
+  "ar": null,
+  "hint": "fr: Ordre de la suite"
+ },
+ {
+  "ctx": "@id",
+  "src": "sort.name",
+  "ar": null,
+  "hint": "fr: Nom"
+ },
+ {
+  "ctx": "@id",
+  "src": "sort.inspired",
+  "ar": null,
+  "hint": "fr: Inspirée de"
+ },
+ {
+  "ctx": "@id",
+  "src": "sort.status",
+  "ar": null,
+  "hint": "fr: État"
+ },
+ {
+  "ctx": "@id",
+  "src": "sort.installed",
+  "ar": null,
+  "hint": "fr: Version installée"
+ },
+ {
+  "ctx": "@id",
+  "src": "sort.latest",
+  "ar": null,
+  "hint": "fr: Dernière version"
+ },
+ {
+  "ctx": "@id",
+  "src": "sort.released",
+  "ar": null,
+  "hint": "fr: Version la plus récente"
+ },
+ {
+  "ctx": "@id",
+  "src": "help.discord",
+  "ar": null,
+  "hint": "fr: Discord"
+ },
+ {
+  "ctx": "@id",
+  "src": "help.github",
+  "ar": null,
+  "hint": "fr: GitHub"
+ },
+ {
+  "ctx": "@id",
+  "src": "help.website",
+  "ar": null,
+  "hint": "fr: Site web"
+ },
+ {
+  "ctx": "@id",
+  "src": "update.check",
+  "ar": null,
+  "hint": "fr: Rechercher des mises à jour"
+ },
+ {
+  "ctx": "@id",
+  "src": "update.check_auto",
+  "ar": null,
+  "hint": "fr: Rechercher automatiquement les mises à jour"
+ },
+ {
+  "ctx": "@id",
+  "src": "update.notify",
+  "ar": null,
+  "hint": "fr: Me prévenir quand une application installée a une mise à jour"
+ },
+ {
+  "ctx": "@id",
+  "src": "update.prereleases",
+  "ar": null,
+  "hint": "fr: Inclure les préversions (bêtas et versions candidates)"
+ },
+ {
+  "ctx": "@id",
+  "src": "linux.preferred_kind",
+  "ar": null,
+  "hint": "fr: Installer les nouvelles applications en tant que"
+ },
+ {
+  "ctx": "@id",
+  "src": "tray.close_to_tray",
+  "ar": null,
+  "hint": "fr: Rester actif dans la zone de notification à la fermeture de la fenêtre"
+ },
+ {
+  "ctx": "@id",
+  "src": "tray.show_on_current_desktop",
+  "ar": null,
+  "hint": "fr: Afficher la fenêtre sur le bureau actuel"
+ },
+ {
+  "ctx": "@id",
+  "src": "tray.login_item",
+  "ar": null,
+  "hint": "fr: Lancer ArtCraft Launcher à l'ouverture de session"
+ },
+ {
+  "ctx": "@id",
+  "src": "appearance.theme",
+  "ar": null,
+  "hint": "fr: Apparence"
+ },
+ {
+  "ctx": "",
+  "src": "Show Warsha",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Check for Updates",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Visit getartcraft.com",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Warsha on GitHub",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contact the Developer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@plural",
+  "src": "Warsha · {n} update available|Warsha · {n} updates available",
+  "ar": null,
+  "hint": null
+ }
+]

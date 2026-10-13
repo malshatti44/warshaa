@@ -1,0 +1,7412 @@
+[
+ {
+  "ctx": "",
+  "src": "Apply",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Attach DWG...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bind",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Detach",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Loaded",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Make it a block of this drawing, keeping its layer names",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Make it a block of this drawing; its layers become NAME$0$LAYER",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No external references are attached.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Not Found",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Not loaded",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Overlay",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reference Manager",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reference Name",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "References: {n}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reload",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reload All",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Saved Path",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unload",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unloaded",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unreferenced",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unresolved",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "  Cancel  ",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "  OK  ",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": " or [",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "% of all commits",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "* Wildcard Match",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "*VARIES*",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "+  |  Top  |  2D Wireframe",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "+Bin",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "+LOC",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "1 Viewport",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "2 Points",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "2 Viewports",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "2D Solid",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3 Points",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3 Viewports",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3D Face",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3D Operations",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3D Polyline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "4 Viewports",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "< Less than",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "<> Not Equal",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "= Equals",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "> Greater than",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "A variable name starts with a letter and has only letters, digits and _",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "About",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "About CADCraft",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Absolute",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Leader",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Additional angles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align Text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Aligned",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "All",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "All Annotation Objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "All Used Layers",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "All files",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Angular",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Annotation Visibility",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Annotation scale",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apparent Intersection",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Append to current selection set",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply to:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply true color",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Arc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Arc Length",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Area",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Arrange Panel",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Array",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Attach",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Attribute",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Attribute Definition",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Attribute Display",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Audit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Auto (system language)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Auto Constrain",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "AutoConstrain",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Axis, End",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Base",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Baseline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Batch Publish",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Binary assets added",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Binary assets removed",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bind...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Blend",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Block",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Block Attribute Manager...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Block Editor",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Block Reference",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Block...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Blocks",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Blue",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bold",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Boolean",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Boundary",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Boundary...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Box",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Break",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Break At Point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bring Above Objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bring Annotations to Front",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bring to Front",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bulleted list",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "ByBlock",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "ByColor",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "ByLayer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "CADCraft Help",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cancel",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cartesian (x, y)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center Line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center Mark",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center X",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center Y",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center Z",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center, Diameter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center, Radius",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center, Start, Angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center, Start, End",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center, Start, Length",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Chamfer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Change Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Change to Current Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Changed: {n}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Circle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Circumference",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear History",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clip",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clip Viewport",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clipboard",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Close",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Close All",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Close All Other Drawings",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Closed",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Close Comparison",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Coincident",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Collapse Tool Sets",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Collinear",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color 8",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color 9",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color Index",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Command Aliases",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Command History",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear Command History",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Command Line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Command Line History Lines",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Command Reference",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Commits",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Company",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Compare Drawings...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Computer-aided design and drafting: an open-source, clean-room CAD application written in pure Rust.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Concentric",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cone",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Constraint Bars",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Constraint Settings",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Construction Line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contents",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Continue",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contributors",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Control Vertices",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copy",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copy Full File Path",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copy History",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copy Layout",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copy Nested Objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copy Selection",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copy with Base Point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Count",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Count List",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Count Table",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create Block",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Creates a user parameter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ctrl+Enter to finish",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Current layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Current selection",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Current: {color}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cut",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cyan",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cylinder",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "DWG",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "DWG Reference...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "DXF",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dark",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data Extraction...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Default",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data Link...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Default Save Format",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Default Save Version",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Define Attributes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Define Attributes...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Defined width",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Degree",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Degrees of Freedom",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Degrees of freedom: {n}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Column",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Constraints",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Dimension Style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Duplicate Objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Layer State",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Layout",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Row",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Text Style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delta X",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delta Y",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Description",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Deselect All",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Diameter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dim style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimension Break",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimension Edit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimension",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimension Objects Only",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimension Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimension Style Override",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimension Style...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimension Text Edit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimension style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimensional Constraint",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimensional Constraint Parameters",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimensional Constraints",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Disassociate Dimensions",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Display name",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Distance",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Divide",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Do not plot (click: plot)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Donut",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Double-click to edit the description",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Down",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drafting",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drafting Settings",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drafting Settings...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Draw",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Draw Order",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drawing (DWG)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drawing (DXF)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drawing Limits",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drawing Template (DWT)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drawing Utilities",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drawings (DWG, DXF)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dynamic",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dynamic Dimensions",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dynamic Input",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dynamic Input (F12)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "E",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit Attributes...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit Text...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit Table Cell",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Elevation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ellipse",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Elliptical Arc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enable Dynamic Input (F12)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "End Object Isolation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "End Width",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "End X",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "End Y",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "End angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Endpoint",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter Top, Zero or Bottom.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter a fit data option",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter a pattern name",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter a vertex editing option",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter an option",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter angle of xline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter angle of xline (0) or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter area of rectangle in current units",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter attribute prompt",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter attribute tag name",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter attribute value",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter block name",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter constraint type",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter continuity",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter default attribute value",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter degree of spline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter delta angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter delta length or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter dimension text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter dimension text (<> = measurement)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter dimension value or [name=expression]",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter dimension variable name to override",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter justification type",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter leader text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter mline scale",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter mode",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter name of block to insert",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter new text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter next point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter number of columns",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter number of data rows",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter number of items",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter number of items along path",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter number of sides",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter number of turns",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter percentage length",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter rectangle length",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter rectangle width",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter scale factor",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter text (use \\P for new paragraphs)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter the number of segments",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter twist direction of helix",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Entire drawing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Equal",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Erase",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Evaluate",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Exclude from new selection set",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Explode",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export Table",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export to PDF...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Expression",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Extend",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Extension",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Extents",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "External Reference",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "External References",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Extrude",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "File",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "File Tab",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fillet",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Filter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Filters",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find and Replace",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "First",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "First commit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fit Points",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fix",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Flatten Objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Format",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Freehand",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Freeze",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Freeze Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Freeze in new viewports",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Freeze/Thaw",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Freeze/Thaw in all viewports",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Freeze/Thaw in the current viewport",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "From",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "From Template...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "General",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Geometric Center",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Geometric Constraint",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Geometric Constraints",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Geometry",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Get from the Drawing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Get Variable",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Get View",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Global",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Global width",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grab bag",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Gradient",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Gradient...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Green",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grid (F7)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grid Display",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grid On (F7)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grid snap",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grid spacing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grip Edit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grip Mirror",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grip Option",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grip Rotate",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grip Scale",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grip Stretch",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Group",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Group Edit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Group Options",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Group Selection",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hatch",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hatch Edit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hatch Patterns",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hatch...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Height",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Height: {height}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Helix",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Help",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide All",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide All Constraint Bars",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide All Dynamic Dimensions",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Layer List",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Palettes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "History",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Home",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Horizontal",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "HorizontalDistance",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "How to apply:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "ID Point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Import",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "In",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "In-window Menu Bar",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Include in new selection set",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Increment angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Index Color",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Index color: {index}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Infer Constraints",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Inquiry",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Block",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Column",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Row",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert tab",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert this block",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Table Formula",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insertion",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insertion X",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insertion Y",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insertion Z",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Inspect Constraints",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Inspect Drawing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Inspection",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Interface Language",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Interface Theme",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Intersect",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Intersection",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Isolate",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Isolate Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Isolate Objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Isometric Drafting",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Jogged",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Jogged Linear",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Join",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contact the Developer…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contact the Developer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Isometric Plane",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Isometric snap",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Language",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Last",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Last commit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer Delete",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer Match",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer Merge",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer Off",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer Properties",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer Properties Manager",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer Properties Manager — current viewport",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer State",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer States Manager...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer Tools",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer contains objects (double-click to make current)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer is empty (double-click to make current)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layers",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layers Palette",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Palette",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layers displayed: {shown} of {total}.   Current layer: {layer}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layout",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layout list",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Leader",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Leaders Only",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Left",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Length",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Length X",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Length Y",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lengthen",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Light",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Line delta",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Linear",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lines +/−",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lines added",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lines deleted",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lines of Command History",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Linetype",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Linetype Scale",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Linetype scale",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ltscale",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Linetype...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lineweight",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lineweight...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "List",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "List Blocks",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "List Dimension Styles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "List Groups",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "List Layer States",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "List Layouts",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "List System Variables",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "List Text Styles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Load all",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Load...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Loaded linetypes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lock",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lock Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lock viewport",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lock/Unlock",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Loft",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "MIT OR Apache-2.0. Not affiliated with Autodesk, Inc.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "MODEL",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "MText",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Magenta",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Major line every",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Make Current",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Make Object's Layer Current",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Make...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Match Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Match Properties",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Measure",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Measure Distance",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Measure Geometry",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Merge Cells",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Merged PRs",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Mid Between 2 Points",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Midpoint",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Mirror",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Model",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Model Space (in viewport)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Modeling",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Models",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Modify",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multileader",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multileader Style...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multileader style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multiline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multiline Text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multiline Text...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multiple",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multiple Point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "My",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "My properties: not available yet",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "N",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Name",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Name (A–Z)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Named Views...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Nearest",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New (metric)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Drawing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Drawing (⌘N)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Drawing...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Layout",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New VP Freeze",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Viewports...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New from Template...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New layout",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New state name",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next Change",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No blocks defined in this drawing.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No contributor data was built into this copy.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No model credits were built into this copy.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No saved layer states",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No selection",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Node",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "None",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Not available",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Not available yet",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Numbered list",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "OK",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Snap",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Snap (F3)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Snap On (F3)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Snap Tracking",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Snap Tracking (F11)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Snap Tracking Settings",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object type:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Oblique",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Off",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Offset",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "On",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "On/Off",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "One of the Warsha apps.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Only in this drawing: {n}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Only in {name}: {n}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open (⌘O)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open Sample Drawing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open sample drawing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open Xref",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Operator:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Orbit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ordinate",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ortho (F8)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ortho Mode",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ortho Mode (F8)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Osnap Settings...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Out",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Over-constrained",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Override",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "PAPER",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Percent",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polar (distance < angle)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "PRs",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Setup Manager",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Setup Manager...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pan",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pan Down",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pan Left",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pan Right",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pan Up",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paper Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Parallel",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Parameters Manager",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Parametric",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste as Block",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste to Command Line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste to Original Coordinates",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Path Array",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pattern",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Perpendicular",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plot",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plot (click: do not plot)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plot Preview",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plot Window",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plot style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plot style attached to",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plot style table",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plot Style...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plot Style Manager",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plot Style Manager...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plot Styles...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plotter Manager",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plotter Manager...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New CTB",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New STB",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reset Panel Layout",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Send Hatches to Back",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Send Under Objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Objects Only",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Use for this layout",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Display plot styles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No plot style tables.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "A built-in table: editing it keeps an edited copy in the drawing.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Keep an editable copy of this table in the drawing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layout {name}: {table}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grayscale",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Screening",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Use object linetype",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Use object lineweight",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open a drawing first.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plot table type",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color-dependent",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Named",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plus/minus",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Point Filters",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Point Style...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polar Array",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polar Tracking",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polar Tracking (F10)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polar Tracking On (F10)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polar angle measurement",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polar distance",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polar: {distance} < {angle}°",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "PolarSnap",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polygon",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polygonal",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polygonal Viewport",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polyline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polyline Edit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Position X",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Position Y",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Position Z",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous Change",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Primitives",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Print",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Print...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Properties",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Properties Inspector",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Properties:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Proxy",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Purge",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pyramid",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quadrant",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Query Entities",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quick",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quick Dimension",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quick Properties",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quick Select",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quick Select Properties",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quick Select...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "QuickCalc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "QuickCalc Pick",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quit CADCraft",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Radius",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Raster Image",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ray",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Read-only",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Real name",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Realtime",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reassociate Dimensions",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Recent",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Recent Commands",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Recent Input",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Recover...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rectangle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Recalculate Table Formulas",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rectangular",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rectangular snap",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rectangular Array",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Red",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Redo",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Redo (⇧⌘Z)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Redraw",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Regen",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Regen All",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Region",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Region/Mass Properties",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reinitialize",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Relative",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Relative to last segment",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove Leader",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove the viewport override",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rename Dimension Style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rename Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rename Layer State",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rename Layout",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rename Text Style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rename...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Repeat {command}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Requires a point (x,y, @dx,dy or @d<a).",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reset Palettes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Restore",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Restore Layer State",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reverse",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reverse the order",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Revision Cloud",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Revolve",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Right",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rotate",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rotation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "S",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save (⌘S)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save As",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save As...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save Layer State",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save State",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Scale",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Search for layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Search for parameter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Second and next points:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select 2D polyline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select All",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select Objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select Similar",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a 2D polyline.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a block reference.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a circle or arc.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a closed polyline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a closed polyline, circle, ellipse or closed spline.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a closed polyline.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a curve as the path.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a dimension constraint type",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a line object",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a line object.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a line or an arc.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a line or polyline segment",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a line, arc or open polyline.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a line, arc, circle, polyline, ellipse or spline as the path.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a line, circle, arc or polyline segment.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a line.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a polyline.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select a text, mtext, attribute definition or dimension.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an annotation object",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an arc or circle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an arc.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an object",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an object to change or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an object to measure or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an object.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an open curve.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an open line, arc, polyline, ellipse arc or spline.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select arc or circle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select arc or polyline arc segment",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select arc style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select arc, circle, line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select at least two objects to join.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select circle or arc to add center mark",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select closed objects (regions, closed polylines, circles).",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select first line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select first line or arc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select first object",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select first object or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select first point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select nested objects to copy or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select object",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select object to dimension",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select object to divide",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select object to extend or shift-select to trim",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select object to measure",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select object to offset",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select object to trim or shift-select to extend",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select objects (crossing window first corner)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select objects to array.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select objects to stretch by crossing-window or crossing-polygon...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select objects:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select one polyline (Multiple is available through the JSON form).",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select path curve",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select point or object",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select polyline or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select second line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select second line or shift-select to apply corner",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select second object",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select second object or shift-select to apply corner",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select second point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select spline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select symmetry line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select two points",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Selection Cycling",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Send to Back",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Current",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Current Dimension Style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Current Text Style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Current Viewport",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Layer Properties",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Properties",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Table Cell",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Table Cell Style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Variable",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set View",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Share",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show All",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show All Constraint Bars",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show All Dynamic Dimensions",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show command prompting near the crosshairs",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Layer List",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide Lineweight",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide Transparency",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Single Line Text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Single Point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Single...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Smooth",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Snap",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Snap Mode",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Snap Mode (F9)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Snap On (F9)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Snap Overrides",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Snap X spacing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Snap and Grid",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Snap type",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Solid",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sort",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify a point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify a scale for the hatch pattern",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify a second extension line origin",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify an angle for the hatch pattern",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify angle end point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify angle of dimension line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify angle of dimension text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify angle start point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify angle vertex",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify angle vertex point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify arc length dimension location",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify axis endpoint of ellipse",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify base diameter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify base point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify base point or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify base point or displacement (drag with the middle mouse button for realtime pan)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify base radius or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify center of donut",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify center of ellipse",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify center of polygon",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify center point for circle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify center point of arc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify center point of array",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify center point of base",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify corner of viewport",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify corner of window, enter a scale factor (nX or nXP)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify diameter of circle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify dimension arc line location",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify dimension line location",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify distance between turns",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify distance to other axis",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify end angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify end point of arc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify end point of arc (hold Ctrl to switch direction)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify ending width",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify ending width for next segment",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify endpoint of arc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify endpoint of axis",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify endpoint of line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify feature location",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify fillet radius",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify fillet radius for rectangles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first angle endpoint",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first chamfer distance",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first chamfer distance for rectangles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first constraint point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first corner",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first corner point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first destination point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first end point of circle's diameter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first endpoint of edge",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first extension line origin",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first point of mirror line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first point on circle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first point on circle: _tan to",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify first source point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify height",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify helix height or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify included angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify insertion base point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify insertion point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "A drawing opened from a file keeps that file's format.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "An array that would create more objects than this is refused.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Changes apply at once and are kept for next time.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Command line history",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copy as JSON",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Crosshair size",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Display",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grip size",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hold Shift to add to the selection",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Interface language",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Interface theme",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Keep the system cursor visible over the drawing area",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Largest array",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layout paper",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Model background",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object snap aperture",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object snap marker size",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open and Save",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Options",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Options...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pickbox size",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Profiles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reset keeps the interface language.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reset to Defaults",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save new drawings as",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Screen magnifiers, screen readers and recorders follow the system cursor.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select objects first, then choose a command",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Selection",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Settings...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Quick Properties for selected objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Snap, grid, polar tracking and Dynamic Input:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "The aperture is how near the cursor must come to a point for an object snap to find it.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "User Preferences",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify inside diameter of donut",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify leader arrowhead location",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify leader endpoint",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify leader landing location",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify length for rectangles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify length of chord",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify length of segment",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify line width for rectangles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify location for new vertex",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify minimum length of arc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify new end point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify new location for marked vertex",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify new width for all segments",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify next point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify offset distance",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify offset distance or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify opposite corner",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify other corner point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify other endpoint of axis",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify outside diameter of donut",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify point on object for first tangent of circle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify point on object for second tangent of circle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify point on side to offset",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify radius of arc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify radius of circle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify rotation angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify rotation angle of text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify rotation angle or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify scale factor",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second angle endpoint",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second break point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second chamfer distance for rectangles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second constraint point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second destination point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second end point of circle's diameter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second endpoint of edge",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second extension line origin",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second point of arc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second point of mirror line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second point on circle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second point on circle: _tan to",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second point or <use first point as displacement>",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify second source point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify side to offset",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify start angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify start point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify start point of arc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify start point of polyline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify start point of text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify starting width",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify starting width for next segment",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify tangent direction for the start point of arc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify the elevation for rectangles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify thickness for rectangles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify third point on circle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify third point on circle: _tan to",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify third source point or <continue>",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify through point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify top diameter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify top radius or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify total angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify total length or",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Specify width for rectangles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sphere",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Spline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Spline Edit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Stack (type 1/2 then select)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Standard",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start Width",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start X",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start Y",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start, Center, Angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start, Center, End",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start, Center, Length",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start, End, Angle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start, End, Direction",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start, End, Radius",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Status",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Status Bar",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Stretch",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Style: Standard",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Subtract",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sweep",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Switch Drawing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Switch Layout",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Switch between model space in a viewport and paper space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Symmetric",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Synchronize Attributes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "To",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Toggle PICKADD (off: each pick replaces the selection)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Toggle PICKADD (on: picks add to the selection)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "TOP",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table Breaks",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table Cell Style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table Style...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tan, Tan, Radius",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tan, Tan, Tan",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tangent",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Temporary track point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Editor",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Height",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Style...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text height",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text override",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Thaw All Layers",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Thaw Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "There is nothing here yet.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Thickness",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Time",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "To get started, create or open a drawing.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tool Bar",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tool Sets",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tools",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Torus",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Trace",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Track orthogonally only",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Track using all polar angle settings",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transparency",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Trim",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "True Color",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Turn All Layers On",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Turn Off Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Turn On Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Turn Quick Properties off (QPMODE)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type a command",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type text; Enter starts a new paragraph",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "UCS Icon",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Undo",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Undo (⌘Z)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ungroup",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Union",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unisolate Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Units Conversion",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Units...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unlock Layer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unlock viewport",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unmerge Cells",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unsaved Layer State",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Up",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update Data Links",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Use System Setting",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "User",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "User Parameters",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Username",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Volume",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "VP Color",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "VP Freeze",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Value",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Value:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Variables",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version 2000",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version 2004",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version 2007",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version 2010",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version 2013",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version 2018",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version {version}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Vertical",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "VerticalDistance",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "View",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "ViewCube",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Viewport",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Viewport Layer Freeze",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Viewport Properties",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Viewport is locked",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Viewport scale",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Viewport {id}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Viewports",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "W",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "WCS ⌄",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "White",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Width factor",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Window",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Wipeout",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Workspace Switching",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Write Block",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Xline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Yellow",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Yes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom All",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom Dynamic",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom Extents",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom In",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom Object",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom Out",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom Previous",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom Realtime",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom Window",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "error",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{contributors} · {commits}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{kind} (constraint {id})",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{kind} constraint {name} = {expression}  (double-click to edit)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{name}: {distance} < {angle}°",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "ƒx  New User Parameter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "ΔLOC",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "−Bin",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "−LOC",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "⌘↩ to finish",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@plural",
+  "src": "{n} commit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "@plural",
+  "src": "{n} contributor",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drawing as bytes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Services",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide CADCraft",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Others",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Accessibility",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show System Cursor",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Import...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Batch Publish...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Scale List...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Annotative Object Scale",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Current Scale",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Current Scale",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add/Delete Scales...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Synchronize Multiple-scale Positions",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Annotative Update",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Annotative Objects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Current Scale Only",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "All Scales",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drawing Recovery Manager...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tolerance...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Vertex",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove Vertex",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert to Arc",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert to Line",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Stretch Vertex",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit Array",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Close Array Editing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multiline...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multiline Style...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Solid Editing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "X",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Y",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "B",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "CADCraft",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "More toolbar commands",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "menu",
+  "src": "View",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "menu",
+  "src": "Draw",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "menu",
+  "src": "Dimension",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "menu",
+  "src": "Modify",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hatch Pattern",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Search for pattern",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Collapse Palettes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3D Mouse...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3D Mouse",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Calibrate 3D Mouse",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3D Mouse Navigation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3D mouse input is unavailable on this platform",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No supported 3D mouse found",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Release the 3D mouse to calibrate its resting position",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3D mouse connected",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3D mouse busy, possibly 3DxWare or missing device permissions",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3D mouse disconnected",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "3D mouse input could not be started",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enable 3D mouse navigation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pan sensitivity",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom sensitivity",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reverse zoom direction",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Calibrate",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move sideways to pan; push/pull or twist to zoom.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Left device button: zoom extents. Right device button: calibrate.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Automatic save every",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Automatic save file location",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Default save version",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drawings with no file yet are saved in the default version. 0 minutes turns automatic save off.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "SVG drawings (SVG, SVGZ)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show and hide the tools of this category",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show in Tool Sets",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Time-sensitive right-click: a quick click is Enter, holding opens the menu",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Turned off, a right-click while a command runs always opens the shortcut menu.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "min",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Run Script...",
+  "ar": null,
+  "hint": null
+ }
+]

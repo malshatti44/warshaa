@@ -1,0 +1,4007 @@
+# Arabic (ar) interface catalog. Columns, separated by a TAB:
+#   context <TAB> English source <TAB> translation
+#   (same format and escapes as the other catalogs in this folder; @plural rows carry the six
+#   Arabic forms zero|one|two|few|many|other)
+#
+# تعريب ريتوش: محمد الشطي — https://malshatti.com — info@malshatti.com
+# Written from the plain meaning of each English label in Modern Standard Arabic software
+# vocabulary. App names follow the Arabic suite (ورشة): ريتوش، ريشة، مونتير، طيف، وثيق، ومضة،
+# نسق، سطر، منبر، كشف، مخطط، صدى.
+
+	Columns	الأعمدة
+	Rows	صفوف
+	Number	رقم
+	Margin	الهامش
+	Top:	الأعلى:
+	Left:	اليسار:
+	Bottom:	الأسفل:
+	Right:	اليمين:
+	Target:	الهدف:
+	Selected Artboards	لوحات الرسم المحددة
+	Center Columns	توسيط الأعمدة
+	Clear Existing Guides	مسح الأدلة الموجودة
+	Invalid guide layout	تخطيط أدلة غير صالح
+	Leave empty for automatic size	اتركه فارغاً للحجم التلقائي
+	5 Columns, 3 Rows	5 أعمدة، 3 صفوف
+	8 Columns	8 أعمدة
+	12 Columns	12 عموداً
+	File	ملف
+	Edit	تحرير
+	Image	صورة
+	Layer	طبقة
+	Type	نص
+	Select	تحديد
+	Selected	المحدد
+	Scope	النطاق
+	Top Left	أعلى اليسار
+	Top Right	أعلى اليمين
+	Bottom Left	أسفل اليسار
+	Bottom Right	أسفل اليمين
+	Filter	تصفية
+	View	عرض
+	Window	نافذة
+	Help	مساعدة
+	(coming soon)	(قريباً)
+	New…	جديد…
+	New from Clipboard	جديد من الحافظة
+	Open…	فتح…
+	Open As…	فتح باسم…
+	Open EXR Parts…	فتح أجزاء EXR…
+	Add beauty precomp from the AOVs	إضافة تركيبة مسبقة جمالية من طبقات AOV
+	Both	كلاهما
+	Left	يسار
+	Right	يمين
+	Open Recent	فتح الملفات الأخيرة
+	Clear Recent Files	مسح الملفات الأخيرة
+	Remove from Recent	إزالة من الأخيرة
+	Remove {name} from Recent	إزالة {name} من الأخيرة
+	Close	إغلاق
+	Minimize	تصغير
+	Maximize	تكبير
+	Restore	استعادة
+	Close All	إغلاق الكل
+	Close Others	إغلاق الأخرى
+	Save	حفظ
+	Save As…	حفظ باسم…
+	Save a Copy…	حفظ نسخة…
+	Revert	استعادة
+	Export	تصدير
+	Quick Export as PNG	تصدير سريع كـ PNG
+	Export As…	تصدير باسم…
+	Export Preferences…	تفضيلات التصدير…
+	Save for Web (Legacy)…	حفظ للويب (قديم)…
+	Artboards to Files…	لوحات الرسم إلى ملفات…
+	Artboards to PDF…	لوحات الرسم إلى PDF…
+	Layers to Files…	الطبقات إلى ملفات…
+	Layer Comps to Files…	تركيبات الطبقات إلى ملفات…
+	Color Lookup Tables…	جداول البحث عن الألوان…
+	Data Sets as Files…	مجموعات البيانات كملفات…
+	Paths to Illustrator…	المسارات إلى Illustrator…
+	Render Video…	تصيير الفيديو…
+	Generate	توليد
+	Image Assets	أصول الصور
+	Place Embedded…	وضع مضمّن…
+	Place Linked…	وضع مرتبط…
+	Package…	تجميع…
+	Automate	الأتمتة
+	Batch…	معالجة دفعية…
+	Create Droplet…	إنشاء قطرة…
+	Crop and Straighten Photos	اقتصاص الصور وتقويمها
+	Contact Sheet II…	ورقة الاتصال II…
+	Conditional Mode Change…	تغيير الوضع الشرطي…
+	Fit Image…	ملاءمة الصورة…
+	Lens Correction…	تصحيح العدسة…
+	Merge to HDR Pro…	الدمج إلى HDR Pro…
+	Photomerge…	الدمج البانورامي…
+	Scripts	السكربتات
+	Image Processor…	معالج الصور…
+	Delete All Empty Layers	حذف كل الطبقات الفارغة
+	Flatten All Layer Effects	تسطيح كل تأثيرات الطبقات
+	Flatten All Masks	تسطيح كل الأقنعة
+	Script Events Manager…	إدارة أحداث البرامج النصية…
+	Import	استيراد
+	Browse…	استعراض…
+	Reveal in Finder	إظهار في Finder
+	Show in Explorer	إظهار في المستكشف
+	Show in Folder	إظهار في المجلد
+	File Info…	معلومات الملف…
+	Print…	طباعة…
+	Print One Copy	طباعة نسخة واحدة
+	Exit	خروج
+	Undo	تراجع
+	Redo	إعادة
+	Toggle Last State	تبديل الحالة الأخيرة
+	Fade…	تلاشٍ…
+	Cut	قص
+	Copy	نسخ
+	Copy Merged	نسخ مدمج
+	Paste	لصق
+	Paste Special	لصق خاص
+	Paste in Place	لصق في الموضع نفسه
+	Paste Into	لصق داخل
+	Paste Outside	لصق خارج
+	Paste Lorem Ipsum	لصق نص تجريبي (Lorem Ipsum)
+	Clear	مسح
+	Search…	بحث…
+	Check Spelling…	تدقيق إملائي…
+	Find and Replace Text…	البحث عن نص واستبداله…
+	Fill…	تعبئة…
+	Stroke…	حدّ…
+	Content-Aware Fill…	تعبئة حسب المحتوى…
+	Delete and Fill Selection	حذف التحديد وتعبئته
+	Content-Aware Scale	تحجيم حسب المحتوى
+	Puppet Warp	التشويه بالدمى
+	Perspective Warp	تشويه المنظور
+	Free Transform	تحويل حر
+	Free Transform a Copy	تحويل حر لنسخة
+	Transform	تحويل
+	Again	مرة أخرى
+	Transform Again on a Copy	التحويل مرة أخرى على نسخة
+	Scale	تحجيم
+	Rotate	تدوير
+	Skew	إمالة
+	Distort	تشويه
+	Perspective	المنظور
+	Warp	الالتواء
+	Flip Horizontal	قلب أفقي
+	Flip Vertical	قلب عمودي
+	Rotate 180°	تدوير 180°
+	Rotate 90° Clockwise	تدوير 90° مع عقارب الساعة
+	Rotate 90° Counter Clockwise	تدوير 90° عكس عقارب الساعة
+	90° Clockwise	90° مع عقارب الساعة
+	90° Counter Clockwise	90° عكس عقارب الساعة
+	Arbitrary…	زاوية اختيارية…
+	Auto-Align Layers…	محاذاة الطبقات تلقائياً…
+	Auto-Blend Layers…	مزج الطبقات تلقائياً…
+	Define Brush Preset…	تعريف إعداد مسبق للفرشاة…
+	Define Pattern…	تعريف نقش…
+	Define Custom Shape…	تعريف شكل مخصص…
+	Purge	تفريغ
+	Clipboard	الحافظة
+	Histories	السجلات
+	Video Cache	ذاكرة الفيديو المؤقتة
+	All	الكل
+	Presets	الإعدادات المسبقة
+	Preset Manager…	إدارة الإعدادات المسبقة…
+	Migrate Presets	ترحيل الإعدادات المسبقة
+	Export/Import Presets…	تصدير/استيراد الإعدادات المسبقة…
+	Color Settings…	إعدادات الألوان…
+	Assign Profile…	تعيين ملف تعريف…
+	Convert to Profile…	التحويل إلى ملف تعريف…
+	Keyboard Shortcuts…	اختصارات لوحة المفاتيح…
+	Menus…	القوائم…
+	Toolbar…	شريط الأدوات…
+	Preferences	تفضيلات
+	General…	عام…
+	Interface…	الواجهة…
+	Workspace…	مساحة العمل…
+	Tools…	الأدوات…
+	History Log…	سجل التاريخ…
+	File Handling…	التعامل مع الملفات…
+	Export…	تصدير…
+	Performance…	الأداء…
+	Scratch Disks…	أقراص التخزين المؤقت…
+	Cursors…	المؤشرات…
+	Transparency & Gamut…	الشفافية والنطاق اللوني…
+	Units & Rulers…	الوحدات والمساطر…
+	Guides, Grid & Slices…	الأدلة والشبكة والشرائح…
+	Plug-ins…	المكونات الإضافية…
+	Type…	النص…
+	Enhanced Controls…	عناصر التحكم المحسّنة…
+	Camera Raw…	Camera Raw…
+	Raw Defaults…	إعدادات Raw الافتراضية…
+	Integrations…	عمليات التكامل…
+	AI Integrations…	تكامل الذكاء الاصطناعي…
+	Install Plug-in…	تثبيت مكون إضافي…
+	Language Options	خيارات اللغة
+	Settings…	الإعدادات…
+	Mode	الوضع
+	Bitmap	نقطي (Bitmap)
+	Grayscale	تدرج رمادي
+	Duotone	ثنائي اللون
+	Indexed Color	ألوان مفهرسة
+	RGB Color	ألوان RGB
+	CMYK Color	ألوان CMYK
+	Lab Color	ألوان Lab
+	Multichannel	متعدد القنوات
+	8 Bits/Channel	8 بت/قناة
+	8 bit	8 بت
+	Integer	عدد صحيح
+	16 Bits/Channel	16 بت/قناة
+	16 bit	16 بت
+	32 Bits/Channel	32 بت/قناة
+	32 bit (float)	32 بت (عائم)
+	Floating point	فاصلة عائمة
+	Color Table…	جدول الألوان…
+	Bitmap…	نقطي…
+	Duotone…	ثنائي اللون…
+	Indexed Color…	ألوان مفهرسة…
+	Adjustments	التعديلات
+	Brightness/Contrast…	السطوع/التباين…
+	Levels…	المستويات…
+	Curves…	المنحنيات…
+	Exposure…	التعريض…
+	Vibrance…	الحيوية…
+	Hue/Saturation…	تدرج اللون/التشبع…
+	Color Balance…	توازن الألوان…
+	Black & White…	أبيض وأسود…
+	Photo Filter…	مرشح الصورة…
+	Channel Mixer…	خلّاط القنوات…
+	Color Lookup…	البحث عن الألوان…
+	Invert	عكس
+	Posterize…	تقليل الألوان…
+	Threshold…	العتبة…
+	Gradient Map…	خريطة التدرج…
+	Selective Color…	اللون الانتقائي…
+	Shadows/Highlights…	الظلال/الإضاءات…
+	HDR Toning…	تنغيم HDR…
+	Desaturate	إزالة التشبع
+	Match Color…	مطابقة اللون…
+	Replace Color…	استبدال اللون…
+	Equalize	معادلة
+	Auto Tone	نغمة تلقائية
+	Auto Contrast	تباين تلقائي
+	Auto Color	لون تلقائي
+	Image Size…	حجم الصورة…
+	Canvas Size…	حجم اللوحة…
+	Image Rotation	تدوير الصورة
+	Flip Canvas Horizontal	قلب اللوحة أفقياً
+	Flip Canvas Vertical	قلب اللوحة عمودياً
+	Crop	قص
+	Trim…	تشذيب…
+	Reveal All	كشف الكل
+	Duplicate…	تكرار…
+	Apply Image…	تطبيق الصورة…
+	Calculations…	الحسابات…
+	Variables	المتغيرات
+	Define…	تعريف…
+	Data Sets…	مجموعات البيانات…
+	Apply Data Set…	تطبيق مجموعة بيانات…
+	Variable Data Sets…	مجموعات البيانات المتغيرة…
+	Trap…	التراكب اللوني…
+	Analysis	التحليل
+	Set Measurement Scale…	تعيين مقياس القياس…
+	Select Data Points…	تحديد نقاط البيانات…
+	Record Measurements	تسجيل القياسات
+	Ruler Tool	أداة المسطرة
+	Count Tool	أداة العدّ
+	Place Scale Marker…	وضع علامة المقياس…
+	Custom…	مخصص…
+	New	جديد
+	Layer…	طبقة…
+	Group…	مجموعة…
+	Group from Layers…	مجموعة من الطبقات…
+	Artboard…	لوحة رسم…
+	Artboard from Group…	لوحة رسم من مجموعة…
+	Artboard from Layers…	لوحة رسم من الطبقات…
+	Layer via Copy	طبقة عبر النسخ
+	Layer via Cut	طبقة عبر القص
+	Layer From Background…	طبقة من الخلفية…
+	Layer from Background…	طبقة من الخلفية…
+	Background from Layer	خلفية من الطبقة
+	Background From Layer	خلفية من الطبقة
+	New Shape Layer	طبقة شكل جديدة
+	New Type Layer	طبقة نص جديدة
+	New Fill Layer	طبقة تعبئة جديدة
+	New Adjustment Layer	طبقة ضبط جديدة
+	New Layer Based Slice	شريحة جديدة مبنية على الطبقة
+	New Smart Object via Copy	كائن ذكي جديد عبر النسخ
+	New Blank Video Layer	طبقة فيديو فارغة جديدة
+	New Video Layer from File…	طبقة فيديو جديدة من ملف…
+	Duplicate Layer…	تكرار الطبقة…
+	Delete Layer	حذف الطبقة
+	Delete	حذف
+	Rename Layer	إعادة تسمية الطبقة
+	Create Layer	إنشاء طبقة
+	Layer Style	نمط الطبقة
+	Blending Options…	خيارات المزج…
+	Bevel & Emboss…	شطف ونقش بارز…
+	Use Global Light	استخدام الإضاءة العامة
+	Inner Shadow…	ظل داخلي…
+	Inner Glow…	توهج داخلي…
+	Satin…	ساتان…
+	Color Overlay…	تراكب لوني…
+	Gradient Overlay…	تراكب متدرج…
+	Pattern Overlay…	تراكب نقش…
+	Outer Glow…	توهج خارجي…
+	Drop Shadow…	ظل ساقط…
+	Copy Layer Style	نسخ نمط الطبقة
+	Paste Layer Style	لصق نمط الطبقة
+	Clear Layer Style	مسح نمط الطبقة
+	Global Light…	الإضاءة العامة…
+	Hide All Effects	إخفاء كل التأثيرات
+	Scale Effects…	تحجيم التأثيرات…
+	Smart Filter	مرشح ذكي
+	Convert for Smart Filters	التحويل للمرشحات الذكية
+	Clear Smart Filters	مسح المرشحات الذكية
+	Disable Smart Filters	تعطيل المرشحات الذكية
+	Delete Filter Mask	حذف قناع المرشح
+	Disable Filter Mask	تعطيل قناع المرشح
+	Solid Color…	لون مصمت…
+	Gradient…	تدرج…
+	Pattern…	نقش…
+	Layer Mask	قناع الطبقة
+	Vector Mask	قناع متجهي
+	Reveal Selection	كشف التحديد
+	Hide Selection	إخفاء التحديد
+	Hide All	إخفاء الكل
+	From Transparency	من الشفافية
+	Delete Vector Mask	حذف القناع المتجهي
+	Enable Layer Mask	تمكين قناع الطبقة
+	Disable Layer Mask	تعطيل قناع الطبقة
+	Enable Vector Mask	تمكين القناع المتجهي
+	Link Layer Mask	ربط قناع الطبقة
+	Unlink Layer Mask	فك ربط قناع الطبقة
+	Link Vector Mask	ربط القناع المتجهي
+	Add Vector Mask	إضافة قناع متجهي
+	Vector Mask from Current Path	قناع متجهي من المسار الحالي
+	Create Clipping Mask	إنشاء قناع قص
+	Release Clipping Mask	تحرير قناع القص
+	Smart Objects	الكائنات الذكية
+	Smart Object	كائن ذكي
+	Convert to Smart Object	التحويل إلى كائن ذكي
+	Convert to Embedded	التحويل إلى مضمّن
+	Convert to Layers	التحويل إلى طبقات
+	Convert to Linked…	التحويل إلى مرتبط…
+	Edit Contents	تحرير المحتويات
+	Replace Contents…	استبدال المحتويات…
+	Relink to File…	إعادة الربط بملف…
+	Export Contents…	تصدير المحتويات…
+	Update Modified Content	تحديث المحتوى المعدّل
+	Update All Modified Content	تحديث كل المحتوى المعدّل
+	Stack Mode	وضع التكديس
+	Entropy	الإنتروبيا
+	Kurtosis	التفلطح
+	Maximum	الحد الأقصى
+	Mean	المتوسط
+	Median	الوسيط
+	Minimum	الحد الأدنى
+	Range	النطاق
+	Skewness	الالتواء
+	Standard Deviation	الانحراف المعياري
+	Summation	المجموع
+	Variance	التباين الإحصائي
+	Video Layers	طبقات الفيديو
+	Interpret Footage…	تفسير اللقطات…
+	Replace Footage…	استبدال اللقطات…
+	Reload Frame	إعادة تحميل الإطار
+	Show Altered Video	إظهار الفيديو المعدّل
+	Restore Frame	استعادة الإطار
+	Restore All Frames	استعادة كل الإطارات
+	Insert Blank Frame	إدراج إطار فارغ
+	Delete Frame	حذف الإطار
+	Duplicate Frame	تكرار الإطار
+	Frame from Layers	إطار من الطبقات
+	Video Frames to Layers…	إطارات الفيديو إلى طبقات…
+	Rasterize	تنقيط
+	Rasterize Type	تنقيط النص
+	Rasterize Type Layer	تنقيط طبقة النص
+	Rasterize Shape	تنقيط الشكل
+	New Guide Layout…	تخطيط أدلة جديد…
+	New Guides From Shape	أدلة جديدة من الشكل
+	Lock Layers…	قفل الطبقات…
+	Link Layers	ربط الطبقات
+	Select Linked Layers	تحديد الطبقات المرتبطة
+	Merge Layers	دمج الطبقات
+	Merge Down	دمج للأسفل
+	Merge Group	دمج المجموعة
+	Merge Visible	دمج الظاهرة
+	Stamp Visible	ختم الظاهرة
+	Select Layer Above	تحديد الطبقة العليا
+	Select Layer Below	تحديد الطبقة السفلى
+	Select Top Layer	تحديد أعلى طبقة
+	Select Bottom Layer	تحديد أسفل طبقة
+	Add Layer Above to Selection	إضافة الطبقة العليا إلى التحديد
+	Add Layer Below to Selection	إضافة الطبقة السفلى إلى التحديد
+	Stamp Down	ختم للأسفل
+	Flatten Image	تسطيح الصورة
+	Matting	تنقية الحواف
+	Color Decontaminate…	إزالة تلوث الألوان…
+	Remove Black Matte	إزالة الحافة السوداء
+	Remove White Matte	إزالة الحافة البيضاء
+	Defringe…	إزالة الهالة…
+	Group Layers	تجميع الطبقات
+	Ungroup Layers	فك تجميع الطبقات
+	Hide Layers	إخفاء الطبقات
+	Arrange	ترتيب
+	Bring to Front	إحضار إلى المقدمة
+	Bring Forward	إحضار إلى الأمام
+	Send Backward	إرسال إلى الخلف خطوة
+	Send to Back	إرسال إلى الخلف
+	Reverse	عكس
+	Combine Shapes	دمج الأشكال
+	Unite Shapes	توحيد الأشكال
+	Subtract Front Shape	طرح الشكل الأمامي
+	Intersect Shape Areas	تقاطع مناطق الأشكال
+	Exclude Overlapping Shapes	استبعاد الأشكال المتداخلة
+	Merge Shape Components	دمج مكونات الشكل
+	Align	محاذاة
+	Top Edges	الحواف العلوية
+	Vertical Centers	المراكز العمودية
+	Bottom Edges	الحواف السفلية
+	Left Edges	الحواف اليسرى
+	Horizontal Centers	المراكز الأفقية
+	Right Edges	الحواف اليمنى
+	Distribute	توزيع
+	Vertically	عمودياً
+	Horizontally	أفقياً
+	Layer Edges	حواف الطبقة
+	Isolate Layers	عزل الطبقات
+	Layer Content Options…	خيارات محتوى الطبقة…
+	Fill Content	تعبئة المحتوى
+	Deselect Layers	إلغاء تحديد الطبقات
+	Find Layers	البحث عن الطبقات
+	Layer Comps	تركيبات الطبقات
+	Layers	الطبقات
+	All Layers	كل الطبقات
+	Hidden Layers	الطبقات المخفية
+	Mask All Objects	إخفاء كل الكائنات بقناع
+	Subject	الموضوع
+	Sky	السماء
+	Panels	لوحات
+	Character Panel	لوحة الحرف
+	Paragraph Panel	لوحة الفقرة
+	Character Styles Panel	لوحة أنماط الأحرف
+	Paragraph Styles Panel	لوحة أنماط الفقرات
+	Glyphs Panel	لوحة الحروف الرسومية
+	Anti-Alias	تنعيم الحواف
+	Sharp	حاد
+	Crisp	واضح
+	Strong	قوية
+	Smooth	تنعيم
+	Windows LCD	Windows LCD
+	Windows	Windows
+	Orientation	اتجاه الصفحة
+	Horizontal	أفقي
+	Vertical	عمودي
+	OpenType	OpenType
+	Standard Ligatures	الحروف المركّبة القياسية
+	Contextual Alternates	بدائل سياقية
+	Discretionary Ligatures	روابط اختيارية
+	Swash	زخرفي
+	Oldstyle	أرقام قديمة الطراز
+	Stylistic Alternates	بدائل أسلوبية
+	Titling Alternates	بدائل العناوين
+	Ornaments	زخارف
+	Ordinals	الأعداد الترتيبية
+	Fractions	كسور
+	Create Work Path	إنشاء مسار عمل
+	Convert to Shape	التحويل إلى شكل
+	Warp Text…	التواء النص…
+	Convert to Point Text	التحويل إلى نص نقطي
+	Convert to Paragraph Text	التحويل إلى نص فقرة
+	Default Features	المزايا الافتراضية
+	East Asian Features	مزايا شرق آسيا
+	Middle Eastern Features	مزايا الشرق الأوسط
+	Middle Eastern & South Asian Composer	مُنضّد الشرق الأوسط وجنوب آسيا
+	Update All Text Layers	تحديث كل طبقات النص
+	Replace All Missing Fonts	استبدال كل الخطوط المفقودة
+	Resolve Missing Fonts…	حل مشكلة الخطوط المفقودة…
+	Font Preview Size	حجم معاينة الخط
+	None	بدون
+	Small	صغير
+	Medium	متوسطة
+	Large	كبير
+	Extra Large	كبير جداً
+	Huge	ضخم
+	Load Default Type Styles	تحميل أنماط النص الافتراضية
+	Save Default Type Styles	حفظ أنماط النص الافتراضية
+	Deselect	إلغاء التحديد
+	Reselect	إعادة التحديد
+	Inverse	عكس
+	Inverse Selection	عكس التحديد
+	Similar	المتشابه
+	Color Range…	نطاق اللون…
+	Focus Area…	منطقة التركيز…
+	Select and Mask…	التحديد والقناع…
+	Smart Radius	نصف قطر ذكي
+	Shift Edge	إزاحة الحافة
+	Decontaminate	إزالة التلوث
+	Output	الإخراج
+	Refine Edge	تحسين الحافة
+	Modify	تعديل
+	Border…	إطار…
+	Smooth…	تنعيم…
+	Expand…	توسيع…
+	Contract…	تقليص…
+	Feather…	تنعيم الحواف…
+	Grow	تنمية
+	Transform Selection	تحويل التحديد
+	Edit in Quick Mask Mode	التحرير في وضع القناع السريع
+	Load Selection…	تحميل التحديد…
+	Save Selection…	حفظ التحديد…
+	Match All	مطابقة الكل
+	Last Filter	آخر مرشح
+	Filter Gallery…	معرض المرشحات…
+	Adaptive Wide Angle…	الزاوية الواسعة التكيّفية…
+	Camera Raw Filter…	مرشح Camera Raw…
+	Liquify…	التسييل…
+	Vanishing Point…	نقطة التلاشي…
+	Blur	تمويه
+	Blur Gallery	معرض الضبابية
+	Field Blur…	ضبابية المجال…
+	Iris Blur…	ضبابية القزحية…
+	Tilt-Shift…	إمالة وإزاحة…
+	Path Blur…	ضبابية المسار…
+	Spin Blur…	ضبابية الدوران…
+	Blur More	ضبابية أكثر
+	Box Blur…	ضبابية الصندوق…
+	Gaussian Blur…	ضبابية غاوسية…
+	Lens Blur…	ضبابية العدسة…
+	Motion Blur…	ضبابية الحركة…
+	Radial Blur…	ضبابية شعاعية…
+	Shape Blur…	ضبابية الشكل…
+	Smart Blur…	ضبابية ذكية…
+	Surface Blur…	ضبابية السطح…
+	Average	المتوسط
+	Displace…	إزاحة…
+	Pinch…	قرص…
+	Polar Coordinates…	الإحداثيات القطبية…
+	Ripple…	تموّج…
+	Shear…	قصّ مائل…
+	Spherize…	تكوير…
+	Twirl…	دوّامة…
+	Wave…	موجة…
+	ZigZag…	متعرّج…
+	Noise	التشويش
+	Add Noise…	إضافة تشويش…
+	Despeckle	إزالة النُّقط
+	Dust & Scratches…	الغبار والخدوش…
+	Median…	الوسيط…
+	Reduce Noise…	تقليل التشويش…
+	Pixelate	التبكسل
+	Color Halftone…	نقاط طباعة ملوّنة…
+	Crystallize…	تبلور…
+	Facet	أوجه
+	Fragment	تجزئة
+	Mezzotint…	ميزوتنت…
+	Mosaic…	فسيفساء…
+	Pointillize…	تنقيط فني…
+	Render	تصيير
+	Clouds	السحب
+	Difference Clouds	سحب الاختلاف
+	Fibers…	ألياف…
+	Flame…	لهب…
+	Lens Flare…	وهج العدسة…
+	Lighting Effects…	تأثيرات الإضاءة…
+	Relight…	إعادة الإضاءة…
+	Picture Frame…	إطار صورة…
+	Tree…	شجرة…
+	Sharpen	زيادة الحدة
+	Sharpen Edges	زيادة حدة الحواف
+	Sharpen More	زيادة حدة أكثر
+	Smart Sharpen…	زيادة الحدة الذكية…
+	Unsharp Mask…	قناع زيادة الحدة…
+	High Pass…	الترشيح العالي…
+	Stylize	الأسلبة
+	Diffuse…	انتشار…
+	Emboss…	نقش بارز…
+	Extrude…	بثق…
+	Find Edges	البحث عن الحواف
+	Oil Paint…	طلاء زيتي…
+	Solarize	تشميس
+	Tiles…	بلاطات…
+	Trace Contour…	تتبع الكفاف…
+	Wind…	رياح…
+	Video	الفيديو
+	De-Interlace…	إزالة التشابك…
+	NTSC Colors	ألوان NTSC
+	Other	أخرى
+	Maximum…	الحد الأقصى…
+	Minimum…	الحد الأدنى…
+	Offset…	إزاحة…
+	Plug-ins	المكونات الإضافية
+	Proof Setup	إعداد المعاينة الطباعية
+	Proof Colors	ألوان المعاينة الطباعية
+	Gamut Warning	تحذير النطاق اللوني
+	Working CMYK	CMYK العمل
+	Working Cyan Plate	لوح السماوي للعمل
+	Working Magenta Plate	لوح الأرجواني للعمل
+	Working Yellow Plate	لوح الأصفر للعمل
+	Working Black Plate	لوح الأسود للعمل
+	Working CMY Plate	لوح CMY للعمل
+	Legacy Macintosh RGB	RGB ماكنتوش القديم
+	Internet Standard RGB	RGB القياسي للإنترنت
+	Monitor RGB	RGB الشاشة
+	Color Blindness — Protanopia-type	عمى الألوان — من نوع عمى الأحمر
+	Color Blindness — Deuteranopia-type	عمى الألوان — من نوع عمى الأخضر
+	Zoom In	تكبير
+	Zoom Out	تصغير
+	Fit on Screen	ملاءمة للشاشة
+	Fit Layer(s) on Screen	ملاءمة الطبقات للشاشة
+	Fit Artboard on Screen	ملاءمة لوحة الرسم للشاشة
+	Print Size	حجم الطباعة
+	Pixel Aspect Ratio	نسبة أبعاد البكسل
+	Pixel Aspect Ratio Correction	تصحيح نسبة أبعاد البكسل
+	Custom Pixel Aspect Ratio…	نسبة أبعاد بكسل مخصصة…
+	Square	مربع
+	D1/DV NTSC (0.91)	D1/DV NTSC ‏(0.91)
+	D1/DV NTSC Widescreen (1.21)	D1/DV NTSC عريض (1.21)
+	D1/DV PAL (1.09)	D1/DV PAL ‏(1.09)
+	D1/DV PAL Widescreen (1.46)	D1/DV PAL عريض (1.46)
+	Anamorphic 2:1 (2)	أنامورفيك 2:1 ‏(2)
+	HDV 1080/DVCPRO HD 720 (1.33)	HDV 1080/DVCPRO HD 720 ‏(1.33)
+	DVCPRO HD 1080/HDV 1080 (1.5)	DVCPRO HD 1080/HDV 1080 ‏(1.5)
+	32-bit Preview Options…	خيارات معاينة 32 بت…
+	Screen Mode	وضع الشاشة
+	Standard Screen Mode	وضع الشاشة القياسي
+	Full Screen Mode With Menu Bar	وضع ملء الشاشة مع شريط القوائم
+	Full Screen Mode	وضع ملء الشاشة
+	Cycle Screen Mode	تدوير أوضاع الشاشة
+	Show	إظهار
+	Extras	إضافات
+	Selection Edges	حواف التحديد
+	Target Path	المسار الهدف
+	Current Path	المسار الحالي
+	Grid	شبكة
+	Guides	أدلة
+	Canvas Guides	أدلة اللوحة
+	Artboard Guides	أدلة لوحة الرسم
+	Count	عدّ
+	Smart Guides	أدلة ذكية
+	Slices	الشرائح
+	Notes	ملاحظات
+	Pixel Grid	شبكة البكسل
+	Pixel Art	فن البكسل
+	Pixel Art Preview	معاينة فن البكسل
+	Pattern Preview	معاينة النقش
+	Brush Preview	معاينة الفرشاة
+	Mesh	الشبكة المجسّمة
+	Edit Pins	تحرير الدبابيس
+	Document Bounds	حدود المستند
+	Show Extras Options…	خيارات إظهار الإضافات…
+	Rulers	مساطر
+	Snap	الالتقاط
+	Snap To	الالتقاط إلى
+	Lock Guides	قفل الأدلة
+	Clear Guides	مسح الأدلة
+	Clear Selected Artboard Guides	مسح أدلة لوحة الرسم المحددة
+	Clear Canvas Guides	مسح أدلة اللوحة
+	New Guide…	دليل جديد…
+	Lock Slices	قفل الشرائح
+	Clear Slices	مسح الشرائح
+	Match Zoom	مطابقة التكبير
+	Match Location	مطابقة الموقع
+	Match Rotation	مطابقة الدوران
+	Cascade	تتالي
+	Tile	تجانب
+	Tile All Horizontally	تجانب الكل أفقياً
+	Tile All Vertically	تجانب الكل عمودياً
+	2-up Horizontal	اثنان أفقياً
+	2-up Vertical	اثنان عمودياً
+	3-up Horizontal	ثلاثة أفقياً
+	3-up Stacked	ثلاثة مكدّسة
+	3-up Vertical	ثلاثة عمودياً
+	4-up	أربعة
+	6-up	ستة
+	Consolidate All to Tabs	دمج الكل في تبويبات
+	Float in Window	تعويم في نافذة
+	Float All in Windows	تعويم الكل في نوافذ
+	New Window for Document	نافذة جديدة للمستند
+	Workspace	مساحة العمل
+	Essentials	الأساسيات
+	Graphic and Web	الرسومات والويب
+	Painting	الرسم
+	Photography	التصوير
+	New Workspace…	مساحة عمل جديدة…
+	Delete Workspace…	حذف مساحة العمل…
+	Reset Workspace	إعادة تعيين مساحة العمل
+	Reset Tool	إعادة تعيين الأداة
+	Reset All Tools	إعادة تعيين كل الأدوات
+	Reset all tools to their default settings?	إعادة تعيين كل الأدوات إلى إعداداتها الافتراضية؟
+	Lock Workspace	قفل مساحة العمل
+	Theme	السمة
+	Pro Theme	سمة احترافية
+	Pro Medium Gray Theme	سمة احترافية رمادية متوسطة
+	Pro Light Gray Theme	سمة احترافية رمادية فاتحة
+	Pro Light Theme	سمة احترافية فاتحة
+	Studio Theme	سمة الاستوديو
+	Studio Light Theme	سمة الاستوديو الفاتحة
+	Adwaita Light Theme	سمة Adwaita الفاتحة
+	Adwaita Dark Theme	سمة Adwaita الداكنة
+	Classic Theme	السمة الكلاسيكية
+	Solarized dark	Solarized داكنة
+	Solarized Dark Theme	سمة Solarized الداكنة
+	Breeze dark	Breeze داكنة
+	Breeze Dark Theme	سمة Breeze الداكنة
+	Breeze light	Breeze فاتحة
+	Breeze Light Theme	سمة Breeze الفاتحة
+	Next Theme	السمة التالية
+	Actions	الإجراءات
+	Brush Settings	إعدادات الفرشاة
+	Brushes	الفُرش
+	Channels	القنوات
+	Character	حرف
+	Character Styles	أنماط الحروف
+	Clone Source	مصدر الاستنساخ
+	Color	لون
+	Glyphs	محارف
+	Gradients	التدرجات
+	Histogram	المدرج التكراري
+	History	سجل الإجراءات
+	Info	معلومات
+	Measurement Log	سجل القياسات
+	Modifier Keys	مفاتيح التعديل
+	Navigator	المتصفح
+	Options	خيارات
+	Paragraph	فقرة
+	Paragraph Styles	أنماط الفقرات
+	Paths	مسارات
+	Patterns	الأنماط
+	Properties	خصائص
+	Shapes	أشكال
+	Styles	الأنماط
+	Swatches	عينات الألوان
+	Timeline	الخط الزمني
+	Tool Presets	إعدادات الأدوات المسبقة
+	Tools	الأدوات
+	About PhotoCraft	حول ريتوش
+	PhotoCraft Website	موقع ريتوش
+	PhotoCraft on GitHub	ريتوش على GitHub
+	Warsha Website	موقع ورشة
+	Contact the Developer…	تواصل مع المطوّر…
+	Report an Issue…	الإبلاغ عن مشكلة…
+	WIA Support…	دعم WIA…
+	Apply	تطبيق
+	HSB/HSL	HSB/HSL
+	Invert…	عكس…
+	Load Files into Stack…	تحميل الملفات في مكدّس…
+	Motion	الحركة
+	Notes…	الملاحظات…
+	Other…	أخرى…
+	Remove Warp Split	إزالة تقسيم الالتواء
+	Shape	الشكل
+	Split Warp Crosswise	تقسيم الالتواء بشكل متقاطع
+	Split Warp Horizontally	تقسيم الالتواء أفقياً
+	Split Warp Vertically	تقسيم الالتواء عمودياً
+	Statistics…	الإحصاءات…
+	Refine Strokes	تحسين الضربات
+@plural	{n} item|{n} items	{n} عنصر|عنصر واحد ({n})|عنصران ({n})|{n} عناصر|{n} عنصراً|{n} عنصر
+	Auto	تلقائي
+@id	select.all	تحديد الكل
+@id	edit.stroke	حدّ…
+@id	edit.transform.scale	تحجيم
+@id	edit.purge.undo	سجل التراجع
+	(print to the printer)	(الطباعة على الطابعة)
+	+ Add variable	+ إضافة متغير
+	30 frames @ 30 fps	30 إطاراً @ 30 إطار/ث
+	3D LUT File	ملف 3D LUT
+	Absolute	مطلق
+	Absolute Colorimetric	قياس لوني مطلق
+	Action	الإجراء
+	Adaptive	تكيّفي
+	Adaptive Wide Angle isn't open	الزاوية الواسعة التكيّفية غير مفتوحة
+	Add	إضافة
+	Add Layer Mask	إضافة قناع طبقة
+	Add Stop	إضافة نقطة توقف
+	Add a layer style	إضافة نمط طبقة
+	Add a mask  (from the selection; {key} inverts)	إضافة قناع  (من التحديد؛ {key} للعكس)
+	Add an adjustment	إضافة تعديل
+	Add disk	إضافة قرص
+	Add space after paragraph	إضافة مسافة بعد الفقرة
+	Add space before paragraph	إضافة مسافة قبل الفقرة
+	Add to Sample	إضافة إلى العيّنة
+	Add to selection  ({key})	إضافة إلى التحديد  ({key})
+	Adjust for Zoom	الضبط حسب التكبير
+	Adjustment visible	التعديل ظاهر
+	Adobe RGB (1998) compatible	متوافق مع Adobe RGB ‏(1998)
+	Align and Distribute	المحاذاة والتوزيع
+	Align and distribute	المحاذاة والتوزيع
+	Align horizontal centers	محاذاة المراكز أفقياً
+	Align left edges	محاذاة الحواف اليسرى
+	Align right edges	محاذاة الحواف اليمنى
+	Aligned	محاذى
+	All Caps	جميع الأحرف كبيرة
+	All Slices	كل الشرائح
+	All User Slices	كل شرائح المستخدم
+	All shortcuts reset to PhotoCraft defaults.	أُعيدت كل الاختصارات إلى افتراضيات ريتوش.
+	Alt	Alt
+	Always use pressure for opacity	استخدام الضغط دائماً للعتامة
+	Always use pressure for size	استخدام الضغط دائماً للحجم
+	Amount	المقدار
+	Anchor:	الارتكاز:
+	Angle	الزاوية
+	Angle Gradient	تدرج زاوي
+	Angle Jitter	تذبذب الزاوية
+	Answer the unsaved-changes prompt first	أجب على مطالبة التغييرات غير المحفوظة أولاً
+	Anti-alias	تنعيم الحواف
+	Appearance	مظهر
+	Appearance (Layer Style)	المظهر (نمط الطبقة)
+	Apply Layer Mask	تطبيق قناع الطبقة
+	Apply Per Tip	التطبيق لكل رأس
+	Apply next selected layer comp	تطبيق تركيبة الطبقات المحددة التالية
+	Apply previous selected layer comp	تطبيق تركيبة الطبقات المحددة السابقة
+	Artboard	لوحة الرسم
+	Artboard Background Color	لون خلفية لوحة الرسم
+	Assign working space	تعيين مساحة العمل
+	Author:	الكاتب:
+	Auto Hide	إخفاء تلقائي
+	Auto-Select:	تحديد تلقائي:
+	Automatically level near-horizontal line segments	تسوية أجزاء الخطوط شبه الأفقية تلقائياً
+	Automatically straighten and level	التقويم والتسوية تلقائياً
+	Automatically straighten near-vertical line segments	تقويم أجزاء الخطوط شبه العمودية تلقائياً
+	Background	خلفية
+	Background Color	لون الخلفية
+	Background Contents	محتويات الخلفية
+	Balance	التوازن
+	Baseline	خط الأساس
+	Baseline shift	إزاحة خط الأساس
+	Basic	أساسي
+	Before (Y)	قبل (Y)
+	Begin recording	بدء التسجيل
+	Bend:	الانحناء:
+	Bicubic	ثنائي التكعيب
+	Bicubic (smooth gradients)	ثنائي التكعيب (تدرجات سلسة)
+	Automatic	تلقائي
+	Bicubic Smoother (enlargement)	ثنائي التكعيب أنعم (للتكبير)
+	Bicubic Sharper (reduction)	ثنائي التكعيب أحدّ (للتصغير)
+	Bilinear	ثنائي الخطية
+	Black	أسود
+	Black & White	أبيض وأسود
+	Black Point Compensation	تعويض النقطة السوداء
+	Black, White	أسود، أبيض
+	Blacks	السواد
+	Blending	المزج
+	Blending Options	خيارات المزج
+	Blue	أزرق
+	Blue, Red, Yellow	أزرق، أحمر، أصفر
+	Both Axes	كلا المحورين
+	Bottom	أسفل
+	Brightness	السطوع
+	Brightness Jitter	تذبذب السطوع
+	Brightness/Contrast	السطوع/التباين
+	Bring the selected pin forward	تقديم الدبوس المحدد للأمام
+	Brush Preset picker	منتقي الإعدادات المسبقة للفرشاة
+	Brush Reconstruct Options	خيارات فرشاة إعادة البناء
+	Brush Tool Options	خيارات أداة الفرشاة
+	Cache Level:	مستوى ذاكرة التخزين المؤقت:
+	Camera Raw isn't open	Camera Raw غير مفتوح
+	Cancel	إلغاء
+	Cancel (Esc)	إلغاء (Esc)
+	Cancel any current edits (Esc)	إلغاء أي تعديلات حالية (Esc)
+	Cancel current crop operation  (Esc)	إلغاء عملية الاقتصاص الحالية  (Esc)
+	Cancel transform (Esc)	إلغاء التحويل (Esc)
+	Cancel warp (Esc)	إلغاء الالتواء (Esc)
+	Canvas	اللوحة
+	Canvas extension color:	لون امتداد اللوحة:
+	Capture	التقاط
+	Capture the visibility, position and style of every layer with + below, then switch between versions.	التقط ظهور كل طبقة وموضعها ونمطها بزر + أدناه، ثم بدّل بين النسخ.
+	Catch-up on Stroke End	اللحاق عند نهاية الضربة
+	Center	وسط
+	Center Crop Marks	علامات القص المركزية
+	Center text	توسيط النص
+	Change	تغيير
+	Change All	تغيير الكل
+	Change Screen Mode  (F)	تغيير وضع الشاشة  (F)
+	Change To:	التغيير إلى:
+	Channel Mixer	خلّاط القنوات
+	Channel:	القناة:
+	Check All Layers	فحص كل الطبقات
+	Check Spelling	التدقيق الإملائي
+	Clarity	الوضوح
+	Clear All	مسح الكل
+	Clear Override	مسح التجاوز
+	Clear Samples	مسح العيّنات
+	Click sets foreground · right-click sets background	النقر يعيّن لون المقدمة · النقر الأيمن يعيّن لون الخلفية
+	Click the first point or press {key} to close · Esc cancels	انقر على النقطة الأولى أو اضغط {key} للإغلاق · Esc للإلغاء
+	Click to add a point · drag off or {key}-click or Delete to remove	انقر لإضافة نقطة · اسحبها للخارج أو انقر مع {key} أو Delete للإزالة
+	Click to apply, {key}-click to clear overrides, double-click for Style Options	انقر للتطبيق، وانقر مع {key} لمسح التجاوزات، وانقر نقراً مزدوجاً لخيارات النمط
+	Click to edit the gradient	انقر لتحرير التدرج
+	Click to restore the current colour	انقر لاستعادة اللون الحالي
+	Click to zoom in  ·  {key}-click to zoom out  ·  drag right/left to zoom in/out	انقر للتكبير  ·  انقر مع {key} للتصغير  ·  اسحب يميناً/يساراً للتكبير/التصغير
+	Click with the Note tool to add a note.	انقر بأداة الملاحظة لإضافة ملاحظة.
+	Click: corner · Drag: smooth · Click first point: close · {key} finish · Esc cancel	نقر: زاوية · سحب: سلس · نقر النقطة الأولى: إغلاق · {key} إنهاء · Esc إلغاء
+	Click: corner · Drag: smooth · {alt}-drag: break handle · Click or drag first point: close · {key} finish · Esc cancel	نقر: زاوية · سحب: سلس · سحب مع {alt}: كسر المقبض · نقر أو سحب النقطة الأولى: إغلاق · {key} إنهاء · Esc إلغاء
+	Clip to layer below	قص إلى الطبقة السفلى
+	Clipped	مقصوص
+	Close Style Options	إغلاق خيارات النمط
+	Cmd	Cmd
+	Coated CMYK	CMYK مطلي
+	Color & Swatches	الألوان والعيّنات
+	Color Balance	توازن الألوان
+	Color Detail	تفاصيل الألوان
+	Color Grading	تدريج الألوان
+	Color Lookup	البحث عن الألوان
+	Color Management	إدارة الألوان
+	Color Mixer	خلّاط الألوان
+	Color Mode	وضع الألوان
+	Color Priority	أولوية اللون
+	Color Range preview	معاينة نطاق اللون
+	Color:	اللون:
+	Colorize	تلوين
+	Colors	الألوان
+	Commit Perspective Warp ({key})	اعتماد تشويه المنظور ({key})
+	Commit Puppet Warp ({key})	اعتماد التشويه بالدمى ({key})
+	Commit any current edits ({key})	اعتماد أي تعديلات حالية ({key})
+	Commit current crop operation  ({key})	اعتماد عملية الاقتصاص الحالية  ({key})
+	Commit transform ({key})	اعتماد التحويل ({key})
+	Commit warp ({key})	اعتماد الالتواء ({key})
+	Constant	ثابت
+	Constrain proportions	تقييد النِّسب
+	Contact Sheet II	ورقة الاتصال II
+	Content-Aware	حسب المحتوى
+	Contiguous	متجاور
+	Contrast	التباين
+	Control:	التحكم:
+	Convert document's colors to the working space	تحويل ألوان المستند إلى مساحة العمل
+	Convert to sRGB	التحويل إلى sRGB
+	Copies	النسخ
+	Copper	نحاسي
+	Copyright	حقوق النشر
+	Copyright and Contact Info	حقوق النشر ومعلومات الاتصال
+	Corner Crop Marks	علامات القص في الزوايا
+	Corner radius	نصف قطر الزاوية
+	Correction	التصحيح
+	Count Jitter	تذبذب العدد
+	Create	إنشاء
+	Create Droplet	إنشاء قطرة
+	Create Texture	إنشاء نسيج
+	Create Video Timeline	إنشاء خط زمني للفيديو
+	Create a new count group	إنشاء مجموعة عدّ جديدة
+	Create a new document or open an existing file.	أنشئ مستنداً جديداً أو افتح ملفاً موجوداً.
+	Create a new group	إنشاء مجموعة جديدة
+	Create a new layer	إنشاء طبقة جديدة
+	Create new action	إنشاء إجراء جديد
+	Create new channel	إنشاء قناة جديدة
+	Create new document from current state	إنشاء مستند جديد من الحالة الحالية
+	Create new fill or adjustment layer	إنشاء طبقة تعبئة أو ضبط جديدة
+	Create new gradient	إنشاء تدرج جديد
+	Create new group	إنشاء مجموعة جديدة
+	Create new layer comp	إنشاء تركيبة طبقات جديدة
+	Create new pattern from the selection	إنشاء نقش جديد من التحديد
+	Create new shape from the current path	إنشاء شكل جديد من المسار الحالي
+	Create new snapshot	إنشاء لقطة جديدة
+	Create new tool preset	إنشاء إعداد أداة مسبق جديد
+	Crop Factor	عامل الاقتصاص
+	Ctrl	Ctrl
+	Current & Below	الحالية وما تحتها
+	Current Layer	الطبقة الحالية
+	Current Size	الحجم الحالي
+	Current Tool Only	الأداة الحالية فقط
+	Curve	المنحنى
+	Curves	المنحنيات
+	Custom	مخصص
+	Custom Shapes	الأشكال المخصصة
+	Cyan	سماوي
+	Cyan  ·  Red	سماوي  ·  أحمر
+	Darken	تغميق
+	Darks	الداكنات
+	Data Sets	مجموعات البيانات
+	Default	افتراضي
+	Default colours (D)	الألوان الافتراضية (D)
+	Default printer	الطابعة الافتراضية
+	Default restored.	استُعيد الافتراضي.
+	Define	تعريف
+	Define at least one variable first.	عرّف متغيراً واحداً على الأقل أولاً.
+	Dehaze	إزالة الضباب
+	Delete Cropped Pixels	حذف البكسلات المقتطعة
+	Delete Group	حذف المجموعة
+	Delete Layer Mask	حذف قناع الطبقة
+	Delete Layers	حذف الطبقات
+	Delete Shortcut	حذف الاختصار
+	Delete Timeline	حذف الخط الزمني
+	Delete Tool Preset	حذف الإعداد المسبق للأداة
+	Delete count group	حذف مجموعة العدّ
+	Delete current channel	حذف القناة الحالية
+	Delete current state	حذف الحالة الحالية
+	Delete effect layer	حذف طبقة التأثير
+	Delete layer ‘{name}’?	حذف الطبقة ‘{name}’؟
+	Delete {count} layers? {names}	حذف {count} طبقة؟ {names}
+	Delete layer?	حذف الطبقة؟
+	The document is closed	المستند مغلق
+	The document or selected layers changed. Please request deletion again.	تغيّر المستند أو الطبقات المحددة. اطلب الحذف مرة أخرى.
+	Missing delete command	أمر الحذف مفقود
+	Invalid delete command	أمر حذف غير صالح
+	Layer deleted, but confirmation preference could not be saved: {error}	حُذفت الطبقة، لكن تعذّر حفظ تفضيل التأكيد: {error}
+	Delete layer	حذف الطبقة
+	Delete layer comp	حذف تركيبة الطبقات
+	Delete note	حذف الملاحظة
+	Delete selected measurements	حذف القياسات المحددة
+	Delete style	حذف النمط
+	Delete tool preset	حذف الإعداد المسبق للأداة
+	Density	الكثافة
+	Density:	الكثافة:
+	Depth	العمق
+	Depth Jitter	تذبذب العمق
+	Description	الوصف
+	Deselect All	إلغاء تحديد الكل
+	Detail	التفاصيل
+	Diamond Gradient	تدرج ماسي
+	Difference	اختلاف
+	Diffusion	الانتشار
+	Discard the embedded profile (don't color manage)	تجاهل ملف التعريف المضمّن (بلا إدارة ألوان)
+	Discontiguous	غير متجاور
+	Discord	Discord
+	Dismiss	تجاهل
+	Display P3	Display P3
+	Display Text	النص المعروض
+	Dither	تنعيم بالنقاط
+	Divide…	تقسيم…
+	Document	مستند
+	Don't Save	عدم الحفظ
+	No	لا
+	Yes	نعم
+	Done	تم
+	Dots	النقاط
+	Drag a rectangle around the object	اسحب مستطيلاً حول الكائن
+	Drag on the image to add a constraint; Shift for horizontal/vertical; right-click to delete.	اسحب على الصورة لإضافة قيد؛ Shift للأفقي/العمودي؛ انقر بالزر الأيمن للحذف.
+	Drag to move the active shape's path or the Work Path	اسحب لتحريك مسار الشكل النشط أو مسار العمل
+	Click: select anchor · Drag: move anchor, handle or segment · {shift}-click: add · {alt}-click: whole subpath	نقر: تحديد نقطة ارتكاز · سحب: تحريك نقطة الارتكاز أو المقبض أو المقطع · نقر مع {shift}: إضافة · نقر مع {alt}: المسار الفرعي كاملاً
+	Draw with the Pen tool (P) or make a work path from a selection.	ارسم بأداة القلم (P) أو أنشئ مسار عمل من تحديد.
+	Drop an image or PSD anywhere to open it.	أفلت صورة أو ملف PSD في أي مكان لفتحه.
+	Native file drag-and-drop is unavailable	سحب الملفات وإفلاتها غير متاح
+	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	سحب الملفات وإفلاتها غير مدعوم على Wayland بعد. استخدم ملف › فتح، أو انسخ الصورة في مدير الملفات والصقها بـ {paste}.
+	To drop files, start PhotoCraft under XWayland: `{command}`	لإفلات الملفات، شغّل ريتوش تحت XWayland: `{command}`
+	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	أو اضبط التفضيلات › الأداء › خادم عرض لينكس على X11: سيعمل ريتوش بعدها دائماً تحت XWayland.
+	Edit › Paste	تحرير › لصق
+	Duplicate Layers…	تكرار الطبقات…
+	Duplicate style	تكرار النمط
+	Edit Toolbar…	تحرير شريط الأدوات…
+	Use File › Open, or paste a copied image with {paste}.	استخدم ملف › فتح، أو الصق صورة منسوخة بـ {paste}.
+	Edit in Quick Mask Mode  (Q)	التحرير في وضع القناع السريع  (Q)
+	Edit in Standard Mode  (Q)	التحرير في الوضع القياسي  (Q)
+	Effects	تأثيرات
+	Embed Color Profile	تضمين ملف تعريف الألوان
+	Embedded Profile Mismatch	عدم تطابق ملف التعريف المضمّن
+	Enable airbrush-style build-up effects	تمكين تأثيرات التراكم بأسلوب البخاخ
+	Enhance Edge	تحسين الحافة
+	Entire Font	الخط بأكمله
+	Exact	دقيق
+	Expansion:	التوسيع:
+	Export Presets	تصدير الإعدادات المسبقة
+	Export selected measurements (CSV)	تصدير القياسات المحددة (CSV)
+	Exposure	التعريض
+	Exposure and Gamma	التعريض وغاما
+	Exposure:	التعريض:
+	Eyedropper	القطّارة
+	Factor:	العامل:
+	Faux Bold	غامق اصطناعي
+	Faux Italic	مائل اصطناعي
+	Feather	تنعيم الحواف
+	Fewer Points	نقاط أقل
+	File Settings	إعدادات الملف
+	Fill	تعبئة
+	Fill:	التعبئة:
+	Filter for adjustment layers	تصفية طبقات الضبط
+	Filter for pixel layers	تصفية طبقات البكسل
+	Filter for shape layers	تصفية طبقات الأشكال
+	Filter for smart objects	تصفية الكائنات الذكية
+	Filter for type layers	تصفية طبقات النص
+	Filter:	التصفية:
+	Finger Painting	الرسم بالإصبع
+	Fisheye	عين السمكة
+	Fit	ملاءمة
+	Fit Screen	ملاءمة الشاشة
+	Fill Screen	ملء الشاشة
+	Fit in View	ملاءمة للعرض
+	Fixed	ثابت
+	Fixed Ratio	نسبة ثابتة
+	Fixed Size	حجم ثابت
+	Flip	قلب
+	Flip X	قلب X
+	Flip X Jitter	تذبذب قلب X
+	Flip Y	قلب Y
+	Flip Y Jitter	تذبذب قلب Y
+	Flow	التدفق
+	Flow Jitter	تذبذب التدفق
+	Focal Length	البعد البؤري
+	Font	خط
+	Font Size:	حجم الخط:
+	Font size	حجم الخط
+	Foreground	المقدمة
+	Foreground to Background	من لون المقدمة إلى الخلفية
+	Foreground/Background Jitter	تذبذب المقدمة/الخلفية
+	Format	الصيغة
+	Frame from Layers…	إطار من الطبقات…
+	Free	حر
+	Full Spherical	كروي كامل
+	Fuzziness:	الضبابية:
+	GPU	GPU
+	Gamma Correction	تصحيح غاما
+	Gamma:	غاما:
+	Global	عام
+	Glow Color	لون التوهج
+	Gradient Map	خريطة التدرج
+	Grain	الحبيبات
+	Gray	رمادي
+	Gray Gamma 2.2	رمادي غاما 2.2
+	Green	أخضر
+	Group	تجميع
+	Hardness	الصلابة
+	Heart	قلب
+	Height	الارتفاع
+	Height:	الارتفاع:
+	Hide Auto Slices	إخفاء الشرائح التلقائية
+	Hide Properties	إخفاء الخصائص
+	Highlight Compression	ضغط الإضاءات
+	Highlight Priority	أولوية الإضاءات
+	Highlights	الإضاءات
+	Home	الرئيسية
+	Horizontal scale	المقياس الأفقي
+	Hue	تدرج اللون
+	Hue Jitter	تذبذب تدرج اللون
+	Hue/Saturation	تدرج اللون/التشبع
+	Hyphenate	إضافة واصلات
+	Ignore	تجاهل
+	Ignore All	تجاهل الكل
+	Image Size	حجم الصورة
+	Import Brushes…	استيراد فُرش…
+	Import brushes (.abr)	استيراد فُرش (.abr)
+	Import Presets	استيراد إعدادات مسبقة
+	Imported	مستورد
+	Indent First	المسافة البادئة الأولى
+	Indent Left	المسافة البادئة اليسرى
+	Indent Right	المسافة البادئة اليمنى
+	Indent first line	مسافة بادئة للسطر الأول
+	Indent left margin	مسافة بادئة للهامش الأيسر
+	Indent right margin	مسافة بادئة للهامش الأيمن
+	Input:	الإدخال:
+	Inside	داخلي
+	Interlaced	متشابك
+	Interpolation:	الاستيفاء:
+	Intersect with selection  ({key})	التقاطع مع التحديد  ({key})
+	Invert All	عكس الكل
+	Invert has no settings.	لا توجد إعدادات للعكس.
+	Italic	مائل
+	Contact the Developer	تواصل مع المطوّر
+	Justify all	ضبط الكل
+	Justify last centered	ضبط مع توسيط السطر الأخير
+	Justify last left	ضبط مع محاذاة السطر الأخير لليسار
+	Justify last right	ضبط مع محاذاة السطر الأخير لليمين
+	Kerning	التقنين
+	Keyboard Shortcuts	اختصارات لوحة المفاتيح
+	Keyboard Shortcuts and Menus	اختصارات لوحة المفاتيح والقوائم
+	Kind	النوع
+	Label Size	حجم التسمية
+	Labels	التسميات
+	Lanczos (sharp)	Lanczos (حاد)
+	Landscape	أفقي
+	Last Document State	آخر حالة للمستند
+	Layout	تخطيط
+	Leading	المسافة بين الأسطر
+	Leading (set to the font size × auto-leading when Auto)	التباعد الرأسي (يُضبط على حجم الخط × التباعد التلقائي عند اختيار «تلقائي»)
+	Leave as is (don't color manage)	الترك كما هو (بلا إدارة ألوان)
+	Left align text	محاذاة النص لليسار
+	Length:	الطول:
+	Level	المستوى
+	Levels	المستويات
+	Lighten	تفتيح
+	Lightness	الإضاءة
+	Lights	الفواتح
+	Limits:	الحدود:
+	Linear Gradient	تدرج خطي
+	Link layers	ربط الطبقات
+	Link width and height	ربط العرض والارتفاع
+	Liquify is not open	التسييل غير مفتوح
+	Load	تحميل
+	Load 3D LUT…	تحميل 3D LUT…
+	Load channel as selection	تحميل القناة كتحديد
+	Load…	تحميل…
+	Localized Color Clusters	تجمعات ألوان موضعية
+	Lock	قفل
+	Lock all	قفل الكل
+	Lock image pixels	قفل بكسلات الصورة
+	Lock layer	قفل الطبقة
+	Lock position	قفل الموضع
+	Lock transparent pixels	قفل البكسلات الشفافة
+	Lock:	القفل:
+	Logical Length:	الطول المنطقي:
+	Logical Units:	الوحدات المنطقية:
+	Luminance	الإضاءة
+	Luminance Detail	تفاصيل الإضاءة
+	Magenta	أرجواني
+	Magenta  ·  Green	أرجواني  ·  أخضر
+	Maintain aspect ratio	الحفاظ على نسبة الأبعاد
+	Marker Size	حجم العلامة
+	Mask All	إخفاء الكل بقناع
+	Mask Options	خيارات القناع
+	Masking	الإخفاء بالقناع
+	Master	الرئيسي
+	Matte	الحافة
+	Median:	الوسيط:
+	Menus	القوائم
+	Mesh Size	حجم الشبكة
+	Metadata	البيانات الوصفية
+	Metrics	المقاييس
+	Midpoint	نقطة منتصف
+	Midtones	الدرجات المتوسطة
+	Midtones from:	الدرجات المتوسطة من:
+	Midtones to:	الدرجات المتوسطة إلى:
+	Minimum Depth	الحد الأدنى للعمق
+	Minimum Diameter	الحد الأدنى للقطر
+	Minimum Roundness	الحد الأدنى للاستدارة
+	Mode:	الوضع:
+	Monochrome	أحادي اللون
+	More Points	نقاط أكثر
+	Move effect layer down	تحريك طبقة التأثير لأسفل
+	Move effect layer up	تحريك طبقة التأثير لأعلى
+	Move to	النقل إلى
+	Name	الاسم
+	Name:	الاسم:
+	Nearest Neighbor	أقرب جار
+	Nearest Neighbor (hard edges)	أقرب جار (حواف حادة)
+	New Size	الحجم الجديد
+	New document…	مستند جديد…
+	New effect layer	طبقة تأثير جديدة
+	New selection	تحديد جديد
+	Next frame	الإطار التالي
+	Next note	الملاحظة التالية
+	No Color	بلا لون
+	No Color Management	بلا إدارة ألوان
+	No Dither	بلا تنعيم بالنقاط
+	No author	بلا كاتب
+	No character style	بلا نمط أحرف
+	No document	لا يوجد مستند
+	No matching commands	لا توجد أوامر مطابقة
+	No presets for the current tool.	لا توجد إعدادات مسبقة للأداة الحالية.
+	No presets of this type.	لا توجد إعدادات مسبقة من هذا النوع.
+	No properties	لا توجد خصائص
+	No tool presets.	لا توجد إعدادات أدوات مسبقة.
+	Noise Reduction	تقليل التشويش
+	Normal	عادي
+	Not in Dictionary:	غير موجود في القاموس:
+	OK	موافق
+	Offset	الإزاحة
+	Only Web Colors	ألوان الويب فقط
+	Opacity	العتامة
+	Opacity Jitter	تذبذب العتامة
+	Opacity:	العتامة:
+	Open a document to define variables.	افتح مستنداً لتعريف المتغيرات.
+	Open a document to select a colour range.	افتح مستنداً لتحديد نطاق لوني.
+	Open a document to use the timeline.	افتح مستنداً لاستخدام الخط الزمني.
+	Optical	بصري
+	Optimized	محسّن
+	Option-click to define a source point to clone from	انقر مع Option لتعريف نقطة المصدر للاستنساخ منها
+	Original	الأصل
+	Output Channel:	قناة الإخراج:
+	Output Levels:	مستويات الإخراج:
+	Output:	الإخراج:
+	Outside	خارجي
+	Overlay Color	لون التراكب
+	Overlay Opacity	عتامة التراكب
+	Overlay: Rule of Thirds	التراكب: قاعدة الأثلاث
+	Override Pressure	تجاوز الضغط
+	Override Rotation	تجاوز الدوران
+	Override Tilt	تجاوز الإمالة
+	PRESET DETAILS	تفاصيل الإعداد المسبق
+	PSD	PSD
+	Paint Overlay	تراكب الرسم
+	Panel locations are saved in the workspace. Keyboard shortcuts, menus and toolbar are optional.	تُحفظ مواضع اللوحات في مساحة العمل. اختصارات لوحة المفاتيح والقوائم وشريط الأدوات اختيارية.
+	Paper	الورق
+	Path	مسار
+	Pattern	النمط
+	Pattern Size	حجم النقش
+	Pause	إيقاف مؤقت
+	Percent	النسبة المئوية
+	Perceptual	إدراكي
+	Perspective Warp is not active	تشويه المنظور غير نشط
+	Perspective Warp: draw planes along the image's perspective, then switch to Warp	تشويه المنظور: ارسم مستويات على امتداد منظور الصورة، ثم انتقل إلى «الالتواء»
+	Photo Filter	مرشح الصورة
+	PhotoCraft	ريتوش
+	PhotoCraft Manages Colors	ريتوش يدير الألوان
+	PhotoCraft — an open-source, native image editor written in Rust.	ريتوش — محرر صور أصيل مفتوح المصدر مكتوب بلغة Rust.
+	Pin Depth:	عمق الدبوس:
+	Pixel Length:	الطول بالبكسل:
+	Pixels/Centimeter	بكسل/سنتيمتر
+	Pixels/Inch	بكسل/بوصة
+	Pixels:	البكسلات:
+	Play	تشغيل
+	Play selection	تشغيل التحديد
+	Portrait	عمودي
+	Position	الموضع
+	Position and Size	الموضع والحجم
+	Posterize	تقليل الألوان
+	Preserve Details	الحفاظ على التفاصيل
+	Preserve Luminosity	الحفاظ على الإضاءة
+	Preset	إعداد مسبق
+	Preset Type	نوع الإعداد المسبق
+	Preset:	الإعداد المسبق:
+	Presets:	الإعدادات المسبقة:
+	Press keys…	اضغط المفاتيح…
+	Pressure	الضغط
+	Pressure for Opacity	الضغط للعتامة
+	Pressure for Size	الضغط للحجم
+	Prevent auto-nesting in and out of Artboards and Frames	منع التداخل التلقائي داخل لوحات الرسم والإطارات وخارجها
+	Preview	معاينة
+	Previous frame	الإطار السابق
+	Previous note	الملاحظة السابقة
+	Print	طباعة
+	Printer	الطابعة
+	Printer Manages Colors	الطابعة تدير الألوان
+	Printer Setup	إعداد الطابعة
+	Printing Marks	علامات الطباعة
+	Progressive	تدريجي
+	Promote	ترقية
+	Protect Detail	حماية التفاصيل
+	Protect Foreground Color	حماية لون المقدمة
+	Protect Tones	حماية الدرجات اللونية
+	Proximity Match	مطابقة التقارب
+	Pulled String Mode	وضع الخيط المشدود
+	Puppet Warp is not active	التشويه بالدمى غير نشط
+	Purity	النقاء
+	Quality	الجودة
+	Quick Actions	الإجراءات السريعة
+	Quick Export As PNG	تصدير سريع كـ PNG
+	Radial Gradient	تدرج شعاعي
+	Radius	نصف القطر
+	Radius:	نصف القطر:
+	Range:	النطاق:
+	Rate	المعدل
+	Recently Used	المستخدمة مؤخراً
+	Reconstruct	إعادة البناء
+	Record ● a sequence of edits, then play ▶ it on any document.	سجّل ● سلسلة تعديلات، ثم شغّلها ▶ على أي مستند.
+	Red	أحمر
+	Redefine style by current selection	إعادة تعريف النمط من التحديد الحالي
+	Refine	تحسين
+	Reflected Gradient	تدرج منعكس
+	Registration Marks	علامات التسجيل
+	Regular	عادي
+	Relative	نسبي
+	Relative Colorimetric	قياس لوني نسبي
+	Remove	إزالة
+	Remove All Pins	إزالة كل الدبابيس
+	Remove Background	إزالة الخلفية
+	Remove Planes	إزالة المستويات
+	Remove Tool	إزالة الأداة
+	Remove stop	إزالة نقطة التوقف
+	Remove variable	إزالة المتغير
+	Rename	إعادة تسمية
+	Rename Group…	إعادة تسمية المجموعة…
+	Rename Layer…	إعادة تسمية الطبقة…
+	Rename Tool Preset…	إعادة تسمية إعداد الأداة المسبق…
+	Rename…	إعادة تسمية…
+	Resample	إعادة التعيين
+	Reset All to Defaults	إعادة تعيين الكل إلى الافتراضي
+	Import Shortcuts…	استيراد الاختصارات…
+	Load a keyboard shortcut set saved as .kys	تحميل مجموعة اختصارات لوحة مفاتيح محفوظة بصيغة .kys
+	Imported {n} shortcuts from {file}. Click OK to keep them.	استُورد {n} اختصار من {file}. انقر «موافق» للإبقاء عليها.
+	{n} commands are not in PhotoCraft.	{n} أمر غير موجود في ريتوش.
+	Keyboard shortcuts imported	استُوردت اختصارات لوحة المفاتيح
+	Your keyboard shortcut set {set} is in use here: {n} shortcuts differ from the defaults. Edit › Keyboard Shortcuts shows them; Reset All to Defaults undoes this.	مجموعة اختصارات لوحة المفاتيح {set} مستخدمة هنا: {n} اختصار يختلف عن الافتراضي. تعرضها «تحرير › اختصارات لوحة المفاتيح»، و«إعادة تعيين الكل إلى الافتراضي» تلغي ذلك.
+	Import keyboard shortcuts?	استيراد اختصارات لوحة المفاتيح؟
+	PhotoCraft found your keyboard shortcut set {set} from another image editor on this computer: {n} of its shortcuts differ from PhotoCraft's. Import it?	وجد ريتوش مجموعة اختصارات لوحة المفاتيح {set} من محرر صور آخر على هذا الكمبيوتر: {n} من اختصاراتها تختلف عن اختصارات ريتوش. هل تريد استيرادها؟
+	Edit › Keyboard Shortcuts › Reset All to Defaults undoes an import.	«تحرير › اختصارات لوحة المفاتيح › إعادة تعيين الكل إلى الافتراضي» يلغي الاستيراد.
+	Don't Import	عدم الاستيراد
+	The keyboard shortcut set was not imported: {error}	لم تُستورد مجموعة اختصارات لوحة المفاتيح: {error}
+	Reset Section	إعادة تعيين القسم
+	Reset Transform	إعادة تعيين التحويل
+	Reset to defaults	إعادة التعيين إلى الافتراضيات
+	Resolution	الدقة
+	Resolution:	الدقة:
+	Restore All	استعادة الكل
+	Restore Defaults	استعادة الافتراضيات
+	Restrictive (Web)	مقيّد (للويب)
+	Right align text	محاذاة النص لليمين
+	Rigid	صلب
+	Rotate:	تدوير:
+	Rotation	دوران
+	Roughness	الخشونة
+	Roundness	الاستدارة
+	Roundness Jitter	تذبذب الاستدارة
+	Rulers & Grids	مساطر وشبكات
+	Sample All Layers	أخذ عيّنة من كل الطبقات
+	Sample:	العيّنة:
+	Sampling: Background Swatch	أخذ العيّنات: حامل لون الخلفية
+	Sampling: Continuous	أخذ العيّنات: مستمر
+	Sampling: Once	أخذ العيّنات: مرة واحدة
+	Saturate	تشبيع
+	Saturation	التشبع
+	Saturation Jitter	تذبذب التشبع
+	Save HTML and Images	حفظ HTML والصور
+	Save as PDF	حفظ بصيغة PDF
+	Save selection as channel	حفظ التحديد كقناة
+	Save…	حفظ…
+	Scale to Fit Media	التحجيم لملاءمة الوسائط
+	Scatter	مبعثر
+	Scratch disks	أقراص التخزين المؤقت
+	Search	بحث
+	Search commands	البحث عن الأوامر
+	Search commands, tools and panels…	البحث في الأوامر والأدوات واللوحات…
+	Search fonts	البحث عن الخطوط
+	Select All	تحديد الكل
+	Select Subject	تحديد العنصر الرئيسي
+	Select a type layer or click into text to insert glyphs	حدد طبقة نص أو انقر داخل النص لإدراج حروف رسومية
+	Select text to apply a character style	حدد نصاً لتطبيق نمط أحرف
+	Select:	التحديد:
+	Selections	التحديدات
+	Selective	انتقائي
+	Selective Color	اللون الانتقائي
+	Send the selected pin backward	إرجاع الدبوس المحدد للخلف
+	Set additional smoothing options	تعيين خيارات تنعيم إضافية
+	Set background color	تعيين لون الخلفية
+	Set foreground color	تعيين لون المقدمة
+	Set painting symmetry options	تعيين خيارات تماثل الرسم
+	Symmetry Off	التماثل متوقف
+	Set shape fill type	تعيين نوع تعبئة الشكل
+	Set shape stroke type	تعيين نوع حد الشكل
+	Set the text color	تعيين لون النص
+	Shadows	الظلال
+	Shape:	الشكل:
+	Sharpening	زيادة الحدة
+	Shift	Shift
+	Shortcut removed.	أُزيل الاختصار.
+	Show All Menu Items	إظهار كل عناصر القائمة
+	Show Backdrop	إظهار الخلفية
+	Show Guides	إظهار الأدلة
+	Show Mask	إظهار القناع
+	Show Mesh	إظهار الشبكة المجسّمة
+	Show Overlay	إظهار التراكب
+	Show Transform Controls	إظهار عناصر التحكم بالتحويل
+	Show or hide the Notes panel	إظهار لوحة الملاحظات أو إخفاؤها
+	Show:	إظهار:
+	Sides	الأضلاع
+	Sides:	الأضلاع:
+	Size	الحجم
+	Size Jitter	تذبذب الحجم
+	Size:	الحجم:
+	Slice Options…	خيارات الشريحة…
+	Slices From Guides	شرائح من الأدلة
+	Slices are locked (View › Lock Slices)	الشرائح مقفلة (عرض › قفل الشرائح)
+	Small Caps	الأحرف الكبيرة المصغّرة
+	Smoothing	التنعيم
+	Space After	المسافة بعد
+	Space Before	المسافة قبل
+	Spacing	التباعد
+	Spell check complete.	اكتمل التدقيق الإملائي.
+	Split:	التقسيم:
+	Star ratio	نسبة النجمة
+	Stop playing/recording	إيقاف التشغيل/التسجيل
+	Straighten	تقويم
+	Straighten Layer	تقويم الطبقة
+	Strength:	القوة:
+	Strikethrough	يتوسطه خط
+	Stroke	حد
+	Stroke Catch-up	لحاق الضربة
+	Stroke:	الحد:
+	Location	الموقع
+	Location:	الموقع:
+	Preserve Transparency	الحفاظ على الشفافية
+	Style	النمط
+	Style Options	خيارات النمط
+	Style Options…	خيارات النمط…
+	Style: Normal	النمط: عادي
+	Subtract from Sample	الطرح من العيّنة
+	Subtract from selection  ({key})	الطرح من التحديد  ({key})
+	Suggestions:	الاقتراحات:
+	Swap colours (X)	تبديل الألوان (X)
+	Swaps height and width	يبدّل الارتفاع والعرض
+	Switch between free transform and warp modes	التبديل بين وضعي التحويل الحر والالتواء
+	Switch theme	تبديل السمة
+	Temperature	درجة الحرارة
+	Tetrahedral	رباعي الأوجه
+	Text Position:	موضع النص:
+	Texture	النسيج
+	Texture Each Tip	نسيج لكل رأس
+	Threshold	العتبة
+	Threshold Level	مستوى العتبة
+	Thumbnail size (smallest: list)	حجم الصورة المصغّرة (الأصغر: قائمة)
+	Tilt X	الإمالة X
+	Tilt Y	الإمالة Y
+	Tint	الصبغة
+	Toggle count group visibility	تبديل ظهور مجموعة العدّ
+	Toggle text orientation	تبديل اتجاه النص
+	Tolerance	التفاوت
+	Tolerance:	التفاوت:
+	Tone:	الدرجة اللونية:
+	Toolbar	شريط الأدوات
+	Top	أعلى
+	Total:	الإجمالي:
+	Tracking	التتبع
+	Tracking (1/1000 em)	التتبع (1/1000 em)
+	Transparency	شفافية
+	Transparent	شفاف
+	Trilinear	ثلاثي الخطية
+	Type Styles	أنماط النص
+	Type:	النوع:
+	Underline	تسطير
+	Untitled	بلا عنوان
+	Untitled-1	بلا عنوان-1
+	Update layer comp (visibility, position and appearance)	تحديث تركيبة الطبقات (الظهور والموضع والمظهر)
+	Use Default	استخدام الافتراضي
+	Use Legacy	استخدام القديم
+	Use Measurement Scale	استخدام مقياس القياس
+	Use the embedded profile (instead of the working space)	استخدام ملف التعريف المضمّن (بدل مساحة العمل)
+	Variables bind a layer's visibility, text or pixels to a named data slot.	تربط المتغيرات ظهور الطبقة أو نصها أو بكسلاتها بخانة بيانات مسمّاة.
+	Vertical scale	المقياس العمودي
+	Vibrance	الحيوية
+	View Options	خيارات العرض
+	Vignetting	التظليل المحيطي
+	Violet, Orange	بنفسجي، برتقالي
+	Visibility	الظهور
+	Visible	ظاهر
+	Warp:	الالتواء:
+	Web Snap	التقاط ألوان الويب
+	Weight	السماكة
+	Weight:	السماكة:
+	White	أبيض
+	White Balance: As Shot	توازن الأبيض: كما التُقط
+	Whites	البياض
+	Width	العرض
+	Slant	إمالة
+	Width:	العرض:
+	Work Path	مسار العمل
+	Yellow	أصفر
+	Yellow  ·  Blue	أصفر  ·  أزرق
+	Zoom	التكبير
+	Zoom in	تكبير
+	Zoom out	تصغير
+	command or shortcut	أمر أو اختصار
+	current	الحالي
+	image file path	مسار ملف الصورة
+	modified	معدّل
+	name	الاسم
+	new	جديد
+	{name} options	خيارات {name}
+	↑↓ navigate   {key} run   esc close	↑↓ للتنقل   {key} للتنفيذ   esc للإغلاق
+	Version {version}	الإصدار {version}
+	New Document	مستند جديد
+	New Document With Mask	مستند جديد مع قناع
+	New Layer With Mask	طبقة جديدة مع قناع
+	New Layer	طبقة جديدة
+	Saved	محفوظ
+	Save Preset…	حفظ إعداد مسبق…
+	Preset Name	اسم الإعداد المسبق
+	No saved presets yet.	لا توجد إعدادات مسبقة محفوظة بعد.
+	Error	خطأ
+	Command	أمر
+	Adjustment layers have nothing to transform	لا يوجد ما يُحوَّل في طبقات الضبط
+	Altitude	الارتفاع
+	Android 1080p	أندرويد 1080p
+	Apple Watch 45mm	Apple Watch ‏45 مم
+	Aqua	أزرق مائي
+	Art & Illustration	الفن والرسم التوضيحي
+	Warsha	ورشة
+	Background Eraser Tool	أداة ممحاة الخلفية
+	Bevel & Emboss	شطف ونقش بارز
+	Blend Mode	وضع المزج
+	Blues	الأزرق
+	Blur Tool	أداة الضبابية
+	Bold	عريض
+	Brush	الفرشاة
+	Pencil	قلم رصاص
+	Block	كتلة
+	Brush Pose	وضعية الفرشاة
+	Brush Tip Shape	شكل رأس الفرشاة
+	Brush Tool	أداة الفرشاة
+	Build-up	التراكم
+	Burn Tool	أداة الحرق
+	Centimeters	سنتيمترات
+	Choke	الانخناق
+	Classic	كلاسيكي
+	Click to add text	انقر لإضافة نص
+	Click to fill similar colours	انقر لتعبئة الألوان المتشابهة
+	Clone Stamp Tool	أداة ختم الاستنساخ
+	Color Burn	حرق اللون
+	Color Dodge	تفادي اللون
+	Color Dynamics	ديناميكيات الألوان
+	Color Overlay	تراكب لوني
+	Comic Book	كتاب مصوّر
+	Conform	المطابقة
+	Content-Aware Fill needs a selection on a pixel layer	التعبئة حسب المحتوى تحتاج تحديداً على طبقة بكسل
+	Could not transform: the layer is empty	تعذّر التحويل: الطبقة فارغة
+	Could not use Perspective Warp: the layer is empty	تعذّر استخدام تشويه المنظور: الطبقة فارغة
+	Could not use Puppet Warp: no opaque pixels	تعذّر استخدام التشويه بالدمى: لا توجد بكسلات معتمة
+	Could not use Puppet Warp: the layer is empty	تعذّر استخدام التشويه بالدمى: الطبقة فارغة
+	Crop Tool	أداة الاقتصاص
+	Crosswise	متقاطع
+	Current Tool	الأداة الحالية
+	Custom Shape Tool	أداة الشكل المخصص
+	Cyans	السماوي
+	Default PhotoCraft Size	حجم ريتوش الافتراضي
+	Delete Workspace	حذف مساحة العمل
+	Diamond	معيّن
+	Dimensions:	الأبعاد:
+	Direction	اتجاه
+	Distance	المسافة
+	Document Dimensions	أبعاد المستند
+	Document Profile	ملف تعريف المستند
+	Document Sizes	أحجام المستند
+	Dodge Tool	أداة التفتيح
+	Down	لأسفل
+	Drag to draw a gradient	اسحب لرسم تدرج
+	Drag to move the active layer	اسحب لتحريك الطبقة النشطة
+	Drag to pan  ·  hold Space with any tool	اسحب للتحريك  ·  استمر بالضغط على المسافة مع أي أداة
+	Drop Shadow	إسقاط الظل
+	Dual Brush	فرشاة مزدوجة
+	Edge	الحافة
+	Efficiency	الكفاءة
+	Efficiency: 100%	الكفاءة: 100%
+	Ellipse Tool	أداة القطع الناقص
+	Elliptical Marquee Tool	أداة التحديد البيضاوي
+	Single Row Marquee Tool	أداة تحديد صف واحد
+	Single Column Marquee Tool	أداة تحديد عمود واحد
+	Emboss	نقش بارز
+	Eraser	ممحاة
+	Eraser Tool	أداة الممحاة
+	ExtraBold	ثقيل جداً
+	ExtraLight	رفيع جداً
+	Eyedropper Tool	أداة القطّارة
+	Fade	تلاشي
+	Fill Opacity	عتامة التعبئة
+	Film & Video	الأفلام والفيديو
+	From	من
+	General	عام
+	GitHub	GitHub
+	Gradient Overlay	تراكب متدرج
+	Gradient Tool	أداة التدرج
+	Greens	الأخضر
+	Hand Tool	أداة اليد
+	Hard	قاسٍ
+	Hard Mix	مزج قوي
+	Healing Brush Tool	أداة فرشاة المعالجة
+	Highlights from:	الإضاءات من:
+	History Brush Tool	أداة فرشاة السجل
+	Horizontal Type Tool	أداة النص الأفقي
+	Horizontal Type Mask Tool	أداة قناع النص الأفقي
+	Vertical Type Mask Tool	أداة قناع النص العمودي
+	Image Size:	حجم الصورة:
+	Inches	بوصات
+	Indexed	مفهرس
+	Initial Direction	الاتجاه الأولي
+	Inner Bevel	شطف داخلي
+	Inner Glow	التوهج الداخلي
+	Inner Shadow	الظل الداخلي
+	Lab	Lab
+	Landscape, 10 x 8	أفقي، 10 × 8
+	Landscape, 6 x 4	أفقي، 6 × 4
+	Landscape, 7 x 5	أفقي، 7 × 5
+	Lasso	تحديد حر
+	Lasso Tool	أداة اللاسو
+	Layer Count	عدد الطبقات
+	Layer Knocks Out Drop Shadow	الطبقة تحجب الظل الساقط
+	Legal	Legal
+	Letter	Letter
+	Light	فاتح
+	Line Tool	أداة الخط
+	Linear	خطي
+	Linear Burn	حرق خطي
+	Linear Height	الارتفاع الخطي
+	Link with Layer	الربط بالطبقة
+	Lorem Ipsum	نص تجريبي
+	Magentas	الأرجواني
+	Magic Eraser Tool	أداة الممحاة السحرية
+	Magic Wand Tool	أداة العصا السحرية
+	Marquee	التحديد
+	Mean:	المتوسط:
+	Measurement Scale	مقياس القياس
+	Measurement Scale Marker	علامة مقياس القياس
+	Millimeters	مليمترات
+	Mobile	جوال
+	Move Tool	أداة النقل
+	Could not use the move tool because the layer is locked.	تعذّر استخدام أداة النقل لأن الطبقة مقفلة.
+	Could not complete the Free Transform command because the layer is locked.	تعذّر إكمال أمر التحويل الحر لأن الطبقة مقفلة.
+	Multiply	ضرب
+	My Brushes	فُرشي
+	Neutrals	المحايدات
+	New Workspace	مساحة عمل جديدة
+	Note Tool	أداة الملاحظة
+	Object Selection Tool	أداة تحديد الكائن
+	Off	إيقاف
+	Open	فتح
+	Orange	برتقالي
+	Original Ratio	النسبة الأصلية
+	Out Of Gamut	خارج النطاق اللوني
+	Outer Bevel	شطف خارجي
+	Outer Glow	التوهج الخارجي
+	Overlay	تراكب
+	Paint Bucket Tool	أداة دلو الطلاء
+	Paints from the document's opening state	يرسم من حالة فتح المستند
+	Path Selection Tool	أداة تحديد المسار
+	Direct Selection Tool	أداة التحديد المباشر
+	Add Anchor Point Tool	أداة إضافة نقطة ارتكاز
+	Delete Anchor Point Tool	أداة حذف نقطة ارتكاز
+	Click a segment to add an anchor point · {alt}-click an anchor to delete it	انقر على مقطع لإضافة نقطة ارتكاز · انقر مع {alt} على نقطة ارتكاز لحذفها
+	Click an anchor point to delete it · {alt}-click a segment to add one	انقر على نقطة ارتكاز لحذفها · انقر مع {alt} على مقطع لإضافة واحدة
+	Pattern Overlay	تراكب نقش
+	Pen Pressure	ضغط القلم
+	Pen Tilt	إمالة القلم
+	Pen Tool	أداة القلم
+	Convert Point Tool	أداة تحويل النقطة
+	Photo	صورة
+	PhotoCraft website	موقع ريتوش
+	Picas	بيكا
+	Pillow Emboss	نقش وسادي
+	Pixel Replacement	استبدال البكسلات
+	Pixels	البكسلات
+	Points	نقاط
+	Polygon Tool	أداة المضلّع
+	Polygonal Lasso Tool	أداة اللاسو المضلّع
+	Portrait, 4 x 6	عمودي، 4 × 6
+	Portrait, 5 x 7	عمودي، 5 × 7
+	PostScript (72 points/inch)	PostScript ‏(72 نقطة/بوصة)
+	Postcard	بطاقة بريدية
+	Poster	صورة الغلاف
+	Pro (Dark)	احترافي (داكن)
+	Pro (Light)	احترافي (فاتح)
+	Pro (Light Gray)	احترافي (رمادي فاتح)
+	Pro (Medium Gray)	احترافي (رمادي متوسط)
+	Protect Texture	حماية النسيج
+	Purple	بنفسجي
+	Quick Mask	القناع السريع
+	Quick Selection Tool	أداة التحديد السريع
+	Radial	شعاعي
+	Rasterize Layer	تنقيط الطبقة
+	Rasterize Layers	تنقيط الطبقات
+	Ratio	النسبة
+	Recent	الأخيرة
+	Rectangle Tool	أداة المستطيل
+	Rectangular Marquee Tool	أداة التحديد المستطيل
+	Reds	الأحمر
+	Reflected	منعكس
+	Sample: foreground colour	العيّنة: لون المقدمة
+	Sampled Colors	الألوان المأخوذة كعيّنات
+	Satin	الساتان
+	Save Pixel Aspect Ratio	حفظ نسبة أبعاد البكسل
+	Scattering	التبعثر
+	Scratch Sizes	أحجام التخزين المؤقت
+	Select Data Points	تحديد نقاط البيانات
+	Selection	تحديد
+	SemiBold	نصف عريض
+	Shadows up to:	الظلال حتى:
+	Shape Dynamics	ديناميكيات الشكل
+	Sharpen Tool	أداة زيادة الحدة
+	Show Extras Options	خيارات إظهار الإضافات
+	Slice Select Tool	أداة تحديد الشريحة
+	Slice Tool	أداة الشريحة
+	Smart Filters	المرشحات الذكية
+	Smudge Tool	أداة التلطيخ
+	Soft	ناعم
+	Soften	تنعيم
+	Source	المصدر
+	Source: set	المصدر: معيّن
+	Sponge Tool	أداة الإسفنج
+	Spot Healing Brush Tool	أداة فرشاة المعالجة الموضعية
+	Spread	صفحتان متقابلتان
+	Square, 12 x 12	مربع، 12 × 12
+	Square, 5 x 5	مربع، 5 × 5
+	Std Dev:	الانحراف المعياري:
+	Studio (Dark)	استوديو (داكن)
+	Studio (Light)	استوديو (فاتح)
+	Stylus Wheel	عجلة القلم
+	Subtract	طرح
+	Tabloid	Tabloid
+	Text Replacement	استبدال النص
+	Thin	رفيع
+	Traditional (72.27 points/inch)	تقليدي (72.27 نقطة/بوصة)
+	Transfer	النقل
+	Triangle Tool	أداة المثلث
+	Unsaved changes	تغييرات غير محفوظة
+	Uses the foreground and background colours.	يستخدم لوني المقدمة والخلفية.
+	Web	ويب
+	Web Large	الويب كبير
+	Web Minimum	الويب الحد الأدنى
+	Web Most Common	الويب الأكثر شيوعاً
+	WebP (lossless)	WebP (بلا فقدان)
+	Wet Edges	حواف مبلّلة
+	Yellows	الأصفر
+	Zoom Tool	أداة التكبير
+	{name} Properties	خصائص {name}
+	Revert “{name}” to the last saved version? Your changes will be lost.	استعادة «{name}» إلى آخر نسخة محفوظة؟ ستفقد تغييراتك.
+	Do you want to save the changes you made to “{name}” before quitting?	هل تريد حفظ التغييرات التي أجريتها على «{name}» قبل الإنهاء؟
+	Do you want to save the changes you made to “{name}” before closing?	هل تريد حفظ التغييرات التي أجريتها على «{name}» قبل الإغلاق؟
+	Doc: {flat}/{layered}	المستند: {flat}/{layered}
+	Scratch: {size}	التخزين المؤقت: {size}
+	Untagged {mode}	{mode} بلا وسم
+	Invalid {mode} profile	ملف تعريف {mode} غير صالح
+	Unnamed {mode} profile	ملف تعريف {mode} بلا اسم
+	{w} px x {h} px ({ppi} ppi)	{w} بكسل × {h} بكسل ({ppi} بكسل/بوصة)
+	{w} {unit} x {h} {unit} ({ppi} ppi)	{w} {unit} × {h} {unit} ({ppi} بكسل/بوصة)
+	Resolution: {dpi} pixels/inch	الدقة: {dpi} بكسل/بوصة
+	Doc: {w} × {h} px	المستند: {w} × {h} بكسل
+	Frame {current} / {total}	الإطار {current} / {total}
+	Count: {n}	العدد: {n}
+	BLANK DOCUMENT PRESETS ({n})	إعدادات المستند الفارغ المسبقة ({n})
+	Constraints ({n})	القيود ({n})
+	Align {what}	محاذاة {what}
+@plural	{n} Layer|{n} Layers	{n} طبقة|طبقة واحدة ({n})|طبقتان ({n})|{n} طبقات|{n} طبقة|{n} طبقة
+@plural	{n} layer|{n} layers	{n} طبقة|طبقة واحدة ({n})|طبقتان ({n})|{n} طبقات|{n} طبقة|{n} طبقة
+@plural	Group · {n} layer|Group · {n} layers	مجموعة · {n} طبقة|مجموعة · طبقة واحدة ({n})|مجموعة · طبقتان ({n})|مجموعة · {n} طبقات|مجموعة · {n} طبقة|مجموعة · {n} طبقة
+	Additional plugins folder	مجلد مكونات إضافية إضافي
+	Adobe	Adobe
+	Adobe rgb	Adobe RGB
+	Allow agent control	السماح بالتحكم بالوكيل
+	Allow scripts to connect	السماح للبرامج النصية بالاتصال
+	Always	دائماً
+	Always create smart objects when placing	إنشاء كائنات ذكية دائماً عند الوضع
+	Animated zoom	تكبير متحرك
+	Apply auto tone	تطبيق النغمة التلقائية
+	Ask	سؤال
+	Ask before saving layered tiff	السؤال قبل حفظ TIFF متعدد الطبقات
+	Auto collapse icon panels	طي لوحات الأيقونات تلقائياً
+	Auto show hidden panels	إظهار اللوحات المخفية تلقائياً
+	Auto show home screen	إظهار الشاشة الرئيسية تلقائياً
+	Autosave	الحفظ التلقائي
+	Autosave minutes	دقائق الحفظ التلقائي
+	Beep when done	إصدار صوت عند الانتهاء
+	Bicubic automatic	ثنائي التكعيب تلقائي
+	Bicubic sharper	ثنائي التكعيب أحدّ
+	Bicubic smoother	ثنائي التكعيب أنعم
+	Bit depth	عمق البت
+	Brush preview color	لون معاينة الفرشاة
+	Cache levels	مستويات ذاكرة التخزين المؤقت
+	Cache tile size	حجم بلاطة ذاكرة التخزين المؤقت
+	Camera Raw Defaults	افتراضيات Camera Raw
+	Canvas border	حدود اللوحة
+	Show canvas dots	إظهار نقاط اللوحة
+	Canvas color	لون اللوحة
+	Canvas custom color	لون مخصص للوحة
+	Color picker	منتقي الألوان
+	Color space	مساحة الألوان
+	Column width	عرض العمود
+	Concise	موجز
+	Control port	منفذ التحكم
+	Convert to srgb	التحويل إلى sRGB
+	Cursors	المؤشرات
+	Custom dark	داكن مخصص
+	Custom light	فاتح مخصص
+	Dark	داكن
+	Dark gray	رمادي داكن
+	Dashed lines	خطوط متقطعة
+	Destination	الوجهة
+	Detailed	مفصّل
+	Disks	الأقراص
+	Display p3	Display P3
+	Double click layer mask launches select and mask	النقر المزدوج على قناع الطبقة يفتح «التحديد والقناع»
+	Drop shadow	ظل ساقط
+	Dynamic color sliders	منزلقات ألوان ديناميكية
+	East asian	شرق آسيوي
+	Effect cache mb	ذاكرة تأثيرات مؤقتة (ميجابايت)
+	Enable flick panning	تمكين التحريك بالنقر السريع
+	Enable floating document window docking	تمكين إرساء نوافذ المستندات العائمة
+	Enable narrow options bar	تمكين شريط خيارات ضيق
+	Enabled	مفعّل
+	Enhanced Controls	عناصر التحكم المحسّنة
+	Export clipboard	تصدير الحافظة
+	Extra large	كبير جداً
+	File Handling	معالجة الملفات
+	File path	مسار الملف
+	Fill new type layers with placeholder	ملء طبقات النص الجديدة بنص نائب
+	Font preview	معاينة الخط
+	Full size tip	رأس بالحجم الكامل
+	Gamut warning color	لون تحذير النطاق اللوني
+	Gamut warning opacity	عتامة تحذير النطاق اللوني
+	Generator enabled	تمكين المولّد
+	Gif	GIF
+	Glossy	لامع
+	Grid color	لون الشبكة
+	Grid colors	ألوان الشبكة
+	Grid size	حجم الشبكة
+	Grid style	نمط الشبكة
+	Grid unit	وحدة الشبكة
+	Gridline every	خط شبكة كل
+	Guide color	لون الدليل
+	Guide style	نمط الدليل
+	Guides, Grid & Slices	الأدلة والشبكة والشرائح
+	Gutter	فاصل الأعمدة
+	History Log	سجل التاريخ
+	History states	حالات السجل
+	Ignore exif profile tag	تجاهل وسم ملف تعريف EXIF
+	Image interpolation	استيفاء الصورة
+	Image previews	معاينات الصور
+	Integrations	عمليات التكامل
+	Interface	الواجهة
+	Jpeg quality	جودة JPEG
+	Jpg	JPG
+	Language	لغة
+	Large tabs	تبويبات كبيرة
+	Legacy compositing	التركيب القديم
+	Light gray	رمادي فاتح
+	Line	خط مستقيم
+	Lines	الأسطر
+	Lossless	بلا فقدان
+	Lowercase extension	امتداد بأحرف صغيرة
+	Maximize psd compatibility	زيادة توافق PSD إلى الحد الأقصى
+	Medium gray	رمادي متوسط
+	Memory usage mb	استخدام الذاكرة (ميجابايت)
+	Low resolution previews	معاينات بدقة منخفضة
+	Missing glyph protection	حماية الحروف المفقودة
+	Modern	حديث
+	Nearest neighbor	أقرب جار
+	Never	أبداً
+	Normal tip	رأس عادي
+	Open as smart object	فتح ككائن ذكي
+	Open in camera raw	فتح في Camera Raw
+	Open documents as tabs	فتح المستندات كتبويبات
+	Overscroll	التمرير الزائد
+	Performance	الأداء
+	Png	PNG
+	Point size	حجم النقطة
+	Precise	دقيق
+	Preserve details	الحفاظ على التفاصيل
+	Print resolution	دقة الطباعة
+	Pro	احترافي
+	Pro light	احترافي فاتح
+	Pro light gray	احترافي رمادي فاتح
+	Pro medium	احترافي متوسط
+	Pro photo	ProPhoto
+	Quick export format	صيغة التصدير السريع
+	Quick export location	موقع التصدير السريع
+	Recent file count	عدد الملفات الأخيرة
+	Recent files	الملفات الأخيرة
+	Recent fonts	الخطوط الأخيرة
+	Recover on launch	الاسترداد عند التشغيل
+	Remember workspace changes	تذكّر تغييرات مساحة العمل
+	Resize image during place	تغيير حجم الصورة أثناء الوضع
+	Rotate view with trackpad	تدوير العرض بلوحة اللمس
+	Same folder	المجلد نفسه
+	Save in background	الحفظ في الخلفية
+	Scratch Disks	أقراص التخزين المؤقت
+	Screen	شاشة
+	Screen resolution	دقة الشاشة
+	Scrubby slider acceleration	تسارع المنزلق بالسحب
+	Sessions only	الجلسات فقط
+	Sharpen for	زيادة الحدة لـ
+	Show channels in color	إظهار القنوات بالألوان
+	Show crosshair in brush tip	إظهار علامة التقاطع في رأس الفرشاة
+	Show extension panels	إظهار لوحات الإضافات
+	Show font names in english	إظهار أسماء الخطوط بالإنجليزية
+	Show menu colors	إظهار ألوان القوائم
+	Show only crosshair while painting	إظهار علامة التقاطع فقط أثناء الرسم
+	Show slice numbers	إظهار أرقام الشرائح
+	Show tooltips	إظهار التلميحات
+	Enable animations	تمكين الحركات
+	Show highlight on rollover	إظهار التمييز عند المرور
+	Show bounding box when dragging layer	إظهار المربع المحيط عند سحب الطبقة
+	System title bar	شريط عنوان النظام
+	Show transformation values	إظهار قيم التحويل
+	Slice color	لون الشريحة
+	Smart guide color	لون الدليل الذكي
+	Smart quotes	علامات تنصيص ذكية
+	Snap vector tools and transforms to pixel grid	التقاط الأدوات المتجهية والتحويلات إلى شبكة البكسل
+	Srgb	sRGB
+	Standard	معيار
+	Studio	استوديو
+	Studio light	استوديو فاتح
+	Adwaita	Adwaita
+	Adwaita dark	Adwaita داكن
+	Subdivisions	التقسيمات الفرعية
+	System	النظام
+	Text engine	محرك النص
+	Text file	ملف نصي
+	Tiny	صغير جداً
+	Touch gestures	إيماءات اللمس
+	Transparency & Gamut	الشفافية والنطاق اللوني
+	Type units	وحدات النص
+	UI font size	حجم خط الواجهة
+	UI scale	تحجيم الواجهة
+	Units & Rulers	الوحدات والمساطر
+	Use additional plugins folder	استخدام مجلد مكونات إضافية إضافي
+	Use esc to commit	استخدام Esc للاعتماد
+	Use gpu	استخدام GPU
+	Use legacy free transform	استخدام التحويل الحر القديم
+	Use shift key for tool switch	استخدام مفتاح Shift لتبديل الأدوات
+	Vary round brush hardness on hud	تغيير صلابة الفرشاة المستديرة على HUD
+	Webp	WebP
+	World ready	جاهز عالمياً
+	Zoom clicked point to center	تكبير النقطة المنقورة إلى المركز
+	Zoom resizes windows	التكبير يغيّر حجم النوافذ
+	Zoom with scroll wheel	التكبير بعجلة التمرير
+	Zoom with trackpad pinch	التكبير بقرص لوحة اللمس
+	Pass Through	تمرير عبر
+	Dissolve	تلاشي متناثر
+	Darker Color	لون أغمق
+	Linear Dodge (Add)	تفادي خطي (إضافة)
+	Lighter Color	لون أفتح
+	Soft Light	ضوء ناعم
+	Hard Light	ضوء قوي
+	Vivid Light	ضوء ساطع
+	Linear Light	ضوء خطي
+	Pin Light	ضوء نقطي
+	Exclusion	استبعاد
+	Divide	قسمة
+	Luminosity	السطوع
+@plural	{n} sample|{n} samples	{n} عيّنة|عيّنة واحدة ({n})|عيّنتان ({n})|{n} عيّنات|{n} عيّنة|{n} عيّنة
+	{added}, {removed} subtracted	{added}، و{removed} مطروحة
+	Adjustment Preview	معاينة التعديل
+	Airbrush: keeps depositing paint while the pointer rests.	البخاخ: يستمر في وضع الطلاء أثناء ثبات المؤشر.
+	Angle:	الزاوية:
+	Blend If	المزج إذا
+	Close Tab Group	إغلاق مجموعة التبويبات
+	Collapse	طي
+	Collapse All Groups	طي كل المجموعات
+	Collapse Panel Group	طي مجموعة اللوحات
+	Collapse group  ({key}-click: all groups)	طي المجموعة  (انقر مع {key}: كل المجموعات)
+	Create new brush from the current settings	إنشاء فرشاة جديدة من الإعدادات الحالية
+	Create new brush from these settings	إنشاء فرشاة جديدة من هذه الإعدادات
+	Update the current brush with these settings	تحديث الفرشاة الحالية بهذه الإعدادات
+	Delete brush	حذف الفرشاة
+	Drag the arrow to set the angle, the dots to set the roundness	اسحب السهم لتعيين الزاوية، والنقاط لتعيين الاستدارة
+	Expand	توسيع
+	Expand Panel Group	توسيع مجموعة اللوحات
+	Expand group  ({key}-click: all groups)	توسيع المجموعة  (انقر مع {key}: كل المجموعات)
+	Fade steps	خطوات التلاشي
+	Hide the layer's effects  ({key}-click: all layers)	إخفاء تأثيرات الطبقة  (انقر مع {key}: كل الطبقات)
+	Import Brushes… (.abr)	استيراد فُرش… (.abr)
+	Move Group Down	تحريك المجموعة لأسفل
+	Move Group Up	تحريك المجموعة لأعلى
+	Reset the brush to the defaults	إعادة الفرشاة إلى الافتراضيات
+	Restore original size	استعادة الحجم الأصلي
+	Roundness:	الاستدارة:
+	Search Brushes	البحث في الفُرش
+	Show the layer's effects  ({key}-click: all layers)	إظهار تأثيرات الطبقة  (انقر مع {key}: كل الطبقات)
+	Brush picker	منتقي الفُرش
+	Erase	محو
+	Right click with painting tools	النقر بالزر الأيمن مع أدوات الرسم
+	System Info…	معلومات النظام…
+	System Info	معلومات النظام
+	More panels	مزيد من اللوحات
+	More documents	مزيد من المستندات
+	These settings aren't available in PhotoCraft yet.	هذه الإعدادات غير متاحة في ريتوش بعد.
+	Graphics	الرسوميات
+	Reset GPU Backend	إعادة تعيين واجهة GPU الخلفية
+	Applies at next launch.	يُطبّق عند التشغيل التالي.
+	Click to sample the foreground colour  ·  {key}-click for background	انقر لأخذ عيّنة للون المقدمة  ·  انقر مع {key} للخلفية
+	{key}-click to set the source	انقر مع {key} لتعيين المصدر
+	{key} to subtract	{key} للطرح
+	Clone source {n} ({key}-click with Clone Stamp to set)	مصدر الاستنساخ {n} (انقر مع {key} بختم الاستنساخ لتعيينه)
+	Source: not set ({key}-click with Clone Stamp)	المصدر: غير معيّن (انقر مع {key} بختم الاستنساخ)
+	Pixel Layer	طبقة بكسل
+	Type Layer	طبقة نص
+	Shape Layer	طبقة شكل
+	Group Layer	طبقة مجموعة
+	Fill Layer	طبقة تعبئة
+	Smart Object Layer	طبقة كائن ذكي
+	Create Warped Text	إنشاء نص ملتوٍ
+	Rasterize Smart Object	تنقيط الكائن الذكي
+	Rasterize Fill Content	تنقيط محتوى التعبئة
+	Rasterize Layer Style	تنقيط نمط الطبقة
+	Unlock: picking a preset replaces these settings	إلغاء القفل: اختيار إعداد مسبق يستبدل هذه الإعدادات
+	Lock: keep these settings when picking another preset	قفل: الإبقاء على هذه الإعدادات عند اختيار إعداد مسبق آخر
+	Diameter:	القطر:
+	Hardness:	الصلابة:
+	No brush presets	لا توجد إعدادات فُرش مسبقة
+	Toggle the Brush Settings panel  (F5)	تبديل لوحة إعدادات الفرشاة  (F5)
+	Create new brush preset from the current settings	إنشاء إعداد فرشاة مسبق جديد من الإعدادات الحالية
+	Brush Settings…  (F5): every option of this brush	إعدادات الفرشاة…  (F5): كل خيارات هذه الفرشاة
+	Rename Brush…	إعادة تسمية الفرشاة…
+	Delete Brush	حذف الفرشاة
+	New Brush Preset…	إعداد فرشاة مسبق جديد…
+	Brush Preset Options	خيارات إعداد الفرشاة المسبق
+	Group name	اسم المجموعة
+	Brush name	اسم الفرشاة
+	Brush Name	اسم الفرشاة
+	Brush Stroke	ضربة الفرشاة
+	Brush Tip	رأس الفرشاة
+	Off: the speed of the pointer sets the spacing	إيقاف: سرعة المؤشر تحدد التباعد
+	Tilt Scale	تحجيم الإمالة
+	Brush Projection	إسقاط الفرشاة
+	Apply the pen's tilt and rotation to the tip shape	تطبيق إمالة القلم ودورانه على شكل الرأس
+	Mixer Brush	فرشاة الخلط
+	Mixer Brush Tool	أداة فرشاة الخلط
+	Color Replacement Tool	أداة استبدال اللون
+	Color Replacement	استبدال اللون
+	Wet	البلل
+	Mix	الخلط
+	Wetness Jitter	تذبذب البلل
+	Mix Jitter	تذبذب الخلط
+	Show the layer mask as an overlay	إظهار قناع الطبقة كتراكب
+	Toggle visibility	تبديل الظهور
+	Unlink the mask from the layer	فك ربط القناع عن الطبقة
+	Link the mask to the layer	ربط القناع بالطبقة
+	Gradient	التدرج اللوني
+	Gradient Options	خيارات التدرج
+	Align with layer	المحاذاة مع الطبقة
+	Reset Alignment	إعادة تعيين المحاذاة
+	Centre the gradient (offset 0, 0)	توسيط التدرج (الإزاحة 0، 0)
+	Gradient Editor	محرر التدرج
+	Gradient picker	منتقي التدرجات
+	Save As Preset	حفظ كإعداد مسبق
+	The gradient the Gradient tool paints with	التدرج الذي ترسم به أداة التدرج
+	Adds the current gradient to the Gradients panel	يضيف التدرج الحالي إلى لوحة التدرجات
+	Gradient stops	نقاط توقف التدرج
+	Select a type layer to edit its character and paragraph settings.	حدد طبقة نص لتحرير إعدادات الحرف والفقرة.
+	Text color	لون النص
+	Type Options	خيارات النص
+	Anti-aliasing method	طريقة تنعيم الحواف
+	Horizontal type	نص أفقي
+	Vertical type	نص عمودي
+	Fill path with foreground color	تعبئة المسار بلون المقدمة
+	Stroke path with brush	تحديد المسار بالفرشاة
+	Load path as a selection	تحميل المسار كتحديد
+	Make work path from selection	إنشاء مسار عمل من التحديد
+	Add vector mask	إضافة قناع متجهي
+	Create new path	إنشاء مسار جديد
+	Delete path	حذف المسار
+	Delete vector mask	حذف القناع المتجهي
+	CPU (no GPU acceleration)	المعالج (بلا تسريع GPU)
+	DirectX 12	DirectX 12
+	GPU backend	واجهة GPU الخلفية
+	Linux display server	خادم عرض لينكس
+	Metal	Metal
+	OpenGL	OpenGL
+	Use tablet pressure	استخدام ضغط اللوح الرقمي
+	Vulkan	Vulkan
+	Alt-click to define a source point to clone from	انقر مع Alt لتعريف نقطة المصدر للاستنساخ منها
+	No path to make a selection from: draw one with the Pen tool or select one in the Paths panel.	لا يوجد مسار لإنشاء تحديد منه: ارسم واحداً بأداة القلم أو حدد واحداً في لوحة المسارات.
+	Cancel opening	إلغاء الفتح
+	Cancelled opening {name}	أُلغي فتح {name}
+	Developing {name}	جارٍ تحميض {name}
+	Cancelled {label}	أُلغي {label}
+	Esc to cancel	Esc للإلغاء
+	Opened {name}	فُتح {name}
+	Opening {name}	جارٍ فتح {name}
+	Saved {name}	تم حفظ {name}
+	Saving {name}	جارٍ حفظ {name}
+	Saving {percent}	جارٍ الحفظ {percent}
+	A save to {name} is still running; try again when it finishes	ما زال الحفظ إلى {name} جارياً؛ حاول مرة أخرى عند انتهائه
+	{label} is writing the file and can no longer be cancelled	{label} يكتب الملف ولم يعد من الممكن إلغاؤه
+	Opening {name}…	جارٍ فتح {name}…
+	Opening…	جارٍ الفتح…
+	Reading…	جارٍ القراءة…
+	Working…	جارٍ العمل…
+	Grid:	الشبكة:
+	Rendering Mode	وضع العرض
+	Automatic (recommended)	تلقائي (موصى به)
+	CPU / Compatibility	المعالج / التوافق
+	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	الوضع التلقائي يستخدم تسريع GPU عند توفره، ويعود إلى العرض بالمعالج عند حدوث أخطاء.
+	Switched to CPU rendering	تم التبديل إلى العرض بالمعالج
+	GPU acceleration could not continue. Your documents are unchanged.	تعذّر استمرار تسريع GPU. مستنداتك لم تتغير.
+	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	يستخدم ريتوش مُركّب الصور بالمعالج. قد تبقى النافذة تستخدم بطاقة الرسوميات.
+	Retry GPU requires a restart. Save your work first.	إعادة محاولة GPU تتطلب إعادة التشغيل. احفظ عملك أولاً.
+	Keep Using CPU	الاستمرار باستخدام المعالج
+	Retry GPU	إعادة محاولة GPU
+	Advanced	متقدم
+	GPU Backend	واجهة GPU الخلفية
+	Details	التفاصيل
+	Rendering mode	وضع العرض
+	Freeze Lasso: drag to freeze an area, Alt-drag to thaw it (L)	لاسو التجميد: اسحب لتجميد منطقة، واسحب مع Alt لإذابتها (L)
+	Shadow Clipping Warning (U)	تحذير قص الظلال (U)
+	Highlight Clipping Warning (O)	تحذير قص الإضاءات (O)
+	Show Lab Color Readouts	إظهار قراءات ألوان Lab
+	Show Vectorscope	إظهار مقياس المتجهات
+	Show Red at 3 o'clock	إظهار الأحمر عند الساعة 3
+	Show Skin Tone Indicator	إظهار مؤشر لون البشرة
+	Tone Histogram	المدرج التكراري للدرجات
+	Show Selected Region	إظهار المنطقة المحددة
+cameraRaw	Light	الإضاءة
+	Camera Raw Filter ({layer})	مرشح Camera Raw ‏({layer})
+	Camera Raw ({name})	Camera Raw ‏({name})
+cameraRaw	Red	الأحمر
+cameraRaw	Orange	البرتقالي
+cameraRaw	Yellow	الأصفر
+cameraRaw	Green	الأخضر
+cameraRaw	Aqua	المائي
+cameraRaw	Blue	الأزرق
+cameraRaw	Purple	البنفسجي
+cameraRaw	Magenta	الأرجواني
+cameraRaw	Blending	المزج
+cameraRaw	Luminance	الإضاءة
+cameraRaw	Temperature	درجة الحرارة
+cameraRaw	Color	اللون
+	Patch Tool	أداة الرقعة
+	Patch:	الرقعة:
+	Lasso around an area, then drag the selection	حوّط منطقة باللاسو، ثم اسحب التحديد
+	Transform On Drop	التحويل عند الإفلات
+	Scale or rotate the moved area, then press {key}	حجّم المنطقة المنقولة أو دوّرها، ثم اضغط {key}
+	Now drag the selection onto another area	الآن اسحب التحديد إلى منطقة أخرى
+	Edit Type	تحرير النص
+	New Style…	نمط جديد…
+	Style {name} saved	حُفظ النمط {name}
+	Create new style (from the selected type)	إنشاء نمط جديد (من النص المحدد)
+	Create new style from the selected layer	إنشاء نمط جديد من الطبقة المحددة
+	Make Default	جعله الافتراضي
+	Reset to Default	إعادة التعيين إلى الافتراضي
+	Full-resolution preview unavailable	المعاينة بالدقة الكاملة غير متاحة
+	No patterns	لا توجد نقوش
+	Enable {name}	تمكين {name}
+	Hold Alt while drawing for straight segments	استمر بالضغط على Alt أثناء الرسم لمقاطع مستقيمة
+	Drag or click polygon points · hold Alt during lasso for straight segments · {add} add · {sub} before drawing subtracts	اسحب نقاط المضلّع أو انقرها · استمر بالضغط على Alt أثناء اللاسو لمقاطع مستقيمة · {add} للإضافة · {sub} قبل الرسم للطرح
+	Move	نقل
+	Extend	تمديد
+	Structure:	البنية:
+	Content-Aware Move Tool	أداة النقل حسب المحتوى
+	TIFF Options	خيارات TIFF
+	Targa Options	خيارات Targa
+	24 bits/pixel	24 بت/بكسل
+	32 bits/pixel	32 بت/بكسل
+	Including layers will increase file size.	تضمين الطبقات سيزيد حجم الملف.
+	Discard Layers and Save a Copy	تجاهل الطبقات وحفظ نسخة
+	Don't show again	عدم الإظهار مرة أخرى
+	Save failed: {error}	فشل الحفظ: {error}
+	Save cancelled	أُلغي الحفظ
+	Couldn't place {name}: {error}	تعذّر وضع {name}: {error}
+	Magnetic Lasso Tool	أداة اللاسو المغناطيسي
+	Frequency	التردد
+	Use tablet pressure to change pen width	استخدام ضغط اللوح الرقمي لتغيير عرض القلم
+	About	حول
+	Contributors	المساهمون
+	Models	النماذج
+	Sort	فرز
+	Username	اسم المستخدم
+	Display name	الاسم المعروض
+	Real name	الاسم الحقيقي
+	Reverse the order	عكس الترتيب
+	Grab bag	متفرقات
+	Table	جدول
+	Name (A–Z)	الاسم (أ–ي)
+	Merged PRs	طلبات السحب المدموجة
+	Commits	الإيداعات
+	Lines added	الأسطر المضافة
+	Lines deleted	الأسطر المحذوفة
+	Line delta	فرق الأسطر
+	Binary assets added	الأصول الثنائية المضافة
+	Binary assets removed	الأصول الثنائية المُزالة
+	First commit	أول إيداع
+	First	الأول
+	Last commit	آخر إيداع
+	Last	الأخير
+	Contributors: {contributors} · Commits: {commits}	المساهمون: {contributors} · الإيداعات: {commits}
+	No contributor data was built into this copy.	لم تُضمَّن بيانات المساهمين في هذه النسخة.
+	No model credits were built into this copy.	لم يُضمَّن ذكر النماذج في هذه النسخة.
+	Company	الشركة
+	Model	النموذج
+	Version	الإصدار
+	% of all commits	% من كل الإيداعات
+	Lines +/−	الأسطر +/−
+	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{binAdded} / −{binDeleted} binary assets, {first} – {last}	@{login}: ‏{prs} طلب دمج، {commits} إيداعاً، +{added} / −{deleted} سطراً (Δ {delta})، +{binAdded} / −{binDeleted} من الأصول الثنائية، {first} – {last}
+	Create new swatch	إنشاء حامل لون جديد
+	New Swatch…	حامل لون جديد…
+	New Swatch Group…	مجموعة حوامل ألوان جديدة…
+	Import Swatches…	استيراد حوامل الألوان…
+	Replace Swatches…	استبدال حوامل الألوان…
+	Export Swatches…	تصدير حوامل الألوان…
+	Export Swatches for Exchange…	تصدير حوامل الألوان للتبادل…
+	Reset Swatches	إعادة تعيين حوامل الألوان
+	Add to Swatches	إضافة إلى عينات الألوان
+	Blend If:	المزج إذا:
+	Channels:	القنوات:
+	Knockout	الإسقاط
+	Apply At Canvas Bounds	التطبيق عند حدود اللوحة
+	Color Picker (Text Color)	منتقي الألوان (لون النص)
+	Color Picker ({name})	منتقي الألوان ({name})
+	Color Picker (Fill Color)	منتقي الألوان (لون التعبئة)
+	Fill color	لون التعبئة
+	Color Picker (Stroke Color)	منتقي الألوان (لون الحد)
+	Stroke color	لون الحد
+	Pick screen color	التقاط لون من الشاشة
+	Sample a pixel anywhere on the screen	أخذ عيّنة من بكسل في أي مكان على الشاشة
+	Click to pick · Esc to cancel	انقر للالتقاط · Esc للإلغاء
+	Pick a screen pixel or press Esc to cancel	التقط بكسلاً من الشاشة أو اضغط Esc للإلغاء
+	Scroll to zoom	مرّر للتكبير
+	Show/Hide All Panels	إظهار/إخفاء كل اللوحات
+	Show/Hide Panels	إظهار/إخفاء اللوحات
+	Could not open	تعذّر الفتح
+	{path}: the path is not valid Unicode; rename the file and open it again.	{path}: المسار ليس Unicode صالحاً؛ أعد تسمية الملف ثم افتحه مرة أخرى.
+	Contents:	المحتويات:
+	Custom Pattern:	نقش مخصص:
+	Foreground Color	لون المقدمة
+	Color…	اللون…
+	50% Gray	رمادي 50%
+	Color Adaptation	تكيّف الألوان
+	{size} (was {old})	{size} (كان {old})
+	Cone	مخروط
+	Cone (Inverted)	مخروط (معكوس)
+	Domed	مقبّب
+	Domed (Inverted)	مقبّب (معكوس)
+	Diagonal (Descending)	قطري (تنازلي)
+	Contour Editor	محرر الكفاف
+	Anti-aliased	منعّم الحواف
+	Corner	زاوية
+	Gloss Contour	كفاف اللمعان
+	Contour	الكفاف
+	Cone - Inverted	مخروط - معكوس
+	Cove - Deep	تجويف - عميق
+	Cove - Shallow	تجويف - ضحل
+	Gaussian	غاوسي
+	Half Round	نصف دائري
+	Ring	حلقة
+	Ring - Double	حلقة - مزدوجة
+	Rolling Slope - Descending	منحدر متدحرج - تنازلي
+	Rounded Steps	درجات مستديرة
+	Sawtooth 1	سن المنشار 1
+	Red Eye Tool	أداة العين الحمراء
+	Red Eye	العين الحمراء
+	Pupil Size	حجم البؤبؤ
+	Darken Amount	مقدار التغميق
+	Click a red pupil to neutralize it	انقر على بؤبؤ أحمر لمعادلته
+	open source	مفتوح المصدر
+	…and {n} more	…و{n} أخرى
+	Eyedroppers:	القطّارات:
+	Set Black Point	تعيين النقطة السوداء
+	Set Neutral Gray Point	تعيين نقطة الرمادي المحايد
+	Set White Point	تعيين النقطة البيضاء
+	Unavailable in this color mode	غير متاح في وضع الألوان هذا
+	Selection Preview:	معاينة التحديد:
+	Black Matte	خلفية سوداء
+	White Matte	خلفية بيضاء
+	Seafoam	زبد البحر
+	Indigo	نيلي
+	Fuchsia	فوشي
+	Violet	بنفسجي
+	Reset	إعادة ضبط
+	Large document: redrawing on the CPU	مستند كبير: إعادة الرسم على المعالج
+	This redraw took {seconds} s on the CPU.	استغرقت إعادة الرسم هذه {seconds} ث على المعالج.
+	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	التعديلات التي تغيّر المستند كله، مثل وضع مزج الطبقة أو عتامتها أو ظهورها، تعيد رسمه بالكامل.
+	Its layers don't fit the GPU memory budget. Raising Memory usage in Preferences › Performance raises the budget, up to a quarter of this computer's memory.	طبقاته لا تتسع في ميزانية ذاكرة GPU. رفع «استخدام الذاكرة» من التفضيلات › الأداء يرفع الميزانية حتى ربع ذاكرة هذا الكمبيوتر.
+	The GPU compositor wasn't used: {reason}	لم يُستخدم مُركّب GPU: {reason}
+fontWeight	Thin	رفيع
+fontWeight	ExtraLight	رفيع جداً
+fontWeight	Light	خفيف
+fontWeight	Regular	عادي
+fontWeight	Medium	متوسط
+fontWeight	SemiBold	نصف عريض
+fontWeight	Bold	عريض
+fontWeight	ExtraBold	عريض جداً
+fontWeight	Black	أسود
+fontWeight	Italic	مائل
+	Pattern Stamp Tool	أداة ختم النقش
+	Pattern Stamp	ختم النقش
+	Impressionist	انطباعي
+	Rotate View	تدوير العرض
+	Rotate View Tool	أداة تدوير العرض
+	Reset View	إعادة تعيين العرض
+	Drag around the centre to rotate the view  ·  Shift constrains to 15°	اسحب حول المركز لتدوير العرض  ·  Shift يقيّده بخطوات 15°
+	Dual Axis	محوران
+	Diagonal	قطري
+	Transform Symmetry	تماثل التحويل
+	Point Sample	عيّنة نقطة
+	3 by 3 Average	متوسط 3 × 3
+	5 by 5 Average	متوسط 5 × 5
+	11 by 11 Average	متوسط 11 × 11
+	31 by 31 Average	متوسط 31 × 31
+	51 by 51 Average	متوسط 51 × 51
+	101 by 101 Average	متوسط 101 × 101
+	Sample Size:	حجم العيّنة:
+	All Layers No Adjustments	كل الطبقات بلا تعديلات
+	Current & Below No Adjustments	الحالية وما تحتها بلا تعديلات
+	Show Sampling Ring	إظهار حلقة أخذ العيّنات
+	Out of gamut for printing: click for the nearest printable colour	خارج النطاق اللوني للطباعة: انقر لأقرب لون قابل للطباعة
+	Not a web colour: click for the nearest web colour	ليس لون ويب: انقر لأقرب لون ويب
+	Color to Alpha…	اللون إلى ألفا…
+	Transparency Threshold	عتبة الشفافية
+	Opacity Threshold	عتبة العتامة
+	PhotoCraft — Screen Color Picker	ريتوش — منتقي ألوان الشاشة
+	Rasterize svg groups deeper than	تنقيط مجموعات SVG الأعمق من
+	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	القيمة 0 توقف هذه العتبة؛ مجموعات SVG المتداخلة لأعمق من 100 مستوى تُنقّط دائماً.
+	Rule of Thirds	قاعدة الأثلاث
+	Triangle	مثلث
+	Golden Ratio	النسبة الذهبية
+	Golden Spiral	اللولب الذهبي
+	Auto Show Overlay	إظهار التراكب تلقائياً
+	Always Show Overlay	إظهار التراكب دائماً
+	Never Show Overlay	عدم إظهار التراكب أبداً
+	Cycle Overlay	تدوير التراكب
+	Cycle Orientation	تدوير الاتجاه
+	Set the overlay options for the Crop tool	تعيين خيارات التراكب لأداة الاقتصاص
+	Alt-click went to the desktop, which moves windows with Alt-drag. Set its window-move key to Super, or latch Alt in Window › Modifier Keys.	ذهبت النقرة مع Alt إلى سطح المكتب، الذي ينقل النوافذ بالسحب مع Alt. اضبط مفتاح نقل النوافذ على Super، أو ثبّت Alt من نافذة › مفاتيح التعديل.
+	Color Picker (Layer Style Color)	منتقي الألوان (لون نمط الطبقة)
+	Auto Hide Notifications	إخفاء الإشعارات تلقائياً
+	Notification Duration (seconds)	مدة الإشعار (ثوانٍ)
+	Appearance Mode	وضع المظهر
+	Dark Theme	السمة الداكنة
+	Light Theme	السمة الفاتحة
+	Pro Medium	احترافي متوسط
+	Studio Light	استوديو فاتح
+	Next Appearance Mode	وضع المظهر التالي
+	Sync with system	المزامنة مع النظام
+	Active	نشط
+	Color Picker (Solid Color)	منتقي الألوان (لون مصمت)
+	Straighten the image by drawing a line on it	قوّم الصورة برسم خط عليها
+	Set additional Crop options	تعيين خيارات اقتصاص إضافية
+	Show Cropped Area	إظهار المنطقة المقتطعة
+	Enable Crop Shield	تمكين درع الاقتصاص
+	Match Canvas	مطابقة اللوحة
+	Auto Adjust Opacity	ضبط العتامة تلقائياً
+	Crop Shield color	لون درع الاقتصاص
+	Color Picker (Crop Shield Color)	منتقي الألوان (لون درع الاقتصاص)
+	From Center	من المركز
+	Link radii	ربط أنصاف الأقطار
+	Star Ratio:	نسبة النجمة:
+	Create Rectangle	إنشاء مستطيل
+	Create Ellipse	إنشاء قطع ناقص
+	Create Triangle	إنشاء مثلث
+	Create Polygon	إنشاء مضلّع
+	Pressure curve	منحنى الضغط
+	Click to add a point, right-click to remove	انقر لإضافة نقطة، وانقر بالزر الأيمن للإزالة
+	Some brush presets could not be loaded	تعذّر تحميل بعض إعدادات الفُرش المسبقة
+	Retry saving presets	إعادة محاولة حفظ الإعدادات المسبقة
+	Brush preset changes are not saved: {error}	لم تُحفظ تغييرات إعدادات الفُرش المسبقة: {error}
+	Keep this tab open to retain your brushes.	أبقِ هذا التبويب مفتوحاً للاحتفاظ بفُرشك.
+	Browser storage is unavailable; brushes are session-only. Keep this tab open to retain them.	تخزين المتصفح غير متاح؛ الفُرش للجلسة فقط. أبقِ هذا التبويب مفتوحاً للاحتفاظ بها.
+	Saving brush presets… Keep this tab open until saving finishes.	جارٍ حفظ إعدادات الفُرش المسبقة… أبقِ هذا التبويب مفتوحاً حتى ينتهي الحفظ.
+	Reflect	انعكاس
+	Glow	توهج
+	Negation	نفي
+	XOR	XOR
+	Color Burn (Paint.NET)	حرق اللون (Paint.NET)
+	Color Dodge (Paint.NET)	تفادي اللون (Paint.NET)
+	Stroke Options	خيارات الحد
+	Solid	متصل
+	Dashed	متقطع
+	Dotted	منقط
+	Alignment	المحاذاة
+	Caps	النهايات
+	Butt / Flat	مقطوعة / مسطحة
+	Corners	الزوايا
+	Miter	حادة
+	Round	مستديرة
+	Bevel	مشطوفة
+	Miter limit	حد الوصلة
+	Dashed line	خط متقطع
+	Dash	شرطة
+	Gap	فجوة
+	Dash / gap lengths × stroke width	أطوال الشرطة / الفجوة × عرض الحد
+	Add pair	إضافة زوج
+	Remove pair	إزالة زوج
+	Dash offset	إزاحة الشرطة
+	Open paths use centered strokes	المسارات المفتوحة تستخدم حدوداً موسّطة
+	Use finite lengths and a positive pattern total	استخدم أطوالاً محدودة ومجموع نمط موجباً
+	No subject found — try Object Selection or the Lasso	لم يُعثر على عنصر — جرّب «تحديد الكائن» أو اللاسو
+	Quick Selection found nothing there	لم يجد التحديد السريع شيئاً هناك
+	Object Selection found nothing there — try a tighter rectangle	لم يجد تحديد الكائن شيئاً هناك — جرّب مستطيلاً أضيق
+	No subject found — try a rectangle around the object	لم يُعثر على عنصر — جرّب مستطيلاً حول الكائن
+	Auto Erase	المسح التلقائي
+	Click the first point or press {key} to close · {del} removes a point · Esc cancels	انقر على النقطة الأولى أو اضغط {key} للإغلاق · {del} يزيل نقطة · Esc للإلغاء
+	Click, then move along an edge · click to fasten a point · {alt}-click for a straight segment · double-click to close	انقر، ثم تحرك على امتداد حافة · انقر لتثبيت نقطة · انقر مع {alt} لمقطع مستقيم · انقر نقراً مزدوجاً للإغلاق
+	Follows only edges this close to the pointer ([ and ] change it)	يتبع فقط الحواف القريبة من المؤشر بهذا القدر ([ و] لتغييره)
+	Higher values follow only edges that contrast sharply with their surroundings	القيم الأعلى تتبع فقط الحواف شديدة التباين مع ما حولها
+	How often fastening points are placed by themselves	عدد مرات وضع نقاط التثبيت تلقائياً
+	Scrubby Zoom	التكبير بالسحب
+	{mode} Color · {bits} bit	ألوان {mode} · {bits} بت
+	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} centre) · Space moves while drawing · arrows nudge · X swaps orientation · {commit} commits · Esc cancels	اسحب مربع اقتصاص · اسحب بالداخل للنقل · الحواف لتغيير الحجم (نسبة {ratio}، مركز {centre}) · المسافة للنقل أثناء الرسم · الأسهم للدفع · X لتبديل الاتجاه · {commit} للاعتماد · Esc للإلغاء
+	Appearance Settings…	إعدادات المظهر…
+	Add to favorites	إضافة إلى المفضلة
+	Remove from favorites	إزالة من المفضلة
+	Camera Data	بيانات الكاميرا
+cameraData	Make	الشركة المصنّعة
+cameraData	Model	الطراز
+cameraData	Date Taken	تاريخ الالتقاط
+cameraData	Exposure	التعريض
+cameraData	F-Stop	فتحة العدسة
+cameraData	ISO Speed	سرعة ISO
+cameraData	Focal Length	البعد البؤري
+cameraData	Focal Length (35 mm)	البعد البؤري (35 مم)
+cameraData	Lens	العدسة
+	Activate Panel	تنشيط اللوحة
+	Change Panel Group	تغيير مجموعة اللوحات
+	Change Panel Layout	تغيير تخطيط اللوحات
+	Close Panel	إغلاق اللوحة
+	Dock Panel	إرساء اللوحة
+	Float Panel	تعويم اللوحة
+	Move Panel	نقل اللوحة
+	Group with	التجميع مع
+	Panel menu	قائمة اللوحة
+	Resize panel window	تغيير حجم نافذة اللوحة
+	Resize panels	تغيير حجم اللوحات
+	Use Classic Mode	استخدام الوضع الكلاسيكي
+	Auto Center Preview	توسيط المعاينة تلقائياً
+	Next Document	المستند التالي
+	Previous Document	المستند السابق
+	W x H x Resolution	العرض × الارتفاع × الدقة
+	Front Image	الصورة الأمامية
+	Frame Tool	أداة الإطار
+	Create a new rectangular frame	إنشاء إطار مستطيل جديد
+	Create a new elliptical frame	إنشاء إطار بيضاوي جديد
+	Include in playback	التضمين في التشغيل
+	Perspective Crop Tool	أداة اقتصاص المنظور
+	Show Grid	إظهار الشبكة
+	Drag a box or click four corners · drag the corners onto the edges of a skewed shape · {commit} commits · Esc cancels	اسحب مربعاً أو انقر أربع زوايا · اسحب الزوايا إلى حواف الشكل المائل · {commit} للاعتماد · Esc للإلغاء
+	Artboard Tool	أداة لوحة الرسم
+	Make Portrait	جعله عمودياً
+	Make Landscape	جعله أفقياً
+	Add New Artboard	إضافة لوحة رسم جديدة
+	Freeform Pen Tool	أداة القلم الحر
+	Curvature Pen Tool	أداة قلم الانحناء
+	Curve Fit:	ملاءمة المنحنى:
+	Drag: draw freehand · {alt}-click: straight segment · Release on the start point: close	سحب: رسم حر · نقر مع {alt}: مقطع مستقيم · الإفلات على نقطة البداية: إغلاق
+	Click: smooth point · Double-click: corner · Drag a point: move · Click first point: close · {key} finish	نقر: نقطة سلسة · نقر مزدوج: زاوية · سحب نقطة: نقل · نقر النقطة الأولى: إغلاق · {key} إنهاء
+	New Crop Preset…	إعداد اقتصاص مسبق جديد…
+	Delete Crop Preset…	حذف إعداد اقتصاص مسبق…
+	Select the crop presets to delete:	حدد إعدادات الاقتصاص المسبقة المراد حذفها:
+	Select the crop presets to delete	حدد إعدادات الاقتصاص المسبقة المراد حذفها
+	Enter a name for the crop preset	أدخل اسماً لإعداد الاقتصاص المسبق
+	There is no crop size or ratio to save	لا يوجد حجم أو نسبة اقتصاص لحفظها
+	Scale:	المقياس:
+	Snap to Origin	الالتقاط إلى نقطة الأصل
+	Search settings…	البحث في الإعدادات…
+	No matching settings	لا توجد إعدادات مطابقة
+	32-bit Preview Options	خيارات معاينة 32 بت
+	About {app}	حول {app}
+	Accented Edges	حواف مُبرزة
+	Accurate	دقيق
+	Actual Pixels	البكسلات الفعلية
+	Adaptive Wide Angle	الزاوية الواسعة التكيّفية
+	Add Noise	إضافة تشويش
+	Add to	الإضافة إلى
+	Adjust Interval For Loops	ضبط الفاصل للحلقات
+	Adjustment	التعديل
+	Adjustment Layers	طبقات الضبط
+	Adjustment Properties	خصائص التعديل
+	Adobe RGB (1998)	Adobe RGB ‏(1998)
+	Advanced Blending	المزج المتقدم
+	After	بعد
+	Alpha	ألفا
+	Alternative	بديل
+	Ambience	الأجواء
+	Ambient	محيطي
+	Amplitude Max	أقصى سعة
+	Amplitude Min	أدنى سعة
+	Angled Strokes	ضربات مائلة
+	Anisotropic	متباين الخواص
+	Aperture	فتحة العدسة
+	Apply Data Set	تطبيق مجموعة البيانات
+	Apply Image	تطبيق الصورة
+	Apply Layer Comp	تطبيق تركيبة الطبقات
+	Apply Mask	تطبيق القناع
+	Arbitrary	اختياري
+	Arc	قوس
+	Arch	قوس
+	Area	المساحة
+	Around Center	حول المركز
+	Arrangement	الترتيب
+	Artboard from Group	لوحة رسم من مجموعة
+	Artboard from Layers	لوحة رسم من الطبقات
+	Artboards	لوحات الرسم
+	Artist	الفنان
+	Artistic	فني
+	Assign Profile	تعيين ملف تعريف
+	At	عند
+	Author	المؤلف
+	Auto Scale	تحجيم تلقائي
+	Auto-Align Layers	محاذاة الطبقات تلقائياً
+	Auto-Blend Layers	مزج الطبقات تلقائياً
+	Back	رجوع
+	Background Level	مستوى الخلفية
+	Bamboo	خيزران
+	Bas Relief	نقش بارز منخفض
+	Base Tree Type	نوع الشجرة الأساسي
+	Baseline Shift	إزاحة خط الأساس
+	Batch	معالجة دفعية
+	Before	قبل
+	Berries	التوت
+	Best	الأفضل
+	Black Clip	قص الأسود
+	Black Intensity	شدة الأسود
+	Blade Curvature	انحناء النصل
+	Blast	انفجار
+	Bleach Bypass	تجاوز التبييض
+	Blend	مزج
+	Blocks	الكتل
+	Blue Yellow	أزرق أصفر
+	Blur Angle	زاوية الضبابية
+	Bold Italic	عريض مائل
+	Border	إطار
+	Border Thickness	سُمك الحدود
+	Box Blur	ضبابية الصندوق
+	Branches Color	لون الفروع
+	Branches Height	ارتفاع الفروع
+	Branches Thickness	سُمك الفروع
+	Brick	طوب
+	Bristle Detail	تفاصيل الشعيرات
+	Browse	استعراض
+	Brush Detail	تفاصيل الفرشاة
+	Brush Size	حجم الفرشاة
+	Brush Strokes	ضربات الفرشاة
+	Brush Type	نوع الفرشاة
+	Bulge	انتفاخ
+	Burlap	خيش
+	Burn	حرق
+	Calculations	الحسابات
+	Camera Calibration	معايرة الكاميرا
+	Camera Raw	Camera Raw
+	Camera Raw Filter	مرشح Camera Raw
+	Candle Light	ضوء الشموع
+	Canvas Size	حجم اللوحة
+	Caption	تسمية توضيحية
+	Category	الفئة
+	Cell Size	حجم الخلية
+	Center X	المركز X
+	Center Y	المركز Y
+	Chalk & Charcoal	طباشير وفحم
+	Chalk Area	منطقة الطباشير
+	Channel	القناة
+	Channel1	القناة1
+	Channel2	القناة2
+	Channel3	القناة3
+	Channel4	القناة4
+	Charcoal	فحم
+	Charcoal Area	منطقة الفحم
+	Charcoal Thickness	سُمك الفحم
+	Chrome	كروم
+	Circle	دائرة
+	Circularity	الاستدارة
+	Cleanliness	النظافة
+	Clear Amount	مقدار المسح
+	Clear Selection	مسح التحديد
+	Clipping Path	مسار القص
+	Clone	استنساخ
+	Clone Stamp	ختم الاستنساخ
+	Close Window	إغلاق النافذة
+	Clumped	متكتّل
+	Coarse Dots	نقاط خشنة
+	Color Decontaminate	إزالة تلوث الألوان
+	Color Halftone	نقاط طباعة ملوّنة
+	Color Lookup Tables	جداول البحث عن الألوان
+	Color Picker	أداة اختيار الألوان
+	Color Profile	ملف تعريف الألوان
+	Color Range	نطاق اللون
+	Color Settings	إعدادات الألوان
+	Color Swatches	حوامل الألوان
+	Color Table	جدول الألوان
+	Color indicates	اللون يشير إلى
+	Colored Pencil	قلم ملوّن
+	Compare	مقارنة
+	Compatibility	التوافق
+	Compose	التركيب
+	Compression	ضغط
+	Condensed	مضغوط
+	Conditional Mode Change	تغيير الوضع الشرطي
+	Confirm	تأكيد
+	Constraints	القيود
+	Content-Aware Fill	التعبئة حسب المحتوى
+	Content-Aware Move	النقل حسب المحتوى
+	Continue	متابعة
+	Contract	تقليص
+	Contrasty	عالي التباين
+	Conté Crayon	قلم كونتي
+	Convert to Linked	التحويل إلى مرتبط
+	Convert to Profile	التحويل إلى ملف تعريف
+	Cool	بارد
+	Cooling L B B	تبريد LBB
+	Cooling80	تبريد 80
+	Cooling82	تبريد 82
+	Copyright Status	حالة حقوق النشر
+	Copyrighted	محمي بحقوق النشر
+	Correct C A	تصحيح الزيغ اللوني
+	Correct Distortion	تصحيح التشوه
+	Correct Vignette	تصحيح التظليل المحيطي
+	Crack Brightness	سطوع التشققات
+	Crack Depth	عمق التشققات
+	Crack Spacing	تباعد التشققات
+	Craquelure	تشقق السطح
+	Create By	الإنشاء حسب
+	Cross	علامة خطأ
+	Cross Process	معالجة متقاطعة
+	Crosshatch	تهشير متقاطع
+	Crystallize	تبلور
+	Current	الحالي
+	Curve Darks	منحنى الداكنات
+	Curve Highlights	منحنى الإضاءات
+	Curve Lights	منحنى الفواتح
+	Curve Shadows	منحنى الظلال
+	Curve Splits	تقسيمات المنحنى
+	Custom Branch Color	لون مخصص للفروع
+	Cutout	قص ورقي
+	Daisies	أقحوان
+	Dark Intensity	شدة الداكن
+	Dark Rough	خشونة داكنة
+	Dark Strokes	ضربات داكنة
+	Darken Only	التغميق فقط
+	Darkness	العتمة
+	Data	البيانات
+	Date	تاريخ
+	Date and Time	التاريخ والوقت
+	Day For Night	نهار كأنه ليل
+	De-Interlace	إزالة التشابك
+	Deep Blue	أزرق عميق
+	Deep Emerald	زمردي عميق
+	Deep Red	أحمر عميق
+	Deep Yellow	أصفر عميق
+	Default Foreground and Background Colors	لونا المقدمة والخلفية الافتراضيان
+	Default Leaves	الأوراق الافتراضية
+	Defaults	الافتراضيات
+	Define Brush Preset	تعريف إعداد مسبق للفرشاة
+	Define Custom Shape	تعريف شكل مخصص
+	Define Pattern	تعريف نقش
+	Definition	الوضوح
+	Defringe	إزالة الهالة
+	Degrees	الدرجات
+	Delete Path	حذف المسار
+	Depth Map	خريطة العمق
+	Depth Mode	وضع العمق
+	Diameter	القطر
+	Diffuse	انتشار
+	Diffuse Glow	توهج منتشر
+	Digits	الأرقام
+	Direction Balance	توازن الاتجاه
+	Disable	تعطيل
+	Disabled	معطّل
+	Displace	إزاحة
+	Display	العرض
+	Distortion	التشوه
+	Distribution	التوزيع
+	Documentation	الوثائق
+	Documents	المستندات
+	Dodge	تفتيح
+	Dot	نقطة
+	Double Line	خط مزدوج
+	Draft	مسودة
+	Dry Brush	فرشاة جافة
+	Duplicate	تكرار
+	Duplicate Layer	تكرار الطبقة
+	Duplicate Layer Comp	تكرار تركيبة الطبقات
+	Duplicate Layers	تكرار الطبقات
+	Duplicate Path	تكرار المسار
+	Duplication	التكرار
+	Duration	المدة
+	Dust & Scratches	الغبار والخدوش
+	Dynamics	الديناميكيات
+	EXIF	EXIF
+	Edge Brightness	سطوع الحواف
+	Edge Extension	امتداد الحواف
+	Edge Fidelity	دقة الحواف
+	Edge Intensity	شدة الحواف
+	Edge Only	الحواف فقط
+	Edge Simplicity	بساطة الحواف
+	Edge Thickness	سُمك الحواف
+	Edge Width	عرض الحواف
+	Elevation	الارتفاع
+	Eliminate	إزالة
+	Enable	تمكين
+	End X	النهاية X
+	End Y	النهاية Y
+	Enlarged	مكبّر
+	Errors	الأخطاء
+	Even Fields	الحقول الزوجية
+	Export As	تصدير باسم
+	Export Contents	تصدير المحتويات
+	Export Options	خيارات التصدير
+	Export Preferences	تفضيلات التصدير
+	Export Settings	إعدادات التصدير
+	Export/Import Presets	تصدير/استيراد الإعدادات المسبقة
+	Extensions	الإضافات
+	Extra Bold	عريض جداً
+	Extra Light	رفيع جداً
+	Extrude	بثق
+	Faded Film	فيلم باهت
+	Failed	فاشل
+	Fast	سريع
+	Fiber Length	طول الألياف
+	Fibers	ألياف
+	Field Blur	ضبابية المجال
+	File Info	معلومات الملف
+	File Name	اسم الملف
+	Filename	اسم الملف
+	Fill Color	لون التعبئة
+	Fill Path	تعبئة المسار
+	Film Grain	حبيبات الفيلم
+	Filter Gallery	معرض المرشحات
+	Find	بحث
+	Fine	ناعم
+	Fine Dots	نقاط ناعمة
+	Finish	إنهاء
+	First Line Indent	مسافة بادئة للسطر الأول
+	Fish	سمكة
+	Fit Image	ملاءمة الصورة
+	Flag	علم
+	Flame	لهب
+	Flame Bottom Alignment	محاذاة أسفل اللهب
+	Flame Lines	خطوط اللهب
+	Flame Shape	شكل اللهب
+	Flame Style	نمط اللهب
+	Flame Type	نوع اللهب
+	Flash	فلاش
+	Flat	مسطّح
+	Flat Shading	تظليل مسطّح
+	Flower Color	لون الزهور
+	Focal Distance	المسافة البؤرية
+	Focal Length35mm	البعد البؤري 35 مم
+	Focus	التركيز
+	Focus Area	منطقة التركيز
+	Folder	مجلد
+	Foreground Level	مستوى المقدمة
+	Frame	الإطار
+	Fresco	جصّية
+	From Left	من اليسار
+	From Right	من اليمين
+	Frosted	مُثلّج
+	Full Screen	ملء الشاشة
+	Fullscreen	ملء الشاشة
+	Fuzziness	الضبابية
+	Gamma	غاما
+	Gaussian Blur	ضبابية غاوسية
+	Generators	المولّدات
+	Generic	عام
+	Glass	زجاج
+	Global Light	الضوء العام
+	Gloss	اللمعان
+	Glow Amount	مقدار التوهج
+	Glow Brightness	سطوع التوهج
+	Glow Size	حجم التوهج
+	Glowing Edges	حواف متوهجة
+	Glyph	الحرف الرسومي
+	Good	جيد
+	Grade Balance	توازن التدريج
+	Grade Blending	مزج التدريج
+	Grade Global	التدريج العام
+	Grade Highlights	تدريج الإضاءات
+	Grade Midtones	تدريج الدرجات المتوسطة
+	Grade Shadows	تدريج الظلال
+	Grain Amount	مقدار الحبيبات
+	Grain Roughness	خشونة الحبيبات
+	Grain Size	حجم الحبيبات
+	Grain Type	نوع الحبيبات
+	Graininess	التحبّب
+	Grainy Dots	نقاط محبّبة
+	Graphic Pen	قلم رسومي
+	Graphic and web	الرسومات والويب
+	Gray Value (Maximum)	القيمة الرمادية (الحد الأقصى)
+	Gray Value (Mean)	القيمة الرمادية (المتوسط)
+	Gray Value (Median)	القيمة الرمادية (الوسيط)
+	Gray Value (Minimum)	القيمة الرمادية (الحد الأدنى)
+	Group · {n} layer	مجموعة · {n} طبقة
+	Groups	المجموعات
+	Grout Width	عرض الملاط
+	HDR Toning	تنغيم HDR
+	Halftone Pattern	نقش النقاط الطباعية
+	Hand	اليد
+	Heal	معالجة
+	Healing	المعالجة
+	Hearts	قلوب
+	Heptagon	مسبّع
+	Hexagon	مسدّس
+	Hidden	مخفي
+	Hide	إخفاء
+	Hide Others	إخفاء الطبقات الأخرى
+	Hide {app}	إخفاء {app}
+	High	عالية
+	High Pass	الترشيح العالي
+	Highlight	الإبراز
+	Highlight Amount	مقدار الإضاءات
+	Highlight Area	منطقة الإضاءات
+	Highlight Radius	نصف قطر الإضاءات
+	Highlight Strength	قوة الإضاءات
+	Highlight Tone	درجة الإضاءات
+	History Brush	فرشاة السجل
+	Horizontal Only	الأفقي فقط
+	Hotspot	النقطة الساخنة
+	Hsb	HSB
+	Hsl	HSL
+	Hsl Hue	تدرج HSL
+	Hsl Lum	إضاءة HSL
+	Hsl Sat	تشبع HSL
+	ISO	ISO
+	ISO Speed	سرعة ISO
+	Image Balance	توازن الصورة
+	Image Processor	معالج الصور
+	Import Brushes	استيراد فُرش
+	In	داخل
+	In Black	الأسود الداخل
+	In White	الأبيض الداخل
+	Infinite	لانهائي
+	Inflate	انتفاخ
+	Information	معلومات
+	Ink Outlines	خطوط حبرية
+	Input	الإدخال
+	Input Mode	وضع الإدخال
+	Integrated Density	الكثافة المتكاملة
+	Intensity	الشدة
+	Interpolation	الاستيفاء
+	Interpret Footage	تفسير اللقطات
+	Interval	الفاصل
+	Invert Mask	عكس القناع
+	Iris Blur	ضبابية القزحية
+	Ivy	لبلاب
+	Jag	مسنّن
+	Justification	الضبط
+	Justify	ضبط
+	Kernel	النواة
+	Keyboard	لوحة المفاتيح
+	Keywords	الكلمات المفتاحية
+	Label	التسمية
+	Layer Comp	تركيبة الطبقات
+	Layer Content Options	خيارات محتوى الطبقة
+	Layer From Background	طبقة من الخلفية
+	Layer Properties	خصائص الطبقة
+	Leaf Color	لون الورقة
+	Leaves Amount	كمية الأوراق
+	Leaves Color	لون الأوراق
+	Leaves Size	حجم الأوراق
+	Left Diagonal	قطري أيسر
+	Legacy	قديم
+	Length	الطول
+	Lens	العدسة
+	Lens Blur	ضبابية العدسة
+	Lens Correction	تصحيح العدسة
+	Lens Flare	وهج العدسة
+	Less	أقل
+	Letter Spacing	تباعد الأحرف
+	Level Based	حسب المستوى
+	Libraries	المكتبات
+	Library	مكتبة
+	Ligature	حرف مركّب
+	Light Dark Balance	توازن الفاتح والداكن
+	Light Direction	اتجاه الضوء
+	Light Intensity	شدة الضوء
+	Light Rough	خشونة فاتحة
+	Light Source	مصدر الضوء
+	Light Type	نوع الضوء
+	Light X	الضوء X
+	Light Y	الضوء Y
+	Light Z	الضوء Z
+	Lighten Grout	تفتيح الملاط
+	Lighten Only	التفتيح فقط
+	Lighting	الإضاءة
+	Lighting Effects	تأثيرات الإضاءة
+	Linear Dodge	تفادي خطي
+	Liquify	التسييل
+	List	قائمة
+	Load Selection	تحميل التحديد
+	Lock Layers	قفل الطبقات
+	Locked	مقفل
+	Long Lines	خطوط طويلة
+	Long Strokes	ضربات طويلة
+	Loop	تكرار
+	Low	منخفضة
+	Lower	أدنى
+	Lum	الإضاءة
+	Lut	LUT
+	Magnetic Lasso	اللاسو المغناطيسي
+	Make	إنشاء
+	Make Selection	إنشاء تحديد
+	Make Work Path	إنشاء مسار عمل
+	Manual	يدوي
+	Map Document	ربط بالمستند
+	Map Layer	ربط بالطبقة
+	Map Path	ربط بالمسار
+	Mask	قناع
+	Mask Incomplete Blocks	إخفاء الكتل غير المكتملة
+	Masked Areas	المناطق المخفية بقناع
+	Masks	الأقنعة
+	Match Color	مطابقة اللون
+	Max Offset	أقصى إزاحة
+	Max Radius	أقصى نصف قطر
+	Measure	قياس
+	Medium Dots	نقاط متوسطة
+	Medium Lines	خطوط متوسطة
+	Medium Strokes	ضربات متوسطة
+	Metallic	معدني
+	Method	الطريقة
+	Mezzotint	ميزوتنت
+	Middle	الوسط
+	Midtone	الدرجة المتوسطة
+	Mono Contrast	تباين أحادي
+	Monochromatic	أحادي اللون
+	More	المزيد
+	Mosaic	فسيفساء
+	Mosaic Tiles	بلاطات فسيفساء
+	Motion Blur	ضبابية الحركة
+	Mouse	الفأرة
+	Move Layer	نقل طبقة
+	Movie Prime	عدسة سينمائية ثابتة
+	Multiple Flames Along Path	لهب متعدد على المسار
+	Multiple Flames One Direction	لهب متعدد باتجاه واحد
+	Multiple Flames Path Directions	لهب متعدد باتجاهات المسار
+	Multiple Flames Various Length	لهب متعدد بأطوال متنوعة
+	Neon Glow	توهج نيون
+	Neutralize	معادلة
+	New Channel	قناة جديدة
+	New Group	مجموعة جديدة
+	New Guide	دليل جديد
+	New Guide Layout	تخطيط أدلة جديد
+	New Layer Comp	تركيبة طبقات جديدة
+	New Layer…	طبقة جديدة…
+	New Video Layer from File	طبقة فيديو جديدة من ملف
+	New document	مستند جديد
+	New document…     ⌘N	مستند جديد…     ⌘N
+	Next	التالي
+	No Document	لا يوجد مستند
+	No Image	لا توجد صورة
+	Noise Color	لون التشويش
+	Noise Color Detail	تفاصيل لون التشويش
+	Noise Luminance	إضاءة التشويش
+	Noise Luminance Detail	تفاصيل إضاءة التشويش
+	Note Paper	ورق الملاحظات
+	Number Of Levels	عدد المستويات
+	Ocean Ripple	تموج المحيط
+	Octagon	مثمّن
+	Odd Fields	الحقول الفردية
+	Oil Paint	طلاء زيتي
+	On	تشغيل
+	One Flame Along Path	لهب واحد على المسار
+	Open As	فتح باسم
+	Open File	فتح ملف
+	Open Folder	فتح مجلد
+	Opening	الفتح
+	Operation	العملية
+	Out	خارج
+	Out Black	الأسود الخارج
+	Out From Center	من المركز للخارج
+	Out White	الأبيض الخارج
+	Out of memory	نفدت الذاكرة
+	Output Levels	مستويات الإخراج
+	Oval	شكل بيضاوي
+	Overlay Edge	حافة التراكب
+	Package	حزم
+	Paint Daubs	لطخات الطلاء
+	Palette Knife	سكين الألوان
+	Panel	اللوحة
+	Paper Brightness	سطوع الورق
+	Parallel	متوازٍ
+	Patch	الرقعة
+	Patchwork	ترقيع
+	Path Blur	ضبابية المسار
+	Pattern Type	نوع النقش
+	Pen	قلم
+	Pencil Tool	أداة قلم الرصاص
+	Pencil Width	عرض قلم الرصاص
+	Pentagon	مخمّس
+	Percentage	نسبة مئوية
+	Perimeter	المحيط
+	Permission denied	تم رفض الإذن
+	Perspective Crop	اقتصاص المنظور
+	Phone	الهاتف
+	Photocopy	نسخ ضوئي
+	Photomerge	الدمج البانورامي
+	Picture Frame	إطار الصورة
+	Pinch	قرص
+	Pins	الدبابيس
+	Pixel	بكسل
+	Place Embedded	وضع مضمّن
+	Place Linked	وضع مرتبط
+	Place Scale Marker	وضع علامة المقياس
+	Plane	مستوٍ
+	Planes	المستويات
+	Plaster	جص
+	Plastic Wrap	غلاف بلاستيكي
+	Point	إشارة
+	Point Curve	منحنى النقاط
+	Point Curve Blue	منحنى النقاط الأزرق
+	Point Curve Green	منحنى النقاط الأخضر
+	Point Curve Red	منحنى النقاط الأحمر
+	Pointed	مدبّب
+	Pointillize	تنقيط فني
+	Polar Coordinates	الإحداثيات القطبية
+	Polar To Rectangular	من قطبي إلى مستطيل
+	Pond Ripples	تموجات البركة
+	Poster Edges	حواف الملصق
+	Posterization	تقليل الألوان
+	Preserve	الحفاظ
+	Preset Manager	إدارة الإعدادات المسبقة
+	Preview Image	معاينة الصورة
+	Previous	السابق
+	Prime105	عدسة ثابتة 105
+	Prime35	عدسة ثابتة 35
+	ProPhoto	ProPhoto
+	Profile	ملف التعريف
+	Public Domain	ملكية عامة
+	Punctuation	علامات الترقيم
+	Pyramids	أهرامات
+	Quick Selection	التحديد السريع
+	Quit	إنهاء
+	Quit PhotoCraft	إنهاء ريتوش
+	Quit {app}	إنهاء {app}
+	RGB	RGB
+	Radial Blur	ضبابية شعاعية
+	Radius X	نصف القطر X
+	Radius Y	نصف القطر Y
+	Random	عشوائي
+	Randomize Length	طول عشوائي
+	Randomize Shapes	أشكال عشوائية
+	Raw Data	البيانات الخام
+	Raw Defaults	افتراضيات Raw
+	Reading	القراءة
+	Ready	جاهز
+	Recent Files	الملفات الأخيرة
+	Recovery	الاسترداد
+	Rectangle	مستطيل
+	Rectangular Selection	تحديد مستطيل
+	Rectangular To Polar	من مستطيل إلى قطبي
+	Red Cyan	أحمر سماوي
+	Reduce Color Noise	تقليل تشويش الألوان
+	Reduce Noise	تقليل التشويش
+	Relief	النقش البارز
+	Relink to File	إعادة الربط بملف
+	Remove All	إزالة الكل
+	Remove Jpeg Artifact	إزالة عيوب JPEG
+	Rename Brush	إعادة تسمية الفرشاة
+	Rename Group	إعادة تسمية المجموعة
+	Rename Layer Comp	إعادة تسمية تركيبة الطبقات
+	Render Video	تصيير الفيديو
+	Reorder Layer	إعادة ترتيب الطبقة
+	Repeat	تكرار
+	Replace	استبدال
+	Replace Color	استبدال اللون
+	Replace Contents	استبدال المحتويات
+	Replace Footage	استبدال اللقطات
+	Reset All	إعادة تعيين الكل
+	Reset Preferences	إعادة تعيين التفضيلات
+	Resolve Missing Fonts	حل مشكلة الخطوط المفقودة
+	Restart	إعادة التشغيل
+	Result	النتيجة
+	Resume	استئناف
+	Reticulation	تشبيك
+	Retry	إعادة المحاولة
+	Rgb	RGB
+	Ridges	حواف بارزة
+	Right Diagonal	قطري أيمن
+	Ripple	تموّج
+	Ripple Magnitude	شدة التموّج
+	Ripple Size	حجم التموّج
+	Rise	الارتفاع
+	Roman	روماني
+	Rope	حبل
+	Roses	ورود
+	Rough Pastels	باستيل خشن
+	Row Order	ترتيب الصفوف
+	Ruler	المسطرة
+	Sample Size	حجم العيّنة
+	Sampler	أداة أخذ العيّنات
+	Sandstone	رملي
+	Sat	التشبع
+	Save As	حفظ باسم
+	Save File	حفظ الملف
+	Save Selection	حفظ التحديد
+	Save for Web (Legacy)	حفظ للويب (قديم)
+	Scale Effects	تحجيم التأثيرات
+	Scale Factor	عامل المقياس
+	Scale Units	وحدات المقياس
+	Scaling	التحجيم
+	Scallops	أصداف متموجة
+	Script Events Manager	إدارة أحداث البرامج النصية
+	Search menus	البحث في القوائم
+	Seed	البذرة
+	Select All Layers	تحديد كل الطبقات
+	Select Inverse	عكس التحديد
+	Select Layer	تحديد الطبقة
+	Select and Mask	التحديد والقناع
+	Selected Areas	المناطق المحددة
+	Semi Bold	نصف عريض
+	Sepia	بنّي داكن
+	Services	الخدمات
+	Set Colors	تعيين الألوان
+	Set Measurement Scale	تعيين مقياس القياس
+	Settings	الإعدادات
+	Shadow	ظل
+	Shadow Amount	مقدار الظلال
+	Shadow Intensity	شدة الظلال
+	Shadow Radius	نصف قطر الظلال
+	Shadow Tone	درجة الظلال
+	Shadows/Highlights	الظلال/الإضاءات
+	Shape Blur	ضبابية الشكل
+	Sharpen Amount	مقدار زيادة الحدة
+	Sharpen Detail	تفاصيل زيادة الحدة
+	Sharpen Details	تفاصيل زيادة الحدة
+	Sharpen Masking	قناع زيادة الحدة
+	Sharpen Radius	نصف قطر زيادة الحدة
+	Sharpness	الحدة
+	Shear	إمالة
+	Shell Lower	الصدفة السفلية
+	Shell Upper	الصدفة العلوية
+	Shine	اللمعان
+	Short Lines	خطوط قصيرة
+	Short Strokes	ضربات قصيرة
+	Shortcut	الاختصار
+	Shortcuts	الاختصارات
+	Show All	إظهار الكل
+	Simple	بسيط
+	Sine	جيبي
+	Sketch	رسم تخطيطي
+	Skip	تخطٍّ
+	Slice Options	خيارات الشريحة
+	Smart Blur	ضبابية ذكية
+	Smart Sharpen	زيادة الحدة الذكية
+	Smoothness	النعومة
+	Smudge Stick	عصا التلطيخ
+	Snapshots	اللقطات
+	Snowflakes	ندف الثلج
+	Softness	الليونة
+	Software	برمجي
+	Solid Color	لون مصمت
+	Solid Front Faces	أوجه أمامية مصمتة
+	Source Layer	الطبقة المصدر
+	Sparkle	بريق
+	Spatter	رذاذ
+	Speckle	نُقط
+	Speed	السرعة
+	Spherize	تكوير
+	Spin	دوران
+	Spin Blur	ضبابية الدوران
+	Sponge	إسفنج
+	Spot	بقعة
+	Spot Color	لون موضعي
+	Spot Healing	المعالجة الموضعية
+	Spray Radius	نصف قطر الرش
+	Sprayed Strokes	ضربات مرشوشة
+	Sprinkles	حبيبات ملونة
+	Square Size	حجم المربع
+	Squareness	التربيع
+	Squeeze	ضغط
+	Stagger	تدرّج متعاقب
+	Stained Glass	زجاج معشّق
+	Stamp	ختم
+	Star	نجمة
+	Stars	نجوم
+	Start X	البداية X
+	Start Y	البداية Y
+	Statistics	الإحصاءات
+	Step Backward	خطوة للخلف
+	Stippled	منقّط
+	Stop	إيقاف
+	Stops	نقاط التوقف
+	Strength	القوة
+	Stretch	تمديد
+	Stroke Color	لون الحد
+	Stroke Detail	تفاصيل الضربة
+	Stroke Direction	اتجاه الضربة
+	Stroke Length	طول الضربة
+	Stroke Path	تحديد المسار
+	Stroke Pressure	ضغط الضربة
+	Stroke Size	حجم الضربة
+	Stroke Width	عرض الحد
+	Strokes	الضربات
+	Stylization	الأسلبة
+	Sumi-e	سومي-إي
+	Surface Blur	ضبابية السطح
+	Switch Foreground and Background Colors	تبديل لوني المقدمة والخلفية
+	Symbols	رموز
+	Tablet	اللوح الرقمي
+	Taper	الاستدقاق
+	Target	الهدف
+	Target X	الهدف X
+	Target Y	الهدف Y
+	Teal Orange	أزرق مخضر وبرتقالي
+	Text Layer	طبقة نص
+	Texture Coverage	تغطية النسيج
+	Texturizer	مُنسِّج
+	Thickness	السماكة
+	Tile Size	حجم البلاطة
+	Tiles	بلاطات
+	Tilt	الإمالة
+	Tilt-Shift	إمالة وإزاحة
+	Time	وقت
+	Timing	التوقيت
+	Tint Color	لون الصبغة
+	Tiny Lens	عدسة صغيرة
+	To Center	نحو المركز
+	Tone Curve	منحنى الدرجات
+	Tool	أداة
+	Tool Options	خيارات الأداة
+	Toolbars	أشرطة الأدوات
+	Torn Edges	حواف ممزقة
+	Trace Contour	تتبع الكفاف
+	Transformation	التحويل
+	Transition	الانتقال
+	Trap	التراكب اللوني
+	Tree	شجرة
+	Trim	حدود التشذيب
+	Turbulent	مضطرب
+	Twirl	دوّامة
+	Twist	لَيّ
+	Unaltered	غير معدّل
+	Undefined Areas	المناطق غير المعرّفة
+	Underpainting	طلاء أساسي
+	Underwater	تحت الماء
+	Ungroup	فك التجميع
+	Uniform	منتظم
+	Units	وحدات
+	Unix	Unix
+	Unknown	غير معروف
+	Unlock	إلغاء القفل
+	Unlocked	غير مقفل
+	Unsharp Mask	قناع زيادة الحدة
+	Update	تحديث
+	Update Layer Comp	تحديث تركيبة الطبقات
+	Updates	التحديثات
+	Upper	أعلى
+	Use Custom Color	استخدام لون مخصص
+	Use Selection In Source	استخدام التحديد في المصدر
+	Use Selection In Target	استخدام التحديد في الهدف
+	Vanishing Point	نقطة التلاشي
+	Variable Data Sets	مجموعات البيانات المتغيرة
+	Vertical Only	العمودي فقط
+	Vertical Type Tool	أداة النص العمودي
+	Video Frames to Layers	إطارات الفيديو إلى طبقات
+	Vignette Amount	مقدار التظليل المحيطي
+	Vignette Feather	تنعيم التظليل المحيطي
+	Vignette Highlights	إضاءات التظليل المحيطي
+	Vignette Midpoint	منتصف التظليل المحيطي
+	Vignette Roundness	استدارة التظليل المحيطي
+	Vignette Style	نمط التظليل المحيطي
+	Vine Color	لون الكرمة
+	Vine With Flowers	كرمة بأزهار
+	Vine With Leaves	كرمة بأوراق
+	Violent	عنيف
+	Wand	العصا
+	Warm	دافئ
+	Warming L B A	تدفئة LBA
+	Warming81	تدفئة 81
+	Warming85	تدفئة 85
+	Warmth	الدفء
+	Warning	تحذير
+	Warp Text	التواء النص
+	Water Paper	ورق مائي
+	Watercolor	ألوان مائية
+	Wave	موجة
+	Wavelength Max	أقصى طول موجي
+	Wavelength Min	أدنى طول موجي
+	Waves	الموجات
+	Wetness	البلل
+	White Clip	قص الأبيض
+	White Intensity	شدة الأبيض
+	White Is High	الأبيض هو المرتفع
+	Wide Blurry	عريض ضبابي
+	Wide Sharp	عريض حاد
+	Wind	رياح
+	Working	العمل
+	Workspaces	مساحات العمل
+	Wrap	التفاف
+	ZigZag	متعرّج
+	Zigzag	متعرّج
+	sRGB	sRGB
+	sRGB IEC61966-2.1	sRGB IEC61966-2.1
+	shortcut	اختصار
+@id	filter.sharpen.sharpen	زيادة الحدة
+cameraRaw	Amount	المقدار
+cameraRaw	Blacks	السواد
+cameraRaw	Color Detail	تفاصيل الألوان
+cameraRaw	Color Grading	تدريج الألوان
+cameraRaw	Darks	الداكنات
+cameraRaw	Global	عام
+cameraRaw	Hue	تدرج اللون
+cameraRaw	Lights	الفواتح
+cameraRaw	Luminance Detail	تفاصيل الإضاءة
+cameraRaw	Masking	الإخفاء بالقناع
+cameraRaw	Roughness	الخشونة
+cameraRaw	Tint	الصبغة
+cameraRaw	Vibrance	الحيوية
+cameraRaw	Whites	البياض
+layerLabel	No Color	بلا لون
+	Loading fonts…	جارٍ تحميل الخطوط…
+	Simulate Pressure	محاكاة الضغط
+	Background Eraser	ممحاة الخلفية
+	Healing Brush	فرشاة المعالجة
+	Spot Healing Brush	فرشاة المعالجة الموضعية
+	Smudge	التلطيخ
+	Amount:	المقدار:
+	Protect:	الحماية:
+	Protect skin tones	حماية ألوان البشرة
+	Edit points to modify the curve	حرّر النقاط لتعديل المنحنى
+	Draw to modify the curve	ارسم لتعديل المنحنى
+curves	Smooth	تنعيم
+	Smooth the curve values	تنعيم قيم المنحنى
+	Drag to draw the curve · {key}-click draws a straight line	اسحب لرسم المنحنى · النقر مع {key} يرسم خطاً مستقيماً
+	Edit Plane	تحرير المستوى
+	Create Plane	إنشاء مستوى
+	Grid Size:	حجم الشبكة:
+	Vanishing Point: click four corners to create a plane	نقطة التلاشي: انقر أربع زوايا لإنشاء مستوى
+	Vanishing Point is not active	نقطة التلاشي غير نشطة
+	Apply Vanishing Point ({key})	تطبيق نقطة التلاشي ({key})
+	Fix the red plane first: its corners must form a convex quad	أصلح المستوى الأحمر أولاً: يجب أن تشكّل زواياه رباعياً محدّباً
+	Onion Skin	جلد البصل
+	Marching Ants	النمل الزاحف
+	On Black	على الأسود
+	On White	على الأبيض
+	On Layers	على الطبقات
+	Show Edge	إظهار الحافة
+	Show Original	إظهار الأصل
+	F cycles the views; hold X to see the image	F للتنقل بين العروض؛ استمر بالضغط على X لرؤية الصورة
+	Refine Edge Brush (R)	فرشاة تحسين الحافة (R)
+	Expand Detection Area	توسيع منطقة الكشف
+	Restore Original Edge	استعادة الحافة الأصلية
+	Paint over hair or fur on the image; Alt paints the other mode	ارسم فوق الشعر أو الفراء في الصورة؛ Alt يرسم بالوضع الآخر
+	Clear Brush Strokes	مسح ضربات الفرشاة
+	Show rulers	إظهار المساطر
+	Click to place · Alt-click or drag off-canvas to remove	انقر للوضع · انقر مع Alt أو اسحب خارج اللوحة للإزالة
+	No document open	لا يوجد مستند مفتوح
+	{n} of {max} sample points	{n} من {max} نقطة عيّنة
+	Drag (lasso) or click points (polygonal) · {add} add · {sub} subtract	اسحب (لاسو) أو انقر نقاطاً (مضلّع) · {add} للإضافة · {sub} للطرح
+	The current gradient (pick one in Window › Gradients)	التدرج الحالي (اختر واحداً من نافذة › التدرجات)
+	Make Work Path…	إنشاء مسار عمل…
+	Create Vector Mask	إنشاء قناع متجهي
+	Make Selection…	إنشاء تحديد…
+	Fill Path…	تعبئة المسار…
+	Stroke Path…	تحديد المسار…
+	Clipping Path…	مسار القص…
+	Free Transform Path	تحويل حر للمسار
+	Unite Shapes at Overlap	توحيد الأشكال عند التداخل
+	Subtract Shapes at Overlap	طرح الأشكال عند التداخل
+	Copy Fill	نسخ التعبئة
+	Copy Complete Stroke	نسخ الحد كاملاً
+	Paste Fill	لصق التعبئة
+	Paste Complete Stroke	لصق الحد كاملاً
+	Make Symmetry Path	إنشاء مسار تماثل
+	Disable Symmetry Path	تعطيل مسار التماثل
+	Dark Gray	رمادي داكن
+	Medium Gray	رمادي متوسط
+	Light Gray	رمادي فاتح
+	Select Custom Color…	اختيار لون مخصص…
+	Color Picker (Custom Canvas Color)	منتقي الألوان (لون اللوحة المخصص)
+	Duplicate Channel	تكرار القناة
+	Delete Channel	حذف القناة
+	Rename Channel…	إعادة تسمية القناة…
+	Merge Spot Channel	دمج القناة الموضعية
+	Convert to Alpha Channel	التحويل إلى قناة ألفا
+	Exit Quick Mask	الخروج من القناع السريع
+	New Channel…	قناة جديدة…
+	New Spot Channel…	قناة موضعية جديدة…
+	Split Channels	تقسيم القنوات
+	Merge Channels…	دمج القنوات…
+	Color Indicates Masked Areas	اللون يشير إلى المناطق المخفية بقناع
+	Color Indicates Selected Areas	اللون يشير إلى المناطق المحددة
+	✓ Color Indicates Masked Areas	✓ اللون يشير إلى المناطق المخفية بقناع
+	✓ Color Indicates Selected Areas	✓ اللون يشير إلى المناطق المحددة
+	Up	أعلى
+	To	إلى
+	Shallow	ضحل
+	Deep	عميق
+	Blend Interior Effects as Group	مزج التأثيرات الداخلية كمجموعة
+	Blend Clipped Layers as Group	مزج الطبقات المقصوصة كمجموعة
+	Transparency Shapes Layer	الشفافية تشكّل الطبقة
+	Layer Mask Hides Effects	قناع الطبقة يخفي التأثيرات
+	Vector Mask Hides Effects	القناع المتجهي يخفي التأثيرات
+	General Blending	المزج العام
+	This Layer:	هذه الطبقة:
+	Underlying Layer:	الطبقة التحتية:
+	Nothing to paste: the clipboard holds no image	لا يوجد ما يُلصق: الحافظة لا تحتوي على صورة
+	Preferences saved	حُفظت التفضيلات
+	Invalid panel layout; restored the default dock	تخطيط لوحات غير صالح؛ استُعيد الإرساء الافتراضي
+@plural	{n} sample point removed|{n} sample points removed	أُزيلت {n} نقطة عيّنة|أُزيلت نقطة عيّنة واحدة ({n})|أُزيلت نقطتا عيّنة ({n})|أُزيلت {n} نقاط عيّنة|أُزيلت {n} نقطة عيّنة|أُزيلت {n} نقطة عيّنة
+	Preferences were reset: {error}	أُعيد تعيين التفضيلات: {error}
+	Recovered {name}	استُرد {name}
+	Couldn't save preferences: {error}. Retrying…	تعذّر حفظ التفضيلات: {error}. جارٍ إعادة المحاولة…
+	Autosave failed: {error}	فشل الحفظ التلقائي: {error}
+	Exported presets to {path}	صُدّرت الإعدادات المسبقة إلى {path}
+	Ran script {name}	شُغّل البرنامج النصي {name}
+	Sent to the printer ({spooler})	أُرسل إلى الطابعة ({spooler})
+	Printed to {path}	طُبع إلى {path}
+	Exported {path} ({size})	صُدّر {path} ‏({size})
+	Exported {path}	صُدّر {path}
+	Added swatch {name}	أُضيف حامل اللون {name}
+	Step {step} ({id}) failed: {error}	فشلت الخطوة {step} ‏({id}): {error}
+	Could not rename the action: {error}	تعذّرت إعادة تسمية الإجراء: {error}
+	Action playback failed: {error}	فشل تشغيل الإجراء: {error}
+	Clone source set at {x}, {y}	عُيّن مصدر الاستنساخ عند {x}، {y}
+	Color management: {error}	إدارة الألوان: {error}
+	Opened {url}	فُتح {url}
+	No custom shape "{name}": pick one in the options bar or Window › Shapes	لا يوجد شكل مخصص "{name}": اختر واحداً من شريط الخيارات أو نافذة › الأشكال
+	Saved a copy as {path}	حُفظت نسخة باسم {path}
+	Exported contents to {path}	صُدّرت المحتويات إلى {path}
+	{label} is not available: {reason}	{label} غير متاح: {reason}
+	Saved {path}; image assets: {n} in {dir}	حُفظ {path}؛ أصول الصور: {n} في {dir}
+@plural	Played {n} step|Played {n} steps	شُغّلت {n} خطوة|شُغّلت خطوة واحدة ({n})|شُغّلت خطوتان ({n})|شُغّلت {n} خطوات|شُغّلت {n} خطوة|شُغّلت {n} خطوة
+@plural	Updated {n} linked smart object changed on disk|Updated {n} linked smart objects changed on disk	حُدّث {n} كائن ذكي مرتبط تغيّر على القرص|حُدّث كائن ذكي مرتبط واحد تغيّر على القرص ({n})|حُدّث كائنان ذكيان مرتبطان تغيّرا على القرص ({n})|حُدّثت {n} كائنات ذكية مرتبطة تغيّرت على القرص|حُدّث {n} كائناً ذكياً مرتبطاً تغيّر على القرص|حُدّث {n} كائن ذكي مرتبط تغيّر على القرص
+@plural	Saved for Web: {n} file|Saved for Web: {n} files	حُفظ للويب: {n} ملف|حُفظ للويب: ملف واحد ({n})|حُفظ للويب: ملفان ({n})|حُفظ للويب: {n} ملفات|حُفظ للويب: {n} ملفاً|حُفظ للويب: {n} ملف
+@plural	Imported {n} brush from {group}|Imported {n} brushes from {group}	استُوردت {n} فرشاة من {group}|استُوردت فرشاة واحدة ({n}) من {group}|استُوردت فرشاتان ({n}) من {group}|استُوردت {n} فُرش من {group}|استُوردت {n} فرشاة من {group}|استُوردت {n} فرشاة من {group}
+@plural	Imported {n} swatch from {file}|Imported {n} swatches from {file}	استُورد {n} حامل لون من {file}|استُورد حامل لون واحد ({n}) من {file}|استُورد حاملا لون ({n}) من {file}|استُوردت {n} حوامل ألوان من {file}|استُورد {n} حامل لون من {file}|استُورد {n} حامل لون من {file}
+@plural	Exported {n} swatch to {file}|Exported {n} swatches to {file}	صُدّر {n} حامل لون إلى {file}|صُدّر حامل لون واحد ({n}) إلى {file}|صُدّر حاملا لون ({n}) إلى {file}|صُدّرت {n} حوامل ألوان إلى {file}|صُدّر {n} حامل لون إلى {file}|صُدّر {n} حامل لون إلى {file}
+	{message} (notes: {n}; {warning})	{message} (ملاحظات: {n}؛ {warning})
+@plural	{warning} (+{n} more brush preset warning)|{warning} (+{n} more brush preset warnings)	{warning} (+{n} تحذير آخر لإعدادات الفُرش)|{warning} (+تحذير آخر واحد لإعدادات الفُرش ({n}))|{warning} (+تحذيران آخران لإعدادات الفُرش ({n}))|{warning} (+{n} تحذيرات أخرى لإعدادات الفُرش)|{warning} (+{n} تحذيراً آخر لإعدادات الفُرش)|{warning} (+{n} تحذير آخر لإعدادات الفُرش)
+	Preferences can't be saved	تعذّر حفظ التفضيلات
+	PhotoCraft keeps retrying; until a save succeeds, preference changes are lost when it closes.	يستمر ريتوش في إعادة المحاولة؛ وإلى أن ينجح الحفظ، تضيع تغييرات التفضيلات عند الإغلاق.
+	GPU retry scheduled	جُدولت إعادة محاولة GPU
+	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	احفظ عملك وأعد تشغيل ريتوش لإعادة محاولة تسريع GPU. يبقى العرض بالمعالج نشطاً في هذه الجلسة.
+	GPU device was lost; using the CPU renderer.	فُقد جهاز GPU؛ يُستخدم العارض بالمعالج.
+	GPU error; using the CPU renderer.	خطأ في GPU؛ يُستخدم العارض بالمعالج.
+@plural	{what} with {n} warning|{what} with {n} warnings	{what} مع {n} تحذير|{what} مع تحذير واحد ({n})|{what} مع تحذيرين ({n})|{what} مع {n} تحذيرات|{what} مع {n} تحذيراً|{what} مع {n} تحذير
+	Couldn't open {name}: {error}	تعذّر فتح {name}: {error}
+	Toggle the Brush Settings panel	تبديل لوحة إعدادات الفرشاة
+	New Brush Preset	إعداد فرشاة مسبق جديد
+	Grid view	عرض الشبكة
+	List view	عرض القائمة
+	{verb} {mask} {layer}	{verb} {mask} {layer}
+	Unlink	فك الارتباط
+	Link	رابط
+	layer mask	قناع الطبقة
+	vector mask	القناع المتجهي
+	Commit transform	اعتماد التحويل
+	Cancel transform	إلغاء التحويل
+	Scroll menu up	تمرير القائمة لأعلى
+	Scroll menu down	تمرير القائمة لأسفل
+	This type layer must be rasterized before proceeding. Its text will no longer be editable. Rasterize the type?	يجب تنقيط طبقة النص هذه قبل المتابعة. لن يعود نصها قابلاً للتحرير. هل تريد تنقيط النص؟
+	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	يجب تنقيط طبقة الشكل هذه قبل المتابعة. لن تعود قابلة للتحرير كشكل. هل تريد تنقيط الشكل؟
+	This Smart Object must be rasterized before proceeding. Its contents will no longer be editable. Rasterize the Smart Object?	يجب تنقيط هذا الكائن الذكي قبل المتابعة. لن تعود محتوياته قابلة للتحرير. هل تريد تنقيط الكائن الذكي؟
+	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	يجب تنقيط طبقة التعبئة هذه قبل المتابعة. لن يعود محتوى تعبئتها قابلاً للتحرير. هل تريد تنقيط الطبقة؟
+	This layer must be rasterized before proceeding.	يجب تنقيط هذه الطبقة قبل المتابعة.
+	Color Picker (Background Color)	منتقي الألوان (لون الخلفية)
+	Color Picker (Foreground Color)	منتقي الألوان (لون المقدمة)
+	Adwaita (Light)	Adwaita (فاتح)
+	Adwaita (Dark)	Adwaita (داكن)
+	Breeze Light	Breeze فاتح
+	Breeze Dark	Breeze داكن
+	Solarized Dark	Solarized داكن
+	Open Recent is unavailable on the web	«فتح الأخيرة» غير متاح على الويب
+	Graphics adapter: {adapter}	بطاقة الرسوميات: {adapter}
+	Backend: {backend} ({type})	الواجهة الخلفية: {backend} ‏({type})
+	Driver: {driver}	برنامج التشغيل: {driver}
+	GPU backend preference: {backend}	تفضيل واجهة GPU الخلفية: {backend}
+	Selected at launch: {backend}	المحدد عند التشغيل: {backend}
+	Image compositor: {processor}	مُركّب الصور: {processor}
+	Fallback: {reason}	البديل: {reason}
+	This session: {reason}	هذه الجلسة: {reason}
+	Window renderer: {renderer}	عارض النافذة: {renderer}
+	Software adapter	محوّل برمجي
+	Graphics adapter	بطاقة الرسوميات
+	unknown	غير معروف
+	unknown type	نوع غير معروف
+	auto	تلقائي
+	Platform: {os} {arch}	النظام: {os} {arch}
+	previous reading kept; the last re-read failed: {reason}	احتُفظ بالقراءة السابقة؛ فشلت آخر إعادة قراءة: {reason}
+	Monitor profile: {profile}	ملف تعريف الشاشة: {profile}
+	Display profiles: {reason}	ملفات تعريف العرض: {reason}
+	Monitor profile in use on {display}: {profile}	ملف تعريف الشاشة المستخدم على {display}: {profile}
+	Monitor profile in use: {profile}	ملف تعريف الشاشة المستخدم: {profile}
+	The canvas is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	تُعرض اللوحة كـ sRGB. اختر ملف تعريف للشاشة من تحرير › إعدادات الألوان.
+	The canvas on {display} is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	تُعرض اللوحة على {display} كـ sRGB. اختر ملف تعريف للشاشة من تحرير › إعدادات الألوان.
+	Display profile not used	ملف تعريف العرض غير مستخدم
+	Monitor profile on {display} (main window): {profile}	ملف تعريف الشاشة على {display} (النافذة الرئيسية): {profile}
+	Monitor profile on {display}: {profile}	ملف تعريف الشاشة على {display}: {profile}
+	manual	يدوي
+	fallback	بديل
+	The document does not have an embedded colour profile. Working space: {working}.	لا يحتوي المستند على ملف تعريف ألوان مضمّن. مساحة العمل: {working}.
+	The document has an embedded colour profile that does not match the working space.\nEmbedded: {embedded}\nWorking: {working}	يحتوي المستند على ملف تعريف ألوان مضمّن لا يطابق مساحة العمل.\nالمضمّن: {embedded}\nمساحة العمل: {working}
+	Importing {what} from {file}…	جارٍ استيراد {what} من {file}…
+	brushes	الفُرش
+	gradients	التدرجات
+@plural	Imported {n} brush from {file}|Imported {n} brushes from {file}	استُوردت {n} فرشاة من {file}|استُوردت فرشاة واحدة ({n}) من {file}|استُوردت فرشاتان ({n}) من {file}|استُوردت {n} فُرش من {file}|استُوردت {n} فرشاة من {file}|استُوردت {n} فرشاة من {file}
+@plural	Imported {n} gradient from {file}|Imported {n} gradients from {file}	استُورد {n} تدرج من {file}|استُورد تدرج واحد ({n}) من {file}|استُورد تدرجان ({n}) من {file}|استُوردت {n} تدرجات من {file}|استُورد {n} تدرجاً من {file}|استُورد {n} تدرج من {file}
+	Data Set: {name}  ({index}/{total})	مجموعة البيانات: {name}  ({index}/{total})
+	(none)	(لا شيء)
+navigator	Zoom	التكبير
+@plural	{n} plane|{n} planes	{n} مستوى|مستوى واحد ({n})|مستويان ({n})|{n} مستويات|{n} مستوى|{n} مستوى
+@plural	{n} slice|{n} slices	{n} شريحة|شريحة واحدة ({n})|شريحتان ({n})|{n} شرائح|{n} شريحة|{n} شريحة
+@plural	{n} preset|{n} presets	{n} إعداد مسبق|إعداد مسبق واحد ({n})|إعدادان مسبقان ({n})|{n} إعدادات مسبقة|{n} إعداداً مسبقاً|{n} إعداد مسبق
+@plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	حُذفت {n} طبقة سجّلتها هذه التركيبة. حدّث التركيبة أو امسح التحذير.|حُذفت طبقة واحدة ({n}) سجّلتها هذه التركيبة. حدّث التركيبة أو امسح التحذير.|حُذفت طبقتان ({n}) سجّلتهما هذه التركيبة. حدّث التركيبة أو امسح التحذير.|حُذفت {n} طبقات سجّلتها هذه التركيبة. حدّث التركيبة أو امسح التحذير.|حُذفت {n} طبقة سجّلتها هذه التركيبة. حدّث التركيبة أو امسح التحذير.|حُذفت {n} طبقة سجّلتها هذه التركيبة. حدّث التركيبة أو امسح التحذير.
+	Apply {option}: {state}	تطبيق {option}: {state}
+	on	تشغيل
+	off	إيقاف
+	This adjustment ({key}) is kept as imported and can't be edited yet.	يُحتفظ بهذا التعديل ({key}) كما استُورد ولا يمكن تحريره بعد.
+	Contact the Developer ({url})	تواصل مع المطوّر ({url})
+	{index} of {total}	{index} من {total}
+@plural	{n} step|{n} steps	{n} خطوة|خطوة واحدة ({n})|خطوتان ({n})|{n} خطوات|{n} خطوة|{n} خطوة
+	{shortcut} assigned.	عُيّن {shortcut}.
+	{shortcut} is already in use by {commands} and will be removed from it when you click OK.	{shortcut} مستخدم حالياً لـ {commands} وسيُزال منه عند النقر على «موافق».
+	Emulsion Down	الطبقة الحساسة للأسفل
+	Functions	الدوال
+	Print Resolution:	دقة الطباعة:
+	Use Previous Layer to Create Clipping Mask	استخدام الطبقة السابقة لإنشاء قناع قص
+	Fill with {mode}-neutral color (white)	التعبئة بلون محايد لوضع {mode} (أبيض)
+	Fill with {mode}-neutral color (black)	التعبئة بلون محايد لوضع {mode} (أسود)
+	Fill with {mode}-neutral color (50% gray)	التعبئة بلون محايد لوضع {mode} (رمادي 50%)
+	(No neutral color exists for {mode} mode.)	(لا يوجد لون محايد لوضع {mode}.)
+	Apply mask to layer before removing?	تطبيق القناع على الطبقة قبل الإزالة؟
+	The layer or its mask changed. Drag the mask onto the Trash again.	تغيّرت الطبقة أو قناعها. اسحب القناع إلى سلة المهملات مرة أخرى.
+	Delete the vector mask?	حذف القناع المتجهي؟
+	Light Blue	أزرق فاتح
+	Light Red	أحمر فاتح
+	Medium Blue	أزرق متوسط
+	Remove after each stroke	الإزالة بعد كل ضربة
+	Apply the removal ({key})	تطبيق الإزالة ({key})
+	Strokes to remove: {n} (Enter applies, Esc cancels)	الضربات المراد إزالتها: {n} (Enter للتطبيق، Esc للإلغاء)
+	Preferences…	تفضيلات…
+	Clipping Mask	قناع القص
+	Import…	استيراد…
+	Invert Selection	عكس التحديد
+	Input Levels	مستويات الإدخال
+	Layer Styles	أنماط الطبقة
+	Blending Mode	وضع المزج
+	Adjustment Layer	طبقة ضبط
+	File Format	صيغة الملف
+	Snap to Grid	الالتقاط إلى الشبكة
+	Step Forward	خطوة للأمام
+	Lock Transparent Pixels	قفل البكسلات الشفافة
+	Lock Image Pixels	قفل بكسلات الصورة
+	Lock Position	قفل الموضع
+	Lock All	قفل الكل
+	Show Rulers	إظهار المساطر
+	Guide Layout…	تخطيط الأدلة…
+	Page Setup…	إعداد الصفحة…
+	Check for Updates	البحث عن تحديثات
+	Loading…	جارٍ التحميل…
+	Processing…	جارٍ المعالجة…
+	Saving…	جارٍ الحفظ…
+	Exporting…	جارٍ التصدير…
+	Please wait…	يُرجى الانتظار…
+	No selection	لا يوجد تحديد
+	No layers	لا توجد طبقات
+	No recent files	لا توجد ملفات أخيرة
+	Unsupported file format	صيغة ملف غير مدعومة
+	Failed to open file	فشل فتح الملف
+	Failed to save file	فشل حفظ الملف
+	Operation canceled	أُلغيت العملية
+	Changes have not been saved.	لم تُحفظ التغييرات.
+	Are you sure?	هل أنت متأكد؟
+	Discard Changes	تجاهل التغييرات
+	Save Changes	حفظ التغييرات
+	Rendering…	جارٍ العرض…
+	Importing…	جارٍ الاستيراد…
+	Apply to All	التطبيق على الكل
+	Delete…	حذف…
+	Create…	إنشاء…
+	Edit…	تحرير…
+	Change…	تغيير…
+	Sensitivity	الحساسية
+	Feather Radius	نصف قطر تنعيم الحواف
+	Add Mask	إضافة قناع
+	Delete Mask	حذف القناع
+	Enable Mask	تمكين القناع
+	Disable Mask	تعطيل القناع
+	Import Settings	إعدادات الاستيراد
+	Hide Grid	إخفاء الشبكة
+	Fit to Window	ملاءمة للنافذة
+	Live Preview	معاينة حية
+	File Size	حجم الملف
+	Choose Folder	اختيار مجلد
+	Learn More	معرفة المزيد
+	Report a Bug	الإبلاغ عن خلل
+	Restart Required	يلزم إعادة التشغيل
+	New Window	نافذة جديدة
+	Open Image	فتح صورة
+	Save Image	حفظ الصورة
+	Export Image	تصدير الصورة
+	Import Image	استيراد صورة
+	Export to	تصدير إلى
+	Import Options	خيارات الاستيراد
+	No Selection	لا يوجد تحديد
+	No Layers	لا توجد طبقات
+	No Results	لا توجد نتائج
+	No Results Found	لم يُعثر على نتائج
+	Nothing to Undo	لا يوجد ما يُتراجع عنه
+	Nothing to Redo	لا يوجد ما يُعاد
+	Changes Saved	حُفظت التغييرات
+	Unsaved Changes	تغييرات غير محفوظة
+	Save before closing?	الحفظ قبل الإغلاق؟
+	Are you sure you want to quit?	هل أنت متأكد من رغبتك في الإنهاء؟
+	The file could not be opened.	تعذّر فتح الملف.
+	The file could not be saved.	تعذّر حفظ الملف.
+	Unsupported format	صيغة غير مدعومة
+	File not found	الملف غير موجود
+	Operation failed	فشلت العملية
+	Operation completed	اكتملت العملية
+	Operation cancelled	أُلغيت العملية
+	Fill Light	ضوء التعبئة
+	Convert to Grayscale	التحويل إلى تدرج رمادي
+	Color Noise Reduction	تقليل تشويش الألوان
+	Luminance Smoothness	نعومة الإضاءة
+	Aspect Ratio	نسبة الأبعاد
+	Enter description…	أدخل الوصف…
+	Industry Standard	معيار الصناعة
+	Uncoated CMYK	CMYK غير مطلي
+	Working Spaces	مساحات العمل
+	Color Management Policies	سياسات إدارة الألوان
+	Detect Faces	كشف الوجوه
+	Localize Color Clusters	تجمعات ألوان موضعية
+	Duplicated selection name	اسم تحديد مكرر
+	New channel only	قناة جديدة فقط
+	Create Snapshot	إنشاء لقطة
+	Delete Snapshot	حذف اللقطة
+	New Snapshot	لقطة جديدة
+	Snapshot 1	لقطة 1
+	Nonlinear History	سجل غير خطي
+	Set New Snapshot as Default	تعيين اللقطة الجديدة كافتراضية
+	Automatically Create First Snapshot	إنشاء أول لقطة تلقائياً
+	Automatically Create New Snapshot When Saving	إنشاء لقطة جديدة تلقائياً عند الحفظ
+	Show New Snapshot Dialog by Default	إظهار مربع حوار اللقطة الجديدة افتراضياً
+	Clear History	مسح السجل
+	Panel Options…	خيارات اللوحة…
+	View menu	قائمة العرض
+	Keep view in sync	إبقاء العرض متزامناً
+	Mouse Controls	عناصر التحكم بالفأرة
+	Initial Direction of Stroke	الاتجاه الأولي للضربة
+	Direction of Stroke	اتجاه الضربة
+	Humidity	الرطوبة
+	Auto Clean Brush	تنظيف الفرشاة تلقائياً
+	New Layer from Brush	طبقة جديدة من الفرشاة
+	New Brush	فرشاة جديدة
+	New Tool Preset	إعداد أداة مسبق جديد
+	Auto-Leading	تباعد رأسي تلقائي
+	Scale Horizontally	التحجيم أفقياً
+	Scale Vertically	التحجيم عمودياً
+	Superscript	النص المرتفع
+	Subscript	النص المنخفض
+	Enable Timeline Quick Config	تمكين الإعداد السريع للخط الزمني
+	Set Start Timecode…	تعيين الرمز الزمني للبداية…
+	Timecode	الرمز الزمني
+	Current Time	الوقت الحالي
+	Play Once	تشغيل مرة واحدة
+	Info Options…	خيارات المعلومات…
+	First Color Readout	قراءة اللون الأولى
+	Second Color Readout	قراءة اللون الثانية
+	Actual Color	اللون الفعلي
+	Grayscale Slider	منزلق التدرج الرمادي
+	Web Color	لون الويب
+	Total Ink	إجمالي الحبر
+	Opacity Mask	قناع العتامة
+	Document Size	حجم المستند
+	Status Information	معلومات الحالة
+	Mouse Coordinates	إحداثيات الفأرة
+	Ruler Units	وحدات المسطرة
+	Restore last viewed comp	استعادة آخر تركيبة معروضة
+	Keep proportions	الحفاظ على النِّسب
+	Caption Credits	مؤلف التسمية التوضيحية
+	Copyright Info URL	رابط معلومات حقوق النشر
+	Credit	الاعتماد
+	Transmission Reference	مرجع الإرسال
+	Urgency	الأولوية
+	Supplemental Categories	الفئات التكميلية
+	Object Name / Title	اسم الكائن / العنوان
+	Date Created	تاريخ الإنشاء
+	City	المدينة
+	Province / State	المقاطعة / الولاية
+	Country	البلد
+	Byline	اسم الكاتب
+	Byline Title	صفة الكاتب
+	Email	بريد إلكتروني
+	Last Modified	آخر تعديل
+	Camera Model	طراز الكاميرا
+	Camera Make	الشركة المصنّعة للكاميرا
+	EXIF Version	إصدار EXIF
+	Exposure Program	برنامج التعريض
+	Shutter Speed	سرعة الغالق
+	Metering Mode	وضع القياس
+	Create Multiple Picture Packages	إنشاء حزم صور متعددة
+	Choose…	اختيار…
+	Select Folder…	اختيار مجلد…
+	Override Action "Save" Commands	تجاوز أوامر «حفظ» في الإجراء
+	File Naming	تسمية الملفات
+	Include ICC Profile	تضمين ملف تعريف ICC
+	Error File	ملف الأخطاء
+	Stop For Errors	التوقف عند الأخطاء
+	Log Errors To File	تسجيل الأخطاء في ملف
+	Settings:	الإعدادات:
+	Working Space	مساحة العمل
+	Advanced Controls	عناصر التحكم المتقدمة
+	Desaturate Monitor Colors By	إزالة تشبع ألوان الشاشة بمقدار
+	Blend RGB Colors Using Gamma 1.0	مزج ألوان RGB باستخدام غاما 1.0
+	Profile Mismatches: Ask When Opening	عدم تطابق ملفات التعريف: السؤال عند الفتح
+	Ask When Pasting	السؤال عند اللصق
+	Missing Profiles: Ask When Opening	ملفات التعريف المفقودة: السؤال عند الفتح
+	Embed profiles	تضمين ملفات التعريف
+	Coerce to sRGB	الإجبار على sRGB
+	Minimalistic	بسيط
+	Expand All Groups	توسيع كل المجموعات
+	Recent Items	العناصر الأخيرة
+	Delete Preset…	حذف الإعداد المسبق…
+	Preset Name:	اسم الإعداد المسبق:
+	Width and Height	العرض والارتفاع
+	Create new count group	إنشاء مجموعة عدّ جديدة
+	Drag to move the layer	اسحب لتحريك الطبقة
+	Go to Layer	الانتقال إلى الطبقة
+	Reference point location	موقع النقطة المرجعية
+	Toggle reference point	تبديل النقطة المرجعية
+	Heal Off	المعالجة متوقفة
+	Heal On	المعالجة مفعّلة
+	Heal Auto	معالجة تلقائية
+	Heal Color	معالجة اللون
+	Subtract from	الطرح من
+	Intersect with	التقاطع مع
+	Capture Comp	التقاط تركيبة
+	No Layer Comps	لا توجد تركيبات طبقات
+	Add to selection  (⇧)	إضافة إلى التحديد  (⇧)
+	Click to zoom in  ·  ⌥-click to zoom out	انقر للتكبير  ·  انقر مع ⌥ للتصغير
+	Commit Perspective Warp (↩)	اعتماد تشويه المنظور (↩)
+	Commit Puppet Warp (↩)	اعتماد التشويه بالدمى (↩)
+	Commit any current edits (⌘↩)	اعتماد أي تعديلات حالية (⌘↩)
+	Commit current crop operation  (↵)	اعتماد عملية الاقتصاص الحالية  (↵)
+	Commit transform (↩)	اعتماد التحويل (↩)
+	Commit warp (↩)	اعتماد الالتواء (↩)
+	Create a new layer  (⇧⌘N)	إنشاء طبقة جديدة  (⇧⌘N)
+	Custom pattern	نقش مخصص
+	General Brushes	فُرش عامة
+	Open…     ⌘O	فتح…     ⌘O
+	Search commands (⌘K)	البحث في الأوامر (⌘K)
+	Uses the foreground and background colors.	يستخدم لوني المقدمة والخلفية.
+	Collapse group  (⌥-click: all groups)	طي المجموعة  (انقر مع ⌥: كل المجموعات)
+	Expand group  (⌥-click: all groups)	توسيع المجموعة  (انقر مع ⌥: كل المجموعات)
+	Custom Pixel Aspect Ratio	نسبة أبعاد بكسل مخصصة
+	Report an Issue	الإبلاغ عن مشكلة
+	Load Files into Stack	تحميل الملفات في مكدّس
+	Edit Toolbar	تحرير شريط الأدوات
+	Load 3D LUT	تحميل 3D LUT
+	Press keys	اضغط المفاتيح
+	Rename Tool Preset	إعادة تسمية إعداد الأداة المسبق
+	Search commands, tools and panels	البحث في الأوامر والأدوات واللوحات
+	Delete Smart Filters	حذف المرشحات الذكية
+	Enable Smart Filters	تمكين المرشحات الذكية
+	Delete Layer…	حذف الطبقة…
+	Select Similar Colors	تحديد الألوان المتشابهة
+	New Selection	تحديد جديد
+	Click the first point or press ↵ to close · Esc cancels	انقر على النقطة الأولى أو اضغط ↵ للإغلاق · Esc للإلغاء
+	Click to add a point · drag off or ⌘/Ctrl-click or Delete to remove	انقر لإضافة نقطة · اسحبها للخارج أو انقر مع ⌘/Ctrl أو Delete للإزالة
+	Click to apply, ⌥-click to clear overrides, double-click for Style Options	انقر للتطبيق، وانقر مع ⌥ لمسح التجاوزات، وانقر نقراً مزدوجاً لخيارات النمط
+	Click: corner · Drag: smooth · Click first point: close · ↩ finish · Esc cancel	نقر: زاوية · سحب: سلس · نقر النقطة الأولى: إغلاق · ↩ إنهاء · Esc إلغاء
+	Rulers  (⌘R)	المساطر  (⌘R)
+	Show Guides  (⌘;)	إظهار الأدلة  (⌘;)
+	Grid  (⌘')	الشبكة  (⌘')
+	PDF Presentation…	عرض تقديمي PDF…
+	Picture Package…	حزمة صور…
+	Web Photo Gallery…	معرض صور ويب…
+	Gray:	رمادي:
+	Spot:	موضعي:
+	Technology Previews…	معاينات التقنية…
+	AI Integrations	تكامل الذكاء الاصطناعي
+	Add Pins	إضافة دبابيس
+	Add a mask  (from the selection; ⌥ inverts)	إضافة قناع  (من التحديد؛ ⌥ للعكس)
+	Adds grain to the soft edges of the brush tip.	يضيف حبيبات إلى الحواف الناعمة لرأس الفرشاة.
+	Adobe PDF Presets…	إعدادات Adobe PDF المسبقة…
+	After (X)	بعد (X)
+	Airbrush: keeps painting while the pointer rests.	البخاخ: يستمر في الرسم أثناء ثبات المؤشر.
+	Alternates for Current Selection	البدائل للتحديد الحالي
+	Artboards to Files	لوحات الرسم إلى ملفات
+	Artboards to PDF	لوحات الرسم إلى PDF
+	Ask Before Saving Saved Embedded	السؤال قبل حفظ المضمّن المحفوظ
+	Audio	الصوت
+	Auto-Hide	إخفاء تلقائي
+	Auto-leading %	التباعد الرأسي التلقائي %
+	Avoid Widows/Orphans	تجنّب الأسطر الأرملة/اليتيمة
+	Canvas rotation	تدوير اللوحة
+	Convert Frames > Video Layers	تحويل الإطارات > طبقات فيديو
+	Create Date	تاريخ الإنشاء
+	Create new layer	إنشاء طبقة جديدة
+	Create new set	إنشاء مجموعة جديدة
+	Data Sets as Files	مجموعات البيانات كملفات
+	DateTime Original	التاريخ والوقت الأصليان
+	Defaults restored.	استُعيدت الافتراضيات.
+	Delete Pins	حذف الدبابيس
+	Do you want to save you made to “{name}” before quitting?	هل تريد حفظ ما أجريته على «{name}» قبل الإنهاء؟
+	Dodge/Burn	تفتيح/حرق
+	Find and Replace Text	البحث عن نص واستبداله
+	Flatten Frames Into Clips	تسطيح الإطارات في مقاطع
+	Flatten Frames Into Layers	تسطيح الإطارات في طبقات
+	Frame Duration	مدة الإطار
+	Frame Sync	مزامنة الإطارات
+	General Blend	المزج العام
+	Glyph Scaling	تحجيم الحروف الرسومية
+	Group from Layers	مجموعة من الطبقات
+	HSB Color	ألوان HSB
+	HSL/Grayscale	HSL/تدرج رمادي
+	Hanging Punctuation	علامات الترقيم المعلّقة
+	Hide the layer's effects  (⌥-click: all layers)	إخفاء تأثيرات الطبقة  (انقر مع ⌥: كل الطبقات)
+	Install Plug-in	تثبيت مكون إضافي
+	Intersect with selection  (⇧⌥)	التقاطع مع التحديد  (⇧⌥)
+	Keeps the current texture when switching presets.	يحتفظ بالنسيج الحالي عند تبديل الإعدادات المسبقة.
+	Layer Comps to Files	تركيبات الطبقات إلى ملفات
+	Layer from Background	طبقة من الخلفية
+	Layers to Files	الطبقات إلى ملفات
+	Lens Corrections	تصحيحات العدسة
+	Lens Info	معلومات العدسة
+	Limit Playback	تحديد التشغيل
+	Merge to HDR Pro	الدمج إلى HDR Pro
+	Modify Date	تاريخ التعديل
+	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or run PhotoCraft under XWayland with `WAYLAND_DISPLAY= photocraft`.	سحب الملفات وإفلاتها غير مدعوم على Wayland بعد. استخدم ملف › فتح، أو شغّل ريتوش تحت XWayland بالأمر `WAYLAND_DISPLAY= photocraft`.
+	New Path	مسار جديد
+	New Video Group	مجموعة فيديو جديدة
+	New Video Layer	طبقة فيديو جديدة
+	Newspaper	صحيفة
+	Path to Illustrator…	المسار إلى Illustrator…
+	Path:	المسار:
+	Paths to Illustrator	المسارات إلى Illustrator
+	Quick Sync	مزامنة سريعة
+	Roman Hanging Punctuation	علامات الترقيم المعلّقة اللاتينية
+	Rotate Auto	تدوير تلقائي
+	Rotate Fixed	تدوير ثابت
+	Save a Copy	حفظ نسخة
+	Saved Multichannel	متعدد القنوات محفوظ
+	Select Plane	تحديد المستوى
+	Show the layer's effects  (⌥-click: all layers)	إظهار تأثيرات الطبقة  (انقر مع ⌥: كل الطبقات)
+	Single Word Justification	ضبط الكلمة المفردة
+	Spacing:	التباعد:
+	Split Toning	تنغيم منقسم
+	Split at Playhead	التقسيم عند رأس التشغيل
+	Spot Channel	قناة موضعية
+	Subject Distance	مسافة الهدف
+	Subtract from selection  (⌥)	الطرح من التحديد  (⌥)
+	Technology Previews	معاينات التقنية
+	Ultra Bold	عريض للغاية
+	Ultra Light	رفيع للغاية
+	Use File › Open to open an image.	استخدم ملف › فتح لفتح صورة.
+	WIA Support	دعم WIA
+	Watercolour look: lighter interior, darker rims.	مظهر الألوان المائية: داخل أفتح وحواف أغمق.
+	Word Spacing	تباعد الكلمات
+	Working Gray Plate	لوح الرمادي للعمل
+	↑↓ navigate   ↵ run   esc close	↑↓ للتنقل   ↵ للتنفيذ   esc للإغلاق
+	Note tool	أداة الملاحظة
+	Art History Brush	فرشاة السجل الفنية
+	ColorSync	ColorSync
+	ACES	ACES
+	{zoom}%	{zoom}%
+	Mac LCD	Mac LCD
+	Mac Sharp	Mac حاد
+	Mac Crisp	Mac واضح
+	Mac Strong	Mac قوي
+	Mac Smooth	Mac سلس
+	Adobe Single-line Composer	مُنضّد Adobe للسطر الواحد
+	Adobe Every-line Composer	مُنضّد Adobe لكل الأسطر
+	30 fps	30 إطار/ث
+	25 fps	25 إطار/ث
+	24 fps	24 إطار/ث
+	15 fps	15 إطار/ث
+	10 fps	10 إطار/ث
+	URLs	الروابط
+	GPS	GPS
+	Mac OS	Mac OS
+	RGB:	RGB:
+	CMYK:	CMYK:
+	ProPhoto RGB	ProPhoto RGB
+	ColorMatch RGB	ColorMatch RGB
+	Wide Gamut RGB	Wide Gamut RGB
+	Apple RGB	Apple RGB
+	NTSC (1953)	NTSC ‏(1953)
+	PAL/SECAM	PAL/SECAM
+	SMPTE C	SMPTE C
+	HDTV (Rec. 709)	HDTV ‏(Rec. 709)
+	CIE RGB	CIE RGB
+	Photo (2 × 3 in)	صورة (2 × 3 بوصة)
+	Photo (4 × 6 in)	صورة (4 × 6 بوصة)
+	Photo (5 × 7 in)	صورة (5 × 7 بوصة)
+	Photo (8 × 10 in)	صورة (8 × 10 بوصة)
+@id	file.close	إغلاق
+@id	layer.layerMask.apply	تطبيق
+@id	edit.clear	مسح
+layerLabel	Red	أحمر
+layerLabel	Magenta	أرجواني
+	Drag: draw freehand · Release on the start point: close	سحب: رسم حر · الإفلات على نقطة البداية: إغلاق
+	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} centre) · Space moves while drawing · {commit} commits · Esc cancels	اسحب مربع اقتصاص · اسحب بالداخل للنقل · الحواف لتغيير الحجم (نسبة {ratio}، مركز {centre}) · المسافة للنقل أثناء الرسم · {commit} للاعتماد · Esc للإلغاء
+	Kerning: Metrics, Optical or a value in 1/1000 em (Alt+←/→ at the caret)	التقنين: المقاييس أو البصري أو قيمة بوحدة 1/1000 em ‏(Alt+←/→ عند علامة الإدراج)
+	Basic Latin	اللاتينية الأساسية
+	Latin 1	اللاتينية 1
+	Latin Extended-A	اللاتينية الموسّعة-A
+	Latin Extended-B	اللاتينية الموسّعة-B
+	Greek	اليونانية
+	Cyrillic	السيريلية
+	Numbers	الأرقام
+	Currency	عملة
+	Math Symbols	الرموز الرياضية
+	Arrows	الأسهم
+	Save Path	حفظ المسار
+cameraRaw	Highlights	الإضاءات
+cameraRaw	Shadows	الظلال
+	All shortcuts reset to Photoshop defaults.	أُعيدت كل الاختصارات إلى افتراضيات Photoshop.
+	Temporary	مؤقت
+	none	لا شيء
+	red	أحمر
+	orange	برتقالي
+	yellow	أصفر
+	green	أخضر
+	blue	أزرق
+	violet	بنفسجي
+	gray	رمادي
+	Working Rgb	RGB العمل
+	Working Cmyk	CMYK العمل
+	Working Gray	الرمادي للعمل
+	Policy Rgb	سياسة RGB
+	Policy Cmyk	سياسة CMYK
+	Policy Gray	سياسة الرمادي
+	Convert	تحويل
+	Ask On Mismatch	السؤال عند عدم التطابق
+	Ask On Paste	السؤال عند اللصق
+	Ask On Missing	السؤال عند الفقدان
+	Intent	الغرض
+	Bpc	تعويض النقطة السوداء
+	Blend Text Gamma	مزج غاما النص
+	Monitor Profile	ملف تعريف الشاشة
+	Display-p3	Display P3
+	Adobe-rgb-compat	متوافق مع Adobe RGB
+	Prophoto-compat	متوافق مع ProPhoto
+	Linear-srgb	sRGB خطي
+	Rec2020	Rec2020
+	Coated-cmyk	CMYK مطلي
+	Sgray	sGray
+	Gray-gamma-2.2	رمادي غاما 2.2
+	Import Photoshop brushes (.abr)	استيراد فُرش Photoshop ‏(.abr)
+cameraRaw	Effects	التأثيرات
+cameraRaw	Exposure	التعريض
+cameraRaw	Contrast	التباين
+cameraRaw	Texture	النسيج
+cameraRaw	Clarity	الوضوح
+cameraRaw	Dehaze	إزالة الضباب
+cameraRaw	Saturation	التشبع
+cameraRaw	Curve	المنحنى
+cameraRaw	Color Mixer	خلّاط الألوان
+cameraRaw	Midtones	الدرجات المتوسطة
+cameraRaw	Balance	التوازن
+cameraRaw	Detail	التفاصيل
+cameraRaw	Radius	نصف القطر
+cameraRaw	Feather	التنعيم
+cameraRaw	Midpoint	نقطة المنتصف
+cameraRaw	Roundness	الاستدارة
+cameraRaw	Size	الحجم
+	Default Photoshop Size	حجم Photoshop الافتراضي
+document	Orientation	الاتجاه
+	Arc Lower	قوس سفلي
+	Arc Upper	قوس علوي
+	Forward Warp	التواء للأمام
+	Twirl Clockwise	دوّامة مع عقارب الساعة
+	Twirl Counterclockwise	دوّامة عكس عقارب الساعة
+	Pucker	تقليص
+	Bloat	انتفاخ
+	Push Left	دفع لليسار
+	Freeze Mask	تجميد القناع
+	Thaw Mask	إذابة القناع
+	Freeze Lasso	لاسو التجميد
+	Reconstruct All	إعادة بناء الكل
+	Mask None	بلا قناع
+colorRange	Invert	عكس
+layers	Fill	التعبئة
+layers	Fill:	التعبئة:
+shape	Appearance	المظهر

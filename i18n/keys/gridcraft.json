@@ -1,0 +1,2288 @@
+[
+ {
+  "ctx": "",
+  "src": "Paste",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste Values",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste Formulas",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste Formatting",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transpose",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste Link",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste Special…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cut (⌘X)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copy (⌘C)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Format Painter (double-click to keep it on)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bold (⌘B)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Italic (⌘I)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Underline (⌘U)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Double Underline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Strikethrough",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Underline",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Increase Font Size",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Decrease Font Size",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Wrap Text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Merge & Center",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Merge Cells",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Merge Across",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unmerge Cells",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fill Color",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Font Color",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Borders",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Top\nAlign",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Middle\nAlign",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bottom\nAlign",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Left",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Right",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Horizontal",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Vertical Text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Decrease Indent",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Increase Indent",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Orientation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Layout|Orientation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Angle Counterclockwise",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Angle Clockwise",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rotate Text Up",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rotate Text Down",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Accounting Number Format",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Percent Style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Comma Style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Increase Decimal",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Decrease Decimal",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "More Accounting Formats…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Conditional\nFormatting",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Conditional Formatting",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Format\nas Table",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cell\nStyles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Format Cells…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Format Cell Alignment…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Format\nPane",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Format",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Cells…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Cells…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Sheet Rows",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Sheet Columns",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Sheet Rows",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Sheet Columns",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Row Height…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "AutoFit Row Height",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Column Width…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "AutoFit Column Width",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Default Width…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Rows",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unhide Rows",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Columns",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unhide Columns",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lock Cell",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear All",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear Formats",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear Contents",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear Comments and Notes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear Hyperlinks",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "AutoSum",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "AutoSum (⌘⇧T)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Flash\nFill",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Flash Fill",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fill",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear Print Area",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find &\nSelect",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Replace…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go To…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go To Special…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "PivotTable",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Recommended\nCharts",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pictures",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Shapes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Icons",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text\nBox",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Comment",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New\nComment",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Note",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide Note",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Header &\nFooter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text to\nColumns",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Link",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Symbol",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sparklines",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Header & Footer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Draw with ink",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Eraser",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ink to\nShape",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select\nObjects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Themes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Margins",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Size",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Print\nArea",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Print Area",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Breaks",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Page Break",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove Page Break",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reset All Page Breaks",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Print\nTitles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Narrow",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Wide",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Normal",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Portrait",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Landscape",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Custom Margins…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert\nFunction",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Name\nManager",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Define Name",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Use in Formula",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create from Selection",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Trace Precedents",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Trace Dependents",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove Arrows",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Formulas",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Error Checking",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Evaluate Formula",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Watch Window",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Calculation\nOptions",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Calculate Now",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Calculate Sheet",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Automatic",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Automatic Except for Data Tables",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Manual",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sort &\nFilter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sort",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sort A to Z",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sort Z to A",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Custom Sort…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Filter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reapply",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Get Data\n(Text/CSV)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove\nDuplicates",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data\nValidation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data Validation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data Validation…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Circle Invalid Data",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear Validation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Group",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ungroup",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Detail",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Detail",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Subtotal",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "What-If\nAnalysis",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data Table…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Scenario Manager…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Goal Seek…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Spelling",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Check\nAccessibility",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Threaded Comments",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show\nComments",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Protect\nWorkbook",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unprotect\nSheet",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Protect Sheet…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Comments",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Notes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Break\nPreview",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page\nLayout",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Formula Bar",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Gridlines",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Headings",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Forecast\nSheet",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add footer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add header",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Click to add data",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Current Date",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Current\nDate",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Current\nTime",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Current Time",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "File Name",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "File\nName",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "File\nPath",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "File Path",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Footer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Different First Page",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Different Odd & Even Pages",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go to Footer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go to Header",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go to\nFooter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go to\nHeader",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Header",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "(none)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Number\nof Pages",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Number of Pages",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page\nNumber",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Number",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ruler",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sheet Name",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sheet\nName",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Animations",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Copied Cells",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Copied Cells…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Cut Cells",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Paste",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous Comment",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next Comment",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show All Notes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert to Comments",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Checkbox",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert checkboxes in the selected cells",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sheet\nRight-to-Left",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sheet Right-to-Left",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data\nAnalysis",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data Analysis",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Solver",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Allow Edit\nRanges",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Allow Edit Ranges",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Interface size",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Auto",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drag to freeze columns",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drag to freeze rows",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select\nData",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "File",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Back",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Info",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save As",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Close",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Options",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Blank workbook",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Recent",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No recent workbooks yet.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "More workbooks",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Browse…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Not saved yet",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Location",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sheets",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Protect Workbook",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Properties",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Title",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Subject",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Author",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Company",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Keywords",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Description",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No workbook is open.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save as type",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Excel Workbook (*.xlsx)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "CSV UTF-8 (Comma delimited) (*.csv)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Web Page (*.html)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "PDF (*.pdf)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Download",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save the workbook under another name or in another folder.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Print Active Sheets",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Print Entire Workbook",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fit Sheet on One Page",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Setup…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page {page} of {pages}",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Nothing to print.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous page",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next page",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create PDF",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save the sheet as a PDF document that keeps its page layout.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Change File Type",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "CSV (Comma delimited)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save the active sheet as comma-separated text.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Web Page (.html)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save the workbook as a web page.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Options|General",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Options|Save",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show formula bar",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save .xlsx workbooks automatically after every change",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Workbook calculation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enable iterative calculation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Calculation settings are saved with the workbook.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "100%",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom to\nSelection",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Freeze\nPanes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Freeze Panes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Freeze Top Row",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Freeze First Column",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unfreeze Panes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dark Mode",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Display theme",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "System",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Light",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dark",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Interface language",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Command\nPalette",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Agent\nControl",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Action\nJournal",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "About\nGridCraft",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Share",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Chart\nElement",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Change\nChart Type",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Switch\nRow/Column",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data Labels: None",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data Labels: Show",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Legend: None",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Legend: Bottom",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Legend: Top",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Legend: Right",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Gridlines: None",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Gridlines: Show",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Chart\nTitle",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete\nChart",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert\nto Range",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table\nStyles",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Top 10 Items",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Top 10%",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bottom 10 Items",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bottom 10%",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Above Average",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Below Average",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear Rules from Entire Sheet",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear Rules from Selected Cells",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Constants",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data Bars",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color Scales",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Icon Sets",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Home",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Draw",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Layout",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Formulas",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Review",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "View",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Automate",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table Design",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Chart Design",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ready",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enter",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Point",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Calculate",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select destination and press Enter or choose Paste",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "General",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Number",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Currency",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Accounting",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Date",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Time",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Percentage",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fraction",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Scientific",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Special",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Custom",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Short Date",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Long Date",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "More Number Formats…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Financial",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Logical",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Date &\nTime",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lookup &\nReference",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Math &\nTrig",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "More\nFunctions",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sheet Options|View",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Print",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Glide the selection outline to the cell you move to instead of jumping there",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sheet structure is locked: sheets can't be added, moved, renamed or deleted.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lock the sheet structure so sheets can't be added, moved, renamed or deleted.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "A CSV file, web page or PDF is a copy: the workbook keeps its own file.",
+  "ar": null,
+  "hint": null
+ }
+]
