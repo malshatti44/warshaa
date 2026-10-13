@@ -1,0 +1,27 @@
+Warsha (ورشة) — Arabic edition of the Craft apps
+Arabic localization and development: Mohammed Al-Shatti (محمد الشطي)
+https://malshatti.com — info@malshatti.com
+
+This repository is a modified version of the open-source Craft apps (PhotoCraft, VectorCraft,
+FilmCraft, LightCraft, PdfCraft, EffectCraft, DesignCraft, WordCraft, DeckCraft, GridCraft,
+CADCraft, SoundCraft and ArtCraft Launcher) by the ArtCraft team and their contributors,
+https://github.com/storytold, licensed under the MIT License or the Apache License, Version 2.0,
+at your option (LICENSE-MIT, LICENSE-APACHE). Each app keeps its original LICENSE-MIT,
+LICENSE-APACHE, NOTICE and ATTRIBUTION files under apps/<repo>/.
+
+Warsha is not an ArtCraft product and is not endorsed by the ArtCraft Team. As the ArtCraft brand
+terms require for modified versions, the ArtCraft name, wordmark and mark were removed from the
+apps and replaced with Warsha's own marks (apps/*/docs/brand/ keeps the original file names).
+
+Changes in this edition (all under the same MIT OR Apache-2.0 terms):
+  - Arabic interface catalogs for every app (i18n/, apps/*/…/ar.*), Arabic as the default language;
+  - right-to-left text: Unicode bidi reordering and an Arabic fallback font in shared/epaint
+    (a patched copy of epaint 0.36.2, MIT OR Apache-2.0, by Emil Ernerfeldt and contributors);
+  - a label translation hook and Arabic window titles in shared/egui (a patched copy of egui 0.36.2,
+    MIT OR Apache-2.0);
+  - the Warsha names, icons and links, and Windows packaging (packaging/).
+
+Third-party material added here:
+  - IBM Plex Sans Arabic (shared/epaint/fonts/) — SIL Open Font License 1.1, © IBM Corp.
+    See shared/epaint/fonts/IBMPlexSansArabic-OFL.txt.
+  - The Warsha app icons and marks — © 2026 Mohammed Al-Shatti.

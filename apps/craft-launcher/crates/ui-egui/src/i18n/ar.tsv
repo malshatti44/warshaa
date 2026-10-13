@@ -1,0 +1,313 @@
+# Arabic (ar) interface catalog. Columns, separated by a TAB:
+#   context <TAB> English source <TAB> translation
+#   (same format and escapes as the other catalogs in this folder; @plural rows carry the six
+#   Arabic forms zero|one|two|few|many|other)
+#
+# تعريب ورشة: محمد الشطي — https://malshatti.com — info@malshatti.com
+# Written from the plain meaning of each English label in Modern Standard Arabic software
+# vocabulary. App names follow the Arabic suite (ورشة): ريتوش، ريشة، مونتير، طيف، وثيق، ومضة،
+# نسق، سطر، منبر، كشف، مخطط، صدى.
+
+	Launcher	ورشة
+	Craft App Suite	تطبيقات ورشة
+	Open Source Tools for Creatives, Makers, and Builders	أدوات مفتوحة المصدر للمبدعين والصنّاع والبنّائين
+	Settings	الإعدادات
+	Check for updates	التحقق من التحديثات
+	Grid	شبكة
+	Table	جدول
+	Show apps as cards	عرض التطبيقات كبطاقات
+	Show apps as a table	عرض التطبيقات كجدول
+	All	الكل
+	Updates	التحديثات
+	Not installed	غير مثبّت
+	Search apps	البحث في التطبيقات
+	Sort	فرز
+	Suite order	ترتيب الحزمة
+	Name	الاسم
+	Inspired by	مستوحى من
+	Status	الحالة
+	Installed version	الإصدار المثبّت
+	Latest version	أحدث إصدار
+	Newest release	أحدث إصدار منشور
+	Discord	Discord
+	GitHub	GitHub
+	Website	الموقع الإلكتروني
+	Classic apps	التطبيقات الكلاسيكية
+	Classic	كلاسيكي
+	New apps	تطبيقات جديدة
+	NEW	جديد
+	Install	تثبيت
+	Update to {v}	التحديث إلى {v}
+	Open	فتح
+	Download for {os}	تنزيل لنظام {os}
+	Download	تنزيل
+	Coming soon	قريبًا
+	Checking…	جارٍ التحقق…
+	Not available	غير متاح
+	Offline	غير متصل
+	Downloading {done} of {total}	جارٍ تنزيل {done} من {total}
+	Downloading…	جارٍ التنزيل…
+	Reconnecting…	جارٍ إعادة الاتصال…
+	Verifying…	جارٍ التحقق…
+	Installing, then restarting…	جارٍ التثبيت ثم إعادة التشغيل…
+	Installing…	جارٍ التثبيت…
+	Removing…	جارٍ الإزالة…
+	Pause download	إيقاف التنزيل مؤقتًا
+	Cancel download	إلغاء التنزيل
+	Resume download	استئناف التنزيل
+	Discard download	تجاهل التنزيل
+	Release notes	ملاحظات الإصدار
+	Show in Finder	إظهار في Finder
+	Show in Explorer	إظهار في المستكشف
+	Show in Files	إظهار في الملفات
+	Reinstall	إعادة التثبيت
+	Uninstall…	إلغاء التثبيت…
+	All releases	كل الإصدارات
+	Warsha {version} is available.	يتوفر الإصدار {version} من ورشة.
+	Dismiss	تجاهل
+	Update and restart	التحديث وإعادة التشغيل
+	A new version is available. Would you like to relaunch with the updated version?	يتوفر إصدار جديد. هل تريد إعادة التشغيل بالإصدار المحدّث؟
+	Later	لاحقًا
+	What's new	ما الجديد
+	No notes were published with this release.	لم تُنشر ملاحظات مع هذا الإصدار.
+	Released {date}	صدر في {date}
+	Open on GitHub	فتح على GitHub
+	Close	إغلاق
+	Warsha {version}	ورشة {version}
+	Only when I ask	فقط عندما أطلب
+	Automatically download and install updates	تنزيل التحديثات وتثبيتها تلقائيًا
+	Notify me when an installed app has an update	إعلامي عند توفر تحديث لتطبيق مثبّت
+	Include pre-releases (betas and release candidates)	تضمين الإصدارات التجريبية (بيتا والإصدارات المرشّحة)
+	Installing on Linux	التثبيت على لينكس
+	Install new apps as	تثبيت التطبيقات الجديدة بصيغة
+	System package (recommended)	حزمة النظام (موصى بها)
+	Updates always use the format an app was installed with.	تستخدم التحديثات دائمًا الصيغة التي ثُبّت بها التطبيق.
+	Running in the background	العمل في الخلفية
+	Keep running in the tray when the window is closed	الاستمرار في العمل من علبة النظام عند إغلاق النافذة
+	Show the window on the current desktop	إظهار النافذة على سطح المكتب الحالي
+	Start Warsha when I log in	تشغيل ورشة عند تسجيل الدخول
+	Community	المجتمع
+	Questions, ideas and news from the developer	أسئلة وأفكار وأخبار من المطوّر
+	Appearance	مظهر
+	Quit Warsha	إنهاء ورشة
+	Done	تم
+	Uninstall {name}?	إلغاء تثبيت {name}؟
+	The app will be moved to the Trash. Your documents and settings stay.	سيُنقل التطبيق إلى سلة المهملات. تبقى مستنداتك وإعداداتك كما هي.
+	Windows will remove it like any installed program. Your documents and settings stay.	سيزيله ويندوز مثل أي برنامج مثبّت. تبقى مستنداتك وإعداداتك كما هي.
+	Your system's package manager will remove it, and may ask for your password. Your documents and settings stay.	سيزيله مدير الحزم في نظامك، وقد يطلب كلمة المرور. تبقى مستنداتك وإعداداتك كما هي.
+	The app will be removed. Your documents and settings stay.	سيُزال التطبيق. تبقى مستنداتك وإعداداتك كما هي.
+	Uninstall	إلغاء التثبيت
+	Cancel	إلغاء
+	Checked {ago}	آخر تحقق {ago}
+	just now	الآن
+	yesterday	أمس
+	{month} {day}, {year}	{day} {month} {year}
+	Automatically	تلقائيًا
+	Every Craft app	كل تطبيقات ورشة
+	Apps on this computer	التطبيقات على هذا الكمبيوتر
+	Installed apps with a newer version	تطبيقات مثبّتة لها إصدار أحدث
+	Apps you can install	تطبيقات يمكنك تثبيتها
+	Hide App	إخفاء التطبيق
+	Unhide App	إظهار التطبيق
+	Hidden Apps	التطبيقات المخفية
+	Apps you hid	التطبيقات التي أخفيتها
+	Checked {ago} · using {sources}	آخر تحقق {ago} · باستخدام {sources}
+	{a} and {b}	{a} و{b}
+	Contact the Developer	تواصل مع المطوّر
+	Learn more	معرفة المزيد
+	Minimize	تصغير
+	Maximize	تكبير
+	Restore	استعادة
+	New	جديد
+	OK	موافق
+	Open link	فتح الرابط
+	Update	تحديث
+	{name} icon	أيقونة {name}
+	Loading Warsha…	جارٍ تحميل ورشة…
+	Cancel update	إلغاء التحديث
+	Stop waiting; the update can be started again later	إيقاف الانتظار؛ يمكن بدء التحديث لاحقًا
+	Download again	التنزيل مرة أخرى
+	Install cancelled	أُلغي التثبيت
+	Install cancelled. The download is kept for the next try.	أُلغي التثبيت. احتُفظ بالملف المنزّل للمحاولة القادمة.
+	Update cancelled	أُلغي التحديث
+	Uninstall cancelled	أُلغي إلغاء التثبيت
+	Retry install	إعادة محاولة التثبيت
+	Retry update to {version}	إعادة محاولة التحديث إلى {version}
+	The download is still here. It's checked again, then installed.	الملف المنزّل ما زال موجودًا. سيُتحقق منه مرة أخرى ثم يُثبّت.
+	Waiting for another app…	في انتظار تطبيق آخر…
+	Waiting for other installs…	في انتظار عمليات تثبيت أخرى…
+	Installer (.msi)	مثبّت (.msi)
+	Portable (.zip)	نسخة محمولة (.zip)
+	Disk image (.dmg)	صورة قرص (.dmg)
+	Debian package (.deb)	حزمة Debian ‏(.deb)
+	RPM package (.rpm)	حزمة RPM ‏(.rpm)
+	Flatpak bundle	حزمة Flatpak
+	Tarball (.tar.gz)	أرشيف مضغوط (.tar.gz)
+photocraft	Image editing	تحرير الصور
+vectorcraft	Vector illustration	الرسم المتجهي
+filmcraft	Video editing, color and sound	مونتاج الفيديو والألوان والصوت
+lightcraft	Photo library and raw development	مكتبة الصور وتحميض الصور الخام
+pdfcraft	Reading, organizing and protecting PDFs	قراءة ملفات PDF وتنظيمها وحمايتها
+effectcraft	Motion graphics and visual effects	الموشن جرافيك والمؤثرات البصرية
+designcraft	Page layout and publishing	تنسيق الصفحات والنشر
+wordcraft	Writing and document design	الكتابة وتصميم المستندات
+deckcraft	Presentations and slide shows	العروض التقديمية والشرائح
+gridcraft	Spreadsheets and data	جداول البيانات والبيانات
+cadcraft	Computer-aided design and drafting	التصميم والرسم الهندسي بمساعدة الحاسوب
+soundcraft	Recording, editing and mixing audio	تسجيل الصوت وتحريره ومزجه
+month	Jan	يناير
+month	Feb	فبراير
+month	Mar	مارس
+month	Apr	أبريل
+month	May	مايو
+month	Jun	يونيو
+month	Jul	يوليو
+month	Aug	أغسطس
+month	Sep	سبتمبر
+month	Oct	أكتوبر
+month	Nov	نوفمبر
+month	Dec	ديسمبر
+	Not checked yet	لم يُتحقق بعد
+	GitHub's hourly limit was reached; full details return in {min} min	بلغ GitHub الحد الأقصى للطلبات في الساعة؛ تعود التفاصيل الكاملة بعد {min} دقيقة
+	GitHub limit hit; back in {min} min	بلغ GitHub الحد الأقصى؛ العودة بعد {min} دقيقة
+	Installing for {platform}	التثبيت لنظام {platform}
+	Downloads for {platform}	التنزيلات لنظام {platform}
+	No downloads for this system	لا توجد تنزيلات لهذا النظام
+	Warsha on {name}	ورشة على {name}
+	Couldn't open {name}: {e}	تعذّر فتح {name}: {e}
+	Download cancelled	أُلغي التنزيل
+	Available to install	متاح للتثبيت
+	Available	متاح
+	Installed · up to date	مثبّت · محدّث
+	Update available	يتوفر تحديث
+	Installed	مثبّت
+	installed	مثبّت
+	Not available here	غير متاح هنا
+	Updating…	جارٍ التحديث…
+	Update paused	التحديث متوقف مؤقتًا
+	Download paused	التنزيل متوقف مؤقتًا
+	{version} installed → {latest} released	المثبّت {version} ← صدر {latest}
+	Version {version}	الإصدار {version}
+	{installed} installed · latest {latest}	المثبّت {installed} · الأحدث {latest}
+	Installed · latest {latest}	مثبّت · الأحدث {latest}
+	Version {version} installed	الإصدار المثبّت {version}
+	Version {latest}	الإصدار {latest}
+	No release published yet	لم يُنشر أي إصدار بعد
+	Warsha	ورشة
+	App	التطبيق
+	Latest	الأحدث
+	Released	تاريخ الإصدار
+	Auto	تلقائي
+	Language	لغة
+	Ascending	تصاعدي
+	Descending	تنازلي
+	Click to reverse the order	انقر لعكس الترتيب
+	Click to sort by this column	انقر للفرز حسب هذا العمود
+	Like {name}	مثل {name}
+	{done} of {total}	{done} من {total}
+	Downloading	جارٍ التنزيل
+	Verifying checksum…	جارٍ التحقق من بصمة الملف…
+	Resume	استئناف
+	{done} of {total} downloaded	نُزّل {done} من {total}
+	{done} downloaded	نُزّل {done}
+	Checking for updates…	جارٍ البحث عن تحديثات…
+	Downloads the new version, replaces this one and opens it again	ينزّل الإصدار الجديد ويستبدل الحالي ثم يفتحه من جديد
+	Couldn't check for updates: {f}	تعذّر البحث عن تحديثات: {f}
+	Website (coming soon)	الموقع الإلكتروني (قريبًا)
+	GitHub repository	مستودع GitHub
+	Update 1 app	تحديث تطبيق واحد
+	Update all ({count})	تحديث الكل ({count})
+	⊞  Grid	⊞  شبكة
+	☰  Table	☰  جدول
+	🔍  Search apps	🔍  البحث في التطبيقات
+	{name} {version}	{name} {version}
+	Match system	مطابقة النظام
+	Dark	داكن
+	Light	فاتح
+	Full changelog	سجل التغييرات الكامل
+	link	رابط
+	No apps match	لا توجد تطبيقات مطابقة
+	Open Warsha to update.	افتح ورشة للتحديث.
+	{name} {v} is available	يتوفر {name} {v}
+	{count} updates are available	تتوفر {count} تحديثات
+	These notes weren't fetched (GitHub's request limit was reached). They're on the release page.	لم تُجلب هذه الملاحظات (بلغ GitHub حد الطلبات). تجدها في صفحة الإصدار.
+	When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.	عند التفعيل، يؤدي فتح ورشة من شريط القوائم إلى إحضار نافذتها إلى سطح المكتب الذي تعمل عليه. وعند التعطيل، ينقلك macOS إلى سطح المكتب الذي كانت عليه النافذة.
+	Couldn't change the login item: {e}	تعذّر تغيير عنصر تسجيل الدخول: {e}
+column	App	التطبيق
+column	Installed	المثبّت
+column	Latest	الأحدث
+column	Released	تاريخ الإصدار
+filter	Installed	المثبّتة
+	App details	تفاصيل التطبيق
+	Close (Esc)	إغلاق (Esc)
+	Features	المزايا
+	Latest release	أحدث إصدار
+	Version	الإصدار
+	Platforms	الأنظمة
+	Releases	الإصدارات
+	Enlarge picture	تكبير الصورة
+	Click to enlarge	انقر للتكبير
+	Previous picture (←)	الصورة السابقة (←)
+	Next picture (→)	الصورة التالية (→)
+	Loading pictures…	جارٍ تحميل الصور…
+	Pictures couldn't be loaded. Reopen this page to try again.	تعذّر تحميل الصور. أعد فتح هذه الصفحة للمحاولة مرة أخرى.
+	{name} details	تفاصيل {name}
+@plural	{n} app|{n} apps	{n} تطبيق|{n} تطبيق|{n} تطبيقان|{n} تطبيقات|{n} تطبيقًا|{n} تطبيق
+@plural	{n} min ago|{n} min ago	قبل {n} دقيقة|قبل {n} دقيقة|قبل {n} دقيقتين|قبل {n} دقائق|قبل {n} دقيقة|قبل {n} دقيقة
+@plural	{n} h ago|{n} h ago	قبل {n} ساعة|قبل {n} ساعة|قبل {n} ساعتين|قبل {n} ساعات|قبل {n} ساعة|قبل {n} ساعة
+@plural	{n} day ago|{n} days ago	قبل {n} يوم|قبل {n} يوم|قبل {n} يومين|قبل {n} أيام|قبل {n} يومًا|قبل {n} يوم
+@msg	Couldn't open {name}: {e}	تعذّر فتح {name}: {e}
+@msg	Download cancelled	أُلغي التنزيل
+@msg	{name} updated to {version}	حُدّث {name} إلى {version}
+@msg	{name} installed: {version}	ثُبّت {name}: {version}
+@msg	{name} updated to {version} (this release publishes no checksum, so only its size was checked)	حُدّث {name} إلى {version} (هذا الإصدار لا ينشر بصمة للملف، لذا تُحقق من حجمه فقط)
+@msg	{name} installed: {version} (this release publishes no checksum, so only its size was checked)	ثُبّت {name}: {version} (هذا الإصدار لا ينشر بصمة للملف، لذا تُحقق من حجمه فقط)
+@msg	{name} was removed	أُزيل {name}
+@msg	{name} is running. Quit it, then try again.	{name} قيد التشغيل. أغلقه ثم حاول مرة أخرى.
+@id	app.install	تثبيت
+@id	app.update	التحديث إلى {v}
+@id	app.open	فتح
+@id	app.download	تنزيل لنظام {os}
+@id	app.reveal	إظهار في المستكشف
+@id	app.reinstall	إعادة التثبيت
+@id	app.uninstall	إلغاء التثبيت…
+@id	app.notes	ملاحظات الإصدار
+@id	app.website	الموقع الإلكتروني
+@id	app.github	GitHub
+@id	app.releases	كل الإصدارات
+@id	launcher.update	التحديث وإعادة التشغيل
+@id	launcher.download	تنزيل التحديث
+@id	launcher.notes	ما الجديد
+@id	launcher.dismiss	ليس الآن
+@id	settings.open	الإعدادات…
+@id	settings.quit	إنهاء ورشة
+@id	view.grid	شبكة
+@id	view.table	جدول
+@id	filter.all	الكل
+@id	filter.installed	المثبّتة
+@id	filter.updates	التحديثات
+@id	filter.notinstalled	غير المثبّتة
+@id	sort.suite	ترتيب الحزمة
+@id	sort.name	الاسم
+@id	sort.inspired	مستوحى من
+@id	sort.status	الحالة
+@id	sort.installed	الإصدار المثبّت
+@id	sort.latest	أحدث إصدار
+@id	sort.released	تاريخ الإصدار
+@id	help.discord	تواصل مع المطوّر
+@id	help.github	GitHub
+@id	help.website	الموقع الإلكتروني
+@id	update.check	البحث عن تحديثات
+@id	update.check_auto	البحث عن التحديثات تلقائيًا
+@id	update.notify	إعلامي عند توفر تحديث لتطبيق مثبّت
+@id	update.prereleases	تضمين الإصدارات التجريبية (بيتا والإصدارات المرشّحة)
+@id	linux.preferred_kind	تثبيت التطبيقات الجديدة بصيغة
+@id	tray.close_to_tray	الاستمرار في العمل من علبة النظام عند إغلاق النافذة
+@id	tray.show_on_current_desktop	إظهار النافذة على سطح المكتب الحالي
+@id	tray.login_item	تشغيل ورشة عند تسجيل الدخول
+@id	appearance.theme	المظهر
+	Show Warsha	إظهار ورشة
+	Check for Updates	البحث عن تحديثات
+	Visit getartcraft.com	زيارة malshatti.com
+	Warsha on GitHub	ورشة على GitHub
+@plural	Warsha · {n} update available|Warsha · {n} updates available	ورشة · {n} تحديث متاح|ورشة · تحديث واحد متاح ({n})|ورشة · تحديثان متاحان ({n})|ورشة · {n} تحديثات متاحة|ورشة · {n} تحديثًا متاحًا|ورشة · {n} تحديث متاح
