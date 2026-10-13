@@ -44,8 +44,8 @@ mod tests {
     fn links() {
         let mut s = Session::new();
         assert_eq!(s.execute("help.discord", &json!({})).unwrap()["url"], "https://malshatti.com");
-        assert_eq!(s.execute("help.appPage", &json!({})).unwrap()["url"], "https://github.com/malshatti44/warshaa");
-        assert_eq!(s.execute("help.github", &json!({})).unwrap()["url"], "https://github.com/malshatti44/warshaa");
+        assert_eq!(s.execute("help.appPage", &json!({})).unwrap()["url"], "https://malshatti.com/apps/reesha.html");
+        assert_eq!(s.execute("help.github", &json!({})).unwrap()["url"], "https://malshatti.com/apps/reesha.html");
         assert_eq!(s.execute("help.links", &json!({})).unwrap()["website"], "https://malshatti.com");
     }
 }

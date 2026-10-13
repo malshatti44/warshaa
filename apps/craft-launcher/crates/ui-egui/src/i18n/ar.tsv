@@ -41,7 +41,7 @@
 	Open	فتح
 	Download for {os}	تنزيل لنظام {os}
 	Download	تنزيل
-	Coming soon	قريبًا
+	Coming soon	قريباً
 	Checking…	جارٍ التحقق…
 	Not available	غير متاح
 	Offline	غير متصل
@@ -52,7 +52,7 @@
 	Installing, then restarting…	جارٍ التثبيت ثم إعادة التشغيل…
 	Installing…	جارٍ التثبيت…
 	Removing…	جارٍ الإزالة…
-	Pause download	إيقاف التنزيل مؤقتًا
+	Pause download	إيقاف التنزيل مؤقتاً
 	Cancel download	إلغاء التنزيل
 	Resume download	استئناف التنزيل
 	Discard download	تجاهل التنزيل
@@ -67,7 +67,7 @@
 	Dismiss	تجاهل
 	Update and restart	التحديث وإعادة التشغيل
 	A new version is available. Would you like to relaunch with the updated version?	يتوفر إصدار جديد. هل تريد إعادة التشغيل بالإصدار المحدّث؟
-	Later	لاحقًا
+	Later	لاحقاً
 	What's new	ما الجديد
 	No notes were published with this release.	لم تُنشر ملاحظات مع هذا الإصدار.
 	Released {date}	صدر في {date}
@@ -75,13 +75,13 @@
 	Close	إغلاق
 	Warsha {version}	ورشة {version}
 	Only when I ask	فقط عندما أطلب
-	Automatically download and install updates	تنزيل التحديثات وتثبيتها تلقائيًا
+	Automatically download and install updates	تنزيل التحديثات وتثبيتها تلقائياً
 	Notify me when an installed app has an update	إعلامي عند توفر تحديث لتطبيق مثبّت
 	Include pre-releases (betas and release candidates)	تضمين الإصدارات التجريبية (بيتا والإصدارات المرشّحة)
 	Installing on Linux	التثبيت على لينكس
 	Install new apps as	تثبيت التطبيقات الجديدة بصيغة
 	System package (recommended)	حزمة النظام (موصى بها)
-	Updates always use the format an app was installed with.	تستخدم التحديثات دائمًا الصيغة التي ثُبّت بها التطبيق.
+	Updates always use the format an app was installed with.	تستخدم التحديثات دائماً الصيغة التي ثُبّت بها التطبيق.
 	Running in the background	العمل في الخلفية
 	Keep running in the tray when the window is closed	الاستمرار في العمل من علبة النظام عند إغلاق النافذة
 	Show the window on the current desktop	إظهار النافذة على سطح المكتب الحالي
@@ -102,7 +102,7 @@
 	just now	الآن
 	yesterday	أمس
 	{month} {day}, {year}	{day} {month} {year}
-	Automatically	تلقائيًا
+	Automatically	تلقائياً
 	Every Craft app	كل تطبيقات ورشة
 	Apps on this computer	التطبيقات على هذا الكمبيوتر
 	Installed apps with a newer version	تطبيقات مثبّتة لها إصدار أحدث
@@ -125,7 +125,7 @@
 	{name} icon	أيقونة {name}
 	Loading Warsha…	جارٍ تحميل ورشة…
 	Cancel update	إلغاء التحديث
-	Stop waiting; the update can be started again later	إيقاف الانتظار؛ يمكن بدء التحديث لاحقًا
+	Stop waiting; the update can be started again later	إيقاف الانتظار؛ يمكن بدء التحديث لاحقاً
 	Download again	التنزيل مرة أخرى
 	Install cancelled	أُلغي التثبيت
 	Install cancelled. The download is kept for the next try.	أُلغي التثبيت. احتُفظ بالملف المنزّل للمحاولة القادمة.
@@ -133,7 +133,7 @@
 	Uninstall cancelled	أُلغي إلغاء التثبيت
 	Retry install	إعادة محاولة التثبيت
 	Retry update to {version}	إعادة محاولة التحديث إلى {version}
-	The download is still here. It's checked again, then installed.	الملف المنزّل ما زال موجودًا. سيُتحقق منه مرة أخرى ثم يُثبّت.
+	The download is still here. It's checked again, then installed.	الملف المنزّل ما زال موجوداً. سيُتحقق منه مرة أخرى ثم يُثبّت.
 	Waiting for another app…	في انتظار تطبيق آخر…
 	Waiting for other installs…	في انتظار عمليات تثبيت أخرى…
 	Installer (.msi)	مثبّت (.msi)
@@ -184,8 +184,8 @@ month	Dec	ديسمبر
 	installed	مثبّت
 	Not available here	غير متاح هنا
 	Updating…	جارٍ التحديث…
-	Update paused	التحديث متوقف مؤقتًا
-	Download paused	التنزيل متوقف مؤقتًا
+	Update paused	التحديث متوقف مؤقتاً
+	Download paused	التنزيل متوقف مؤقتاً
 	{version} installed → {latest} released	المثبّت {version} ← صدر {latest}
 	Version {version}	الإصدار {version}
 	{installed} installed · latest {latest}	المثبّت {installed} · الأحدث {latest}
@@ -213,7 +213,7 @@ month	Dec	ديسمبر
 	Checking for updates…	جارٍ البحث عن تحديثات…
 	Downloads the new version, replaces this one and opens it again	ينزّل الإصدار الجديد ويستبدل الحالي ثم يفتحه من جديد
 	Couldn't check for updates: {f}	تعذّر البحث عن تحديثات: {f}
-	Website (coming soon)	الموقع الإلكتروني (قريبًا)
+	Website (coming soon)	الموقع الإلكتروني (قريباً)
 	GitHub repository	مستودع GitHub
 	Update 1 app	تحديث تطبيق واحد
 	Update all ({count})	تحديث الكل ({count})
@@ -252,10 +252,10 @@ filter	Installed	المثبّتة
 	Loading pictures…	جارٍ تحميل الصور…
 	Pictures couldn't be loaded. Reopen this page to try again.	تعذّر تحميل الصور. أعد فتح هذه الصفحة للمحاولة مرة أخرى.
 	{name} details	تفاصيل {name}
-@plural	{n} app|{n} apps	{n} تطبيق|{n} تطبيق|{n} تطبيقان|{n} تطبيقات|{n} تطبيقًا|{n} تطبيق
+@plural	{n} app|{n} apps	{n} تطبيق|{n} تطبيق|{n} تطبيقان|{n} تطبيقات|{n} تطبيقاً|{n} تطبيق
 @plural	{n} min ago|{n} min ago	قبل {n} دقيقة|قبل {n} دقيقة|قبل {n} دقيقتين|قبل {n} دقائق|قبل {n} دقيقة|قبل {n} دقيقة
 @plural	{n} h ago|{n} h ago	قبل {n} ساعة|قبل {n} ساعة|قبل {n} ساعتين|قبل {n} ساعات|قبل {n} ساعة|قبل {n} ساعة
-@plural	{n} day ago|{n} days ago	قبل {n} يوم|قبل {n} يوم|قبل {n} يومين|قبل {n} أيام|قبل {n} يومًا|قبل {n} يوم
+@plural	{n} day ago|{n} days ago	قبل {n} يوم|قبل {n} يوم|قبل {n} يومين|قبل {n} أيام|قبل {n} يوماً|قبل {n} يوم
 @msg	Couldn't open {name}: {e}	تعذّر فتح {name}: {e}
 @msg	Download cancelled	أُلغي التنزيل
 @msg	{name} updated to {version}	حُدّث {name} إلى {version}
@@ -298,7 +298,7 @@ filter	Installed	المثبّتة
 @id	help.github	GitHub
 @id	help.website	الموقع الإلكتروني
 @id	update.check	البحث عن تحديثات
-@id	update.check_auto	البحث عن التحديثات تلقائيًا
+@id	update.check_auto	البحث عن التحديثات تلقائياً
 @id	update.notify	إعلامي عند توفر تحديث لتطبيق مثبّت
 @id	update.prereleases	تضمين الإصدارات التجريبية (بيتا والإصدارات المرشّحة)
 @id	linux.preferred_kind	تثبيت التطبيقات الجديدة بصيغة
@@ -310,4 +310,4 @@ filter	Installed	المثبّتة
 	Check for Updates	البحث عن تحديثات
 	Visit getartcraft.com	زيارة malshatti.com
 	Warsha on GitHub	ورشة على GitHub
-@plural	Warsha · {n} update available|Warsha · {n} updates available	ورشة · {n} تحديث متاح|ورشة · تحديث واحد متاح ({n})|ورشة · تحديثان متاحان ({n})|ورشة · {n} تحديثات متاحة|ورشة · {n} تحديثًا متاحًا|ورشة · {n} تحديث متاح
+@plural	Warsha · {n} update available|Warsha · {n} updates available	ورشة · {n} تحديث متاح|ورشة · تحديث واحد متاح ({n})|ورشة · تحديثان متاحان ({n})|ورشة · {n} تحديثات متاحة|ورشة · {n} تحديثاً متاحاً|ورشة · {n} تحديث متاح

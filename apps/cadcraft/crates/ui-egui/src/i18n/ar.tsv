@@ -185,7 +185,7 @@
 	Count List	قائمة العدّ
 	Count Table	جدول العدّ
 	Create Block	إنشاء كتلة
-	Creates a user parameter	يُنشئ معاملًا من المستخدم
+	Creates a user parameter	يُنشئ معاملاً من المستخدم
 	Ctrl+Enter to finish	Ctrl+Enter للإنهاء
 	Current layer	الطبقة الحالية
 	Current selection	التحديد الحالي
@@ -242,7 +242,7 @@
 	Divide	قسمة
 	Do not plot (click: plot)	عدم الطباعة (انقر: طباعة)
 	Donut	حلقة مصمتة
-	Double-click to edit the description	انقر نقرًا مزدوجًا لتحرير الوصف
+	Double-click to edit the description	انقر نقراً مزدوجاً لتحرير الوصف
 	Down	لأسفل
 	Drafting	الرسم الهندسي
 	Drafting Settings	إعدادات الرسم
@@ -275,10 +275,10 @@
 	Endpoint	نقطة نهاية
 	Enter	إدخال
 	Enter Top, Zero or Bottom.	أدخل أعلى أو صفر أو أسفل.
-	Enter a fit data option	أدخل خيارًا لبيانات الملاءمة
+	Enter a fit data option	أدخل خياراً لبيانات الملاءمة
 	Enter a pattern name	أدخل اسم نمط
-	Enter a vertex editing option	أدخل خيارًا لتحرير الرؤوس
-	Enter an option	أدخل خيارًا
+	Enter a vertex editing option	أدخل خياراً لتحرير الرؤوس
+	Enter an option	أدخل خياراً
 	Enter angle of xline	أدخل زاوية الخط الإنشائي
 	Enter angle of xline (0) or	أدخل زاوية الخط الإنشائي (0) أو
 	Enter area of rectangle in current units	أدخل مساحة المستطيل بالوحدات الحالية
@@ -456,8 +456,8 @@
 	Layer State	حالة الطبقة
 	Layer States Manager...	إدارة حالات الطبقات...
 	Layer Tools	أدوات الطبقات
-	Layer contains objects (double-click to make current)	الطبقة تحتوي على كائنات (انقر نقرًا مزدوجًا لجعلها الحالية)
-	Layer is empty (double-click to make current)	الطبقة فارغة (انقر نقرًا مزدوجًا لجعلها الحالية)
+	Layer contains objects (double-click to make current)	الطبقة تحتوي على كائنات (انقر نقراً مزدوجاً لجعلها الحالية)
+	Layer is empty (double-click to make current)	الطبقة فارغة (انقر نقراً مزدوجاً لجعلها الحالية)
 	Layers	الطبقات
 	Layers Palette	لوحة الطبقات
 	Hide Palette	إخفاء اللوحة
@@ -578,7 +578,7 @@
 	Offset	الإزاحة
 	On	تشغيل
 	On/Off	تشغيل/إيقاف
-	One of the Warsha apps, based on the open-source ArtCraft project.	أحد تطبيقات ورشة، مبني على مشروع ArtCraft مفتوح المصدر.
+	One of the Warsha apps.	أحد تطبيقات ورشة.
 	Only in this drawing: {n}	في هذا الرسم فقط: {n}
 	Only in {name}: {n}	في {name} فقط: {n}
 	Open (⌘O)	فتح (⌘O)
@@ -650,7 +650,7 @@
 	Use object lineweight	استخدام سُمك خط الكائن
 	Remove	إزالة
 	Add	إضافة
-	Open a drawing first.	افتح رسمًا أولًا.
+	Open a drawing first.	افتح رسماً أولاً.
 	Plot table type	نوع جدول الطباعة
 	Color-dependent	معتمد على اللون
 	Named	مسمّى
@@ -755,43 +755,43 @@
 	Search for parameter	البحث عن معامل
 	Second and next points:	النقطة الثانية وما بعدها:
 	Select	تحديد
-	Select 2D polyline	حدد خطًا متعددًا ثنائي الأبعاد
+	Select 2D polyline	حدد خطاً متعدداً ثنائي الأبعاد
 	Select All	تحديد الكل
 	Select Objects	تحديد الكائنات
 	Select Similar	تحديد المتشابه
-	Select a 2D polyline.	حدد خطًا متعددًا ثنائي الأبعاد.
+	Select a 2D polyline.	حدد خطاً متعدداً ثنائي الأبعاد.
 	Select a block reference.	حدد مرجع كتلة.
-	Select a circle or arc.	حدد دائرة أو قوسًا.
-	Select a closed polyline	حدد خطًا متعددًا مغلقًا
-	Select a closed polyline, circle, ellipse or closed spline.	حدد خطًا متعددًا مغلقًا أو دائرة أو قطعًا ناقصًا أو منحنى مغلقًا.
-	Select a closed polyline.	حدد خطًا متعددًا مغلقًا.
+	Select a circle or arc.	حدد دائرة أو قوساً.
+	Select a closed polyline	حدد خطاً متعدداً مغلقاً
+	Select a closed polyline, circle, ellipse or closed spline.	حدد خطاً متعدداً مغلقاً أو دائرة أو قطعاً ناقصاً أو منحنى مغلقاً.
+	Select a closed polyline.	حدد خطاً متعدداً مغلقاً.
 	Select a curve as the path.	حدد منحنى ليكون المسار.
 	Select a dimension constraint type	حدد نوع القيد البُعدي
 	Select a line object	حدد كائن خط
 	Select a line object.	حدد كائن خط.
-	Select a line or an arc.	حدد خطًا أو قوسًا.
-	Select a line or polyline segment	حدد خطًا أو مقطعًا من خط متعدد
-	Select a line, arc or open polyline.	حدد خطًا أو قوسًا أو خطًا متعددًا مفتوحًا.
-	Select a line, arc, circle, polyline, ellipse or spline as the path.	حدد خطًا أو قوسًا أو دائرة أو خطًا متعددًا أو قطعًا ناقصًا أو منحنى ليكون المسار.
-	Select a line, circle, arc or polyline segment.	حدد خطًا أو دائرة أو قوسًا أو مقطعًا من خط متعدد.
-	Select a line.	حدد خطًا.
-	Select a polyline.	حدد خطًا متعددًا.
-	Select a text, mtext, attribute definition or dimension.	حدد نصًا أو نصًا متعدد الأسطر أو تعريف سمة أو بُعدًا.
+	Select a line or an arc.	حدد خطاً أو قوساً.
+	Select a line or polyline segment	حدد خطاً أو مقطعاً من خط متعدد
+	Select a line, arc or open polyline.	حدد خطاً أو قوساً أو خطاً متعدداً مفتوحاً.
+	Select a line, arc, circle, polyline, ellipse or spline as the path.	حدد خطاً أو قوساً أو دائرة أو خطاً متعدداً أو قطعاً ناقصاً أو منحنى ليكون المسار.
+	Select a line, circle, arc or polyline segment.	حدد خطاً أو دائرة أو قوساً أو مقطعاً من خط متعدد.
+	Select a line.	حدد خطاً.
+	Select a polyline.	حدد خطاً متعدداً.
+	Select a text, mtext, attribute definition or dimension.	حدد نصاً أو نصاً متعدد الأسطر أو تعريف سمة أو بُعداً.
 	Select an annotation object	حدد كائن تعليق توضيحي
-	Select an arc or circle	حدد قوسًا أو دائرة
-	Select an arc.	حدد قوسًا.
-	Select an object	حدد كائنًا
-	Select an object to change or	حدد كائنًا لتغييره أو
-	Select an object to measure or	حدد كائنًا لقياسه أو
-	Select an object.	حدد كائنًا.
-	Select an open curve.	حدد منحنى مفتوحًا.
-	Select an open line, arc, polyline, ellipse arc or spline.	حدد خطًا مفتوحًا أو قوسًا أو خطًا متعددًا أو قوسًا إهليلجيًا أو منحنى.
-	Select arc or circle	حدد قوسًا أو دائرة
-	Select arc or polyline arc segment	حدد قوسًا أو مقطع قوس من خط متعدد
+	Select an arc or circle	حدد قوساً أو دائرة
+	Select an arc.	حدد قوساً.
+	Select an object	حدد كائناً
+	Select an object to change or	حدد كائناً لتغييره أو
+	Select an object to measure or	حدد كائناً لقياسه أو
+	Select an object.	حدد كائناً.
+	Select an open curve.	حدد منحنى مفتوحاً.
+	Select an open line, arc, polyline, ellipse arc or spline.	حدد خطاً مفتوحاً أو قوساً أو خطاً متعدداً أو قوساً إهليلجياً أو منحنى.
+	Select arc or circle	حدد قوساً أو دائرة
+	Select arc or polyline arc segment	حدد قوساً أو مقطع قوس من خط متعدد
 	Select arc style	حدد نمط القوس
-	Select arc, circle, line	حدد قوسًا أو دائرة أو خطًا
+	Select arc, circle, line	حدد قوساً أو دائرة أو خطاً
 	Select at least two objects to join.	حدد كائنين على الأقل لضمّهما.
-	Select circle or arc to add center mark	حدد دائرة أو قوسًا لإضافة علامة المركز
+	Select circle or arc to add center mark	حدد دائرة أو قوساً لإضافة علامة المركز
 	Select closed objects (regions, closed polylines, circles).	حدد كائنات مغلقة (مناطق، خطوط متعددة مغلقة، دوائر).
 	Select first line	حدد الخط الأول
 	Select first line or arc	حدد الخط الأول أو القوس
@@ -799,22 +799,22 @@
 	Select first object or	حدد الكائن الأول أو
 	Select first point	حدد النقطة الأولى
 	Select nested objects to copy or	حدد الكائنات المتداخلة لنسخها أو
-	Select object	حدد كائنًا
-	Select object to dimension	حدد كائنًا لوضع بُعد له
-	Select object to divide	حدد كائنًا لتقسيمه
-	Select object to extend or shift-select to trim	حدد كائنًا لتمديده أو حدده مع Shift لقصّه
-	Select object to measure	حدد كائنًا لقياسه
-	Select object to offset	حدد كائنًا لإزاحته
-	Select object to trim or shift-select to extend	حدد كائنًا لقصّه أو حدده مع Shift لتمديده
+	Select object	حدد كائناً
+	Select object to dimension	حدد كائناً لوضع بُعد له
+	Select object to divide	حدد كائناً لتقسيمه
+	Select object to extend or shift-select to trim	حدد كائناً لتمديده أو حدده مع Shift لقصّه
+	Select object to measure	حدد كائناً لقياسه
+	Select object to offset	حدد كائناً لإزاحته
+	Select object to trim or shift-select to extend	حدد كائناً لقصّه أو حدده مع Shift لتمديده
 	Select objects	تحديد الكائنات
 	Select objects (crossing window first corner)	حدد الكائنات (الزاوية الأولى لنافذة التقاطع)
 	Select objects to array.	حدد الكائنات لإنشاء مصفوفة منها.
 	Select objects to stretch by crossing-window or crossing-polygon...	حدد الكائنات المراد مطّها بنافذة تقاطع أو مضلّع تقاطع...
 	Select objects:	حدد الكائنات:
-	Select one polyline (Multiple is available through the JSON form).	حدد خطًا متعددًا واحدًا (التحديد المتعدد متاح عبر نموذج JSON).
+	Select one polyline (Multiple is available through the JSON form).	حدد خطاً متعدداً واحداً (التحديد المتعدد متاح عبر نموذج JSON).
 	Select path curve	حدد منحنى المسار
-	Select point or object	حدد نقطة أو كائنًا
-	Select polyline or	حدد خطًا متعددًا أو
+	Select point or object	حدد نقطة أو كائناً
+	Select polyline or	حدد خطاً متعدداً أو
 	Select second line	حدد الخط الثاني
 	Select second line or shift-select to apply corner	حدد الخط الثاني أو حدده مع Shift لتطبيق زاوية
 	Select second object	حدد الكائن الثاني
@@ -859,7 +859,7 @@
 	Solid	متصل
 	Sort	فرز
 	Specify a point	حدد نقطة
-	Specify a scale for the hatch pattern	حدد مقياسًا لنمط التهشير
+	Specify a scale for the hatch pattern	حدد مقياساً لنمط التهشير
 	Specify a second extension line origin	حدد أصل خط الامتداد الثاني
 	Specify an angle for the hatch pattern	حدد زاوية لنمط التهشير
 	Specify angle end point	حدد نقطة نهاية الزاوية
@@ -923,7 +923,7 @@
 	A drawing opened from a file keeps that file's format.	الرسم المفتوح من ملف يحتفظ بصيغة ذلك الملف.
 	An array that would create more objects than this is refused.	تُرفض المصفوفة التي ستُنشئ كائنات أكثر من هذا العدد.
 	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	يحتفظ مخطط بهذه التفضيلات وأوضاع الالتقاط إلى الكائنات ومفاتيح الرسم لحسابك ويستعيدها عند التشغيل.
-	Changes apply at once and are kept for next time.	تُطبّق التغييرات فورًا وتُحفظ للمرة القادمة.
+	Changes apply at once and are kept for next time.	تُطبّق التغييرات فوراً وتُحفظ للمرة القادمة.
 	Command line history	سجل سطر الأوامر
 	Copy as JSON	نسخ بصيغة JSON
 	Crosshair size	حجم مؤشر التقاطع
@@ -932,7 +932,7 @@
 	Hold Shift to add to the selection	استمر بالضغط على Shift للإضافة إلى التحديد
 	Interface language	لغة الواجهة
 	Interface theme	سمة الواجهة
-	Keep the system cursor visible over the drawing area	إبقاء مؤشر النظام ظاهرًا فوق منطقة الرسم
+	Keep the system cursor visible over the drawing area	إبقاء مؤشر النظام ظاهراً فوق منطقة الرسم
 	Largest array	أكبر مصفوفة
 	Layout paper	ورق التخطيط
 	Model background	خلفية النموذج
@@ -947,7 +947,7 @@
 	Reset to Defaults	إعادة التعيين إلى الافتراضيات
 	Save new drawings as	حفظ الرسومات الجديدة بصيغة
 	Screen magnifiers, screen readers and recorders follow the system cursor.	المكبّرات وقارئات الشاشة وبرامج التسجيل تتبع مؤشر النظام.
-	Select objects first, then choose a command	حدد الكائنات أولًا، ثم اختر أمرًا
+	Select objects first, then choose a command	حدد الكائنات أولاً، ثم اختر أمراً
 	Selection	تحديد
 	Settings...	الإعدادات...
 	Show Quick Properties for selected objects	إظهار الخصائص السريعة للكائنات المحددة
@@ -1073,7 +1073,7 @@
 	There is nothing here yet.	لا يوجد شيء هنا بعد.
 	Thickness	السماكة
 	Time	وقت
-	To get started, create or open a drawing.	للبدء، أنشئ رسمًا أو افتح رسمًا.
+	To get started, create or open a drawing.	للبدء، أنشئ رسماً أو افتح رسماً.
 	Tool Bar	شريط الأدوات
 	Tool Sets	مجموعات الأدوات
 	Tools	الأدوات
@@ -1089,7 +1089,7 @@
 	Turn On Layer	تشغيل الطبقة
 	Turn Quick Properties off (QPMODE)	إيقاف الخصائص السريعة (QPMODE)
 	Type	نص
-	Type a command	اكتب أمرًا
+	Type a command	اكتب أمراً
 	Type text; Enter starts a new paragraph	اكتب النص؛ Enter يبدأ فقرة جديدة
 	UCS Icon	أيقونة نظام إحداثيات المستخدم
 	Undo	تراجع
@@ -1158,15 +1158,15 @@
 	error	خطأ
 	{contributors} · {commits}	{contributors} · {commits}
 	{kind} (constraint {id})	{kind} (القيد {id})
-	{kind} constraint {name} = {expression}  (double-click to edit)	القيد {kind} {name} = {expression}  (انقر نقرًا مزدوجًا للتحرير)
+	{kind} constraint {name} = {expression}  (double-click to edit)	القيد {kind} {name} = {expression}  (انقر نقراً مزدوجاً للتحرير)
 	{name}: {distance} < {angle}°	{name}: {distance} < {angle}°
 	ƒx  New User Parameter	ƒx  معامل مستخدم جديد
 	ΔLOC	ΔLOC
 	−Bin	−Bin
 	−LOC	−LOC
 	⌘↩ to finish	⌘↩ للإنهاء
-@plural	{n} commit	{n} إيداع|{n} إيداع|{n} إيداعان|{n} إيداعات|{n} إيداعًا|{n} إيداع
-@plural	{n} contributor	{n} مساهم|{n} مساهم|{n} مساهمان|{n} مساهمين|{n} مساهمًا|{n} مساهم
+@plural	{n} commit	{n} إيداع|{n} إيداع|{n} إيداعان|{n} إيداعات|{n} إيداعاً|{n} إيداع
+@plural	{n} contributor	{n} مساهم|{n} مساهم|{n} مساهمان|{n} مساهمين|{n} مساهماً|{n} مساهم
 	Drawing as bytes	الرسم كبايتات
 	Services	الخدمات
 	Hide CADCraft	إخفاء مخطط
@@ -1223,7 +1223,7 @@ menu	Modify	تعديل
 	Zoom sensitivity	حساسية التكبير
 	Reverse zoom direction	عكس اتجاه التكبير
 	Calibrate	معايرة
-	Move sideways to pan; push/pull or twist to zoom.	حرّك جانبيًا للتحريك؛ ادفع/اسحب أو لُفّ للتكبير.
+	Move sideways to pan; push/pull or twist to zoom.	حرّك جانبياً للتحريك؛ ادفع/اسحب أو لُفّ للتكبير.
 	Left device button: zoom extents. Right device button: calibrate.	زر الجهاز الأيسر: تكبير إلى الامتدادات. زر الجهاز الأيمن: معايرة.
 	Automatic save every	حفظ تلقائي كل
 	Automatic save file location	موقع ملف الحفظ التلقائي
@@ -1233,6 +1233,6 @@ menu	Modify	تعديل
 	Show and hide the tools of this category	إظهار أدوات هذه الفئة وإخفاؤها
 	Show in Tool Sets	إظهار في مجموعات الأدوات
 	Time-sensitive right-click: a quick click is Enter, holding opens the menu	النقر بالزر الأيمن الحساس للوقت: النقرة السريعة تعني Enter، والاستمرار بالضغط يفتح القائمة
-	Turned off, a right-click while a command runs always opens the shortcut menu.	عند إيقافه، يفتح النقر بالزر الأيمن أثناء تنفيذ أمر قائمةَ الاختصارات دائمًا.
+	Turned off, a right-click while a command runs always opens the shortcut menu.	عند إيقافه، يفتح النقر بالزر الأيمن أثناء تنفيذ أمر قائمةَ الاختصارات دائماً.
 	min	دقيقة
 	Run Script...	تشغيل برنامج نصي...

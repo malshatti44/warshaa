@@ -882,7 +882,7 @@ pub(super) const TABLE: &[(&str, &str)] = &[
     ("Page Numbering", "Нумерація сторінок"),
     ("Page layout for print and screen — fast, open and scriptable.", "Верстка для друку й екрана — швидка, відкрита, зі сценаріями."),
     ("Page · PPI", "Сторінка · PPI"),
-    ("Part of Warsha, based on the open-source ArtCraft suite.", "Частина набору відкритих творчих інструментів ArtCraft."),
+    ("Part of Warsha.", "Частина набору відкритих творчих інструментів ArtCraft."),
     ("Pasteboard Options", "Параметри монтажного столу"),
     ("Paths", "Контури"),
     ("Place the insertion point in a table, or create one.", "Установіть курсор у таблиці або створіть її."),

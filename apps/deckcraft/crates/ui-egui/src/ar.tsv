@@ -51,13 +51,13 @@ First commit	أول إيداع
 First	الأول
 Last commit	آخر إيداع
 Last	الأخير
-@{}: {} PRs, {} commits, +{} / −{} lines (Δ {}), +{} / −{} binary assets, {} – {}	@{}: ‏{} طلب دمج، {} إيداعًا، +{} / −{} سطرًا (Δ {})، +{} / −{} من الأصول الثنائية، {} – {}
+@{}: {} PRs, {} commits, +{} / −{} lines (Δ {}), +{} / −{} binary assets, {} – {}	@{}: ‏{} طلب دمج، {} إيداعاً، +{} / −{} سطراً (Δ {})، +{} / −{} من الأصول الثنائية، {} – {}
 Show	إظهار
 Sort	فرز
 Reverse the order	عكس الترتيب
 Grab bag	متفرقات
 Table	جدول
-{} contributors · {} commits	{} مساهمًا · {} إيداعًا
+{} contributors · {} commits	{} مساهماً · {} إيداعاً
 No contributor data was built into this copy.	لم تُضمَّن بيانات المساهمين في هذه النسخة.
 No model credits were built into this copy.	لم يُضمَّن ذكر النماذج في هذه النسخة.
 Company	الشركة
@@ -132,7 +132,7 @@ Start a conversation	ابدأ محادثة
 Post	نشر
 How would you describe this object and its context to someone who is blind or has low vision?	كيف تصف هذا الكائن وسياقه لشخص كفيف أو ضعيف البصر؟
 Mark as decorative	وضع علامة كزخرفي
-Paste or type an outline. Unindented lines become slide titles; tab-indented lines become bullets.	الصق مخططًا تفصيليًا أو اكتبه. الأسطر غير المزاحة تصبح عناوين شرائح؛ والأسطر المزاحة بعلامة جدولة تصبح نقاطًا.
+Paste or type an outline. Unindented lines become slide titles; tab-indented lines become bullets.	الصق مخططاً تفصيلياً أو اكتبه. الأسطر غير المزاحة تصبح عناوين شرائح؛ والأسطر المزاحة بعلامة جدولة تصبح نقاطاً.
 Name:	الاسم:
 Before text (in):	قبل النص (بوصة):
 Special — hanging (in):	خاص — معلّق (بوصة):
@@ -157,7 +157,7 @@ Full Page Slides	شرائح بصفحة كاملة
 Include hidden slides	تضمين الشرائح المخفية
 Presentation	العرض التقديمي
 Exported {path}	صُدّر {path}
-Click a symbol to insert it at the insertion point.	انقر رمزًا لإدراجه عند نقطة الإدراج.
+Click a symbol to insert it at the insertion point.	انقر رمزاً لإدراجه عند نقطة الإدراج.
 Punctuation	علامات الترقيم
 Currency	عملة
 Math	رياضيات
@@ -181,7 +181,7 @@ Custom Show 1	عرض مخصص 1
 Slides (e.g. 1,3,5):	الشرائح (مثل 1,3,5):
 Create	إنشاء
 Custom Show	عرض مخصص
-Select a chart first.	حدد مخططًا أولًا.
+Select a chart first.	حدد مخططاً أولاً.
 Edit the data: first row = series names, first column = categories.	حرّر البيانات: الصف الأول = أسماء السلاسل، والعمود الأول = الفئات.
 + Row	+ صف
 + Series	+ سلسلة
@@ -189,7 +189,7 @@ Start time (s):	وقت البدء (ث):
 End trim (s):	قص النهاية (ث):
 Fade in (s):	تلاشٍ للداخل (ث):
 Fade out (s):	تلاشٍ للخارج (ث):
-Pick a graphic; type one item per line.	اختر رسمًا؛ واكتب عنصرًا واحدًا في كل سطر.
+Pick a graphic; type one item per line.	اختر رسماً؛ واكتب عنصراً واحداً في كل سطر.
 Basic List	قائمة أساسية
 Basic Process	عملية أساسية
 Basic Cycle	دورة أساسية
@@ -215,7 +215,7 @@ Presentations and slide shows, rebuilt from scratch in pure Rust.	العروض �
 An open-source, clean-room project. Not affiliated with Microsoft.	مشروع مفتوح المصدر مبني من الصفر. غير تابع لشركة Microsoft.
 Contact the Developer	تواصل مع المطوّر
 Source on GitHub	الشيفرة المصدرية على GitHub
-MIT OR Apache-2.0 · © 2026 ArtCraft Team and the DeckCraft contributors	MIT OR Apache-2.0 · © 2026 فريق ArtCraft والمساهمون في DeckCraft · تعريب وتطوير: محمد الشطي
+Free and open source (MIT OR Apache-2.0)	حر ومفتوح المصدر (MIT OR Apache-2.0)
 Version {}	الإصدار {}
 ← Back to {title}	→ العودة إلى {title}
 New presentation	عرض تقديمي جديد
@@ -340,7 +340,7 @@ Selection	تحديد
 Comments	التعليقات
 Design Ideas	أفكار التصميم
 Pane	الجزء
-Select a shape to format it.	حدد شكلًا لتنسيقه.
+Select a shape to format it.	حدد شكلاً لتنسيقه.
 Fill & Line	التعبئة والخط
 Effects	تأثيرات
 Size & Properties	الحجم والخصائص
@@ -400,7 +400,7 @@ Insert picture from file…	إدراج صورة من ملف…
 Hide background graphics	إخفاء رسومات الخلفية
 Reset Background	إعادة تعيين الخلفية
 ▶ Play All	▶ تشغيل الكل
-Select an object on the slide and add an animation from the Animations tab.	حدد كائنًا على الشريحة وأضف له حركة من تبويب «الحركات».
+Select an object on the slide and add an animation from the Animations tab.	حدد كائناً على الشريحة وأضف له حركة من تبويب «الحركات».
 Shape {}	الشكل {}
 Start On Click	البدء عند النقر
 Start With Previous	البدء مع السابق
@@ -416,7 +416,7 @@ No comments on this slide.	لا تعليقات على هذه الشريحة.
 Reply…	رد…
 Reopen	إعادة فتح
 Resolve	حل
-Pick a look for your slides. Ideas are generated on your device.	اختر مظهرًا لشرائحك. تُنشأ الأفكار على جهازك.
+Pick a look for your slides. Ideas are generated on your device.	اختر مظهراً لشرائحك. تُنشأ الأفكار على جهازك.
 Save (⌘S)	حفظ (⌘S)
 Undo (⌘Z)	تراجع (⌘Z)
 Redo (⌘Y)	إعادة (⌘Y)
@@ -438,7 +438,7 @@ Record	السجل
 Review	مراجعة
 Paste (⌘V)	لصق (⌘V)
 Paste Formatting	لصق التنسيق
-Format Painter (double-click to keep it on)	نسخ التنسيق (انقر نقرًا مزدوجًا لإبقائه مفعّلًا)
+Format Painter (double-click to keep it on)	نسخ التنسيق (انقر نقراً مزدوجاً لإبقائه مفعّلاً)
 New\nSlide	شريحة\nجديدة
 New Slide (⇧⌘N)	شريحة جديدة (⇧⌘N)
 Duplicate Selected Slides	تكرار الشرائح المحددة
@@ -455,9 +455,9 @@ Strikethrough	يتوسطه خط
 Superscript	النص المرتفع
 Subscript	النص المنخفض
 Character Spacing	تباعد الأحرف
-Very Tight	ضيق جدًا
+Very Tight	ضيق جداً
 Loose	واسع
-Very Loose	واسع جدًا
+Very Loose	واسع جداً
 Change Case	تغيير الحالة
 Sentence case.	حالة الجملة.
 UPPERCASE	أحرف كبيرة
@@ -515,8 +515,8 @@ Align Center	محاذاة إلى الوسط
 Align Top	محاذاة لأعلى
 Align Middle	محاذاة للوسط
 Align Bottom	محاذاة لأسفل
-Distribute Horizontally	التوزيع أفقيًا
-Distribute Vertically	التوزيع عموديًا
+Distribute Horizontally	التوزيع أفقياً
+Distribute Vertically	التوزيع عمودياً
 Design\nIdeas	أفكار\nالتصميم
 Insert Table…	إدراج جدول…
 Pictures	صور
@@ -567,11 +567,11 @@ Blue Pen	قلم أزرق
 Pencil	قلم رصاص
 Highlighter	قلم التمييز
 Ink to\nShape	حبر إلى\nشكل
-Ink to Shape (coming soon)	تحويل الحبر إلى شكل (قريبًا)
+Ink to Shape (coming soon)	تحويل الحبر إلى شكل (قريباً)
 Ink to\nText	الحبر\nإلى نص
-Ink to Text (coming soon)	تحويل الحبر إلى نص (قريبًا)
+Ink to Text (coming soon)	تحويل الحبر إلى نص (قريباً)
 Ink to\nMath	حبر إلى\nرياضيات
-Ink to Math (coming soon)	تحويل الحبر إلى رياضيات (قريبًا)
+Ink to Math (coming soon)	تحويل الحبر إلى رياضيات (قريباً)
 Colors	الألوان
 Fonts	الخطوط
 Background\nStyles	أنماط\nالخلفية
@@ -610,7 +610,7 @@ Trigger	المشغّل
 On Click of… (none)	عند النقر على… (لا شيء)
 On Click of {name}	عند النقر على {name}
 Animation\nPainter	نسخ\nالحركة
-Animation Painter (double-click to keep it on)	نسخ الحركة (انقر نقرًا مزدوجًا لإبقائه مفعّلًا)
+Animation Painter (double-click to keep it on)	نسخ الحركة (انقر نقراً مزدوجاً لإبقائه مفعّلاً)
 Start:	البداية:
 On Click	عند النقر
 With Previous	مع السابق
@@ -623,7 +623,7 @@ Custom\nShow	عرض\nمخصص
 Set Up\nSlide Show	إعداد\nعرض الشرائح
 Hide\nSlide	إخفاء\nالشريحة
 Rehearse\nTimings	تمرين\nالتوقيتات
-Recording narration needs audio capture (coming soon)	تسجيل التعليق الصوتي يحتاج إلى التقاط الصوت (قريبًا)
+Recording narration needs audio capture (coming soon)	تسجيل التعليق الصوتي يحتاج إلى التقاط الصوت (قريباً)
 Use Timings	استخدام التوقيتات
 Play Narrations	تشغيل التعليقات الصوتية
 Show Media Controls	إظهار عناصر تحكم الوسائط
@@ -632,7 +632,7 @@ From\nBeginning	من\nالبداية
 From\nCurrent Slide	من\nالشريحة الحالية
 Learn\nMore	معرفة\nالمزيد
 Thesaurus	المكنز
-Thesaurus (coming soon)	المرادفات (قريبًا)
+Thesaurus (coming soon)	المرادفات (قريباً)
 Check\nAccessibility	التحقق من\nإمكانية الوصول
 Translate	ترجمة
 Translation needs a language model (not bundled)	الترجمة تحتاج إلى نموذج لغوي (غير مضمّن)
@@ -644,9 +644,9 @@ Notes\nPage	صفحة\nالملاحظات
 Reading\nView	عرض\nالقراءة
 Slide\nMaster	الشريحة\nالرئيسية
 Handout\nMaster	النشرة\nالرئيسية
-Handout Master (coming soon)	النشرة الرئيسية (قريبًا)
+Handout Master (coming soon)	النشرة الرئيسية (قريباً)
 Notes\nMaster	الملاحظات\nالرئيسية
-Notes Master (coming soon)	الملاحظات الرئيسية (قريبًا)
+Notes Master (coming soon)	الملاحظات الرئيسية (قريباً)
 Fit to\nWindow	ملاءمة\nللنافذة
 Dark\nMode	الوضع\nالداكن
 Edit\nShape	تحرير\nالشكل
@@ -667,7 +667,7 @@ Height:	الارتفاع:
 Width:	العرض:
 Width: 	العرض:
 Remove\nBackground	إزالة\nالخلفية
-Remove Background (coming soon)	إزالة الخلفية (قريبًا)
+Remove Background (coming soon)	إزالة الخلفية (قريباً)
 Corrections	التصحيحات
 Brightness {:+}%	السطوع {:+}%
 Contrast {:+}%	التباين {:+}%
@@ -708,7 +708,7 @@ Edit\nData	تحرير\nالبيانات
 Pause	إيقاف مؤقت
 Play	تشغيل
 Trim	حدود التشذيب
-Start Automatically	البدء تلقائيًا
+Start Automatically	البدء تلقائياً
 Play Across Slides	التشغيل عبر الشرائح
 Loop until Stopped	التكرار حتى الإيقاف
 Hide During Show	الإخفاء أثناء العرض
@@ -833,7 +833,7 @@ Media Info	معلومات الوسائط
 Poster Frame	إطار الملصق
 Video Format	تنسيق الفيديو
 Adjust	ضبط
-Play/Pause GIF	تشغيل/إيقاف GIF مؤقتًا
+Play/Pause GIF	تشغيل/إيقاف GIF مؤقتاً
 Insert Shapes	إدراج أشكال
 Reply	رد
 Delete Comment	حذف التعليق

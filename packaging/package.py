@@ -11,6 +11,7 @@ import hashlib
 import os
 import shutil
 import subprocess
+import time
 import uuid
 import zipfile
 from pathlib import Path
@@ -54,8 +55,8 @@ README = """{ar} — {what}
 الشيفرة المصدرية: {repo}
 
 هذا التطبيق نسخة عربية معدّلة من {based} (مشروع ArtCraft مفتوح المصدر)، مرخّصة
-بموجب MIT أو Apache-2.0 (انظر LICENSE-MIT وLICENSE-APACHE وNOTICE). ليست منتجًا
-رسميًا من فريق ArtCraft ولا يتبنّاها الفريق.
+بموجب MIT أو Apache-2.0 (انظر LICENSE-MIT وLICENSE-APACHE وNOTICE). ليست منتجاً
+رسمياً من فريق ArtCraft ولا يتبنّاها الفريق.
 
 ---------------------------------------------------------------------------------
 {latin} — part of the Warsha (ورشة) suite.
@@ -212,7 +213,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 [CustomMessages]
 arabic.FullInstallation=تثبيت كامل (كل التطبيقات)
 english.FullInstallation=Full installation (every app)
-arabic.CompactInstallation=منصة ورشة فقط (ثبّت التطبيقات منها لاحقًا)
+arabic.CompactInstallation=منصة ورشة فقط (ثبّت التطبيقات منها لاحقاً)
 english.CompactInstallation=Warsha only (install apps from it later)
 arabic.CustomInstallation=تثبيت مخصص (اختر التطبيقات)
 english.CustomInstallation=Custom installation (choose the apps)
@@ -244,9 +245,16 @@ Filename: "{{app}}\\Warsha\\artcraft-launcher.exe"; Description: "{{cm:LaunchPro
 
 
 def compile_iss(p):
-    r = subprocess.run([str(ISCC), "/Q", str(p)], capture_output=True, text=True, encoding="utf-8", errors="replace")
-    if r.returncode != 0:
-        raise SystemExit(f"ISCC failed for {p.name}:\n{r.stdout}\n{r.stderr}")
+    # The antivirus sometimes holds the new exe while ISCC writes its resources ("EndUpdateResource
+    # failed"): try again after a pause.
+    for attempt in range(4):
+        r = subprocess.run([str(ISCC), "/Q", str(p)], capture_output=True, text=True, encoding="utf-8", errors="replace")
+        if r.returncode == 0:
+            return
+        if "EndUpdateResource" not in r.stdout + r.stderr:
+            break
+        time.sleep(5 * (attempt + 1))
+    raise SystemExit(f"ISCC failed for {p.name}:\n{r.stdout}\n{r.stderr}")
 
 
 def sha256(p):

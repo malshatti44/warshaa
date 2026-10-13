@@ -91,10 +91,12 @@ pub fn show(app: &mut DesignApp, ctx: &egui::Context) {
     }
     let t = Tokens::get(ctx);
     let mut open: Option<&'static str> = None;
+    // Warsha: the About page only (the Contributors and Models tabs were removed).
+    app.ui.about_tab = 0;
     let resp = egui::Modal::new(egui::Id::new("about")).show(ctx, |ui| {
         ui.set_width(if app.ui.about_tab == 0 { 460.0 } else { 640.0 });
         ui.horizontal(|ui| {
-            for (i, l) in ABOUT_TABS.iter().enumerate() {
+            for (i, l) in ABOUT_TABS.iter().take(1).enumerate() {
                 let i = i as u8;
                 if ui.selectable_label(app.ui.about_tab == i, crate::rtl::widget(ui, crate::i18n::tr(&app.ui.language, l))).clicked() {
                     app.ui.about_tab = i;
@@ -147,7 +149,7 @@ pub fn show(app: &mut DesignApp, ctx: &egui::Context) {
             ));
             ui.label(crate::rtl::widget(
                 ui,
-                egui::RichText::new(crate::i18n::tr(&app.ui.language, "Part of Warsha, based on the open-source ArtCraft suite."))
+                egui::RichText::new(crate::i18n::tr(&app.ui.language, "Part of Warsha."))
                     .size(12.0)
                     .color(t.text_dim),
             ));

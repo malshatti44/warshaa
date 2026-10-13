@@ -30,8 +30,8 @@ fn discord_button_in_the_top_bar_opens_discord() {
 fn home_screen_links() {
     for (label, url) in [
         ("Contact the Developer", links::DISCORD),
-        ("PdfCraft web page", "https://github.com/malshatti44/warshaa"),
-        ("PdfCraft on GitHub", "https://github.com/malshatti44/warshaa"),
+        ("PdfCraft web page", "https://malshatti.com/apps/watheeq.html"),
+        ("PdfCraft on GitHub", "https://malshatti.com/apps/watheeq.html"),
         ("Warsha website", "https://malshatti.com"),
     ] {
         let mut h = harness(|_| {});

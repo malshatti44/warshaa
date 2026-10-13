@@ -418,7 +418,7 @@ fn about(app: &mut FilmcraftApp, ui: &mut egui::Ui) {
     let tab_id = egui::Id::new("about_tab");
     let mut tab = ui.data_mut(|d| d.get_temp::<u8>(tab_id)).unwrap_or(0);
     ui.horizontal(|ui| {
-        for (i, (id, label)) in [("about", tl!("About")), ("contributors", tl!("Contributors")), ("models", tl!("Models"))].into_iter().enumerate() {
+        for (i, (id, label)) in [("about", tl!("About"))].into_iter().enumerate() {
             let i = i as u8;
             let r = ui.selectable_label(tab == i, label);
             app.auto.add(&format!("about.tab.{id}"), r.rect, label);
@@ -462,7 +462,7 @@ fn about_tab(app: &mut FilmcraftApp, ui: &mut egui::Ui) {
     // Arabic build (ورشة): the localisation credit.
     ui.hyperlink_to("تعريب وتطوير: محمد الشطي · malshatti.com", "https://malshatti.com");
     ui.hyperlink_to("info@malshatti.com", "mailto:info@malshatti.com");
-    ui.label(tl!("A clean-room, pure-Rust non-linear video editor. Part of Warsha, based on the ArtCraft project."));
+    ui.label(tl!("A clean-room, pure-Rust non-linear video editor. Part of Warsha."));
     ui.add_space(10.0);
     let mut link = |ui: &mut egui::Ui, id: &str, icon: Icon, label: &str, url: &str, primary: bool| {
         let size = egui::vec2(ui.available_width(), if primary { 36.0 } else { 28.0 });

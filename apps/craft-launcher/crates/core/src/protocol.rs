@@ -120,7 +120,7 @@ pub enum Origin {
 impl Origin {
     pub fn label(self) -> &'static str {
         match self {
-            Self::ArtCraftApi => "ArtCraft API",
+            Self::ArtCraftApi => "malshatti.com",
             Self::GitHub => "GitHub",
         }
     }

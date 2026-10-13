@@ -65,6 +65,23 @@ MAP = {
     "Start ArtCraft Launcher when I log in": ("Start Warsha when I log in", "تشغيل ورشة عند تسجيل الدخول"),
     "One of the Crafting Apps by the ArtCraft team and community.": ("One of the Warsha apps, based on the open-source ArtCraft project.", "أحد تطبيقات ورشة، مبني على مشروع ArtCraft مفتوح المصدر."),
 }
+# Second pass (the user asked for no ArtCraft mention in the apps at all): the attribution
+# sentences of the first pass shrink to "Part of Warsha". The licences stay in LICENSE/NOTICE.
+MAP.update({
+    "Part of Warsha, based on the open-source ArtCraft suite.": ("Part of Warsha.", "جزء من منصة ورشة."),
+    "One of the Warsha apps, based on the open-source ArtCraft project.": ("One of the Warsha apps.", "أحد تطبيقات ورشة."),
+    "An open-source digital audio workstation from the ArtCraft team.": ("An open-source digital audio workstation.", "محطة عمل صوتية رقمية مفتوحة المصدر."),
+    "MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.": ("Free and open source (MIT OR Apache-2.0).", "حر ومفتوح المصدر (MIT OR Apache-2.0)."),
+    "MIT OR Apache-2.0 · © 2026 ArtCraft Team and the DeckCraft contributors": ("Free and open source (MIT OR Apache-2.0)", "حر ومفتوح المصدر (MIT OR Apache-2.0)"),
+})
+SUBS2 = [
+    (", based on the ArtCraft family of creative apps.", "."),
+    (", based on the ArtCraft project.", "."),
+    (", based on ArtCraft.", "."),
+    (", based on the open-source ArtCraft suite.", "."),
+    (", based on the Crafting Apps from the ArtCraft team.", "."),
+]
+
 # Attribution sentences: product wording replaced inside longer strings, Arabic kept.
 SUBS = [
     ("Part of the ArtCraft family of creative apps.", "Part of Warsha, based on the ArtCraft family of creative apps."),
@@ -82,6 +99,10 @@ def new_english(s):
     for a, b in SUBS:
         if a in t and b not in t:
             t = t.replace(a, b)
+    for a, b in SUBS2:
+        t = t.replace(a, b)
+    if t in MAP:
+        return MAP[t][0]
     return t
 
 
@@ -112,6 +133,8 @@ def code():
                     ra, rb = rust_lit(a), rust_lit(b)
                     if ra in body and rb not in body:
                         body = body.replace(ra, rb)
+                for a, b in SUBS2:
+                    body = body.replace(rust_lit(a), rust_lit(b))
                 return '"' + body + '"'
 
             t = lit.sub(sub, s)

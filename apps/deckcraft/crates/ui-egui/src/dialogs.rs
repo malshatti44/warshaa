@@ -695,7 +695,7 @@ fn body(app: &mut SlideApp, ui: &mut Ui, d: &mut Dialog) -> bool {
         "about" => {
             let tab = d.get("tab", "about");
             ui.horizontal(|ui| {
-                for (k, l) in [("about", "About"), ("contributors", "Contributors"), ("models", "Models")] {
+                for (k, l) in [("about", "About")] {
                     if ui.selectable_label(tab == k, l).clicked() {
                         d.fields.insert("tab".into(), k.into());
                     }
@@ -802,10 +802,9 @@ pub fn about(_app: &mut SlideApp, ui: &mut Ui) {
         ui.label("An open-source, clean-room project. Not affiliated with Microsoft.");
         ui.add_space(6.0);
         ui.hyperlink_to("Contact the Developer", deckcraft_engine::links::DISCORD);
-        ui.hyperlink_to("https://github.com/malshatti44/warshaa", deckcraft_engine::links::APP_PAGE);
+        ui.hyperlink_to("https://malshatti.com/apps/minbar.html", deckcraft_engine::links::APP_PAGE);
         ui.hyperlink_to("Source on GitHub", deckcraft_engine::links::GITHUB);
         ui.add_space(6.0);
-        ui.label(egui::RichText::new("MIT OR Apache-2.0 · © 2026 ArtCraft Team and the DeckCraft contributors").size(11.0).color(t.text_faint));
         // Arabic build (ورشة): the localisation credit.
         ui.hyperlink_to("تعريب وتطوير: محمد الشطي · malshatti.com", "https://malshatti.com");
         ui.hyperlink_to("info@malshatti.com", "mailto:info@malshatti.com");

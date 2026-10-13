@@ -410,7 +410,7 @@ mod tests {
         // Keyboard shortcuts are not reversed.
         assert_eq!(display_rtl("طباعة (⌘P)"), "(⌘P) طباعة");
         assert_eq!(display_rtl("تدوير العرض (⇧⌘+)"), "(⇧⌘+) العرض تدوير");
-        assert_eq!(display_rtl("التمرير مع ⌘ أيضًا"), "أيضًا ⌘ مع التمرير");
+        assert_eq!(display_rtl("التمرير مع ⌘ أيضاً"), "أيضاً ⌘ مع التمرير");
         assert_eq!(display_rtl("نص (عادي)"), "(عادي) نص");
     }
 

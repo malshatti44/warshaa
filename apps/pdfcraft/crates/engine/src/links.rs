@@ -9,8 +9,8 @@ pub const APP: &str = "pdfcraft";
 
 pub const DISCORD: &str = "https://malshatti.com";
 pub const WEBSITE: &str = "https://malshatti.com";
-pub const APP_PAGE: &str = "https://github.com/malshatti44/warshaa";
-pub const GITHUB: &str = "https://github.com/malshatti44/warshaa";
+pub const APP_PAGE: &str = "https://malshatti.com/apps/watheeq.html";
+pub const GITHUB: &str = "https://malshatti.com/apps/watheeq.html";
 
 /// A link and the registry command that opens it.
 #[derive(Clone, Copy, Debug)]

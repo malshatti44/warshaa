@@ -11,9 +11,9 @@ pub const DISCORD: &str = "https://malshatti.com";
 /// The ArtCraft website.
 pub const WEBSITE: &str = "https://malshatti.com";
 /// FilmCraft's page on the ArtCraft website.
-pub const APP_PAGE: &str = "https://github.com/malshatti44/warshaa";
+pub const APP_PAGE: &str = "https://malshatti.com/apps/monteer.html";
 /// FilmCraft's source repository.
-pub const GITHUB: &str = "https://github.com/malshatti44/warshaa";
+pub const GITHUB: &str = "https://malshatti.com/apps/monteer.html";
 /// New issue on FilmCraft's repository.
 pub const ISSUES: &str = "https://github.com/storytold/filmcraft/issues";
 

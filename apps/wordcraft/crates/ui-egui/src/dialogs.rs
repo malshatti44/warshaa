@@ -2312,7 +2312,7 @@ fn body(app: &mut WordApp, ui: &mut Ui, d: &mut Dialog) -> bool {
         Dialog::About { tab } => {
             ui.set_width(660.0);
             ui.horizontal(|ui| {
-                for (i, l) in ["About", "Contributors", "Models"].into_iter().enumerate() {
+                for (i, l) in ["About"].into_iter().enumerate() {
                     let i = i as u8;
                     if ui.selectable_label(*tab == i, tl!(l)).clicked() {
                         *tab = i;
@@ -2331,15 +2331,15 @@ fn body(app: &mut WordApp, ui: &mut Ui, d: &mut Dialog) -> bool {
                     ui.hyperlink_to("تعريب وتطوير: محمد الشطي · malshatti.com", "https://malshatti.com");
                     ui.hyperlink_to("info@malshatti.com", "mailto:info@malshatti.com");
                     ui.label(tl!(
-                        "A free, open-source word processor written from scratch in Rust.\nPart of Warsha, based on the Crafting Apps from the ArtCraft team."
+                        "A free, open-source word processor written from scratch in Rust.\nPart of Warsha."
                     ));
                     ui.add_space(6.0);
-                    ui.hyperlink_to(tl!("https://github.com/malshatti44/warshaa"), "https://github.com/malshatti44/warshaa");
+                    ui.hyperlink_to(tl!("https://malshatti.com/apps/satr.html"), "https://malshatti.com/apps/satr.html");
                     ui.hyperlink_to(tl!("Contact the developer: malshatti.com"), "https://malshatti.com");
-                    ui.hyperlink_to(tl!("Source code: github.com/storytold/wordcraft"), "https://github.com/malshatti44/warshaa");
+                    ui.hyperlink_to(tl!("Source code: github.com/storytold/wordcraft"), "https://malshatti.com/apps/satr.html");
                     ui.add_space(6.0);
                     ui.label(
-                        egui::RichText::new(tl!("MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors."))
+                        egui::RichText::new(tl!("Free and open source (MIT OR Apache-2.0)."))
                             .small()
                             .weak(),
                     );

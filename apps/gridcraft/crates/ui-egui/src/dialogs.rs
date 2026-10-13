@@ -1312,7 +1312,7 @@ fn form_fields(ui: &mut egui::Ui, d: &mut Dialog) {
 /// are compiled in (`crate::credits`, docs/contributors.md).
 fn about(ui: &mut egui::Ui, d: &mut Dialog) {
     ui.horizontal(|ui| {
-        for tab in ["About", "Contributors", "Models"] {
+        for tab in ["About"] {
             if ui.selectable_label(d.tab == tab, tab).clicked() {
                 d.tab = tab.to_string();
             }
@@ -1329,8 +1329,8 @@ fn about(ui: &mut egui::Ui, d: &mut Dialog) {
             ui.hyperlink_to("تعريب وتطوير: محمد الشطي · malshatti.com", "https://malshatti.com");
             ui.hyperlink_to("info@malshatti.com", "mailto:info@malshatti.com");
             ui.add_space(4.0);
-            ui.label("A clean-room, open-source, Rust-native spreadsheet. Part of Warsha, based on ArtCraft.");
-            ui.hyperlink_to("https://github.com/malshatti44/warshaa", "https://github.com/malshatti44/warshaa");
+            ui.label("A clean-room, open-source, Rust-native spreadsheet. Part of Warsha.");
+            ui.hyperlink_to("malshatti.com/apps/kashf", "https://malshatti.com/apps/kashf.html");
             ui.hyperlink_to("Contact the Developer", "https://malshatti.com");
         }
     }

@@ -1689,12 +1689,12 @@ const TABLE: &[(&str, [&str; 5])] = &[
     ),
     ("Page · PPI", ["Page · PPI", "Page · PPI", "Page · PPI", "Page · PPI", "页面 · PPI"]),
     (
-        "Part of Warsha, based on the open-source ArtCraft suite.",
+        "Part of Warsha.",
         [
-            "Part of Warsha, based on the open-source ArtCraft suite.",
-            "Part of Warsha, based on the open-source ArtCraft suite.",
-            "Part of Warsha, based on the open-source ArtCraft suite.",
-            "Part of Warsha, based on the open-source ArtCraft suite.",
+            "Part of Warsha.",
+            "Part of Warsha.",
+            "Part of Warsha.",
+            "Part of Warsha.",
             "ArtCraft 开源创意工具套件的一部分。",
         ],
     ),

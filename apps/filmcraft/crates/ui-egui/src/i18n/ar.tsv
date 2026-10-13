@@ -67,8 +67,8 @@
 	Captions and Graphics	الترجمات النصية والرسومات
 	Captions…	الترجمات النصية…
 	Caribbean	كاريبي
-	Center Horizontally	التوسيط أفقيًا
-	Center Vertically	التوسيط عموديًا
+	Center Horizontally	التوسيط أفقياً
+	Center Vertically	التوسيط عمودياً
 	Cerulean	لازوردي
 	Clear	مسح
 	Clear Guides	مسح الأدلة
@@ -108,10 +108,10 @@
 	Detach Proxies	فصل البدائل المؤقتة
 	Display Mode	وضع العرض
 	Distribute	توزيع
-	Distribute Horizontally	التوزيع أفقيًا
-	Distribute Space Horizontally	توزيع المسافات أفقيًا
-	Distribute Space Vertically	توزيع المسافات عموديًا
-	Distribute Vertically	التوزيع عموديًا
+	Distribute Horizontally	التوزيع أفقياً
+	Distribute Space Horizontally	توزيع المسافات أفقياً
+	Distribute Space Vertically	توزيع المسافات عمودياً
+	Distribute Vertically	التوزيع عمودياً
 	Duplicate	تكرار
 	Dynamic Audio Waveforms	موجات صوتية ديناميكية
 	EDL…	EDL…
@@ -356,7 +356,7 @@
 	Toggle Proxies	تبديل البدائل المؤقتة
 	Tools	الأدوات
 	Top	أعلى
-	Transcribe Sequence…	تفريغ التسلسل نصيًا…
+	Transcribe Sequence…	تفريغ التسلسل نصياً…
 	Transcribe…	التفريغ النصي…
 	Transcript	النص المفرّغ
 	Transparent Video…	فيديو شفاف…
@@ -404,7 +404,7 @@
 	Sequence Color Management	إدارة ألوان التسلسل
 	Working Color Space	مساحة ألوان العمل
 	Wide gamut color (composite in BT.2020)	ألوان واسعة النطاق (التركيب في BT.2020)
-	Auto tone map media (HDR and log into SDR)	تخطيط نغمات الوسائط تلقائيًا (HDR وlog إلى SDR)
+	Auto tone map media (HDR and log into SDR)	تخطيط نغمات الوسائط تلقائياً (HDR وlog إلى SDR)
 	Audio Gain	كسب الصوت
 	Set Gain to:	تعيين الكسب إلى:
 	Adjust Gain by:	ضبط الكسب بمقدار:
@@ -435,7 +435,7 @@
 	Delete Caption Track	حذف مسار الترجمة
 	Delete Empty Caption Tracks	حذف مسارات الترجمة الفارغة
 	Version {version}	الإصدار {version}
-	A clean-room, pure-Rust non-linear video editor. Part of Warsha, based on the ArtCraft project.	محرر فيديو غير خطي مكتوب بالكامل بلغة Rust. أحد تطبيقات ورشة، مبني على مشروع ArtCraft مفتوح المصدر.
+	A clean-room, pure-Rust non-linear video editor. Part of Warsha.	محرر فيديو غير خطي مكتوب بالكامل بلغة Rust. أحد تطبيقات ورشة.
 	Contact the Developer	تواصل مع المطوّر
 	Source code on GitHub	الشيفرة المصدرية على GitHub
 	Report an issue	الإبلاغ عن مشكلة
@@ -467,7 +467,7 @@
 	Are you sure you want to discard your changes to '{file}'?	هل أنت متأكد من تجاهل تغييراتك على '{file}'؟
 	Yes	نعم
 	No	لا
-	Add media to your project. Drop files anywhere in the window, or choose a source below.	أضف وسائط إلى مشروعك. أفلت الملفات في أي مكان من النافذة، أو اختر مصدرًا أدناه.
+	Add media to your project. Drop files anywhere in the window, or choose a source below.	أضف وسائط إلى مشروعك. أفلت الملفات في أي مكان من النافذة، أو اختر مصدراً أدناه.
 	Browse files…	استعراض الملفات…
 	Movies, audio and stills from disk	أفلام وصوت وصور ثابتة من القرص
 	Demo footage	لقطات تجريبية
@@ -496,7 +496,7 @@
 	Render audio clip effects	تصيير مؤثرات المقاطع الصوتية
 	Breakout to mono	التفكيك إلى أحادي
 	Exported {path}	صُدّر {path}
-	Select a clip to view its metadata.	حدد مقطعًا لعرض بياناته الوصفية.
+	Select a clip to view its metadata.	حدد مقطعاً لعرض بياناته الوصفية.
 	Clip: {name}	المقطع: {name}
 	Open	فتح
 	(no sequence)	(لا يوجد تسلسل)
@@ -583,7 +583,7 @@
 	Restore	استعادة
 	Overwrite with Current View	الاستبدال بالعرض الحالي
 	Graphics text search arrives with M10.1–M10.2	البحث في نصوص الرسومات يأتي مع M10.1–M10.2
-	Open a sequence to work with captions	افتح تسلسلًا للعمل على الترجمات النصية
+	Open a sequence to work with captions	افتح تسلسلاً للعمل على الترجمات النصية
 	Add captions	إضافة ترجمات نصية
 	Create a caption track or import a caption file.	أنشئ مسار ترجمة أو استورد ملف ترجمة.
 	Create new caption track	إنشاء مسار ترجمة جديد
@@ -595,10 +595,10 @@
 	Delete selected captions	حذف الترجمات المحددة
 	No captions on this track. Press + to add one at the playhead.	لا توجد ترجمات على هذا المسار. اضغط + لإضافة واحدة عند رأس التشغيل.
 	No matching captions.	لا توجد ترجمات مطابقة.
-	Open a sequence to see its transcript	افتح تسلسلًا لرؤية نصه المفرّغ
-	Transcribe sequence	تفريغ التسلسل نصيًا
-	Speech-to-text turns the dialogue into editable text.	تحويل الكلام إلى نص يجعل الحوار نصًا قابلًا للتحرير.
-	This build has no speech-to-text; import a transcript with transcript.set.	هذا الإصدار لا يدعم تحويل الكلام إلى نص؛ استورد نصًا مفرّغًا بالأمر transcript.set.
+	Open a sequence to see its transcript	افتح تسلسلاً لرؤية نصه المفرّغ
+	Transcribe sequence	تفريغ التسلسل نصياً
+	Speech-to-text turns the dialogue into editable text.	تحويل الكلام إلى نص يجعل الحوار نصاً قابلاً للتحرير.
+	This build has no speech-to-text; import a transcript with transcript.set.	هذا الإصدار لا يدعم تحويل الكلام إلى نص؛ استورد نصاً مفرّغاً بالأمر transcript.set.
 	Transcribe	تفريغ نصي
 	Extract selected text	استخراج النص المحدد
 	Lift selected text	رفع النص المحدد
@@ -805,7 +805,7 @@
 	Reverse Field Dominance	عكس هيمنة الحقول
 	Processing Options	خيارات المعالجة
 	None	بدون
-	Always Deinterlace	إزالة التشابك دائمًا
+	Always Deinterlace	إزالة التشابك دائماً
 	Flicker Removal	إزالة الوميض
 	Save changes to “{project_name}” before closing?	حفظ التغييرات في «{project_name}» قبل الإغلاق؟
 	Don't Save	عدم الحفظ
@@ -826,7 +826,7 @@
 	Media Start	بداية الوسائط
 	Frame Size / Rate	حجم الإطار / المعدل
 	Align Timecode	محاذاة الرمز الزمني
-	Relink others automatically	إعادة ربط الأخرى تلقائيًا
+	Relink others automatically	إعادة ربط الأخرى تلقائياً
 	Search in:	البحث في:
 	Browse…	استعراض…
 	A file dialog is already open	مربع حوار ملفات مفتوح بالفعل
@@ -849,7 +849,7 @@
 	Format and size	الصيغة والحجم
 	Destination	الوجهة
 	Next to the original media, in a Proxies folder	بجانب الوسائط الأصلية، في مجلد Proxies
-	Proxies are made in the background and attached when done. Export always uses full-resolution media.	تُنشأ البدائل المؤقتة في الخلفية وتُرفق عند الانتهاء. التصدير يستخدم دائمًا الوسائط بالدقة الكاملة.
+	Proxies are made in the background and attached when done. Export always uses full-resolution media.	تُنشأ البدائل المؤقتة في الخلفية وتُرفق عند الانتهاء. التصدير يستخدم دائماً الوسائط بالدقة الكاملة.
 	Creating {n} proxy file(s)…	جارٍ إنشاء {n} ملف بديل مؤقت…
 	Project Manager	إدارة المشروع
 	Sequences	التسلسلات
@@ -872,7 +872,7 @@
 	{name} (user)	{name} (المستخدم)
 	Select audio clips to edit them here	حدد مقاطع صوتية لتحريرها هنا
 	Multiple Clips Selected	مقاطع متعددة محددة
-	The selected clips have different audio types. Assign one type to edit them together.	المقاطع المحددة لها أنواع صوت مختلفة. عيّن نوعًا واحدًا لتحريرها معًا.
+	The selected clips have different audio types. Assign one type to edit them together.	المقاطع المحددة لها أنواع صوت مختلفة. عيّن نوعاً واحداً لتحريرها معاً.
 	Assign an audio type to the selection:	تعيين نوع صوت للتحديد:
 	Clear Audio Type	مسح نوع الصوت
 	Preset:	الإعداد المسبق:
@@ -891,7 +891,7 @@
 	Mix	الخلط
 	Reverb	الصدى
 	Stereo Width	عرض الستيريو
-	Remixing music to a target duration is not available yet. Trim the clip and add a crossfade instead.	إعادة مزج الموسيقى إلى مدة محددة غير متاحة بعد. قص المقطع وأضف تلاشيًا متقاطعًا بدلًا من ذلك.
+	Remixing music to a target duration is not available yet. Trim the clip and add a crossfade instead.	إعادة مزج الموسيقى إلى مدة محددة غير متاحة بعد. قص المقطع وأضف تلاشياً متقاطعاً بدلاً من ذلك.
 	Pan	تحريك العرض
 	Auto-Match	مطابقة تلقائية
 	Not matched yet	لم تُطابق بعد
@@ -968,8 +968,8 @@
 	Inverted	معكوس
 	Drag: move · Alt-click: smooth/corner · Cmd-click: delete	سحب: نقل · نقر مع Alt: سلس/زاوية · نقر مع Cmd: حذف
 	Track selected mask backward	تتبّع القناع المحدد للخلف
-	Track selected mask backward 1 frame	تتبّع القناع المحدد للخلف إطارًا واحدًا
-	Track selected mask forward 1 frame	تتبّع القناع المحدد للأمام إطارًا واحدًا
+	Track selected mask backward 1 frame	تتبّع القناع المحدد للخلف إطاراً واحداً
+	Track selected mask forward 1 frame	تتبّع القناع المحدد للأمام إطاراً واحداً
 	Track selected mask forward	تتبّع القناع المحدد للأمام
 	Stop tracking	إيقاف التتبّع
 	Tracking method: {method}	طريقة التتبّع: {method}
@@ -983,7 +983,7 @@
 	Decoded frames held for the monitors and thumbnails: {used} of {budget}.	الإطارات المفكوكة المحفوظة للشاشات والصور المصغّرة: {used} من {budget}.
 	FilmCraft keeps the rest of the RAM free for other applications.	يُبقي مونتير بقية الذاكرة فارغة للتطبيقات الأخرى.
 	not available in this session	غير متاح في هذه الجلسة
-	Currently: {loc} — {files} file(s), {size}	حاليًا: {loc} — {files} ملف، {size}
+	Currently: {loc} — {files} file(s), {size}	حالياً: {loc} — {files} ملف، {size}
 	 ({ch} output channels)	 ({ch} قناة خرج)
 	Programme left → device output {l}, right → device output {r}{dev}. Outputs beyond the device's channels fall back to 1 and 2.	البرنامج الأيسر ← خرج الجهاز {l}، والأيمن ← خرج الجهاز {r}{dev}. المخارج التي تتجاوز قنوات الجهاز ترجع إلى 1 و2.
 	Auto-saves go to: {dir}	تذهب ملفات الحفظ التلقائي إلى: {dir}
@@ -1012,8 +1012,8 @@
 	Continuous Bezier	بيزييه متصل
 	Ease In	تسهيل للداخل
 	Ease Out	تسهيل للخارج
-	Select a clip to grade	حدد مقطعًا لتدريج ألوانه
-	Select a clip to see its properties	حدد مقطعًا لرؤية خصائصه
+	Select a clip to grade	حدد مقطعاً لتدريج ألوانه
+	Select a clip to see its properties	حدد مقطعاً لرؤية خصائصه
 	Anchor point	نقطة الارتكاز
 	Rotation	دوران
 	Level	المستوى
@@ -1031,10 +1031,10 @@
 	Delete Layer	حذف الطبقة
 	Select a layer to edit its properties.	حدد طبقة لتحرير خصائصها.
 	Align Left	محاذاة إلى اليسار
-	Align Center Horizontally	محاذاة للمركز أفقيًا
+	Align Center Horizontally	محاذاة للمركز أفقياً
 	Align Right	محاذاة إلى اليمين
 	Align Top	محاذاة لأعلى
-	Align Center Vertically	محاذاة للمركز عموديًا
+	Align Center Vertically	محاذاة للمركز عمودياً
 	Align Bottom	محاذاة لأسفل
 	Font	خط
 	Font Style	نمط الخط
@@ -1117,7 +1117,7 @@
 	Show All	إظهار الكل
 	Post-Fader	بعد المنزلق
 	Remove Effect	إزالة المؤثر
-	Fill the slots above first	املأ الخانات أعلاه أولًا
+	Fill the slots above first	املأ الخانات أعلاه أولاً
 	pre 	قبل
 	Pre-Fader	قبل المنزلق
 	Mute Send	كتم الإرسال
@@ -1134,7 +1134,7 @@
 	Play In to Out	التشغيل من الدخول إلى الخروج
 	Record (voice-over on the record-enabled track)	تسجيل (تعليق صوتي على المسار المفعّل للتسجيل)
 	Write keyframes	كتابة الإطارات المفتاحية
-	Something went wrong while drawing the window. Your project is still open; save it to be safe.	حدث خطأ أثناء رسم النافذة. مشروعك ما زال مفتوحًا؛ احفظه للاحتياط.
+	Something went wrong while drawing the window. Your project is still open; save it to be safe.	حدث خطأ أثناء رسم النافذة. مشروعك ما زال مفتوحاً؛ احفظه للاحتياط.
 	Continue	متابعة
 	Go Back	رجوع
 	Go Forward	التقدم للأمام
@@ -1236,7 +1236,7 @@
 	Restore Arrangement	استعادة الترتيب
 	Delete Arrangement	حذف الترتيب
 	Drop media here to create sequence.	أفلت الوسائط هنا لإنشاء تسلسل.
-	Double-click a sequence in the Project panel to open it here.	انقر نقرًا مزدوجًا على تسلسل في لوحة المشروع لفتحه هنا.
+	Double-click a sequence in the Project panel to open it here.	انقر نقراً مزدوجاً على تسلسل في لوحة المشروع لفتحه هنا.
 	Open Demo Project	فتح مشروع تجريبي
 	Insert and overwrite sequences as nests or individual clips	إدراج التسلسلات واستبدالها كتضمينات أو مقاطع منفردة
 	Snap in Timeline (S)	الالتقاط في الخط الزمني (S)
@@ -1283,7 +1283,7 @@
 	Action-Safe Margin	هامش الحركة الآمن
 	Active Monitor	الشاشة النشطة
 	Add	إضافة
-	Add tracks automatically when editing source clips onto the Timeline	إضافة مسارات تلقائيًا عند تحرير المقاطع المصدر على الخط الزمني
+	Add tracks automatically when editing source clips onto the Timeline	إضافة مسارات تلقائياً عند تحرير المقاطع المصدر على الخط الزمني
 	Place files dropped onto the Timeline directly on the Timeline	وضع الملفات المُفلتة على الخط الزمني مباشرة عليه
 	1 file	ملف واحد
 	{n} files	{n} ملفات
@@ -1296,14 +1296,14 @@
 	Align and Transform	المحاذاة والتحويل
 	All lines	كل الأسطر
 	Allow Selection tool to choose Roll and Ripple trims without modifier key	السماح لأداة التحديد باختيار قص اللف والإزاحة دون مفتاح تعديل
-	Allow current tool to change trim type of previously selected edit point	السماح للأداة الحالية بتغيير نوع قص نقطة التحرير المحددة سابقًا
+	Allow current tool to change trim type of previously selected edit point	السماح للأداة الحالية بتغيير نوع قص نقطة التحرير المحددة سابقاً
 	Allow duplicate media during project import	السماح بالوسائط المكررة أثناء استيراد المشروع
 	Alpha Adjust	ضبط ألفا
 	Alpha Blurriness	ضبابية ألفا
 	Alpha Channel	قناة ألفا
 	Alpha Glow	توهج ألفا
-	Always import embedded CEA-708 closed captions with wide aspect.	استيراد ترجمات CEA-708 المضمّنة دائمًا بنسبة عريضة.
-	Always override audio tags	تجاوز وسوم الصوت دائمًا
+	Always import embedded CEA-708 closed captions with wide aspect.	استيراد ترجمات CEA-708 المضمّنة دائماً بنسبة عريضة.
+	Always override audio tags	تجاوز وسوم الصوت دائماً
 	Ambience	الأجواء
 	Ambience Intensity	شدة الأجواء
 	Ambience Light Color	لون ضوء الأجواء
@@ -1345,20 +1345,20 @@
 	Auto Align	المحاذاة التلقائية
 	Auto Reframe	إعادة التأطير التلقائية
 	Auto Save	الحفظ التلقائي
-	Auto Save also saves the current project(s)	الحفظ التلقائي يحفظ المشاريع الحالية أيضًا
-	Auto-tag audio types in the timeline	وسم أنواع الصوت في الخط الزمني تلقائيًا
+	Auto Save also saves the current project(s)	الحفظ التلقائي يحفظ المشاريع الحالية أيضاً
+	Auto-tag audio types in the timeline	وسم أنواع الصوت في الخط الزمني تلقائياً
 	Auto-transcribe all imported clips	التفريغ النصي التلقائي لكل المقاطع المستوردة
 	Auto-transcribe only clips in sequences	التفريغ النصي التلقائي للمقاطع داخل التسلسلات فقط
 	Automatch Time	وقت المطابقة التلقائية
 	Automatic Click Remover	مزيل النقرات التلقائي
-	Automatically Hide Dependent Clips	إخفاء المقاطع التابعة تلقائيًا
+	Automatically Hide Dependent Clips	إخفاء المقاطع التابعة تلقائياً
 	Automatically Save Every	الحفظ التلقائي كل
 	Automatically delete cache files older than	حذف ملفات الذاكرة المؤقتة الأقدم من
-	Automatically delete oldest cache files when cache exceeds	حذف أقدم ملفات الذاكرة المؤقتة تلقائيًا عندما تتجاوز
-	Automatically refresh growing files	تحديث الملفات المتنامية تلقائيًا
-	Automatically resume playback for growing files in Source Monitor	استئناف تشغيل الملفات المتنامية تلقائيًا في شاشة المصدر
-	Automatically save projects	حفظ المشاريع تلقائيًا
-	Automatically transcribe clips	تفريغ المقاطع نصيًا تلقائيًا
+	Automatically delete oldest cache files when cache exceeds	حذف أقدم ملفات الذاكرة المؤقتة تلقائياً عندما تتجاوز
+	Automatically refresh growing files	تحديث الملفات المتنامية تلقائياً
+	Automatically resume playback for growing files in Source Monitor	استئناف تشغيل الملفات المتنامية تلقائياً في شاشة المصدر
+	Automatically save projects	حفظ المشاريع تلقائياً
+	Automatically transcribe clips	تفريغ المقاطع نصياً تلقائياً
 	Automation Keyframe Optimization	تحسين الإطارات المفتاحية للأتمتة
 	Background Color	لون الخلفية
 	Background Corner Radius	نصف قطر زاوية الخلفية
@@ -1454,7 +1454,7 @@
 	Butterworth	Butterworth
 	CEA-608	CEA-608
 	CEA-708	CEA-708
-	Cache analysis results for re-use	تخزين نتائج التحليل مؤقتًا لإعادة الاستخدام
+	Cache analysis results for re-use	تخزين نتائج التحليل مؤقتاً لإعادة الاستخدام
 	Camera Angle	زاوية الكاميرا
 	Camera Blur	ضبابية الكاميرا
 	Camera Shake	اهتزاز الكاميرا
@@ -1570,7 +1570,7 @@
 	Custom	مخصص
 	Custom Color	لون مخصص
 	Cutoff	التردد الحدي
-	Cyan-teal shadows and warm highlights with a little more contrast	ظلال سماوية مخضرة وإضاءات دافئة مع تباين أعلى قليلًا
+	Cyan-teal shadows and warm highlights with a little more contrast	ظلال سماوية مخضرة وإضاءات دافئة مع تباين أعلى قليلاً
 	Cycle (in Revolutions)	الدورة (بالدورات)
 	Cycle Evolution	تطور الدورة
 	Damping	التخميد
@@ -1580,7 +1580,7 @@
 	Darker Color	لون أغمق
 	Date Created	تاريخ الإنشاء
 	Date Modified	تاريخ التعديل
-	Day for night: darker, cooler and less saturated	نهار كأنه ليل: أغمق وأبرد وأقل تشبعًا
+	Day for night: darker, cooler and less saturated	نهار كأنه ليل: أغمق وأبرد وأقل تشبعاً
 	DeEsser	مزيل الصفير
 	DeHummer	مزيل الطنين
 	DeNoise	مزيل التشويش
@@ -1641,10 +1641,10 @@
 	Distortion Rate	معدل التشوه
 	Distortion Type	نوع التشوه
 	Divide	قسمة
-	Do not delete cache files automatically	عدم حذف ملفات الذاكرة المؤقتة تلقائيًا
+	Do not delete cache files automatically	عدم حذف ملفات الذاكرة المؤقتة تلقائياً
 	Don't label speakers	عدم تسمية المتحدثين
 	Double-click	نقر مزدوج
-	Draft decoding at reduced playback resolution (H.264: faster, some frames less filtered)	فك ترميز مبدئي بدقة تشغيل منخفضة (H.264: أسرع، وبعض الإطارات أقل ترشيحًا)
+	Draft decoding at reduced playback resolution (H.264: faster, some frames less filtered)	فك ترميز مبدئي بدقة تشغيل منخفضة (H.264: أسرع، وبعض الإطارات أقل ترشيحاً)
 	Drive	الدفع
 	Drop Shadow	إسقاط الظل
 	Dry	جاف
@@ -1789,7 +1789,7 @@
 	Generate	توليد
 	Generate Timecode	إنشاء رمز زمني
 	Generate waveforms and conform audio using multithreading	إنشاء الموجات ومطابقة الصوت باستخدام تعدد المسارات
-	Generate waveforms automatically during import	إنشاء الموجات تلقائيًا أثناء الاستيراد
+	Generate waveforms automatically during import	إنشاء الموجات تلقائياً أثناء الاستيراد
 	German	الألمانية
 	Ghosts	الأشباح
 	Glass	زجاج
@@ -1815,8 +1815,8 @@
 	Gradient Wipe (Legacy)	مسح متدرج (قديم)
 	Grain Size	حجم الحبيبات
 	Graphic Equalizer (10 Bands)	معادل رسومي (10 نطاقات)
-	Graphic Equalizer (20 Bands)	معادل رسومي (20 نطاقًا)
-	Graphic Equalizer (30 Bands)	معادل رسومي (30 نطاقًا)
+	Graphic Equalizer (20 Bands)	معادل رسومي (20 نطاقاً)
+	Graphic Equalizer (30 Bands)	معادل رسومي (30 نطاقاً)
 	Graphics	الرسوميات
 	Green Blurriness	ضبابية الأخضر
 	Green Curve	منحنى الأخضر
@@ -1842,7 +1842,7 @@
 	Hard Limiter	محدِّد صلب
 	Hard Mix	مزج قوي
 	Hardware decoding	فك الترميز بالعتاد
-	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	فك الترميز بالعتاد: الوضع التلقائي يستخدم وحدة فك ترميز الفيديو في النظام (VideoToolbox على macOS، وMedia Foundation على ويندوز، وVA-API أو NVDEC لـ H.264 وHEVC على لينكس) للتدفقات التي تدعمها، ووحدة فك ترميز مونتير الخاصة لكل ما عداها أو عند فشل العتاد. الوسائط المفتوحة مسبقًا تحتفظ بوحدة فك ترميزها حتى يُعاد فتحها.
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	فك الترميز بالعتاد: الوضع التلقائي يستخدم وحدة فك ترميز الفيديو في النظام (VideoToolbox على macOS، وMedia Foundation على ويندوز، وVA-API أو NVDEC لـ H.264 وHEVC على لينكس) للتدفقات التي تدعمها، ووحدة فك ترميز مونتير الخاصة لكل ما عداها أو عند فشل العتاد. الوسائط المفتوحة مسبقاً تحتفظ بوحدة فك ترميزها حتى يُعاد فتحها.
 	Head Size	حجم الرأس
 	Heart	قلب
 	Height	الارتفاع
@@ -1872,7 +1872,7 @@
 	Horizontal 16:9	أفقي 16:9
 	Horizontal Alignment	المحاذاة الأفقية
 	Horizontal Blocks	كتل أفقية
-	Horizontal Decentering	إزاحة المركز أفقيًا
+	Horizontal Decentering	إزاحة المركز أفقياً
 	Horizontal Displacement	الإزاحة الأفقية
 	Horizontal Flip	قلب أفقي
 	Horizontal Margin	الهامش الأفقي
@@ -2089,7 +2089,7 @@
 	Monochrome toned warm brown	أحادي اللون بصبغة بنية دافئة
 	Monoscopic	أحادي المنظر
 	Monospace only	ثابت العرض فقط
-	More colour in the less saturated areas	مزيد من اللون في المناطق الأقل تشبعًا
+	More colour in the less saturated areas	مزيد من اللون في المناطق الأقل تشبعاً
 	Morph Cut	القطع المتحوّل
 	Mosaic	فسيفساء
 	Mosaic (Legacy)	فسيفساء (قديم)
@@ -2180,7 +2180,7 @@
 	Passband Ripple	تموج نطاق التمرير
 	Path	مسار
 	Path Points	نقاط المسار
-	Pause Media Encoder queue during playback	إيقاف طابور Media Encoder مؤقتًا أثناء التشغيل
+	Pause Media Encoder queue during playback	إيقاف طابور Media Encoder مؤقتاً أثناء التشغيل
 	Peak Frequency	تردد الذروة
 	Peak Gain	كسب الذروة
 	Pedestal	القاعدة
@@ -2321,7 +2321,7 @@
 	Right - Right	يمين - يمين
 	Right channel to device output	القناة اليمنى إلى خرج الجهاز
 	Right to left	من اليمين لليسار
-	Ripple trim adds edits to keep both sides of trim in sync	القص الإزاحي يضيف قطوعًا لإبقاء جانبي القص متزامنين
+	Ripple trim adds edits to keep both sides of trim in sync	القص الإزاحي يضيف قطوعاً لإبقاء جانبي القص متزامنين
 	Roll (Z Axis)	اللفّ (المحور Z)
 	Room Size	حجم الغرفة
 	Rotation Amount	مقدار الدوران
@@ -2481,7 +2481,7 @@
 	Stereo Media	وسائط ستيريو
 	Stereo Phasing	طور الستيريو
 	Stereoscopic - Over/Under	مجسّم - أعلى/أسفل
-	Stereoscopic - Side by Side	مجسّم - جنبًا إلى جنب
+	Stereoscopic - Side by Side	مجسّم - جنباً إلى جنب
 	Still	صورة ثابتة
 	Still Image Default Duration	المدة الافتراضية للصورة الثابتة
 	Stone Church	كنيسة حجرية
@@ -2522,7 +2522,7 @@
 	Subtitle	العنوان الفرعي
 	Subtract	طرح
 	Sum multichannel outputs to mono in Source Monitor	جمع المخارج متعددة القنوات إلى أحادي في شاشة المصدر
-	Super Narrow	ضيق جدًا
+	Super Narrow	ضيق جداً
 	Surface Gloss	لمعان السطح
 	Surface Material	مادة السطح
 	Surround Reverb	صدى محيطي
@@ -2544,7 +2544,7 @@
 	Template Properties	خصائص القالب
 	Text Animator	محرّك النص
 	Text Color	لون النص
-	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	تحتوي ذاكرة الوسائط المؤقتة على معاينات تصيير المشاريع غير المحفوظة وملفات أخرى يستطيع مونتير إعادة إنشائها. حذفها آمن دائمًا؛ ويعيد مونتير إنشاءها عند الحاجة.
+	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	تحتوي ذاكرة الوسائط المؤقتة على معاينات تصيير المشاريع غير المحفوظة وملفات أخرى يستطيع مونتير إعادة إنشائها. حذفها آمن دائماً؛ ويعيد مونتير إنشاءها عند الحاجة.
 	Thickness	السماكة
 	Tile Gradient	تجانب التدرج
 	Tilt	الإمالة
@@ -2597,7 +2597,7 @@
 	Uniform Spacing	تباعد موحّد
 	Unsharp Mask	قناع زيادة الحدة
 	Update it at least every	تحديثه كل مدة لا تزيد على
-	Update timeline dynamically during ripple edits.	تحديث الخط الزمني ديناميكيًا أثناء التحريرات الإزاحية.
+	Update timeline dynamically during ripple edits.	تحديث الخط الزمني ديناميكياً أثناء التحريرات الإزاحية.
 	Upper Frequency	التردد الأعلى
 	Upper Left	أعلى اليسار
 	Upper Right	أعلى اليمين
@@ -2638,11 +2638,11 @@
 	Vertical 9:16	عمودي 9:16
 	Vertical Alignment	المحاذاة العمودية
 	Vertical Blocks	كتل عمودية
-	Vertical Decentering	إزاحة المركز عموديًا
+	Vertical Decentering	إزاحة المركز عمودياً
 	Vertical Displacement	الإزاحة العمودية
 	Vertical Flip	قلب عمودي
 	Vertical Margin	الهامش العمودي
-	Very Narrow	ضيق جدًا
+	Very Narrow	ضيق جداً
 	Video 1	الفيديو 1
 	Video 2	الفيديو 2
 	Video 3	الفيديو 3
@@ -2735,7 +2735,7 @@
 	Normalize Mix Track	تسوية مسار المزج
 	Simplify Sequence	تبسيط التسلسل
 	Simplify	تبسيط
-	Transcribe Sequence	تفريغ التسلسل نصيًا
+	Transcribe Sequence	تفريغ التسلسل نصياً
 	Save as Template	حفظ كقالب
 	Flash Cue Marker	علامة إشارة فلاش
 	System Compatibility Report	تقرير توافق النظام
@@ -2851,14 +2851,14 @@
 	Save preset as:	حفظ الإعداد المسبق باسم:
 	Commands:	الأوامر:
 	{panel} Panel	لوحة {panel}
-	Application shortcuts work whatever panel has focus	اختصارات التطبيق تعمل أيًا كانت اللوحة النشطة
+	Application shortcuts work whatever panel has focus	اختصارات التطبيق تعمل أياً كانت اللوحة النشطة
 	Panel shortcuts override application shortcuts while that panel has focus	اختصارات اللوحة تتجاوز اختصارات التطبيق ما دامت اللوحة نشطة
 	Modifier held / selected	المعدِّل مضغوط / محدد
 	Search commands or keys	البحث في الأوامر أو المفاتيح
 	Selected: {command}	المحدد: {command}
 	Command	أمر
 	Shortcut	الاختصار
-	Type a shortcut… (Esc cancels)	اكتب اختصارًا… (Esc للإلغاء)
+	Type a shortcut… (Esc cancels)	اكتب اختصاراً… (Esc للإلغاء)
 	Add another shortcut	إضافة اختصار آخر
 	No matching commands	لا توجد أوامر مطابقة
 	Key:	المفتاح:
@@ -2868,10 +2868,10 @@
 	Assign {key} to {command}	تعيين {key} إلى {command}
 	Conflict: {key} is assigned to {commands} ({ctx})	تعارض: {key} معيّن إلى {commands} ({ctx})
 	 and 	 و
-	Click a command's Shortcut cell and press keys to assign it; + adds another shortcut.	انقر على خلية الاختصار لأمر واضغط المفاتيح لتعيينه؛ و+ يضيف اختصارًا آخر.
+	Click a command's Shortcut cell and press keys to assign it; + adds another shortcut.	انقر على خلية الاختصار لأمر واضغط المفاتيح لتعيينه؛ و+ يضيف اختصاراً آخر.
 	Cleared {n} shortcut(s) of {command}	مُسح {n} اختصار من {command}
 	No export preset named `{name}`	لا يوجد إعداد تصدير مسبق باسم `{name}`
-	Open a sequence to export	افتح تسلسلًا للتصدير
+	Open a sequence to export	افتح تسلسلاً للتصدير
 	Destinations	الوجهات
 	Media File	ملف وسائط
 	Queue ({n})	الطابور ({n})
@@ -2949,7 +2949,7 @@
 	Export presets	إعدادات التصدير المسبقة
 	Import: no file chosen (agents: export.presets.import {path})	الاستيراد: لم يُختر ملف (للوكلاء: export.presets.import {path})
 	Export: no file chosen (agents: export.presets.export {path, names})	التصدير: لم يُختر ملف (للوكلاء: export.presets.export {path, names})
-	Quick Export: open a sequence first	التصدير السريع: افتح تسلسلًا أولًا
+	Quick Export: open a sequence first	التصدير السريع: افتح تسلسلاً أولاً
 	File Name & Location	اسم الملف وموقعه
 	Quick Export: {path}	التصدير السريع: {path}
 	Graphics problem: switched to software compositing	مشكلة رسوميات: تم التحويل إلى التركيب البرمجي
@@ -2959,12 +2959,12 @@
 	Click to select all clips to the right in all tracks. Shift-click for a single track.	انقر لتحديد كل المقاطع إلى اليمين في كل المسارات. انقر مع Shift لمسار واحد.
 	Click to select all clips to the left in all tracks. Shift-click for a single track.	انقر لتحديد كل المقاطع إلى اليسار في كل المسارات. انقر مع Shift لمسار واحد.
 	Drag an edit point to ripple trim; later clips move to keep the gap closed.	اسحب نقطة تحرير للقص الإزاحي؛ تتحرك المقاطع اللاحقة لإبقاء الفجوة مغلقة.
-	Drag an edit point to roll it: the out of one clip and the in of the next move together.	اسحب نقطة تحرير لتحريكها باللفّ: يتحرك خروج المقطع ودخول المقطع التالي معًا.
+	Drag an edit point to roll it: the out of one clip and the in of the next move together.	اسحب نقطة تحرير لتحريكها باللفّ: يتحرك خروج المقطع ودخول المقطع التالي معاً.
 	Drag an edge to change the clip's speed so it fills the new duration.	اسحب حافة لتغيير سرعة المقطع ليملأ المدة الجديدة.
-	Drag the edge of a music clip to remix it to the new duration at musically matching beats.	اسحب حافة مقطع موسيقي لإعادة مزجه إلى المدة الجديدة عند إيقاعات متوافقة موسيقيًا.
+	Drag the edge of a music clip to remix it to the new duration at musically matching beats.	اسحب حافة مقطع موسيقي لإعادة مزجه إلى المدة الجديدة عند إيقاعات متوافقة موسيقياً.
 	Click to split a clip. Shift-click to split all tracks.	انقر لتقسيم مقطع. انقر مع Shift لتقسيم كل المسارات.
-	Drag a clip to slip its source in/out without moving it.	اسحب مقطعًا لإزاحة دخول/خروج مصدره دون تحريكه.
-	Drag a clip to slide it between its neighbours.	اسحب مقطعًا لإزلاقه بين جيرانه.
+	Drag a clip to slip its source in/out without moving it.	اسحب مقطعاً لإزاحة دخول/خروج مصدره دون تحريكه.
+	Drag a clip to slide it between its neighbours.	اسحب مقطعاً لإزلاقه بين جيرانه.
 	Drag to scroll the timeline.	اسحب لتمرير الخط الزمني.
 	Click to zoom in; Opt-click to zoom out.	انقر للتكبير؛ وانقر مع Opt للتصغير.
 	FilmCraft hit an error	واجه مونتير خطأ
@@ -3048,7 +3048,7 @@
 	Darkens outside a feathered oval mask	يُغمّق خارج قناع بيضاوي ناعم الحواف
 	Decrease Audio Tracks Height	تقليل ارتفاع مسارات الصوت
 	Decrease Clip Volume	خفض مستوى صوت المقطع
-	Decrease Clip Volume Many	خفض مستوى صوت المقطع كثيرًا
+	Decrease Clip Volume Many	خفض مستوى صوت المقطع كثيراً
 	Decrease Font Size by Five Units	تصغير حجم الخط خمس وحدات
 	Decrease Font Size by One Unit	تصغير حجم الخط وحدة واحدة
 	Decrease Leading by Five Units	تقليل التباعد الرأسي خمس وحدات
@@ -3105,7 +3105,7 @@
 	Image Sequence	تسلسل صور
 	Increase Audio Tracks Height	زيادة ارتفاع مسارات الصوت
 	Increase Clip Volume	رفع مستوى صوت المقطع
-	Increase Clip Volume Many	رفع مستوى صوت المقطع كثيرًا
+	Increase Clip Volume Many	رفع مستوى صوت المقطع كثيراً
 	Increase Font Size by Five Units	تكبير حجم الخط خمس وحدات
 	Increase Font Size by One Unit	تكبير حجم الخط وحدة واحدة
 	Increase Leading by Five Units	زيادة التباعد الرأسي خمس وحدات
@@ -3114,7 +3114,7 @@
 	Large blocks resolving to the picture over the first second	كتل كبيرة تتحول إلى الصورة خلال الثانية الأولى
 	Left align text	محاذاة النص لليسار
 	Looping GIF, 640×360 at 15 fps	GIF متكرر، 640×360 بمعدل 15 إطار/ث
-	Lower First	السفلي أولًا
+	Lower First	السفلي أولاً
 	Lumetri	Lumetri
 	MXF OP-Atom	MXF OP-Atom
 	MXF OP-Atom DNxHR (Avid)	MXF OP-Atom DNxHR ‏(Avid)
@@ -3165,9 +3165,9 @@
 	Next Multi-Camera Page	صفحة الكاميرات المتعددة التالية
 	Nudge Clip Selection Down	دفع تحديد المقاطع لأسفل
 	Nudge Clip Selection Left Five Frames	دفع تحديد المقاطع لليسار خمسة إطارات
-	Nudge Clip Selection Left One Frame	دفع تحديد المقاطع لليسار إطارًا واحدًا
+	Nudge Clip Selection Left One Frame	دفع تحديد المقاطع لليسار إطاراً واحداً
 	Nudge Clip Selection Right Five Frames	دفع تحديد المقاطع لليمين خمسة إطارات
-	Nudge Clip Selection Right One Frame	دفع تحديد المقاطع لليمين إطارًا واحدًا
+	Nudge Clip Selection Right One Frame	دفع تحديد المقاطع لليمين إطاراً واحداً
 	Nudge Clip Selection Up	دفع تحديد المقاطع لأعلى
 	Nudge Selected Object down by five	دفع الكائن المحدد لأسفل بمقدار خمسة
 	Nudge Selected Object down by one	دفع الكائن المحدد لأسفل بمقدار واحد
@@ -3270,14 +3270,14 @@
 	Shuttle Slow Right	تنقّل بطيء لليمين
 	Shuttle Stop	إيقاف التنقّل
 	Slide Clip Selection Left Five Frames	إزلاق تحديد المقاطع لليسار خمسة إطارات
-	Slide Clip Selection Left One Frame	إزلاق تحديد المقاطع لليسار إطارًا واحدًا
+	Slide Clip Selection Left One Frame	إزلاق تحديد المقاطع لليسار إطاراً واحداً
 	Slide Clip Selection Right Five Frames	إزلاق تحديد المقاطع لليمين خمسة إطارات
-	Slide Clip Selection Right One Frame	إزلاق تحديد المقاطع لليمين إطارًا واحدًا
+	Slide Clip Selection Right One Frame	إزلاق تحديد المقاطع لليمين إطاراً واحداً
 	Slide Tool	أداة الإزلاق
 	Slip Clip Selection Left Five Frames	إزاحة مصدر تحديد المقاطع لليسار خمسة إطارات
-	Slip Clip Selection Left One Frame	إزاحة مصدر تحديد المقاطع لليسار إطارًا واحدًا
+	Slip Clip Selection Left One Frame	إزاحة مصدر تحديد المقاطع لليسار إطاراً واحداً
 	Slip Clip Selection Right Five Frames	إزاحة مصدر تحديد المقاطع لليمين خمسة إطارات
-	Slip Clip Selection Right One Frame	إزاحة مصدر تحديد المقاطع لليمين إطارًا واحدًا
+	Slip Clip Selection Right One Frame	إزاحة مصدر تحديد المقاطع لليمين إطاراً واحداً
 	Slip Tool	أداة إزاحة المصدر
 	Social Vertical 1080×1920	عمودي لمواقع التواصل 1080×1920
 	Soft Vignette	تظليل محيطي ناعم
@@ -3336,7 +3336,7 @@
 	Trimming	القص
 	Type Tool	أداة النص
 	Unstack Clips	فك تكديس المقاطع
-	Upper First	العلوي أولًا
+	Upper First	العلوي أولاً
 	VBR, 1 pass	VBR، تمريرة واحدة
 	VBR, 2 pass	VBR، تمريرتان
 	CRF (constant quality)	CRF (جودة ثابتة)
@@ -3405,7 +3405,7 @@
 	Name Color	لون الاسم
 	Name Size	حجم الاسم
 	Name and role on a coloured slab that widens with the name.	الاسم والصفة على لوح ملوّن يتسع مع الاسم.
-	Name over a thin rule that always matches the name's width.	الاسم فوق خط رفيع يطابق عرض الاسم دائمًا.
+	Name over a thin rule that always matches the name's width.	الاسم فوق خط رفيع يطابق عرض الاسم دائماً.
 	Pointer Color	لون المؤشر
 	Role	الصفة
 	Rule Color	لون الخط
@@ -3418,7 +3418,7 @@
 	Title – Boxed	عنوان – في مربع
 	Title – Centered	عنوان – موسّط
 	Titles	العناوين
-	Select an item to preview it	حدد عنصرًا لمعاينته
+	Select an item to preview it	حدد عنصراً لمعاينته
 	End Credits	الشارة الختامية
 	End Credits – Roll	الشارة الختامية – تمرير
 	Ticker – Crawl	شريط إخباري – زحف
@@ -3519,14 +3519,14 @@
 	{rate} fps Timecode	{rate} إطار/ث رمز زمني
 	horizontal	أفقي
 	vertical	عمودي
-	Scale motion effects proportionally when changing frame size	تحجيم مؤثرات الحركة تناسبيًا عند تغيير حجم الإطار
+	Scale motion effects proportionally when changing frame size	تحجيم مؤثرات الحركة تناسبياً عند تغيير حجم الإطار
 	Maximum Bit Depth	أقصى عمق بت
 	Maximum Render Quality	أقصى جودة تصيير
 	Composite in Linear Color	التركيب بألوان خطية
-	Auto Tone Map Media (HDR and log into SDR)	تخطيط نغمات الوسائط تلقائيًا (HDR وlog إلى SDR)
+	Auto Tone Map Media (HDR and log into SDR)	تخطيط نغمات الوسائط تلقائياً (HDR وlog إلى SDR)
 	Configure…	تهيئة…
 	Not supported in FilmCraft yet	غير مدعوم في مونتير بعد
-	FilmCraft always composites in linear light	مونتير يركّب دائمًا بضوء خطي
+	FilmCraft always composites in linear light	مونتير يركّب دائماً بضوء خطي
 	Loop marked range	تكرار النطاق المعلَّم
 	Play Source	تشغيل المصدر
 	Source Play/Stop	تشغيل/إيقاف المصدر
@@ -3580,4 +3580,4 @@
 	Export the labels to a preset file…	تصدير التسميات إلى ملف إعداد مسبق…
 	Show the presets folder	إظهار مجلد الإعدادات المسبقة
 	Delete this preset	حذف هذا الإعداد المسبق
-	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	فك الترميز بالعتاد: الوضع التلقائي يستخدم وحدة فك ترميز الفيديو في النظام (VideoToolbox على macOS، وMedia Foundation على ويندوز، وVA-API لـ H.264 وHEVC على لينكس) للتدفقات التي تدعمها، ووحدة فك ترميز مونتير الخاصة لكل ما عداها أو عند فشل العتاد. الوسائط المفتوحة مسبقًا تحتفظ بوحدة فك ترميزها حتى يُعاد فتحها.
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	فك الترميز بالعتاد: الوضع التلقائي يستخدم وحدة فك ترميز الفيديو في النظام (VideoToolbox على macOS، وMedia Foundation على ويندوز، وVA-API لـ H.264 وHEVC على لينكس) للتدفقات التي تدعمها، ووحدة فك ترميز مونتير الخاصة لكل ما عداها أو عند فشل العتاد. الوسائط المفتوحة مسبقاً تحتفظ بوحدة فك ترميزها حتى يُعاد فتحها.

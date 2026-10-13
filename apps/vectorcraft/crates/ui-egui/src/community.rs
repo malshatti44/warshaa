@@ -82,8 +82,8 @@ mod tests {
             [
                 "https://malshatti.com",
                 "https://malshatti.com",
-                "https://github.com/malshatti44/warshaa",
-                "https://github.com/malshatti44/warshaa"
+                "https://malshatti.com/apps/reesha.html",
+                "https://malshatti.com/apps/reesha.html"
             ]
         );
         // The control channel / MCP path returns the URL without opening a browser.

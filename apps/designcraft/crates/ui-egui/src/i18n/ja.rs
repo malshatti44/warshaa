@@ -884,7 +884,7 @@ pub(super) const TABLE: &[(&str, &str)] = &[
         "印刷・画面向けの高速なページレイアウトツールです。オープンで、スクリプトにも対応します。",
     ),
     ("Page · PPI", "ページ・PPI"),
-    ("Part of Warsha, based on the open-source ArtCraft suite.", "オープンな制作ツール群 ArtCraft の一部です。"),
+    ("Part of Warsha.", "オープンな制作ツール群 ArtCraft の一部です。"),
     ("Pasteboard Options", "ペーストボードのオプション"),
     ("Paths", "パス"),
     ("Place the insertion point in a table, or create one.", "表内に挿入位置を置くか、表を作成してください。"),

@@ -494,7 +494,7 @@ fn about(app: &mut SoundApp, ctx: &egui::Context) {
     egui::Window::new("About SoundCraft").open(&mut open).default_size(vec2(640.0, 420.0)).collapsible(false).show(ctx, |ui| {
         let mut tab = ui.data_mut(|d| d.get_temp::<u8>(tab_id)).unwrap_or(0);
         ui.horizontal(|ui| {
-            for (i, l) in (0u8..).zip(["About", "Contributors", "Models"]) {
+            for (i, l) in (0u8..).zip(["About"]) {
                 if ui.selectable_label(tab == i, l).clicked() {
                     tab = i;
                 }
@@ -511,9 +511,9 @@ fn about(app: &mut SoundApp, ctx: &egui::Context) {
                 // Arabic build (ورشة): the localisation credit.
                 ui.hyperlink_to("تعريب وتطوير: محمد الشطي · malshatti.com", "https://malshatti.com");
                 ui.hyperlink_to("info@malshatti.com", "mailto:info@malshatti.com");
-                ui.label("An open-source digital audio workstation from the ArtCraft team.");
+                ui.label("An open-source digital audio workstation.");
                 ui.label("Dual-licensed MIT OR Apache-2.0. Made with Rust and egui.");
-                ui.hyperlink_to("https://github.com/malshatti44/warshaa", "https://github.com/malshatti44/warshaa");
+                ui.hyperlink_to("https://malshatti.com/apps/sada.html", "https://malshatti.com/apps/sada.html");
                 ui.hyperlink_to("Contact the Developer", "https://malshatti.com");
             }
         }

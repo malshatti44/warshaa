@@ -942,7 +942,7 @@ pub(super) const TABLE: &[(&str, &str)] = &[
     ("Page Numbering", "Numeração de página"),
     ("Page · PPI", "Página · PPI"),
     ("Pages:", "Páginas:"),
-    ("Part of Warsha, based on the open-source ArtCraft suite.", "Parte do conjunto ArtCraft de ferramentas criativas abertas."),
+    ("Part of Warsha.", "Parte do conjunto ArtCraft de ferramentas criativas abertas."),
     ("Pasteboard Options", "Opções da área de transferência"),
     ("Path", "Caminho"),
     ("Place the insertion point in a table, or create one.", "Coloque o ponto de inserção em uma tabela ou crie uma."),

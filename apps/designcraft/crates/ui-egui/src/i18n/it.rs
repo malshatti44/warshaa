@@ -885,7 +885,7 @@ pub(super) const TABLE: &[(&str, &str)] = &[
         "Impaginazione per la stampa e lo schermo — veloce, aperta e automatizzabile con script.",
     ),
     ("Page · PPI", "Pagina · PPI"),
-    ("Part of Warsha, based on the open-source ArtCraft suite.", "Parte della suite ArtCraft di strumenti creativi aperti."),
+    ("Part of Warsha.", "Parte della suite ArtCraft di strumenti creativi aperti."),
     ("Pasteboard Options", "Opzioni tavolo di montaggio"),
     ("Paths", "Tracciati"),
     ("Place the insertion point in a table, or create one.", "Posiziona il punto di inserimento in una tabella o creane una."),

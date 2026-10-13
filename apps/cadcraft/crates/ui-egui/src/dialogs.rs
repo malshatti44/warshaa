@@ -305,7 +305,7 @@ fn about(ctx: &egui::Context, open: &mut bool) {
         .show(ctx, |ui| {
             let mut tab = ui.data_mut(|d| d.get_temp::<u8>(tab_id)).unwrap_or(0);
             ui.horizontal(|ui| {
-                for (i, l) in ["About", "Contributors", "Models"].iter().enumerate() {
+                for (i, l) in ["About"].iter().enumerate() {
                     if ui.selectable_label(tab == i as u8, crate::i18n::t(l)).clicked() {
                         tab = i as u8;
                     }
@@ -324,8 +324,8 @@ fn about(ctx: &egui::Context, open: &mut bool) {
                     ui.hyperlink_to("info@malshatti.com", "mailto:info@malshatti.com");
                     ui.label(crate::tl!("Computer-aided design and drafting: an open-source, clean-room CAD application written in pure Rust."));
                     ui.add_space(6.0);
-                    ui.label(RichText::new(crate::tl!("One of the Warsha apps, based on the open-source ArtCraft project.")).color(t.text_dim));
-                    ui.hyperlink_to("https://github.com/malshatti44/warshaa", "https://github.com/malshatti44/warshaa");
+                    ui.label(RichText::new(crate::tl!("One of the Warsha apps.")).color(t.text_dim));
+                    ui.hyperlink_to("https://malshatti.com/apps/mukhattat.html", "https://malshatti.com/apps/mukhattat.html");
                     ui.hyperlink_to(crate::tl!("Contact the Developer"), "https://malshatti.com");
                     ui.add_space(6.0);
                     ui.label(RichText::new(crate::tl!("MIT OR Apache-2.0. Not affiliated with Autodesk, Inc.")).small().color(t.text_faint));

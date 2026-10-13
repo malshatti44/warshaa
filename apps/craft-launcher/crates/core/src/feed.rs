@@ -24,7 +24,7 @@ use crate::version;
 
 /// Where the feed lives.
 /// Warsha (ورشة): the feed is a file in the Warsha repository, rewritten with every release.
-pub const FEED_URL: &str = "https://raw.githubusercontent.com/malshatti44/warshaa/main/release_info.json";
+pub const FEED_URL: &str = "https://malshatti.com/apps/release_info.json";
 
 /// An app's entry is trusted for this long after storyteller-web fetched it.
 pub const MAX_AGE: i64 = 24 * 3600;

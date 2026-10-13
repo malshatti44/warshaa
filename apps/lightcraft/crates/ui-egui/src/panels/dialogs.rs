@@ -166,7 +166,7 @@ fn watermark_preview(
 }
 
 /// About dialog tabs: (widget id suffix, label). The credits come from `crate::credits`.
-pub const ABOUT_TABS: &[(&str, &str)] = &[("about", "About"), ("contributors", "Contributors"), ("models", "Models")];
+pub const ABOUT_TABS: &[(&str, &str)] = &[("about", "About")];
 
 /// Help ▸ What's New (docs/whats-new.md).
 pub const WHATS_NEW: &str = include_str!("../../../../docs/whats-new.md");

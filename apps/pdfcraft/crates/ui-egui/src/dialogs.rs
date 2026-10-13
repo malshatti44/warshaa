@@ -1081,7 +1081,7 @@ fn dialogs(app: &mut PdfCraftApp, ctx: &egui::Context) {
                 let tab_id = egui::Id::new("about_tab");
                 let mut tab = ui.data_mut(|d| d.get_temp::<u8>(tab_id)).unwrap_or(0);
                 ui.horizontal_wrapped(|ui| {
-                    for (i, label) in ["About", "Contributors", "Models"].into_iter().enumerate() {
+                    for (i, label) in ["About"].into_iter().enumerate() {
                         let i = i as u8;
                         if widgets::mode_tab(ui, tl!(label), tab == i).clicked() {
                             tab = i;

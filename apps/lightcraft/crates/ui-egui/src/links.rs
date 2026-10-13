@@ -7,9 +7,9 @@ pub const DISCORD: &str = "https://malshatti.com";
 /// The ArtCraft website.
 pub const WEBSITE: &str = "https://malshatti.com";
 /// This app's page on the ArtCraft website.
-pub const APP_PAGE: &str = "https://github.com/malshatti44/warshaa";
+pub const APP_PAGE: &str = "https://malshatti.com/apps/tayf.html";
 /// This app's source repository.
-pub const GITHUB: &str = "https://github.com/malshatti44/warshaa";
+pub const GITHUB: &str = "https://malshatti.com/apps/tayf.html";
 
 /// (UI command id, menu label, URL) for each link, in Help-menu order.
 /// The user documentation (docs/ in the repository).

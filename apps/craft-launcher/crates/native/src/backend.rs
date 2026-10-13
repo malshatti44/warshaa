@@ -792,6 +792,10 @@ fn is_loopback(url: &str) -> bool {
     matches!(host, "127.0.0.1" | "localhost" | "[::1]") && !port.is_empty() && port.parse::<u16>().is_ok()
 }
 
+/// Warsha (ورشة): the apps, their builds and `release_info.json` live on malshatti.com, which
+/// answers for everything as a mirror does: GitHub is never asked and its links are trusted.
+const WARSHA_BASE: &str = "https://malshatti.com/apps/";
+
 /// `ARTCRAFT_LAUNCHER_DOWNLOAD_BASE`: a mirror on this machine (`cargo xtask local serve`) that
 /// serves `release_info.json` and the builds it lists. While it's set, releases come only from
 /// there (never GitHub or ArtCraft's API), and its download links are trusted. Loopback only, so
@@ -799,9 +803,9 @@ fn is_loopback(url: &str) -> bool {
 /// `local-mirror` feature: release builds ignore the variable.
 fn local_mirror() -> Option<String> {
     if !cfg!(feature = "local-mirror") {
-        return None;
+        return Some(WARSHA_BASE.to_string());
     }
-    let base = std::env::var("ARTCRAFT_LAUNCHER_DOWNLOAD_BASE").ok()?;
+    let Ok(base) = std::env::var("ARTCRAFT_LAUNCHER_DOWNLOAD_BASE") else { return Some(WARSHA_BASE.to_string()) };
     let base = base.trim();
     if !is_loopback(base) || base.contains(['?', '#', '\\']) {
         log::warn!(

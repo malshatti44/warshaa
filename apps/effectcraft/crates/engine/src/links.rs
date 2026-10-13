@@ -5,8 +5,8 @@ pub const APP_NAME: &str = "EffectCraft";
 pub const APP_SLUG: &str = "effectcraft";
 pub const DISCORD: &str = "https://malshatti.com";
 pub const WEBSITE: &str = "https://malshatti.com";
-pub const APP_PAGE: &str = "https://github.com/malshatti44/warshaa";
-pub const GITHUB: &str = "https://github.com/malshatti44/warshaa";
+pub const APP_PAGE: &str = "https://malshatti.com/apps/wamda.html";
+pub const GITHUB: &str = "https://malshatti.com/apps/wamda.html";
 pub const ISSUES: &str = "https://github.com/storytold/effectcraft/issues";
 
 /// Sibling apps of the ArtCraft family: (name, what it is, GitHub repo, app page).

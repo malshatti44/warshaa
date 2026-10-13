@@ -99,7 +99,7 @@ const JAPANESE: &[(&str, &str)] = &[
     ("360 View Orientation", "360度ビューの方向"),
     ("3:2 Pulldown: {}", "3:2プルダウン：{}"),
     (
-        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of Warsha, based on the ArtCraft family of creative apps.",
+        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of Warsha.",
         "モーショングラフィックスとビジュアルエフェクト向けの、クリーンルーム方式で開発されたオープンソースのコンポジットソフトウェアです。macOS、Windows、Linuxでネイティブに動作し、ブラウザーでも使えます。ArtCraftクリエイティブアプリファミリーの一員です。",
     ),
     ("About EffectCraft", "EffectCraftについて"),
@@ -542,7 +542,7 @@ const SIMPLIFIED_CHINESE: &[(&str, &str)] = &[
     ("360 View Orientation", "360 视图方向"),
     ("3:2 Pulldown: {}", "3:2 折叠：{}"),
     (
-        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of Warsha, based on the ArtCraft family of creative apps.",
+        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of Warsha.",
         "一款从零编写、开源的动态图形与视觉效果合成软件：原生支持 macOS、Windows 和 Linux，也可在浏览器中运行。属于 ArtCraft 创意应用家族。",
     ),
     ("About EffectCraft", "关于 EffectCraft"),
@@ -1077,7 +1077,7 @@ const TRADITIONAL_CHINESE: &[(&str, &str)] = &[
     ("360 View Orientation", "360 檢視方向"),
     ("3:2 Pulldown: {}", "3:2 摺疊：{}"),
     (
-        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of Warsha, based on the ArtCraft family of creative apps.",
+        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of Warsha.",
         "一款從零編寫、開源的動態圖形與視覺效果合成軟件：原生支援 macOS、Windows 和 Linux，也可在瀏覽器中執行。屬於 ArtCraft 創意應用家族。",
     ),
     ("About EffectCraft", "關於 EffectCraft"),
@@ -1609,7 +1609,7 @@ const UKRAINIAN: &[(&str, &str)] = &[
     ("360 View Orientation", "Орієнтація огляду 360°"),
     ("3:2 Pulldown: {}", "Перетворення кадрів 3:2: {}"),
     (
-        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of Warsha, based on the ArtCraft family of creative apps.",
+        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of Warsha.",
         "Незалежно розроблена програма з відкритим кодом для компонування анімованої графіки та візуальних ефектів: працює на macOS, Windows і Linux, а також у браузері. Належить до родини творчих програм ArtCraft.",
     ),
     ("About EffectCraft", "Про EffectCraft"),
@@ -2161,7 +2161,7 @@ const PORTUGUESE: &[(&str, &str)] = &[
     ("360 View Orientation", "Orientação da vista 360°"),
     ("3:2 Pulldown: {}", "Pulldown 3:2: {}"),
     (
-        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of Warsha, based on the ArtCraft family of creative apps.",
+        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of Warsha.",
         "Um compositor de código aberto, desenvolvido em clean-room, para motion graphics e efeitos visuais: nativo no macOS, Windows e Linux, e no navegador. Parte da família de aplicativos criativos ArtCraft.",
     ),
     ("About EffectCraft", "Sobre o EffectCraft"),
@@ -2595,7 +2595,7 @@ const CZECH: &[(&str, &str)] = &[
     ("360 View Orientation", "Orientace zobrazení 360°"),
     ("3:2 Pulldown: {}", "Převod 3:2 pulldown: {}"),
     (
-        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of Warsha, based on the ArtCraft family of creative apps.",
+        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of Warsha.",
         "Kompoziční nástroj s otevřeným zdrojovým kódem pro pohyblivou grafiku a vizuální efekty, vyvinutý nezávisle metodou clean-room. Běží nativně na macOS, Windows a Linuxu i v prohlížeči. Patří do rodiny kreativních aplikací ArtCraft.",
     ),
     ("About EffectCraft", "O aplikaci EffectCraft"),

@@ -22,13 +22,13 @@ First commit	أول إيداع
 First	الأول
 Last commit	آخر إيداع
 Last	الأخير
-@{}: {} PRs, {} commits, +{} / −{} lines (Δ {}), +{} / −{} binary assets, {} – {}	@{}: ‏{} طلب دمج، {} إيداعًا، +{} / −{} سطرًا (Δ {})، +{} / −{} من الأصول الثنائية، {} – {}
+@{}: {} PRs, {} commits, +{} / −{} lines (Δ {}), +{} / −{} binary assets, {} – {}	@{}: ‏{} طلب دمج، {} إيداعاً، +{} / −{} سطراً (Δ {})، +{} / −{} من الأصول الثنائية، {} – {}
 Show	إظهار
 Sort	فرز
 Reverse the order	عكس الترتيب
 Grab bag	متفرقات
 Table	جدول
-{} contributors · {} commits	{} مساهمًا · {} إيداعًا
+{} contributors · {} commits	{} مساهماً · {} إيداعاً
 No contributor data was built into this copy.	لم تُضمَّن بيانات المساهمين في هذه النسخة.
 No model credits were built into this copy.	لم يُضمَّن ذكر النماذج في هذه النسخة.
 Company	الشركة
@@ -53,8 +53,8 @@ the clip "{name}"	المقطع «{name}»
 the file "{}"	الملف «{}»
 {} and {}	{} و{}
 Remove {what} from the session?	إزالة {what} من الجلسة؟
-a clip on the timeline, which is removed too.	مقطع على الخط الزمني، وسيُزال أيضًا.
-{n} clips on the timeline, which are removed too.	{n} مقطع على الخط الزمني، وستُزال أيضًا.
+a clip on the timeline, which is removed too.	مقطع على الخط الزمني، وسيُزال أيضاً.
+{n} clips on the timeline, which are removed too.	{n} مقطع على الخط الزمني، وستُزال أيضاً.
  It is used by {users}	 وهو مستخدم من قِبل {users}
  They are used by {users}	 وهي مستخدمة من قِبل {users}
  "{name}" is used by {users}	 «{name}» مستخدم من قِبل {users}
@@ -145,7 +145,7 @@ size is required	size مطلوب
 panel is required	panel مطلوب
 open must be a boolean	يجب أن يكون open قيمة منطقية
 height is required	height مطلوب
-height must be finite and bounded	يجب أن يكون height محدودًا ومقيّدًا
+height must be finite and bounded	يجب أن يكون height محدوداً ومقيّداً
 rect must be [x,y,width,height]	يجب أن يكون rect بالشكل [x,y,width,height]
 rect values must be finite and bounded	يجب أن تكون قيم rect محدودة ومقيّدة
 target is required	target مطلوب
@@ -228,12 +228,12 @@ Theme	السمة
 Auto-update configuration	التحديث التلقائي للتكوين
 Reset	إعادة ضبط
 English	الإنجليزية
-Record-enable a track first (the red button in its header).	مكّن التسجيل لمسار أولًا (الزر الأحمر في رأسه).
+Record-enable a track first (the red button in its header).	مكّن التسجيل لمسار أولاً (الزر الأحمر في رأسه).
 Cannot record: {err}	تعذّر التسجيل: {err}
 no audio input device	لا يوجد جهاز إدخال صوتي
 no audio track is record-enabled	لا يوجد مسار صوتي ممكّن للتسجيل
 storing plugin state: {e}	تخزين حالة المكون الإضافي: {e}
-autosaved to {}	حُفظ تلقائيًا في {}
+autosaved to {}	حُفظ تلقائياً في {}
 autosave failed: {e}	فشل الحفظ التلقائي: {e}
 No audio input: {e}	لا دخل صوتي: {e}
 Loop-recorded {} take(s)	سُجّلت {} لقطة بالتكرار
@@ -446,7 +446,7 @@ No CLAP plugins found	لم يُعثر على مكونات CLAP
 No VST3 plugins found	لم يُعثر على مكونات VST3
 No Audio Units found	لم يُعثر على Audio Units
 Unknown vendor	مورّد غير معروف
-Send {}: {} dB\nClick to type · drag vertically to adjust · Shift-drag for fine control · double-click for 0 dB · right-click for options	الإرسال {}: {} dB\nانقر للكتابة · اسحب عموديًا للضبط · Shift مع السحب للضبط الدقيق · نقر مزدوج لـ 0 dB · نقر بالزر الأيمن للخيارات
+Send {}: {} dB\nClick to type · drag vertically to adjust · Shift-drag for fine control · double-click for 0 dB · right-click for options	الإرسال {}: {} dB\nانقر للكتابة · اسحب عمودياً للضبط · Shift مع السحب للضبط الدقيق · نقر مزدوج لـ 0 dB · نقر بالزر الأيمن للخيارات
 Send {}	الإرسال {}
 DESTINATION	الوجهة
 Remove send	إزالة الإرسال
@@ -530,7 +530,7 @@ About	حول
 Contributors	المساهمون
 Models	النماذج
 Version {}	الإصدار {}
-An open-source digital audio workstation from the ArtCraft team.	محطة عمل صوتية رقمية مفتوحة المصدر من فريق ArtCraft. تعريب وتطوير: محمد الشطي.
+An open-source digital audio workstation.	محطة عمل صوتية رقمية مفتوحة المصدر.
 Dual-licensed MIT OR Apache-2.0. Made with Rust and egui.	ترخيص مزدوج MIT OR Apache-2.0. مصنوع بلغة Rust ومكتبة egui.
 Contact the Developer	تواصل مع المطوّر
 <factory default>	<افتراضي المصنع>
@@ -638,7 +638,7 @@ Note	ملاحظة
 Vel	السرعة
 Click keys to step-enter notes into the selected MIDI clip at the insertion point.	انقر المفاتيح لإدخال النغمات خطوة بخطوة في مقطع MIDI المحدد عند نقطة الإدراج.
 Parent folder	المجلد الأصل
-Double-click to import audio/MIDI at the insertion point or open a session.	انقر نقرًا مزدوجًا لاستيراد صوت/MIDI عند نقطة الإدراج أو لفتح جلسة.
+Double-click to import audio/MIDI at the insertion point or open a session.	انقر نقراً مزدوجاً لاستيراد صوت/MIDI عند نقطة الإدراج أو لفتح جلسة.
 Window Configurations	تكوينات النوافذ
 New Configuration…	تكوين جديد…
 Window configuration could not be restored: {error}	تعذّرت استعادة تكوين النافذة: {error}
@@ -658,7 +658,7 @@ Outputs	المخارج
 Main output	المخرج الرئيسي
 {} ch	{} قناة
 {} — {} from channel {}	{} — {} من القناة {}
-Select an audio clip.	حدد مقطعًا صوتيًا.
+Select an audio clip.	حدد مقطعاً صوتياً.
 EQ	المعادل
 Dynamics	الديناميكيات
 Clip effects gain (dB)	كسب تأثيرات المقطع (dB)
@@ -673,8 +673,8 @@ Ungroup	فك التجميع
 Ungroup All	فك تجميع الكل
 Loop...	تكرار...
 Clip Gain	كسب المقطع
-Nudge Clip Gain Up	رفع كسب المقطع قليلًا
-Nudge Clip Gain Down	خفض كسب المقطع قليلًا
+Nudge Clip Gain Up	رفع كسب المقطع قليلاً
+Nudge Clip Gain Down	خفض كسب المقطع قليلاً
 Identify Sync Point	تحديد نقطة المزامنة
 Clip Color	لون المقطع
 Elastic Properties	الخصائص المرنة

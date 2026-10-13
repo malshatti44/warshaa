@@ -16,7 +16,7 @@ foreach ($a in $Apps) {
   Mirror (Join-Path $Root "upstream\$a") (Join-Path $Repo "apps\$a") @('.git', 'target', 'dist', 'node_modules', '.venv') @('*.log')
   Write-Output "apps\$a"
 }
-Mirror (Join-Path $Root 'shared') (Join-Path $Repo 'shared') @('target', 'bidi-demo') @('*.log', 'out*.png')
+Mirror (Join-Path $Root 'shared') (Join-Path $Repo 'shared') @('.git', 'target', 'bidi-demo') @('*.log', 'out*.png')
 Mirror (Join-Path $Root 'i18n') (Join-Path $Repo 'i18n') @('__pycache__', 'batches') @('*.log', 'pdfcraft-upstream-ar.tsv')
 Mirror (Join-Path $Root 'icons') (Join-Path $Repo 'icons') @('__pycache__') @('preview.png')
 Mirror (Join-Path $Root 'packaging') (Join-Path $Repo 'packaging') @('__pycache__') @()

@@ -213,7 +213,7 @@ pub fn show(app: &mut PhotocraftApp, ctx: &egui::Context) {
                     let tab = about_tab(&fields);
                     let mut chosen = tab;
                     ui.horizontal(|ui| {
-                        for (key, label) in [("about", tl!("About")), ("contributors", tl!("Contributors")), ("models", tl!("Models"))] {
+                        for (key, label) in [("about", tl!("About"))] {
                             if crate::widgets::pill_tab(ui, label, tab == key).clicked() {
                                 chosen = key;
                             }
@@ -430,7 +430,6 @@ fn about_tab_body(app: &mut PhotocraftApp, ui: &mut egui::Ui, tab: &str) {
                 crate::links::link_row(app, ui);
             });
             ui.add_space(10.0);
-            ui.weak("egui · wgpu · photocraft-engine");
         }
     }
 }
