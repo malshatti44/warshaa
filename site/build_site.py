@@ -41,11 +41,26 @@ def size_mb(n):
 
 
 def sums():
+    """SHA-256 of every package: SHA256SUMS.txt (Windows, package.py) and SHA256SUMS-linux.txt /
+    SHA256SUMS-macos.txt (package_unix.py or the warsha2 workflow), whichever are in dist/."""
     out = {}
-    for line in (DIST / "SHA256SUMS.txt").read_text(encoding="utf-8").splitlines():
-        h, _, name = line.partition("  ")
-        out[name.strip()] = h
+    for f in [DIST / "SHA256SUMS.txt"] + sorted(DIST.glob("SHA256SUMS-*.txt")):
+        if not f.exists():
+            continue
+        for line in f.read_text(encoding="utf-8").splitlines():
+            h, _, name = line.partition("  ")
+            out[name.strip()] = h
     return out
+
+
+# The launcher picks its download by the token and extension in the file name.
+OTHER_SYSTEMS = ("linux-x86_64.AppImage", "linux-x86_64.deb", "linux-x86_64.tar.gz", "macos-universal.dmg")
+
+
+def package_files(app):
+    """Every package of an app in dist/: the Windows portable zip, then Linux and macOS ones."""
+    names = [f"{app['bin']}-{VERSION}-windows-x64-portable.zip"] + [f"{app['bin']}-{VERSION}-{s}" for s in OTHER_SYSTEMS]
+    return [DIST / n for n in names if (DIST / n).exists()]
 
 
 def files_for(app, shas):
@@ -429,17 +444,21 @@ def app_page(a, shas):
 
 
 def feed(shas):
-    """release_info.json for the Warsha app: every app's portable build under /apps/downloads/."""
+    """release_info.json for the Warsha app: every app's builds under /apps/downloads/ (the Windows
+    portable zip, and the Linux and macOS packages when they were built)."""
     now = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     apps = {}
     for a in APPS + [LAUNCHER]:
-        z = DIST / f"{a['bin']}-{VERSION}-windows-x64-portable.zip"
+        assets = [{"name": f.name, "size_bytes": f.stat().st_size, "download_url": f"{BASE}downloads/{f.name}", "sha256": shas.get(f.name)}
+                  for f in package_files(a)]
+        if not assets:
+            raise SystemExit(f"no package of {a['bin']} {VERSION} in {DIST}")
         apps[a["bin"]] = {
             "latest_release": {
                 "tag": f"v{VERSION}", "name": f"{a['ar']} {VERSION}", "published_at": now,
                 "html_url": f"{BASE}{a['slug']}.html", "prerelease": False,
                 "notes_markdown": f"{a['ar']} {VERSION} — {a['tag'][0]}",
-                "assets": [{"name": z.name, "size_bytes": z.stat().st_size, "download_url": f"{BASE}downloads/{z.name}", "sha256": shas.get(z.name)}],
+                "assets": assets,
             },
             "app_last_fetched": now,
         }
@@ -463,21 +482,24 @@ def main():
     (OUT / "release_info.json").write_text(json.dumps(feed(shas), ensure_ascii=False, indent=1), encoding="utf-8")
     # Pages and the Warsha feed stay fresh behind the CDN; the builds download as files.
     (OUT / ".htaccess").write_text("""Options -Indexes
-AddType application/octet-stream .exe
+AddType application/octet-stream .exe .AppImage .dmg
 AddType application/zip .zip
+AddType application/gzip .gz
+AddType application/vnd.debian.binary-package .deb
 AddType application/json .json
 <IfModule mod_headers.c>
   <FilesMatch "\\.(html|json)$">
     Header set Cache-Control "public, max-age=300"
   </FilesMatch>
-  <FilesMatch "\\.(exe|zip|txt)$">
+  <FilesMatch "\\.(exe|zip|txt|AppImage|deb|gz|dmg)$">
     Header set Content-Disposition "attachment"
     Header set Cache-Control "public, max-age=86400"
   </FilesMatch>
 </IfModule>
 """, encoding="utf-8", newline="\n")
     # the files the pages and the feed link to (uploaded to /apps/downloads/)
-    names = sorted(p.name for p in list(DIST.glob("*.exe")) + list(DIST.glob("*.zip"))) + ["SHA256SUMS.txt"]
+    names = sorted(p.name for ext in ("exe", "zip", "AppImage", "deb", "tar.gz", "dmg") for p in DIST.glob(f"*.{ext}"))
+    names += sorted(p.name for p in [DIST / "SHA256SUMS.txt"] + list(DIST.glob("SHA256SUMS-*.txt")) if p.exists())
     (OUT.parent / "downloads.txt").write_text("\n".join(names) + "\n", encoding="utf-8")
     print(f"wrote {OUT} ({len(APPS) + 1} pages), feed with {len(APPS) + 1} apps, {len(names)} downloads")
 

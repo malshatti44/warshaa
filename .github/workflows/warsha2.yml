@@ -1,0 +1,190 @@
+name: Warsha 2 — installers for Windows, macOS and Linux
+
+# Warsha 2 (ورشة) — the Arabic edition of the 12 Craft apps and the Warsha launcher (apps/,
+# shared/). Builds every app on all three systems (warsha2-build.yml), then packages them:
+#   Windows: packaging/package.py       — Arabic Inno Setup installer per app, portable zips, the suite
+#   macOS:   packaging/package_unix.py  — universal .dmg per app («<الاسم>.app») and the suite
+#   Linux:   packaging/package_unix.py  — AppImage, .deb and .tar.gz per app, and the suite
+# The packages of each run are downloadable from the run page (warsha2-<os>). Pushing a tag
+# v2.* also collects them into a draft GitHub release, published by hand after a check.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, claude/dazzling-goldberg-xfq31t]
+    tags: ["v2.*"]
+    paths:
+      - "apps/**"
+      - "shared/**"
+      - "packaging/**"
+      - "icons/**"
+      - "site/apps_data.py"
+      - ".github/workflows/warsha2*.yml"
+
+concurrency:
+  group: warsha2-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  PYTHONUTF8: "1"
+
+jobs:
+  build-linux:
+    uses: ./.github/workflows/warsha2-build.yml
+    with: { os: linux }
+  build-macos:
+    uses: ./.github/workflows/warsha2-build.yml
+    with: { os: macos }
+  build-windows:
+    uses: ./.github/workflows/warsha2-build.yml
+    with: { os: windows }
+
+  version:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.v.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { sparse-checkout: site }
+      - id: v
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then v="${GITHUB_REF#refs/tags/v}"
+          else v="$(sed -nE 's/^VERSION *= *"([^"]+)".*/\1/p' site/apps_data.py)"; fi
+          echo "version=$v" >> "$GITHUB_OUTPUT"; echo "Warsha $v"
+
+  package-windows:
+    needs: [build-windows, version]
+    runs-on: windows-2022
+    defaults: { run: { shell: bash } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: bin-windows-*
+          merge-multiple: true
+          path: target/x86_64-pc-windows-msvc/release
+      - name: Inno Setup 6 with the Arabic wizard
+        shell: pwsh
+        run: |
+          $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path $iscc)) { choco install innosetup --no-progress -y }
+          $ar = "${env:ProgramFiles(x86)}\Inno Setup 6\Languages\Arabic.isl"
+          if (-not (Test-Path $ar)) {
+            foreach ($u in 'https://raw.githubusercontent.com/jrsoftware/issrc/main/Files/Languages/Arabic.isl',
+                           'https://raw.githubusercontent.com/jrsoftware/issrc/main/Files/Languages/Unofficial/Arabic.isl') {
+              try { Invoke-WebRequest $u -OutFile $ar; break } catch { Write-Host "not at $u" }
+            }
+          }
+          Get-Item $iscc, $ar
+      - name: Package (installers, portable zips, suite)
+        run: python packaging/package.py --version "${{ needs.version.outputs.version }}"
+      - run: mv dist/SHA256SUMS.txt dist/SHA256SUMS-windows.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: warsha2-windows
+          path: |
+            dist/*.exe
+            dist/*.zip
+            dist/SHA256SUMS-windows.txt
+          if-no-files-found: error
+
+  package-linux:
+    needs: [build-linux, version]
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Tools and the libraries the apps link
+        run: |
+          python -m pip install --quiet pillow
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libasound2 libgtk-3-0 libayatana-appindicator3-1 libxdo3 libpipewire-0.3-0 libgbm1
+          curl -fsSL -o "$RUNNER_TEMP/appimagetool" https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage
+          chmod +x "$RUNNER_TEMP/appimagetool"
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: bin-linux-*
+          merge-multiple: true
+          path: bins
+      - name: Package (AppImage, deb, tar.gz, suite)
+        env:
+          APPIMAGETOOL: ${{ runner.temp }}/appimagetool
+        run: |
+          chmod +x bins/*
+          python packaging/package_unix.py --os linux --bin-dir bins --version "${{ needs.version.outputs.version }}" --skip-missing
+      - uses: actions/upload-artifact@v4
+        with:
+          name: warsha2-linux
+          path: |
+            dist/*.AppImage
+            dist/*.deb
+            dist/*.tar.gz
+            dist/SHA256SUMS-linux.txt
+          if-no-files-found: error
+
+  package-macos:
+    needs: [build-macos, version]
+    if: ${{ !cancelled() }}
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python -m pip install --quiet pillow
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: bin-macos-*
+          merge-multiple: true
+          path: bins
+      - name: Package (universal .dmg per app and the suite)
+        run: |
+          chmod +x bins/*
+          python packaging/package_unix.py --os macos --bin-dir bins --version "${{ needs.version.outputs.version }}" --skip-missing
+      - uses: actions/upload-artifact@v4
+        with:
+          name: warsha2-macos
+          path: |
+            dist/*.dmg
+            dist/SHA256SUMS-macos.txt
+          if-no-files-found: error
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v2')
+    needs: [package-windows, package-linux, package-macos, version]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: warsha2-*
+          merge-multiple: true
+          path: dist
+      - name: Draft release with every installer
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+          VERSION: ${{ needs.version.outputs.version }}
+        run: |
+          cat dist/SHA256SUMS-*.txt | sort -k2 > dist/SHA256SUMS.txt
+          rm dist/SHA256SUMS-*.txt
+          cat > notes.md <<EOF
+          ## ورشة WARSHA $VERSION
+          تعريب وتطوير **محمد الشطي** — [malshatti.com](https://malshatti.com) — info@malshatti.com
+
+          | النظام | الملفات |
+          |---|---|
+          | ويندوز 10/11 | \`Warsha-Suite-Setup-$VERSION-x64.exe\` (كل التطبيقات) أو \`<الاسم>-Setup-$VERSION-x64.exe\` |
+          | ماك (Apple silicon و Intel) | \`Warsha-Suite-$VERSION-macos-universal.dmg\` أو \`<المعرّف>-$VERSION-macos-universal.dmg\` |
+          | لينكس | \`Warsha-Suite-$VERSION-linux-x86_64.tar.gz\` أو \`.AppImage\` أو \`.deb\` لكل تطبيق |
+
+          الملفات غير موقّعة رقمياً بعد: في ويندوز «مزيد من المعلومات» ثم «تشغيل على أي حال»، وفي ماك انقر بزر الفأرة الأيمن ثم «فتح» (أو \`xattr -cr /Applications/<الاسم>.app\`). بصمات SHA-256 في \`SHA256SUMS.txt\`.
+          EOF
+          gh release create "$TAG" --repo "$GITHUB_REPOSITORY" --draft --title "ورشة WARSHA $VERSION" --notes-file notes.md dist/*
