@@ -311,3 +311,26 @@ filter	Installed	المثبّتة
 	Visit getartcraft.com	زيارة malshatti.com
 	Warsha on GitHub	ورشة على GitHub
 @plural	Warsha · {n} update available|Warsha · {n} updates available	ورشة · {n} تحديث متاح|ورشة · تحديث واحد متاح ({n})|ورشة · تحديثان متاحان ({n})|ورشة · {n} تحديثات متاحة|ورشة · {n} تحديثاً متاحاً|ورشة · {n} تحديث متاح
+
+# AI link (ربط الذكاء الاصطناعي)
+	AI	الذكاء الاصطناعي
+	Connect your apps to Claude, ChatGPT or Gemini	اربط تطبيقاتك مع Claude أو ChatGPT أو Gemini
+	Connect your apps to AI	اربط تطبيقاتك بالذكاء الاصطناعي
+	Sign in to an AI app with your own account, then link it here once. Ask it for what you need in plain words: it opens the app, does the work in front of you, and you can carry on in the same window.	سجّل الدخول إلى تطبيق الذكاء الاصطناعي بحسابك، ثم اربطه من هنا مرة واحدة. اطلب منه ما تريد بكلمات بسيطة: يفتح التطبيق وينجز العمل أمامك، وتستطيع المتابعة في النافذة نفسها.
+	Install or update an app first: apps installed before version 2.1 have no AI connection.	ثبّت تطبيقاً أو حدّثه أولاً: التطبيقات المثبّتة قبل الإصدار 2.1 لا تتضمن الربط بالذكاء الاصطناعي.
+	Linked · apps: {count}	مرتبط · التطبيقات: {count}
+	Not found on this computer	غير موجود على هذا الجهاز
+	Not linked	غير مرتبط
+	Unlink	إلغاء الربط
+	Link all apps	اربط كل التطبيقات
+	Adds the apps installed since the last link	يضيف التطبيقات المثبّتة بعد آخر ربط
+	Link	ربط
+	Try asking	جرّب أن تطلب
+	“Open Retoush, brighten the photo on my desktop and save a copy.”	«افتح ريتوش، وارفع إضاءة الصورة الموجودة على سطح المكتب، واحفظ نسخة منها.»
+	“Make a five-slide presentation in Minbar about our new product.”	«أنشئ في منبر عرضاً من خمس شرائح عن منتجنا الجديد.»
+	“In Kashf, total each column of sales.xlsx and add a chart.”	«في كشف، اجمع كل عمود في sales.xlsx وأضف رسماً بيانياً.»
+	The link stays on this computer: Warsha sends nothing anywhere. The apps read and write files only in your user folder, and what you ask is handled by the AI account you chose.	الربط محلي على هذا الجهاز: ورشة لا ترسل شيئاً إلى أي مكان. تقرأ التطبيقات الملفات وتكتبها داخل مجلدك الشخصي فقط، وما تطلبه يعالجه حساب الذكاء الاصطناعي الذي اخترته.
+	Done. Restart the AI app so it sees the change.	تم. أعد تشغيل تطبيق الذكاء الاصطناعي ليرى التغيير.
+@msg	{name} was installed with Warsha's setup. Remove it from Windows Settings ▸ Apps.	ثُبّت {name} بمثبّت ورشة؛ أزِله من إعدادات ويندوز ◂ التطبيقات.
+@msg	{name} was installed with Warsha's setup. Download the new setup from malshatti.com/apps and run it to update.	ثُبّت {name} بمثبّت ورشة؛ لتحديثه نزّل المثبّت الجديد من malshatti.com/apps وشغّله.
+@msg	{name} was installed outside the launcher. Update or remove it the way it was installed.	ثُبّت {name} خارج ورشة؛ حدّثه أو أزِله بالطريقة التي ثُبّت بها.

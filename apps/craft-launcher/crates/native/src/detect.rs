@@ -243,13 +243,65 @@ pub mod windows {
     }
 
     pub fn detect(app: &CraftApp) -> Option<Installed> {
-        let m = msi_installs(app).into_iter().next()?;
+        let Some(m) = msi_installs(app).into_iter().next() else { return warsha_setup(app) };
         Some(Installed {
             version: m.version,
             source: InstallSource::Msi,
             location: m.exe.map_or_else(|| app.name.to_string(), |p| p.display().to_string()),
             package: Some(m.product_code),
         })
+    }
+
+    /// The Latin names Warsha's own installers file the apps under.
+    const WARSHA_LATIN: &[(&str, &str)] = &[
+        ("photocraft", "Retoush"),
+        ("vectorcraft", "Reesha"),
+        ("filmcraft", "Monteer"),
+        ("lightcraft", "Tayf"),
+        ("pdfcraft", "Watheeq"),
+        ("effectcraft", "Wamda"),
+        ("designcraft", "Nasaq"),
+        ("wordcraft", "Satr"),
+        ("deckcraft", "Minbar"),
+        ("gridcraft", "Kashf"),
+        ("cadcraft", "Mukhattat"),
+        ("soundcraft", "Sada"),
+    ];
+
+    /// A copy put there by Warsha's own installers (Inno Setup, publisher malshatti.com): the app's
+    /// own setup (`ريتوش (Retoush)`, in its folder) or the suite (`ورشة WARSHA`, each app in
+    /// `<Latin>\`). Updated or removed with those installers, so it counts as installed elsewhere.
+    fn warsha_setup(app: &CraftApp) -> Option<Installed> {
+        let latin = WARSHA_LATIN.iter().find(|(id, _)| *id == app.id)?.1;
+        for (hive, flags) in [(HKEY_LOCAL_MACHINE, KEY_WOW64_64KEY), (HKEY_LOCAL_MACHINE, KEY_WOW64_32KEY), (HKEY_CURRENT_USER, 0)] {
+            let Ok(root) = RegKey::predef(hive).open_subkey_with_flags(UNINSTALL, KEY_READ | flags) else { continue };
+            for code in root.enum_keys().flatten() {
+                let Ok(key) = root.open_subkey_with_flags(&code, KEY_READ | flags) else { continue };
+                let publisher: String = key.get_value("Publisher").unwrap_or_default();
+                if !publisher.contains("malshatti.com") {
+                    continue;
+                }
+                let name: String = key.get_value("DisplayName").unwrap_or_default();
+                let location = PathBuf::from(key.get_value::<String, _>("InstallLocation").unwrap_or_default());
+                let dir = if name.ends_with(&format!("({latin})")) {
+                    location
+                } else if name.contains("WARSHA") {
+                    location.join(latin)
+                } else {
+                    continue;
+                };
+                let exe = dir.join(format!("{}.exe", app.id));
+                if exe.is_file() {
+                    return Some(Installed {
+                        version: key.get_value::<String, _>("DisplayVersion").ok().and_then(|v| version::parse(&v)),
+                        source: InstallSource::Binary,
+                        location: exe.display().to_string(),
+                        package: Some(code),
+                    });
+                }
+            }
+        }
+        None
     }
 }
 

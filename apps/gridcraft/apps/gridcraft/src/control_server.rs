@@ -38,11 +38,13 @@ fn serve(stream: TcpStream, tx: Sender<ControlRequest>, ctx: egui::Context) {
             let _ = writeln!(out, "{}", json!({"ok": false, "error": "request too large"}));
             continue;
         }
-        let msg: Json = match serde_json::from_str(&line) {
-            Ok(v) => v,
-            Err(e) => {
-                let _ = writeln!(out, "{}", json!({"ok": false, "error": format!("invalid JSON: {e}")}));
-                continue;
+        // Only JSON requests with a string `method`: anything else (a browser's cross-origin HTTP
+        // request line, junk) gets one error and the connection is closed before the rest runs.
+        let msg: Json = match serde_json::from_str::<Json>(&line) {
+            Ok(v) if v.get("method").is_some_and(Json::is_string) => v,
+            _ => {
+                let _ = writeln!(out, "{}", json!({"ok": false, "error": "not a control request; closing the connection"}));
+                break;
             }
         };
         let id = msg.get("id").cloned().unwrap_or(Json::Null);

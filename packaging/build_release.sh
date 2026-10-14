@@ -11,13 +11,15 @@ export CARGO_TARGET_X86_64_PC_WINDOWS_MSVC_RUSTFLAGS="-C target-feature=+crt-sta
 TARGET=x86_64-pc-windows-msvc
 LOGS="$ROOT/logs"; mkdir -p "$LOGS"
 declare -A PKG=([craft-launcher]=artcraft-launcher)
+# with each app its MCP server (`<app>-cli`, the AI link); with the launcher the bridge AI apps start
+declare -A EXTRA=([craft-launcher]=warsha-mcp)
 apps=("$@")
 [ ${#apps[@]} -eq 0 ] && apps=(deckcraft soundcraft photocraft vectorcraft filmcraft lightcraft pdfcraft effectcraft designcraft wordcraft gridcraft cadcraft craft-launcher)
 echo "--- release build $(date '+%F %H:%M') (${apps[*]})" >> "$LOGS/_summary.txt"
 for r in "${apps[@]}"; do
   pkg=${PKG[$r]:-$r}
   start=$(date +%s)
-  ( cd "$UP/$r" && cargo build --release --target $TARGET -p "$pkg" ) > "$LOGS/$r.log" 2>&1
+  ( cd "$UP/$r" && cargo build --release --target $TARGET -p "$pkg" -p "${EXTRA[$r]:-$r-cli}" ) > "$LOGS/$r.log" 2>&1
   code=$?
   echo "$(date +%H:%M) $r exit=$code $(( $(date +%s) - start ))s $(grep -c '^error' "$LOGS/$r.log") errors" | tee -a "$LOGS/_summary.txt"
 done

@@ -27,6 +27,7 @@ impl LauncherUi {
             Dialog::ConfirmUninstall(id) => modal.show(ctx, |ui| close = self.uninstall_dialog(ui, id)),
             Dialog::Settings => modal.show(ctx, |ui| close = self.settings_dialog(ui, host)),
             Dialog::LauncherUpdate(r) => modal.show(ctx, |ui| close = self.launcher_update_dialog(ui, r)),
+            Dialog::Ai => modal.show(ctx, |ui| close = self.ai_dialog(ui)),
         };
         if close || response.should_close() {
             self.dialog = None;
@@ -142,6 +143,110 @@ impl LauncherUi {
         close
     }
 
+    /// Linking the apps to AI apps: one card per AI app, with its state and Link / Unlink.
+    fn ai_dialog(&mut self, ui: &mut egui::Ui) -> bool {
+        use artcraft_launcher_core::protocol::{AiClient, Command as C};
+        let t = Tokens::get(ui.ctx());
+        let viewport = ui.ctx().content_rect();
+        ui.set_width(600.0_f32.min((viewport.width() - 80.0).max(0.0)));
+        Self::title(ui, Some(crate::icons::artcraft_mark()), tl!("Connect your apps to AI"), "Claude · ChatGPT · Gemini");
+        ui.add(
+            egui::Label::new(
+                RichText::new(tl!("Sign in to an AI app with your own account, then link it here once. Ask it for what you need in plain words: it opens the app, does the work in front of you, and you can carry on in the same window."))
+                    .color(t.muted),
+            )
+            .wrap(),
+        );
+        ui.add_space(12.0);
+        let ready = self.ai.ready.len();
+        if ready == 0 && !self.ai.clients.is_empty() {
+            ui.add(egui::Label::new(RichText::new(tl!("Install or update an app first: apps installed before version 2.1 have no AI connection.")).color(t.warn)).wrap());
+            ui.add_space(8.0);
+        }
+        let mut send = None;
+        for client in AiClient::ALL {
+            let state = self.ai.clients.iter().find(|c| c.client == client).cloned();
+            egui::Frame::new().stroke(egui::Stroke::new(1.0, t.line_strong)).inner_margin(14).show(ui, |ui| {
+                ui.set_width(ui.available_width());
+                ui.horizontal(|ui| {
+                    ui.vertical(|ui| {
+                        ui.spacing_mut().item_spacing.y = 4.0;
+                        ui.label(widgets::heading(client.app_name(), 17.0, t.ink_strong));
+                        let (text, color) = match &state {
+                            None => (tl!("Checking…").to_string(), t.faint),
+                            Some(s) if !s.linked.is_empty() => (fmt(tl!("Linked · apps: {count}"), &[("count", &s.linked.len().to_string())]), t.good),
+                            Some(s) if !s.found => (tl!("Not found on this computer").to_string(), t.faint),
+                            Some(_) => (tl!("Not linked").to_string(), t.muted),
+                        };
+                        ui.label(RichText::new(text).size(13.0).color(color));
+                    });
+                    ui.with_layout(egui::Layout::right_to_left(egui::Align::Center), |ui| {
+                        let busy = self.ai.busy;
+                        match &state {
+                            Some(s) if !s.linked.is_empty() => {
+                                if widgets::button(ui, tl!("Unlink"), Kind::Secondary, 0.0).clicked() && !busy {
+                                    send = Some(C::AiLink { client, link: false });
+                                }
+                                if s.linked.len() != ready
+                                    && ready > 0
+                                    && widgets::button(ui, tl!("Link all apps"), Kind::Primary, 0.0)
+                                        .on_hover_text(tl!("Adds the apps installed since the last link"))
+                                        .clicked()
+                                    && !busy
+                                {
+                                    send = Some(C::AiLink { client, link: true });
+                                }
+                            }
+                            Some(s) => {
+                                let link = ui.add_enabled(ready > 0 && !busy, egui::Button::new(tl!("Link")).min_size(vec2(90.0, theme::CONTROL_H)));
+                                if link.clicked() {
+                                    send = Some(C::AiLink { client, link: true });
+                                }
+                                if !s.found {
+                                    ui.add_space(8.0);
+                                    widgets::hud_link(ui, tl!("Download"), client.download_url());
+                                }
+                            }
+                            None => {}
+                        }
+                    });
+                });
+            });
+            ui.add_space(8.0);
+        }
+        if let Some(c) = send {
+            self.ai.busy = true;
+            self.send(c);
+        }
+        ui.add_space(6.0);
+        widgets::hud(ui, tl!("Try asking"), t.faint);
+        ui.add_space(4.0);
+        for example in [
+            tl!("“Open Retoush, brighten the photo on my desktop and save a copy.”"),
+            tl!("“Make a five-slide presentation in Minbar about our new product.”"),
+            tl!("“In Kashf, total each column of sales.xlsx and add a chart.”"),
+        ] {
+            ui.add(egui::Label::new(RichText::new(example).color(t.ink)).wrap());
+        }
+        ui.add_space(10.0);
+        ui.add(
+            egui::Label::new(
+                RichText::new(tl!("The link stays on this computer: Warsha sends nothing anywhere. The apps read and write files only in your user folder, and what you ask is handled by the AI account you chose."))
+                    .size(12.0)
+                    .color(t.faint),
+            )
+            .wrap(),
+        );
+        ui.add_space(14.0);
+        let mut close = false;
+        ui.horizontal(|ui| {
+            ui.with_layout(egui::Layout::right_to_left(egui::Align::Center), |ui| {
+                close = widgets::button(ui, tl!("Close"), Kind::Primary, 90.0).clicked();
+            });
+        });
+        close
+    }
+
     fn uninstall_dialog(&mut self, ui: &mut egui::Ui, id: &str) -> bool {
         let Some(entry) = self.entry(id).cloned() else { return true };
         let t = Tokens::get(ui.ctx());
@@ -186,7 +291,7 @@ impl LauncherUi {
         ui.set_max_height((viewport.height() - 80.0).max(0.0));
         ui.spacing_mut().scroll = egui::style::ScrollStyle { foreground_color: true, ..egui::style::ScrollStyle::solid() };
         let title_top = ui.cursor().top();
-        Self::title(ui, Some(crate::icons::artcraft_mark()), tl!("Settings"), &format!("ArtCraft Launcher {}", env!("CARGO_PKG_VERSION")));
+        Self::title(ui, Some(crate::icons::artcraft_mark()), tl!("Settings"), &format!("Warsha {}", env!("CARGO_PKG_VERSION")));
         let title_height = ui.cursor().top() - title_top;
         let quit_width = widgets::button_width(ui, tl!("Quit Warsha"), 0.0);
         let done_width = widgets::button_width(ui, tl!("Done"), 90.0);

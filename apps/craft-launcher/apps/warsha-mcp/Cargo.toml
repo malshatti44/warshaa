@@ -1,0 +1,17 @@
+[package]
+name = "warsha-mcp"
+description = "Bridge between an AI app (Claude, ChatGPT, Gemini) and one Warsha app, over MCP"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "warsha-mcp"
+path = "src/main.rs"
+
+[dependencies]
+serde_json = { workspace = true }
+
+[lints]
+workspace = true

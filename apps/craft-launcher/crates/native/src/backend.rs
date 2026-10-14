@@ -441,6 +441,54 @@ impl NativeBackend {
     fn installed(&self, app: &str) -> Option<Installed> {
         self.shared.installed.lock().unwrap_or_else(PoisonError::into_inner).get(app).cloned()
     }
+
+    /// `warsha-mcp.exe`, next to the launcher.
+    fn ai_broker() -> std::path::PathBuf {
+        std::env::current_exe()
+            .ok()
+            .and_then(|e| e.parent().map(|d| d.join(crate::ai_link::BROKER)))
+            .unwrap_or_else(|| std::path::PathBuf::from(crate::ai_link::BROKER))
+    }
+
+    /// Installed apps whose install includes their MCP server (`<app>-cli.exe` beside the app).
+    fn ai_ready(&self) -> Vec<crate::ai_link::Ready> {
+        SUITE
+            .iter()
+            .filter_map(|app| {
+                let inst = self.installed(app.id)?;
+                let dir = std::path::Path::new(&inst.location).parent()?.to_path_buf();
+                dir.join(format!("{}-cli.exe", app.id)).is_file().then(|| crate::ai_link::Ready { id: app.id.to_string(), dir })
+            })
+            .collect()
+    }
+
+    fn ai_report(&self, result: Option<Result<String, String>>) {
+        let ready = self.ai_ready().into_iter().map(|r| r.id).collect();
+        self.shared.emit(Event::Ai { clients: crate::ai_link::status(), ready, result });
+    }
+
+    /// Open `app` through the AI bridge when an AI app is linked to it. False: open it as usual.
+    fn ai_launch(&self, app: &str, inst: &Installed) -> bool {
+        let broker = Self::ai_broker();
+        let Some(dir) = std::path::Path::new(&inst.location).parent() else { return false };
+        if !broker.is_file() || !dir.join(format!("{app}-cli.exe")).is_file() {
+            return false;
+        }
+        if !crate::ai_link::status().iter().any(|c| c.linked.iter().any(|l| l == app)) {
+            return false;
+        }
+        let mut cmd = std::process::Command::new(&broker);
+        cmd.args([app, &dir.display().to_string(), "--launch"])
+            .stdin(std::process::Stdio::null())
+            .stdout(std::process::Stdio::null())
+            .stderr(std::process::Stdio::null());
+        #[cfg(windows)]
+        {
+            use std::os::windows::process::CommandExt;
+            cmd.creation_flags(0x0800_0000);
+        }
+        cmd.spawn().is_ok()
+    }
 }
 
 #[allow(clippy::too_many_arguments)]
@@ -926,6 +974,9 @@ impl Backend for NativeBackend {
             Command::Launch { app } => {
                 let Some(def) = CraftApp::by_id(&app) else { return };
                 let result = match self.installed(&app) {
+                    // Linked to an AI app: open the window with its AI connection on, so the AI
+                    // app works in the window the user opened.
+                    Some(inst) if self.ai_launch(&app, &inst) => Ok(()),
                     Some(inst) => install::launch(def, &inst, &self.paths),
                     None => Err(format!("{} isn't installed", def.name)),
                 };
@@ -944,6 +995,22 @@ impl Backend for NativeBackend {
             }
             Command::UpdateLauncher => self.update_launcher(),
             Command::FetchScreenshots { app } => self.fetch_screenshots(&app),
+            Command::AiStatus => self.ai_report(None),
+            Command::AiLink { client, link } => {
+                let ready = self.ai_ready();
+                let broker = Self::ai_broker();
+                let apps: &[crate::ai_link::Ready] = if link { &ready } else { &[] };
+                let result = match crate::ai_link::set(client, &broker, apps) {
+                    Ok(n) if link => Ok(format!("{} linked: {n}", client.name())),
+                    Ok(_) => Ok(format!("{} unlinked", client.name())),
+                    Err(e) => Err(e),
+                };
+                let warm = link && result.is_ok();
+                self.ai_report(Some(result));
+                if warm {
+                    std::thread::spawn(move || crate::ai_link::warm(&broker, &ready));
+                }
+            }
             Command::Configure(options) => {
                 let changed_pre = {
                     let mut o = self.shared.options.lock().unwrap_or_else(PoisonError::into_inner);

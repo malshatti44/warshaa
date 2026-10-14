@@ -74,6 +74,18 @@ pub(crate) enum Dialog {
     ConfirmUninstall(String),
     Settings,
     LauncherUpdate(artcraft_launcher_core::Release),
+    /// Linking the apps to AI apps (Claude, ChatGPT, Gemini).
+    Ai,
+}
+
+/// What the backend last said about the AI apps.
+#[derive(Clone, Debug, Default)]
+pub(crate) struct AiView {
+    pub clients: Vec<artcraft_launcher_core::protocol::AiClientState>,
+    /// Installed apps that can be linked.
+    pub ready: Vec<String>,
+    /// A link or unlink is on its way.
+    pub busy: bool,
 }
 
 impl Dialog {
@@ -85,6 +97,7 @@ impl Dialog {
             Dialog::ConfirmUninstall(id) => ("uninstall", id),
             Dialog::Settings => ("settings", ""),
             Dialog::LauncherUpdate(r) => ("launcher-update", &r.tag),
+            Dialog::Ai => ("ai", ""),
         }
     }
 }
@@ -142,6 +155,8 @@ pub struct LauncherUi {
     /// Versions of apps or the launcher already queued for auto-update during this session,
     /// preventing repeated install loops if an update fails or is in progress.
     pub(crate) auto_update_attempted: std::collections::BTreeSet<(String, String)>,
+    /// The AI apps and links, once the AI dialog has asked.
+    pub(crate) ai: AiView,
 }
 
 /// The language to draw in: the preference, or English where it needs a CJK font the system
@@ -199,6 +214,7 @@ impl LauncherUi {
             last_detect: 0,
             was_focused: true,
             auto_update_attempted: std::collections::BTreeSet::new(),
+            ai: AiView::default(),
         }
     }
 
@@ -328,6 +344,15 @@ impl LauncherUi {
             Event::Screenshot { app, key, result } => {
                 self.pictures.insert((app, key), crate::details::Picture::from_result(result));
                 true
+            }
+            Event::Ai { clients, ready, result } => {
+                self.ai = AiView { clients, ready, busy: false };
+                match result {
+                    Some(Ok(_)) => self.toast(ctx, crate::i18n::t("Done. Restart the AI app so it sees the change."), false),
+                    Some(Err(e)) => self.toast(ctx, e, true),
+                    None => {}
+                }
+                false
             }
             Event::Detected { app, installed } => {
                 if let Some(e) = self.entry_mut(&app) {

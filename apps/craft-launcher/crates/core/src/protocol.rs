@@ -51,6 +51,66 @@ pub enum Command {
     },
     /// Change how the backend behaves.
     Configure(BackendOptions),
+    /// Look at which AI apps are on this computer and which are linked ([`Event::Ai`]).
+    AiStatus,
+    /// Link the installed apps to an AI app (their MCP servers in its settings), or unlink them.
+    AiLink {
+        client: AiClient,
+        link: bool,
+    },
+}
+
+/// An AI app that can drive Warsha's apps over MCP once linked: the user signs in to it with
+/// their own account, and Warsha adds its apps to that app's MCP servers.
+#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, Serialize, Deserialize)]
+pub enum AiClient {
+    /// Claude Desktop (`claude_desktop_config.json`).
+    Claude,
+    /// The ChatGPT desktop app and Codex (`~/.codex/config.toml`).
+    ChatGpt,
+    /// Gemini CLI (`~/.gemini/settings.json`).
+    Gemini,
+}
+
+impl AiClient {
+    pub const ALL: [Self; 3] = [Self::Claude, Self::ChatGpt, Self::Gemini];
+
+    pub fn name(self) -> &'static str {
+        match self {
+            Self::Claude => "Claude",
+            Self::ChatGpt => "ChatGPT",
+            Self::Gemini => "Gemini",
+        }
+    }
+
+    /// The app the user signs in to.
+    pub fn app_name(self) -> &'static str {
+        match self {
+            Self::Claude => "Claude Desktop",
+            Self::ChatGpt => "ChatGPT · Codex",
+            Self::Gemini => "Gemini CLI",
+        }
+    }
+
+    pub fn download_url(self) -> &'static str {
+        match self {
+            Self::Claude => "https://claude.ai/download",
+            Self::ChatGpt => "https://chatgpt.com/download",
+            Self::Gemini => "https://github.com/google-gemini/gemini-cli",
+        }
+    }
+}
+
+/// One AI app as found on this computer.
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub struct AiClientState {
+    pub client: AiClient,
+    /// The app (or its settings folder) is on this computer.
+    pub found: bool,
+    /// Catalog ids of the Warsha apps in its MCP servers.
+    pub linked: Vec<String>,
+    /// The settings file Warsha writes.
+    pub config: String,
 }
 
 /// Settings the backend needs.
@@ -199,6 +259,13 @@ pub enum Event {
         app: String,
         key: String,
         result: Result<Vec<u8>, String>,
+    },
+    /// The AI apps and links ([`Command::AiStatus`], [`Command::AiLink`]). `ready`: installed apps
+    /// whose install includes their MCP server. `result`: how a link or unlink went.
+    Ai {
+        clients: Vec<AiClientState>,
+        ready: Vec<String>,
+        result: Option<Result<String, String>>,
     },
     CheckStarted,
     CheckFinished {

@@ -204,6 +204,12 @@ pub fn managed_elsewhere(app: &CraftApp, installed: &Installed, uninstall: bool)
             };
             Some(format!("{} was installed from the AUR ({pkg}). Update it with {cmd}", app.name))
         }
+        // Warsha's own setup (Inno Setup registers `{GUID}_is1`): its next setup updates it in place.
+        InstallSource::Binary if installed.package.as_deref().is_some_and(|p| p.ends_with("_is1")) => Some(if uninstall {
+            format!("{} was installed with Warsha's setup. Remove it from Windows Settings ▸ Apps.", app.name)
+        } else {
+            format!("{} was installed with Warsha's setup. Download the new setup from malshatti.com/apps and run it to update.", app.name)
+        }),
         InstallSource::Binary => Some(format!("{} was installed outside the launcher. Update or remove it the way it was installed.", app.name)),
         _ => None,
     }

@@ -41,8 +41,10 @@ fn serve(stream: TcpStream, tx: Sender<ControlRequest>, ctx: egui::Context) {
         if line.trim().is_empty() {
             continue;
         }
+        // Only JSON requests with a string `method`: anything else (a browser's cross-origin HTTP
+        // request line, junk) gets one error and the connection is closed before the rest runs.
         let reply = match serde_json::from_str::<Value>(&line) {
-            Ok(msg) => {
+            Ok(msg) if msg.get("method").is_some_and(Value::is_string) => {
                 let id = msg.get("id").cloned().unwrap_or(Value::Null);
                 let method = msg.get("method").and_then(Value::as_str).unwrap_or("").to_string();
                 let params = msg.get("params").cloned().unwrap_or(json!({}));
@@ -57,7 +59,10 @@ fn serve(stream: TcpStream, tx: Sender<ControlRequest>, ctx: egui::Context) {
                 }
                 r
             }
-            Err(e) => json!({"ok": false, "error": format!("bad JSON: {e}")}),
+            _ => {
+                let _ = writeln!(out, "{}", json!({"ok": false, "error": "not a control request; closing the connection"}));
+                break;
+            }
         };
         if writeln!(out, "{reply}").is_err() {
             break;

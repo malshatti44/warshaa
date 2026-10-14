@@ -91,6 +91,14 @@ impl LauncherUi {
                     self.check_now();
                 }
                 ui.add_space(6.0);
+                if self.caps.manage_apps
+                    && widgets::nav_link(ui, tl!("AI"), tl!("Connect your apps to Claude, ChatGPT or Gemini"), h, self.dialog == Some(Dialog::Ai))
+                        .clicked()
+                {
+                    self.send(Command::AiStatus);
+                    self.dialog = Some(Dialog::Ai);
+                }
+                ui.add_space(6.0);
                 if widgets::nav_link(ui, "malshatti.com", tl!("Contact the Developer"), h, false).clicked() {
                     ui.ctx().open_url(egui::OpenUrl::new_tab(artcraft_launcher_core::catalog::DISCORD_URL));
                 }

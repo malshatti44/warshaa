@@ -79,6 +79,11 @@ def stage(app, version):
     if not exe.exists():
         raise SystemExit(f"missing {exe}")
     shutil.copy2(exe, d / f"{binary}.exe")
+    # The AI link: each app's MCP server beside it; the bridge AI apps start, beside Warsha.
+    extra = "warsha-mcp.exe" if repo == "craft-launcher" else f"{binary}-cli.exe"
+    if not (BIN / extra).exists():
+        raise SystemExit(f"missing {BIN / extra}")
+    shutil.copy2(BIN / extra, d / extra)
     for f in ("LICENSE-MIT", "LICENSE-APACHE", "NOTICE"):
         if (UP / repo / f).exists():
             shutil.copy2(UP / repo / f, d / f)
@@ -286,7 +291,8 @@ def main():
         compile_iss(iss_suite(a.version, [s for s in staged if s[0][0] == "craft-launcher"] + [s for s in staged if s[0][0] != "craft-launcher"]))
     files = sorted(list(DIST.glob("*.zip")) + list(DIST.glob("*.exe")))
     lines = [f"{sha256(f)}  {f.name}" for f in files]
-    (DIST / "SHA256SUMS.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    # LF endings, so `sha256sum -c` reads it on Linux and macOS too
+    (DIST / "SHA256SUMS.txt").write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     for f in files:
         print(f"{f.stat().st_size / 1e6:8.1f} MB  {f.name}")
 
