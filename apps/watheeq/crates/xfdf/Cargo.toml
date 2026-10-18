@@ -1,0 +1,17 @@
+[package]
+name = "watheeq-xfdf"
+description = "Comment and form data exchange: XFDF (ISO 19444-1) and FDF import/export, form data as XML, CSV and tab-delimited text"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+watheeq-cos = { workspace = true }
+watheeq-annot = { workspace = true }
+watheeq-forms = { workspace = true }
+watheeq-model = { workspace = true }
+roxmltree = "0.20"
+thiserror = { workspace = true }

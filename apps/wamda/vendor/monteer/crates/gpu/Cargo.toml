@@ -1,0 +1,26 @@
+[package]
+name = "monteer-gpu"
+description = "wgpu compositor: YUV/RGB layer sampling, linear-light premultiplied compositing in WGSL"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+monteer-color = { workspace = true }
+monteer-frame = { workspace = true }
+monteer-geom = { workspace = true }
+monteer-render = { workspace = true }
+wgpu = { version = "30", default-features = false, features = ["wgsl"] }
+log = { workspace = true }
+rayon = { workspace = true }
+
+[dev-dependencies]
+pollster = "0.4"
+wgpu = { version = "30", features = ["wgsl", "metal", "vulkan", "dx12", "gles"] }
+monteer-media = { workspace = true }
+monteer-project = { workspace = true }
+monteer-time = { workspace = true }

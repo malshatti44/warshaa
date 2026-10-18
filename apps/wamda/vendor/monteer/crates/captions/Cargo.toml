@@ -1,0 +1,21 @@
+[package]
+name = "monteer-captions"
+description = "Monteer captions: SRT, WebVTT, SCC, MCC, EBU STL and TTML/IMSC1/DFXP import/export, caption layout and burn-in rasterisation"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+monteer-time = { workspace = true }
+monteer-color = { workspace = true }
+monteer-project = { workspace = true }
+monteer-text = { workspace = true }
+thiserror = { workspace = true }
+roxmltree = { workspace = true }
+
+[dev-dependencies]
+proptest = { workspace = true }

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Kashf</title>
+  <link data-trunk rel="icon" href="../../assets/app-icon/kashf.ico" />
+  <link data-trunk rel="rust" data-bin="kashf-web" data-wasm-opt="z" data-weak-refs />
+  <style>
+    html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #f3f3f3; }
+    #kashf_canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+    #kashf_loading { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      color: #555; font: 14px system-ui, sans-serif; pointer-events: none; }
+  </style>
+</head>
+<body>
+  <canvas id="kashf_canvas"></canvas>
+  <div id="kashf_loading">Loading Kashf&hellip;</div>
+</body>
+</html>

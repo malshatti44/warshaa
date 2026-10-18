@@ -963,11 +963,11 @@ impl FontsView<'_> {
 /// cluster more glyphs than chars, which egui's cursor code cannot represent.
 const ARABIC_FALLBACK_FACES: [(&str, &[u8]); 2] = [
     (
-        "craft-arabic-ui",
+        "warsha-arabic-ui",
         include_bytes!("../../fonts/IBMPlexSansArabic-Regular.ttf"),
     ),
     (
-        "craft-arabic-ui-bold",
+        "warsha-arabic-ui-bold",
         include_bytes!("../../fonts/IBMPlexSansArabic-SemiBold.ttf"),
     ),
 ];
@@ -983,7 +983,7 @@ pub struct FontsImpl {
     shape_buffer: Option<harfrust::UnicodeBuffer>,
 
     /// IBM Plex Sans Arabic, regular and semibold, appended to every family so Arabic
-    /// labels never fall back to tofu (Arabic builds of the Craft apps).
+    /// labels never fall back to tofu (Arabic builds of the Warsha apps).
     arabic_fallback: [Option<FontFaceKey>; 2],
 }
 

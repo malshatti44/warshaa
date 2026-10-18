@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Nasaq
+GenericName=Page Layout
+Comment=Lay out magazines, books and print documents
+Exec=nasaq %F
+TryExec=nasaq
+Icon=com.malshatti.nasaq
+Terminal=false
+StartupNotify=true
+StartupWMClass=com.malshatti.nasaq
+Categories=Graphics;Publishing;
+Keywords=layout;page;desktop publishing;dtp;magazine;book;indesign;idml;typesetting;

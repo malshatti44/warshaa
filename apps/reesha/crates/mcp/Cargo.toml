@@ -1,0 +1,27 @@
+[package]
+name = "reesha-mcp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Reesha MCP server: JSON-RPC 2.0 over stdio, driving a running app or a headless session"
+
+[lints]
+workspace = true
+
+[dependencies]
+reesha-engine = { workspace = true }
+reesha-render = { workspace = true }
+reesha-svg = { workspace = true }
+reesha-format = { workspace = true }
+reesha-tools = { workspace = true }
+reesha-geom = { workspace = true }
+reesha-doc = { workspace = true }
+serde_json = { workspace = true }
+log = { workspace = true }
+
+image = { workspace = true }
+
+[dev-dependencies]
+reesha-testkit = { workspace = true }
+proptest = { workspace = true }
+socket2 = { workspace = true }

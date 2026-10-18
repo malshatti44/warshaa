@@ -1,0 +1,27 @@
+[package]
+name = "minbar-engine"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Minbar engine: sessions, undo history, selection, the command registry every frontend dispatches through, and pointer tools"
+
+[lints]
+workspace = true
+
+[dependencies]
+minbar-geom = { workspace = true }
+minbar-color = { workspace = true }
+minbar-model = { workspace = true }
+minbar-fonts = { workspace = true }
+minbar-text = { workspace = true }
+minbar-render = { workspace = true }
+minbar-pdf = { workspace = true }
+minbar-format = { workspace = true }
+minbar-pptx = { workspace = true }
+minbar-media = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+i_overlay = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+image = { workspace = true }

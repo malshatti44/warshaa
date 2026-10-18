@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "monteer": {
+      "command": "target/release/monteer-cli",
+      "args": ["mcp", "--bridge", "127.0.0.1:9876"]
+    },
+    "monteer-headless": {
+      "command": "target/release/monteer-cli",
+      "args": ["mcp", "--demo"]
+    }
+  }
+}

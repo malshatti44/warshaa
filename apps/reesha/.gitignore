@@ -1,0 +1,9 @@
+*~
+plan/
+/target
+/dist
+/corpus
+/log
+.DS_Store
+# A warsha-fonts checkout for WARSHA_FONTS_DIR (CI and release workflows check it out here)
+/warsha-fonts

@@ -1,0 +1,21 @@
+[package]
+name = "watheeq-redact"
+description = "Redaction (architecture §11.2): marks, apply (glyphs, images, vectors, XObjects, annotations, fields), verification"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+watheeq-cos = { workspace = true }
+watheeq-content = { workspace = true }
+watheeq-fonts = { workspace = true }
+watheeq-model = { workspace = true }
+watheeq-forms = { workspace = true }
+watheeq-edit = { workspace = true }
+watheeq-annot = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]

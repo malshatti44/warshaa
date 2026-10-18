@@ -1,0 +1,13 @@
+[package]
+name = "kashf-functions"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Kashf worksheet function library: math, statistics, text, dates, lookup, financial, engineering"
+
+[lints]
+workspace = true
+
+[dependencies]
+kashf-core = { workspace = true }
+regex = { workspace = true }

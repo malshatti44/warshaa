@@ -1,0 +1,16 @@
+[package]
+name = "retoush-raster"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+retoush-geom = { workspace = true }
+retoush-color = { workspace = true }
+serde = { workspace = true }
+
+[dev-dependencies]
+proptest = { workspace = true }

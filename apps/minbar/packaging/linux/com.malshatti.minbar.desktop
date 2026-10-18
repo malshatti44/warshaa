@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Minbar
+GenericName=Presentation
+Comment=Create and present slide decks
+Exec=minbar %F
+TryExec=minbar
+Icon=com.malshatti.minbar
+Terminal=false
+StartupNotify=true
+StartupWMClass=com.malshatti.minbar
+Categories=Office;Presentation;
+MimeType=application/x-minbar;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.template;application/vnd.openxmlformats-officedocument.presentationml.slideshow;
+Keywords=presentation;slides;slide show;deck;pptx;keynote;powerpoint;

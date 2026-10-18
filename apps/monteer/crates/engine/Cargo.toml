@@ -1,0 +1,51 @@
+[package]
+name = "monteer-engine"
+description = "Monteer engine façade: session, command registry, history, media pool"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[features]
+default = []
+# Speech-to-text with Whisper (candle, CPU). Off by default and in wasm builds.
+whisper = ["monteer-speech/whisper"]
+# Speech-model downloads over HTTPS.
+speech-download = ["monteer-speech/download"]
+# Natural voices for Text to Speech: Kokoro-82M on candle (CPU) and their download.
+neural-voices = ["monteer-tts/kokoro", "speech-download"]
+
+[dependencies]
+monteer-time = { workspace = true }
+monteer-geom = { workspace = true }
+monteer-color = { workspace = true }
+monteer-frame = { workspace = true }
+monteer-media = { workspace = true }
+monteer-codecs = { workspace = true }
+monteer-project = { workspace = true }
+monteer-edit = { workspace = true }
+monteer-render = { workspace = true }
+monteer-scopes = { workspace = true }
+monteer-text = { workspace = true }
+monteer-audio-dsp = { workspace = true }
+monteer-export = { workspace = true }
+monteer-mxf = { workspace = true }
+monteer-format = { workspace = true }
+monteer-interchange = { workspace = true }
+monteer-captions = { workspace = true }
+monteer-speech = { workspace = true }
+monteer-tts = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+web-time = "1"
+
+[dev-dependencies]
+monteer-testkit = { workspace = true }
+monteer-dng = { workspace = true, features = ["writer"] }
+monteer-isobmff = { workspace = true }
+image = { version = "0.25", default-features = false, features = ["png", "gif"] }

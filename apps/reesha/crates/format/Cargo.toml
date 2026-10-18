@@ -1,0 +1,21 @@
+[package]
+name = "reesha-format"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Reesha native .reesha format (versioned JSON, embedded images)"
+
+[lints]
+workspace = true
+
+[dependencies]
+reesha-doc = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+flate2 = { workspace = true }
+
+[dev-dependencies]
+reesha-testkit = { workspace = true }
+proptest = { workspace = true }
+reesha-geom = { workspace = true }

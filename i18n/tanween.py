@@ -19,10 +19,10 @@ def fix(s):
     return FIX.sub("\\1\u064b", s)
 
 
-ROOT = pathlib.Path(r"E:\craft-ar")
+ROOT = pathlib.Path(r"E:\warsha-src")
 UP = ROOT / "upstream"
-APPS = ["photocraft", "vectorcraft", "filmcraft", "lightcraft", "pdfcraft", "effectcraft", "designcraft",
-        "wordcraft", "deckcraft", "gridcraft", "cadcraft", "soundcraft", "craft-launcher"]
+APPS = ["retoush", "reesha", "monteer", "tayf", "watheeq", "wamda", "nasaq",
+        "satr", "minbar", "kashf", "mukhattat", "sada", "warsha"]
 
 
 def files():

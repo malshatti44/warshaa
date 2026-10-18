@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Sada
+GenericName=Digital Audio Workstation
+Comment=Record, edit and mix audio and MIDI
+Exec=sada %F
+TryExec=sada
+Icon=com.malshatti.sada
+Terminal=false
+StartupNotify=true
+StartupWMClass=com.malshatti.sada
+Categories=AudioVideo;Audio;Midi;Mixer;Sequencer;Recorder;
+MimeType=application/x-sada-session;audio/x-wav;audio/wav;audio/vnd.wave;audio/x-aiff;audio/aiff;audio/flac;audio/x-flac;audio/mpeg;audio/midi;audio/x-midi;
+Keywords=daw;audio;mixer;recording;multitrack;midi;editor;music;

@@ -1,0 +1,47 @@
+[package]
+name = "reesha-ui-egui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Reesha egui frontend (menus, panels, tools and canvas); swappable — nothing below depends on it"
+
+[lints]
+workspace = true
+
+[dependencies]
+warsha-ui = { workspace = true }
+reesha-geom = { workspace = true }
+reesha-color = { workspace = true }
+reesha-doc = { workspace = true }
+reesha-brush = { workspace = true }
+reesha-render = { workspace = true }
+reesha-text = { workspace = true }
+reesha-tools = { workspace = true }
+reesha-engine = { workspace = true }
+reesha-svg = { workspace = true }
+reesha-effects = { workspace = true }
+reesha-three-d = { workspace = true }
+reesha-plugins = { workspace = true }
+reesha-pdf = { workspace = true }
+reesha-cad = { workspace = true }
+reesha-eps = { workspace = true }
+reesha-format = { workspace = true }
+egui = { workspace = true }
+egui_extras = { workspace = true }
+image = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+log = { workspace = true }
+
+[dev-dependencies]
+egui_kittest = { workspace = true, features = ["wgpu", "snapshot"] }
+reesha-testkit = { workspace = true }
+wat = { workspace = true }
+
+[build-dependencies]
+serde_json = { workspace = true }
+toml = "1"
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+# Warsha (ورشة): the in-app AI assistant panel.
+warsha-assistant = { path = "../../../../shared/assistant" }

@@ -1,0 +1,26 @@
+[package]
+name = "nasaq-render"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Nasaq renderer: spreads, pages, frames, composed text and images to pixels (vello_cpu)"
+
+[lints]
+workspace = true
+
+[dependencies]
+nasaq-geom = { workspace = true }
+nasaq-color = { workspace = true }
+nasaq-doc = { workspace = true }
+nasaq-fonts = { workspace = true }
+nasaq-compose = { workspace = true }
+vello_cpu = { workspace = true }
+vello_common = { workspace = true }
+image = { workspace = true }
+hayro = { workspace = true }
+nasaq-images = { workspace = true }
+log = { workspace = true }
+serde = { workspace = true }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+vello_cpu = { workspace = true, features = ["multithreading"] }

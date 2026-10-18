@@ -1,0 +1,124 @@
+[workspace]
+resolver = "3"
+members = ["crates/*", "apps/*", "xtask"]
+default-members = ["crates/*", "apps/*", "xtask"]
+
+[workspace.package]
+version = "0.1.1"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+rust-version = "1.95"
+repository = "https://github.com/malshatti44/warshaa"
+
+[workspace.dependencies]
+# internal
+monteer-time = { path = "crates/time" }
+monteer-geom = { path = "crates/geom" }
+monteer-color = { path = "crates/color" }
+monteer-bitstream = { path = "crates/bitstream" }
+monteer-isobmff = { path = "crates/isobmff" }
+monteer-matroska = { path = "crates/matroska" }
+monteer-mxf = { path = "crates/mxf" }
+monteer-cfb = { path = "crates/cfb" }
+monteer-mpegts = { path = "crates/mpegts" }
+monteer-mpeg2v = { path = "crates/mpeg2v" }
+monteer-ac3 = { path = "crates/ac3" }
+monteer-ogg = { path = "crates/ogg" }
+monteer-h264 = { path = "crates/h264" }
+monteer-hevc = { path = "crates/hevc" }
+monteer-vp9 = { path = "crates/vp9" }
+monteer-prores = { path = "crates/prores" }
+monteer-dnx = { path = "crates/dnx" }
+monteer-av1 = { path = "crates/av1" }
+monteer-aac = { path = "crates/aac" }
+monteer-opus = { path = "crates/opus" }
+monteer-h264enc = { path = "crates/h264enc" }
+monteer-audio-dsp = { path = "crates/audio-dsp" }
+monteer-frame = { path = "crates/frame" }
+monteer-media = { path = "crates/media" }
+monteer-codecs = { path = "crates/codecs" }
+monteer-project = { path = "crates/project" }
+monteer-edit = { path = "crates/edit" }
+monteer-interchange = { path = "crates/interchange" }
+monteer-text = { path = "crates/text" }
+monteer-captions = { path = "crates/captions" }
+monteer-speech = { path = "crates/speech" }
+monteer-render = { path = "crates/render" }
+monteer-gpu = { path = "crates/gpu" }
+monteer-scopes = { path = "crates/scopes" }
+monteer-export = { path = "crates/export" }
+monteer-format = { path = "crates/format" }
+monteer-engine = { path = "crates/engine" }
+monteer-ui-egui = { path = "crates/ui-egui" }
+monteer-automation = { path = "crates/automation" }
+monteer-testkit = { path = "crates/testkit" }
+
+# foundation
+thiserror = "2"
+serde = { version = "1", features = ["derive", "rc"] }
+serde_json = "1"
+log = "0.4"
+rayon = "1"
+proptest = "1"
+roxmltree = "0.21"
+
+# ui
+egui = "0.36"
+eframe = { version = "0.36", default-features = false }
+egui_kittest = "0.36"
+rfd = "0.17"
+
+[workspace.lints.rust]
+unsafe_code = "deny"
+
+[workspace.lints.clippy]
+dbg_macro = "warn"
+todo = "warn"
+too_many_arguments = "allow"
+needless_range_loop = "allow"
+type_complexity = "allow"
+
+[profile.dev.package."*"]
+opt-level = 2
+
+[profile.dev]
+opt-level = 1
+
+# Codec hot loops: debug-build tests (RFC/oracle vectors) are minutes slower below opt-level 3.
+[profile.dev.package.monteer-h264]
+opt-level = 3
+
+[profile.dev.package.monteer-h264enc]
+opt-level = 3
+
+[profile.dev.package.monteer-hevc]
+opt-level = 3
+
+[profile.dev.package.monteer-prores]
+opt-level = 3
+
+[profile.dev.package.monteer-dnx]
+opt-level = 3
+
+[profile.dev.package.monteer-av1]
+opt-level = 3
+
+[profile.dev.package.monteer-aac]
+opt-level = 3
+
+# Audio effects: realtime-factor tests and long convolution / spectral runs.
+[profile.dev.package.monteer-audio-dsp]
+opt-level = 3
+
+[profile.dev.package.monteer-mxf]
+opt-level = 3
+
+[profile.dev.package.monteer-opus]
+opt-level = 3
+
+[profile.dev.package.monteer-vp9]
+opt-level = 3
+
+[profile.release]
+lto = "thin"
+codegen-units = 1

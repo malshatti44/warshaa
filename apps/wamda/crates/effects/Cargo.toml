@@ -1,0 +1,24 @@
+[package]
+name = "wamda-effects"
+description = "Effect registry (specs, parameters, categories) and CPU implementations of the effects library"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+wamda-geom = { workspace = true }
+wamda-color = { workspace = true }
+wamda-keyframe = { workspace = true }
+wamda-project = { workspace = true }
+wamda-raster = { workspace = true }
+wamda-segment = { workspace = true }
+wamda-track = { workspace = true }
+rayon = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+log = { workspace = true }
+

@@ -1,17 +1,17 @@
-"""Collect the interface strings of the apps without a catalog (deckcraft, soundcraft).
+"""Collect the interface strings of the apps without a catalog (minbar, sada).
 
 Every string literal in the UI crate (tests left out) that reads like interface text: words, not
 ids, paths, keys or format specs. Format strings (`{}` / `{name}` / `{:.1}`) are kept with ctx
 "@template": the runtime translator matches them against the finished text.
 
-  python extract_ui.py deckcraft soundcraft   -> keys/<app>.json
+  python extract_ui.py minbar sada   -> keys/<app>.json
 """
 import json
 import pathlib
 import re
 import sys
 
-UP = pathlib.Path(r"E:\craft-ar\upstream")
+UP = pathlib.Path(r"E:\warsha-src\upstream")
 KEYS = pathlib.Path(__file__).parent / "keys"
 LIT = re.compile(r'(?<![A-Za-z0-9_#])"((?:[^"\\\n]|\\.)*)"')
 PH = re.compile(r"\{[^{}]*\}")
@@ -122,5 +122,5 @@ def collect(app):
 
 
 if __name__ == "__main__":
-    for a in sys.argv[1:] or ["deckcraft", "soundcraft"]:
+    for a in sys.argv[1:] or ["minbar", "sada"]:
         collect(a)

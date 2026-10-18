@@ -1,0 +1,3799 @@
+{
+  "commands": [
+    {
+      "enabled": true,
+      "id": "file.open",
+      "label": "Open…",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "password": {
+            "description": "User or owner password for encrypted files.",
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "type": "object"
+      },
+      "shortcut": "Ctrl+O",
+      "tool": "doc_open"
+    },
+    {
+      "enabled": true,
+      "id": "file.open_recent",
+      "label": "Open Recent",
+      "menu": "File",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "file.clear_recent",
+      "label": "Clear Recent Files",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "file.pin_folder",
+      "label": "Pin folder to Home…",
+      "menu": "File",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "create.blank",
+      "label": "New blank PDF",
+      "menu": "File",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "measure.distance",
+      "label": "Measure distance",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "author": {
+            "maxLength": 512,
+            "type": "string"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "label": {
+            "maxLength": 512,
+            "type": "string"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "points": {
+            "items": {
+              "description": "[x, y] in points from the top-left of the displayed page.",
+              "items": {
+                "type": "number"
+              },
+              "maxItems": 2,
+              "minItems": 2,
+              "type": "array"
+            },
+            "maxItems": 2048,
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc",
+          "page",
+          "points"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "measure_distance"
+    },
+    {
+      "enabled": false,
+      "id": "measure.perimeter",
+      "label": "Measure perimeter",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "author": {
+            "maxLength": 512,
+            "type": "string"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "label": {
+            "maxLength": 512,
+            "type": "string"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "points": {
+            "items": {
+              "description": "[x, y] in points from the top-left of the displayed page.",
+              "items": {
+                "type": "number"
+              },
+              "maxItems": 2,
+              "minItems": 2,
+              "type": "array"
+            },
+            "maxItems": 2048,
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc",
+          "page",
+          "points"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "measure_perimeter"
+    },
+    {
+      "enabled": false,
+      "id": "measure.area",
+      "label": "Measure area",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "author": {
+            "maxLength": 512,
+            "type": "string"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "label": {
+            "maxLength": 512,
+            "type": "string"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "points": {
+            "items": {
+              "description": "[x, y] in points from the top-left of the displayed page.",
+              "items": {
+                "type": "number"
+              },
+              "maxItems": 2,
+              "minItems": 2,
+              "type": "array"
+            },
+            "maxItems": 2048,
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc",
+          "page",
+          "points"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "measure_area"
+    },
+    {
+      "enabled": false,
+      "id": "measure.scale",
+      "label": "Set measurement scale",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "at": {
+            "description": "[x, y] in points from the top-left of the displayed page.",
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "type": "array"
+          },
+          "distance": {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "points": {
+            "items": {
+              "description": "[x, y] in points from the top-left of the displayed page.",
+              "items": {
+                "type": "number"
+              },
+              "maxItems": 2,
+              "minItems": 2,
+              "type": "array"
+            },
+            "maxItems": 2048,
+            "minItems": 1,
+            "type": "array"
+          },
+          "precision": {
+            "maximum": 6,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "rect": {
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 4,
+            "minItems": 4,
+            "type": "array"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "units_per_point": {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          }
+        },
+        "required": [
+          "doc",
+          "page"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "measure_scale"
+    },
+    {
+      "enabled": false,
+      "id": "measure.info",
+      "label": "Measurement information",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "points": {
+            "items": {
+              "description": "[x, y] in points from the top-left of the displayed page.",
+              "items": {
+                "type": "number"
+              },
+              "maxItems": 2,
+              "minItems": 2,
+              "type": "array"
+            },
+            "maxItems": 2048,
+            "minItems": 1,
+            "type": "array"
+          },
+          "type": {
+            "enum": [
+              "distance",
+              "perimeter",
+              "area"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "page",
+          "points"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "measure_info"
+    },
+    {
+      "enabled": false,
+      "id": "measure.snap",
+      "label": "Measurement snapping",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "at": {
+            "description": "[x, y] in points from the top-left of the displayed page.",
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "type": "array"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "endpoints": {
+            "type": "boolean"
+          },
+          "intersections": {
+            "type": "boolean"
+          },
+          "midpoints": {
+            "type": "boolean"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "paths": {
+            "type": "boolean"
+          },
+          "tolerance": {
+            "maximum": 10000,
+            "minimum": 0,
+            "type": "number"
+          }
+        },
+        "required": [
+          "doc",
+          "page",
+          "at"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "measure_snap"
+    },
+    {
+      "enabled": false,
+      "id": "measure.export",
+      "label": "Export measurements as CSV",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "out": {
+            "description": "A file path (relative to --root when set).",
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "out"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "measure_export"
+    },
+    {
+      "enabled": false,
+      "id": "page.copy",
+      "label": "Copy pages",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "page.cut",
+      "label": "Cut pages",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "page.paste",
+      "label": "Paste pages",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "create.file",
+      "label": "Create PDF from file…",
+      "menu": "File",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "create.multiple",
+      "label": "Create PDF from multiple files…",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "mode": {
+            "enum": [
+              "combine",
+              "separate"
+            ],
+            "type": "string"
+          },
+          "open": {
+            "description": "Also open the result as a new document (default: only when out is omitted).",
+            "type": "boolean"
+          },
+          "out": {
+            "description": "File to write. Omit to open the result as a new unsaved document instead.",
+            "type": "string"
+          },
+          "out_dir": {
+            "description": "Folder for mode \"separate\".",
+            "type": "string"
+          },
+          "pages": {
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "type": "array"
+          },
+          "paths": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "paths"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_create_multiple"
+    },
+    {
+      "enabled": true,
+      "id": "create.multiple_separate",
+      "label": "Create separate PDFs…",
+      "menu": "File",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "create.images",
+      "label": "Create PDF from images…",
+      "menu": "File",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "create.clipboard",
+      "label": "Create PDF from clipboard",
+      "menu": "File",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "page.combine",
+      "label": "Combine files…",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "field_conflicts": {
+            "enum": [
+              "rename",
+              "merge"
+            ],
+            "type": "string"
+          },
+          "groups": {
+            "items": {
+              "minimum": 0,
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "type": "array"
+          },
+          "open": {
+            "description": "Also open the result as a new document (default: only when out is omitted).",
+            "type": "boolean"
+          },
+          "out": {
+            "description": "File to write. Omit to open the result as a new unsaved document instead.",
+            "type": "string"
+          },
+          "pages": {
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "type": "array"
+          },
+          "passwords": {
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "type": "array"
+          },
+          "paths": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2,
+            "type": "array"
+          }
+        },
+        "required": [
+          "paths"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_combine"
+    },
+    {
+      "enabled": false,
+      "id": "file.save",
+      "label": "Save",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "flatten_fill_sign": {
+            "description": "Bake Fill & Sign marks into the page before writing. Default false.",
+            "type": "boolean"
+          },
+          "full": {
+            "description": "Force a full rewrite (or, with false, an incremental update).",
+            "type": "boolean"
+          },
+          "path": {
+            "description": "Save as this file. Omit to save in place.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": "Ctrl+S",
+      "tool": "doc_save"
+    },
+    {
+      "enabled": false,
+      "id": "file.save_as",
+      "label": "Save as…",
+      "menu": "File",
+      "params": null,
+      "shortcut": "Ctrl+Shift+S",
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "file.close",
+      "label": "Close file",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "discard_changes": {
+            "type": "boolean"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": "Ctrl+W",
+      "tool": "doc_close"
+    },
+    {
+      "enabled": false,
+      "id": "file.close_all",
+      "label": "Close all",
+      "menu": "File",
+      "params": null,
+      "shortcut": "Ctrl+Shift+W",
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "file.revert",
+      "label": "Revert",
+      "menu": "File",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "print.dialog",
+      "label": "Print…",
+      "menu": "File",
+      "params": null,
+      "shortcut": "Ctrl+P",
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "file.properties",
+      "label": "Document properties…",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": "Ctrl+D",
+      "tool": "doc_info"
+    },
+    {
+      "enabled": false,
+      "id": "edit.undo",
+      "label": "Undo",
+      "menu": "Edit",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": "Ctrl+Z",
+      "tool": "edit_undo"
+    },
+    {
+      "enabled": false,
+      "id": "edit.redo",
+      "label": "Redo",
+      "menu": "Edit",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": "Ctrl+Shift+Z",
+      "tool": "edit_redo"
+    },
+    {
+      "enabled": false,
+      "id": "edit.find",
+      "label": "Find…",
+      "menu": "Edit",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "limit": {
+            "description": "Maximum matches (default 500). The search stops once it has this many; `complete` says whether every match was returned, and when it is false `next` holds the start_page and skip that continue the search.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "query": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "skip": {
+            "description": "Matches to pass over on start_page before returning any (default 0).",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "start_page": {
+            "description": "Page to start searching from (default 1).",
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc",
+          "query"
+        ],
+        "type": "object"
+      },
+      "shortcut": "Ctrl+F",
+      "tool": "text_find"
+    },
+    {
+      "enabled": false,
+      "id": "edit.advanced_search",
+      "label": "Advanced search…",
+      "menu": "Edit",
+      "params": null,
+      "shortcut": "Ctrl+Shift+F",
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "view.palette",
+      "label": "Find tools and commands…",
+      "menu": "View",
+      "params": null,
+      "shortcut": "Ctrl+K",
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "view.layout.single",
+      "label": "Single page",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "view.layout.two_up",
+      "label": "Two-page view",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "view.continuous",
+      "label": "Continuous scrolling",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "view.layout.cover",
+      "label": "Show cover page in two-page view",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "view.fit_width_scrolling",
+      "label": "Fit to width scrolling",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "view.fit_one_page",
+      "label": "Fit one full page",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "view.fit_visible",
+      "label": "Fit visible",
+      "menu": null,
+      "params": null,
+      "shortcut": "Ctrl+3",
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "view.marquee_zoom",
+      "label": "Marquee zoom",
+      "menu": "View",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "edit.column_select",
+      "label": "Column select",
+      "menu": "Edit",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "pages": {
+            "description": "1-based page numbers to extract (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "rect": {
+            "description": "Column select: [x0, y0, x1, y1] in points from the top-left of the displayed page; a glyph counts when its centre is inside.",
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 4,
+            "minItems": 4,
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "text_extract"
+    },
+    {
+      "enabled": false,
+      "id": "edit.snapshot",
+      "label": "Take a snapshot",
+      "menu": "Edit",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "view.full_screen",
+      "label": "Full screen mode",
+      "menu": "View",
+      "params": null,
+      "shortcut": "Ctrl+L",
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "view.read_mode",
+      "label": "Read mode",
+      "menu": "View",
+      "params": null,
+      "shortcut": "Ctrl+H",
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "view.focus_page_input",
+      "label": "Go to page…",
+      "menu": "View",
+      "params": null,
+      "shortcut": "Ctrl+Shift+N",
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "ui.dock.reset",
+      "label": "Reset panel layout",
+      "menu": "View",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "view.theme",
+      "label": "Switch light / dark theme",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "view.theme.system",
+      "label": "Use system setting",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "view.theme.light",
+      "label": "Light gray",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "view.theme.dark",
+      "label": "Dark gray",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.list",
+      "label": "Comments panel",
+      "menu": "View",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.note",
+      "label": "Add a sticky note",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.freetext",
+      "label": "Add a text box",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.highlight",
+      "label": "Highlight text",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.underline",
+      "label": "Underline text",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.strikeout",
+      "label": "Strikethrough text",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.squiggly",
+      "label": "Squiggly underline text",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.ink",
+      "label": "Draw freehand",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.line",
+      "label": "Draw a line",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.arrow",
+      "label": "Draw an arrow",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.square",
+      "label": "Draw a rectangle",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.circle",
+      "label": "Draw an oval",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.polygon",
+      "label": "Draw a polygon",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.polyline",
+      "label": "Draw connected lines",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.cloud",
+      "label": "Draw a cloud",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.callout",
+      "label": "Add a callout",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.caret",
+      "label": "Insert text",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.replace",
+      "label": "Replace text",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.attach",
+      "label": "Attach a file",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.eraser",
+      "label": "Erase drawings",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.fields",
+      "label": "Form fields panel",
+      "menu": "View",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.clear",
+      "label": "Clear form",
+      "menu": "Edit",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.flatten",
+      "label": "Flatten comments",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.import",
+      "label": "Import comments…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.stamp",
+      "label": "Add a stamp",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "at": {
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "type": "array"
+          },
+          "author": {
+            "type": "string"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "file_page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "page",
+          "path",
+          "at"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "stamp_custom"
+    },
+    {
+      "enabled": false,
+      "id": "comment.export",
+      "label": "Export all comments to data file…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "comment.hide_all",
+      "label": "Hide all comments",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "hidden": {
+            "description": "Default true.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "comments_hide"
+    },
+    {
+      "enabled": false,
+      "id": "comment.summarize",
+      "label": "Summarize comments",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "open": {
+            "description": "Also open the result as a new document (default: only when out is omitted).",
+            "type": "boolean"
+          },
+          "out": {
+            "description": "File to write. Omit to open the result as a new unsaved document instead.",
+            "type": "string"
+          },
+          "sort": {
+            "enum": [
+              "page",
+              "author",
+              "date",
+              "type"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "comments_summarize"
+    },
+    {
+      "enabled": false,
+      "id": "form.import_data",
+      "label": "Import form data…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.export_data",
+      "label": "Export form data…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "standards.pdfa",
+      "label": "PDF/A…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "level": {
+            "description": "Default 2b.",
+            "enum": [
+              "2b",
+              "3b"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "pdfa_verify"
+    },
+    {
+      "enabled": true,
+      "id": "actions.wizard",
+      "label": "Action Wizard…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "action_list"
+    },
+    {
+      "enabled": true,
+      "id": "actions.distribution",
+      "label": "Prepare for distribution…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "actions.optimize_scans",
+      "label": "Optimize scanned documents…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "doc.compare",
+      "label": "Compare files…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "limit": {
+            "description": "List at most this many changes (default 500).",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "other": {
+            "description": "The older document (from doc_open).",
+            "type": "integer"
+          },
+          "visual": {
+            "description": "Also compare how pages look (page n with page n): regions that differ visually.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "doc",
+          "other"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_compare"
+    },
+    {
+      "enabled": false,
+      "id": "form.detect",
+      "label": "Detect form fields",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "add": {
+            "type": "boolean"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "pages": {
+            "description": "1-based page numbers to look at (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "form_detect_fields"
+    },
+    {
+      "enabled": true,
+      "id": "form.merge_data",
+      "label": "Merge data files into spreadsheet…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "paths": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "paths",
+          "path"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "form_merge_data"
+    },
+    {
+      "enabled": false,
+      "id": "form.flatten",
+      "label": "Flatten form fields",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.prepare",
+      "label": "Prepare a form",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "event": {
+            "enum": [
+              "keystroke",
+              "format",
+              "validate",
+              "calculate",
+              "mouse_up"
+            ],
+            "type": "string"
+          },
+          "field": {
+            "type": "string"
+          },
+          "script": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "field",
+          "event"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "form_set_script"
+    },
+    {
+      "enabled": false,
+      "id": "form.tab_order.row",
+      "label": "Tab order: by rows",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.tab_order.column",
+      "label": "Tab order: by columns",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.tab_order.structure",
+      "label": "Tab order: by document structure",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "edit.text",
+      "label": "Add text",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "align": {
+            "enum": [
+              "left",
+              "center",
+              "right",
+              "justify"
+            ],
+            "type": "string"
+          },
+          "at": {
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "type": "array"
+          },
+          "bold": {
+            "type": "boolean"
+          },
+          "color": {
+            "type": "string"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "font": {
+            "enum": [
+              "helvetica",
+              "times",
+              "courier"
+            ],
+            "type": "string"
+          },
+          "italic": {
+            "type": "boolean"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "rect": {
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 4,
+            "minItems": 4,
+            "type": "array"
+          },
+          "size": {
+            "maximum": 500,
+            "minimum": 1,
+            "type": "number"
+          },
+          "text": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "width": {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          }
+        },
+        "required": [
+          "doc",
+          "page",
+          "text"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "page_add_text"
+    },
+    {
+      "enabled": false,
+      "id": "edit.edit_text",
+      "label": "Edit text & images",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc",
+          "page"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "text_lines"
+    },
+    {
+      "enabled": false,
+      "id": "edit.link",
+      "label": "Add or edit links",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "color": {
+            "type": "string"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "highlight": {
+            "enum": [
+              "none",
+              "invert",
+              "outline",
+              "inset"
+            ],
+            "type": "string"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "rect": {
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 4,
+            "minItems": 4,
+            "type": "array"
+          },
+          "to_page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "url": {
+            "type": "string"
+          },
+          "visible": {
+            "type": "boolean"
+          },
+          "width": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "doc",
+          "page",
+          "rect"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "link_add"
+    },
+    {
+      "enabled": false,
+      "id": "edit.links_from_urls",
+      "label": "Create links from URLs",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "links_from_urls"
+    },
+    {
+      "enabled": false,
+      "id": "edit.remove_links",
+      "label": "Remove all links",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "pages": {
+            "description": "1-based page numbers whose links to remove (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "links_remove"
+    },
+    {
+      "enabled": false,
+      "id": "edit.bates",
+      "label": "Add Bates numbering…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "edit.image",
+      "label": "Add image…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "path": {
+            "type": "string"
+          },
+          "rect": {
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 4,
+            "minItems": 4,
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc",
+          "page",
+          "path"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "page_add_image"
+    },
+    {
+      "enabled": false,
+      "id": "redact.mark",
+      "label": "Redact text and images",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "redact.pages",
+      "label": "Redact pages…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "redact.search",
+      "label": "Find text and redact…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "redact.properties",
+      "label": "Redaction properties…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "redact.apply",
+      "label": "Apply redactions…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "redact.clear",
+      "label": "Clear redaction marks",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "protect.remove_hidden",
+      "label": "Remove hidden information…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "redact.sanitize",
+      "label": "Sanitize document…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.field.properties",
+      "label": "Field properties…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.add.text",
+      "label": "Add a text field",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.add.checkbox",
+      "label": "Add a checkbox",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.add.radio",
+      "label": "Add a radio button",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.add.combo",
+      "label": "Add a drop-down list",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.add.list",
+      "label": "Add a list box",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.add.button",
+      "label": "Add a button",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.add.image",
+      "label": "Add an image field",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.add.date",
+      "label": "Add a date field",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "form.add.signature",
+      "label": "Add a digital signature field",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "sign.digital",
+      "label": "Digitally sign",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "sign_windows_ids"
+    },
+    {
+      "enabled": false,
+      "id": "sign.certify",
+      "label": "Certify (visible signature)",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "sign.certify_invisible",
+      "label": "Certify (invisible signature)",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "sign.validate",
+      "label": "Validate all signatures",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "sign.panel",
+      "label": "Signatures panel",
+      "menu": "View",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "sign.fill.text",
+      "label": "Fill & Sign: add text",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "at": {
+            "description": "[x, y] in points from the top-left of the displayed page.",
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "type": "array"
+          },
+          "author": {
+            "type": "string"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "font_size": {
+            "description": "For type text or date (default 10 pt).",
+            "maximum": 300,
+            "minimum": 4,
+            "type": "number"
+          },
+          "format": {
+            "description": "For type date: this pattern instead of the date-format preference, e.g. \"dd.mm.yyyy\".",
+            "type": "string"
+          },
+          "language": {
+            "description": "For type date: month and weekday names in this language code (see fill_sign_date_format) instead of the preference.",
+            "type": "string"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "path": {
+            "description": "PNG or JPEG for signature/initials; pass either path or text.",
+            "type": "string"
+          },
+          "scan": {
+            "description": "With path: scan a photo of a signature on paper (default false).",
+            "type": "boolean"
+          },
+          "sensitivity": {
+            "description": "With scan: how faint ink may be, 0–100 (default 50).",
+            "maximum": 100,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "text": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "text",
+              "check",
+              "cross",
+              "dot",
+              "line",
+              "date",
+              "signature",
+              "initials"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "page",
+          "type",
+          "at"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "fill_sign_add"
+    },
+    {
+      "enabled": false,
+      "id": "sign.fill.check",
+      "label": "Fill & Sign: checkmark",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "sign.fill.cross",
+      "label": "Fill & Sign: cross",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "sign.fill.dot",
+      "label": "Fill & Sign: dot",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "sign.fill.line",
+      "label": "Fill & Sign: line",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "sign.fill.date",
+      "label": "Fill & Sign: date",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "sign.fill.signature",
+      "label": "Fill & Sign: sign",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "sign.fill.initials",
+      "label": "Fill & Sign: initials",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "sign.fill.signature.change",
+      "label": "Fill & Sign: change signature",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "sign.fill.signature.remove",
+      "label": "Fill & Sign: remove saved signature",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "sign.fill.initials.remove",
+      "label": "Fill & Sign: remove saved initials",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "sign.fill.initials.change",
+      "label": "Fill & Sign: change initials",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "export.image",
+      "label": "Export to image…",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "dpi": {
+            "maximum": 1200,
+            "minimum": 18,
+            "type": "number"
+          },
+          "folder": {
+            "type": "string"
+          },
+          "format": {
+            "enum": [
+              "png",
+              "jpeg",
+              "tiff"
+            ],
+            "type": "string"
+          },
+          "pages": {
+            "description": "1-based page numbers to export (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "quality": {
+            "description": "JPEG quality (default 85).",
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc",
+          "folder"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_export_images"
+    },
+    {
+      "enabled": false,
+      "id": "optimize.reduce",
+      "label": "Reduce file size…",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "path"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_reduce"
+    },
+    {
+      "enabled": false,
+      "id": "optimize.advanced",
+      "label": "Optimize PDF…",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_audit_space"
+    },
+    {
+      "enabled": false,
+      "id": "export.text",
+      "label": "Export to text…",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "pages": {
+            "description": "1-based page numbers to export (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "path"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_export_text"
+    },
+    {
+      "enabled": false,
+      "id": "export.docx",
+      "label": "Export to Word…",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "path"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_export_office"
+    },
+    {
+      "enabled": false,
+      "id": "export.pptx",
+      "label": "Export to PowerPoint…",
+      "menu": "File",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "export.html",
+      "label": "Export to HTML…",
+      "menu": "File",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "export.rtf",
+      "label": "Export to RTF…",
+      "menu": "File",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "app.preferences",
+      "label": "Preferences…",
+      "menu": "Edit",
+      "params": null,
+      "shortcut": "Ctrl+,",
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "tools.js_console",
+      "label": "JavaScript console…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "field": {
+            "description": "Run as this button's Mouse Up event.",
+            "type": "string"
+          },
+          "script": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "script"
+        ],
+        "type": "object"
+      },
+      "shortcut": "Ctrl+J",
+      "tool": "js_run"
+    },
+    {
+      "enabled": false,
+      "id": "tools.document_js",
+      "label": "Document JavaScripts…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "js_document_scripts"
+    },
+    {
+      "enabled": false,
+      "id": "ocr.recognize",
+      "label": "Recognize text…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "dpi": {
+            "description": "Resolution pages are read at (default 300; a scanned page is read at most at its own resolution).",
+            "maximum": 600,
+            "minimum": 72,
+            "type": "number"
+          },
+          "language": {
+            "description": "Document language (default en).",
+            "enum": [
+              "en"
+            ],
+            "type": "string"
+          },
+          "pages": {
+            "description": "1-based page numbers to recognise (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "skip_text_pages": {
+            "description": "Leave pages that already contain text alone (default true). false also reads pictures on such pages, without adding their text again.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "ocr_recognize"
+    },
+    {
+      "enabled": false,
+      "id": "ocr.enhance_camera",
+      "label": "Enhance camera image",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "corners": {
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 8,
+            "minItems": 8,
+            "type": "array"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "level": {
+            "maximum": 100,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "mode": {
+            "enum": [
+              "original",
+              "colour",
+              "greyscale",
+              "bw"
+            ],
+            "type": "string"
+          },
+          "page": {
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc",
+          "page"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "page_enhance_camera"
+    },
+    {
+      "enabled": true,
+      "id": "ocr.recognize_batch",
+      "label": "Recognize text in multiple files…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "dpi": {
+            "maximum": 600,
+            "minimum": 72,
+            "type": "number"
+          },
+          "folder": {
+            "type": "string"
+          },
+          "language": {
+            "enum": [
+              "en"
+            ],
+            "type": "string"
+          },
+          "paths": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "skip_text_pages": {
+            "description": "Leave pages that already contain text alone (default true); see ocr_recognize.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "paths",
+          "folder"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "ocr_recognize_files"
+    },
+    {
+      "enabled": false,
+      "id": "a11y.check",
+      "label": "Check for accessibility…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "all": {
+            "description": "Include rules that are off by default (colour contrast).",
+            "type": "boolean"
+          },
+          "categories": {
+            "items": {
+              "enum": [
+                "document",
+                "page_content",
+                "forms",
+                "alternate_text",
+                "tables",
+                "lists",
+                "headings"
+              ],
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "pages": {
+            "description": "1-based page numbers for the page rules (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "rules": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "accessibility_check"
+    },
+    {
+      "enabled": false,
+      "id": "a11y.report",
+      "label": "Open accessibility report",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "all": {
+            "type": "boolean"
+          },
+          "categories": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "pages": {
+            "description": "1-based page numbers for the page rules (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "path": {
+            "type": "string"
+          },
+          "rules": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc",
+          "path"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "accessibility_report"
+    },
+    {
+      "enabled": false,
+      "id": "a11y.reading_options",
+      "label": "Change reading options…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "background": {
+            "description": "With mode custom: the background colour, #RRGGBB.",
+            "type": "string"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "line_art": {
+            "description": "Also map line-art paints. Default true.",
+            "type": "boolean"
+          },
+          "mode": {
+            "enum": [
+              "off",
+              "black-on-white",
+              "white-on-black",
+              "yellow-on-black",
+              "green-on-black",
+              "custom"
+            ],
+            "type": "string"
+          },
+          "only_black": {
+            "description": "Map only near-black paints. Default false.",
+            "type": "boolean"
+          },
+          "text": {
+            "description": "With mode custom: the text colour, #RRGGBB.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "mode"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "view_reading_colors"
+    },
+    {
+      "enabled": false,
+      "id": "a11y.alt_text",
+      "label": "Add alternate text…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "accessibility_figures"
+    },
+    {
+      "enabled": false,
+      "id": "a11y.tags",
+      "label": "Tags panel",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "accessibility_tags"
+    },
+    {
+      "enabled": false,
+      "id": "export.all_images",
+      "label": "Export all images…",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "folder": {
+            "type": "string"
+          },
+          "min_size": {
+            "description": "Skip images smaller than this many pixels on their shorter side (default 0).",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "pages": {
+            "description": "1-based page numbers whose images to export (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc",
+          "folder"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_export_all_images"
+    },
+    {
+      "enabled": false,
+      "id": "edit.header_footer",
+      "label": "Add header & footer…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "color": {
+            "description": "#RRGGBB or a colour name.",
+            "type": "string"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "font_size": {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          },
+          "footer_center": {
+            "type": "string"
+          },
+          "footer_left": {
+            "type": "string"
+          },
+          "footer_right": {
+            "type": "string"
+          },
+          "header_center": {
+            "type": "string"
+          },
+          "header_left": {
+            "type": "string"
+          },
+          "header_right": {
+            "type": "string"
+          },
+          "margins": {
+            "description": "Top, bottom, left, right in points (default 36, 36, 72, 72).",
+            "items": {
+              "minimum": 0,
+              "type": "number"
+            },
+            "maxItems": 4,
+            "minItems": 4,
+            "type": "array"
+          },
+          "pages": {
+            "description": "1-based page numbers to mark (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "replace": {
+            "type": "boolean"
+          },
+          "start_number": {
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_header_footer"
+    },
+    {
+      "enabled": false,
+      "id": "edit.header_footer.update",
+      "label": "Update header & footer…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "edit.header_footer.remove",
+      "label": "Remove header & footer",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "edit.watermark",
+      "label": "Add watermark…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "behind": {
+            "type": "boolean"
+          },
+          "color": {
+            "type": "string"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "file": {
+            "type": "string"
+          },
+          "file_page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "font_size": {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          },
+          "offset_x": {
+            "description": "Points right of the page centre (negative: left).",
+            "type": "number"
+          },
+          "offset_y": {
+            "description": "Points above the page centre (negative: below).",
+            "type": "number"
+          },
+          "opacity": {
+            "maximum": 1,
+            "minimum": 0,
+            "type": "number"
+          },
+          "pages": {
+            "description": "1-based page numbers to mark (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "replace": {
+            "type": "boolean"
+          },
+          "rotation": {
+            "type": "number"
+          },
+          "scale": {
+            "exclusiveMinimum": 0,
+            "maximum": 1,
+            "type": "number"
+          },
+          "text": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_watermark"
+    },
+    {
+      "enabled": false,
+      "id": "edit.watermark.update",
+      "label": "Update watermark…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "edit.watermark.remove",
+      "label": "Remove watermark",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "edit.background",
+      "label": "Add background…",
+      "menu": null,
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "color": {
+            "type": "string"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "file": {
+            "type": "string"
+          },
+          "file_page": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "opacity": {
+            "maximum": 1,
+            "minimum": 0,
+            "type": "number"
+          },
+          "pages": {
+            "description": "1-based page numbers to fill (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "replace": {
+            "type": "boolean"
+          },
+          "scale": {
+            "exclusiveMinimum": 0,
+            "maximum": 1,
+            "type": "number"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_background"
+    },
+    {
+      "enabled": false,
+      "id": "edit.background.update",
+      "label": "Update background…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "edit.background.remove",
+      "label": "Remove background",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "protect.password",
+      "label": "Protect using password…",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "accessibility": {
+            "description": "Allow screen readers to read the text (needs permissions_password; default true).",
+            "type": "boolean"
+          },
+          "changes": {
+            "description": "Needs permissions_password. Default none.",
+            "enum": [
+              "none",
+              "pages",
+              "fill-sign",
+              "comment-fill-sign",
+              "any-except-extract"
+            ],
+            "type": "string"
+          },
+          "compatibility": {
+            "description": "Default aes-256 (Acrobat X and later).",
+            "enum": [
+              "aes-256",
+              "aes-128",
+              "rc4-128",
+              "rc4-40"
+            ],
+            "type": "string"
+          },
+          "copy": {
+            "description": "Allow copying text and images (needs permissions_password; default false).",
+            "type": "boolean"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "encrypt_metadata": {
+            "description": "Default true.",
+            "type": "boolean"
+          },
+          "open_password": {
+            "description": "Required to open the document. On its own it restricts nothing.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "permissions_password": {
+            "description": "Required to change security; enables printing/changes/copy/accessibility and their defaults.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "printing": {
+            "description": "Needs permissions_password. Default high.",
+            "enum": [
+              "none",
+              "low",
+              "high"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_protect"
+    },
+    {
+      "enabled": false,
+      "id": "protect.remove",
+      "label": "Remove security",
+      "menu": "File",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_unprotect"
+    },
+    {
+      "enabled": false,
+      "id": "protect.unlock",
+      "label": "Enter permissions password…",
+      "menu": null,
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "protect.properties",
+      "label": "Security properties…",
+      "menu": "File",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "page.organize",
+      "label": "Organize pages",
+      "menu": "Pages",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "bookmark.add",
+      "label": "New bookmark",
+      "menu": "Pages",
+      "params": null,
+      "shortcut": "Ctrl+B",
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "bookmark.from_structure",
+      "label": "New bookmarks from structure",
+      "menu": "Pages",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "page.rotate",
+      "label": "Rotate pages clockwise",
+      "menu": "Pages",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "degrees": {
+            "type": "integer"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "orientation": {
+            "enum": [
+              "all",
+              "landscape",
+              "portrait"
+            ],
+            "type": "string"
+          },
+          "pages": {
+            "description": "1-based page numbers to rotate (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "subset": {
+            "enum": [
+              "all",
+              "even",
+              "odd"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "degrees"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "page_rotate"
+    },
+    {
+      "enabled": false,
+      "id": "page.rotate_ccw",
+      "label": "Rotate pages counterclockwise",
+      "menu": "Pages",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "page.delete",
+      "label": "Delete pages",
+      "menu": "Pages",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "pages": {
+            "description": "1-based page numbers to delete.",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc",
+          "pages"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "page_delete"
+    },
+    {
+      "enabled": false,
+      "id": "page.insert_blank",
+      "label": "Insert blank page",
+      "menu": "Pages",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "at": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "height": {
+            "description": "Points.",
+            "type": "number"
+          },
+          "width": {
+            "description": "Points.",
+            "type": "number"
+          }
+        },
+        "required": [
+          "doc",
+          "at"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "page_insert_blank"
+    },
+    {
+      "enabled": false,
+      "id": "page.rotate_dialog",
+      "label": "Rotate pages…",
+      "menu": "Pages",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "page.duplicate",
+      "label": "Duplicate pages",
+      "menu": "Pages",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "pages": {
+            "description": "1-based page numbers to duplicate.",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc",
+          "pages"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "page_duplicate"
+    },
+    {
+      "enabled": false,
+      "id": "page.crop",
+      "label": "Crop pages",
+      "menu": "Pages",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": false,
+      "id": "page.boxes",
+      "label": "Set page boxes…",
+      "menu": "Pages",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "box": {
+            "enum": [
+              "crop",
+              "trim",
+              "bleed",
+              "art",
+              "media"
+            ],
+            "type": "string"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "margins": {
+            "items": {
+              "minimum": 0,
+              "type": "number"
+            },
+            "maxItems": 4,
+            "minItems": 4,
+            "type": "array"
+          },
+          "pages": {
+            "description": "1-based page numbers to change (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "rect": {
+            "items": {
+              "type": "number"
+            },
+            "maxItems": 4,
+            "minItems": 4,
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "page_set_box"
+    },
+    {
+      "enabled": false,
+      "id": "page.insert",
+      "label": "Insert pages from file…",
+      "menu": "Pages",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "at": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "pages": {
+            "description": "1-based page numbers of the source file (default: all).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "path",
+          "at"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "page_insert_file"
+    },
+    {
+      "enabled": false,
+      "id": "page.replace",
+      "label": "Replace pages…",
+      "menu": "Pages",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "from_pages": {
+            "description": "1-based page numbers of the other file, in order (default: its first pages).",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "pages": {
+            "description": "1-based page numbers to replace.",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "path": {
+            "description": "A file path (relative to --root when set).",
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "pages",
+          "path"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "page_replace"
+    },
+    {
+      "enabled": false,
+      "id": "page.extract",
+      "label": "Extract pages…",
+      "menu": "Pages",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "delete": {
+            "type": "boolean"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "open": {
+            "description": "Also open the result as a new document (default: only when out is omitted).",
+            "type": "boolean"
+          },
+          "out": {
+            "description": "File to write. Omit to open the result as a new unsaved document instead.",
+            "type": "string"
+          },
+          "out_dir": {
+            "type": "string"
+          },
+          "pages": {
+            "description": "1-based page numbers to extract.",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "separate": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "doc",
+          "pages"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "page_extract"
+    },
+    {
+      "enabled": false,
+      "id": "page.split",
+      "label": "Split document…",
+      "menu": "Pages",
+      "params": {
+        "additionalProperties": false,
+        "properties": {
+          "before": {
+            "description": "1-based page numbers that start a new part.",
+            "items": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "bookmarks": {
+            "type": "boolean"
+          },
+          "doc": {
+            "description": "Document id from doc_open or doc_list.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "every": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "max_mb": {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          },
+          "out_dir": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "doc",
+          "out_dir"
+        ],
+        "type": "object"
+      },
+      "shortcut": null,
+      "tool": "doc_split"
+    },
+    {
+      "enabled": false,
+      "id": "page.number",
+      "label": "Number pages…",
+      "menu": "Pages",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "help.shortcuts",
+      "label": "Keyboard shortcuts",
+      "menu": "Help",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "help.discord",
+      "label": "Contact the Developer",
+      "menu": "Help",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "help.app_page",
+      "label": "Watheeq web page",
+      "menu": "Help",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "help.github",
+      "label": "Watheeq on GitHub",
+      "menu": "Help",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "help.website",
+      "label": "Warsha website",
+      "menu": "Help",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "help.check_updates",
+      "label": "Check for updates…",
+      "menu": "Help",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    },
+    {
+      "enabled": true,
+      "id": "help.about",
+      "label": "About Watheeq",
+      "menu": "Help",
+      "params": null,
+      "shortcut": null,
+      "tool": null
+    }
+  ]
+}

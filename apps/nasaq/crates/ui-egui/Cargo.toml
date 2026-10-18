@@ -1,0 +1,44 @@
+[package]
+name = "nasaq-ui-egui"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Nasaq egui frontend (InDesign-style UI); swappable — nothing below depends on it"
+
+[lints]
+workspace = true
+
+[dependencies]
+warsha-ui = { workspace = true }
+nasaq-geom = { workspace = true }
+nasaq-color = { workspace = true }
+nasaq-doc = { workspace = true }
+nasaq-fonts = { workspace = true }
+nasaq-compose = { workspace = true }
+nasaq-render = { workspace = true }
+nasaq-tools = { workspace = true }
+nasaq-engine = { workspace = true }
+unicode-bidi = { workspace = true }
+unicode-bidi-mirroring = { workspace = true }
+unicode-segmentation = { workspace = true }
+regex = { workspace = true }
+egui = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+log = { workspace = true }
+
+[dev-dependencies]
+nasaq-idml = { workspace = true }
+zip = { workspace = true }
+# Headless (offscreen wgpu) rendering of the whole window for UI screenshots: `examples/ui_shot.rs`.
+egui_kittest = { workspace = true, features = ["wgpu", "snapshot"] }
+nasaq-fonts = { workspace = true, features = ["testing"] }
+
+[build-dependencies]
+serde_json = { workspace = true }
+toml = "1"
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+# Warsha (ورشة): the in-app AI assistant panel.
+warsha-assistant = { path = "../../../../shared/assistant" }

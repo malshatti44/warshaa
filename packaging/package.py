@@ -29,40 +29,40 @@ ICONS = ROOT / "icons" / "apps"
 PUBLISHER = "محمد الشطي — malshatti.com"
 REPO = "https://github.com/malshatti44/warshaa"
 
-# repo, binary, Arabic name, Latin name, what it is (Arabic), based on
+# app id (folder and program name), Arabic name, Latin name, what it is (Arabic)
 APPS = [
-    ("photocraft", "photocraft", "ريتوش", "Retoush", "تحرير الصور", "PhotoCraft"),
-    ("vectorcraft", "vectorcraft", "ريشة", "Reesha", "الرسم المتجهي", "VectorCraft"),
-    ("filmcraft", "filmcraft", "مونتير", "Monteer", "مونتاج الفيديو", "FilmCraft"),
-    ("lightcraft", "lightcraft", "طيف", "Tayf", "مكتبة الصور ومعالجة RAW", "LightCraft"),
-    ("pdfcraft", "pdfcraft", "وثيق", "Watheeq", "ملفات PDF", "PdfCraft"),
-    ("effectcraft", "effectcraft", "ومضة", "Wamda", "الرسوم المتحركة والمؤثرات", "EffectCraft"),
-    ("designcraft", "designcraft", "نسق", "Nasaq", "تنسيق الصفحات والنشر", "DesignCraft"),
-    ("wordcraft", "wordcraft", "سطر", "Satr", "معالجة النصوص", "WordCraft"),
-    ("deckcraft", "deckcraft", "منبر", "Minbar", "العروض التقديمية", "DeckCraft"),
-    ("gridcraft", "gridcraft", "كشف", "Kashf", "الجداول الحسابية", "GridCraft"),
-    ("cadcraft", "cadcraft", "مخطط", "Mukhattat", "التصميم الهندسي CAD", "CADCraft"),
-    ("soundcraft", "soundcraft", "صدى", "Sada", "تحرير الصوت", "SoundCraft"),
+    ("retoush", "ريتوش", "Retoush", "تحرير الصور"),
+    ("reesha", "ريشة", "Reesha", "الرسم المتجهي"),
+    ("monteer", "مونتير", "Monteer", "مونتاج الفيديو"),
+    ("tayf", "طيف", "Tayf", "مكتبة الصور ومعالجة RAW"),
+    ("watheeq", "وثيق", "Watheeq", "ملفات PDF"),
+    ("wamda", "ومضة", "Wamda", "الرسوم المتحركة والمؤثرات"),
+    ("nasaq", "نسق", "Nasaq", "تنسيق الصفحات والنشر"),
+    ("satr", "سطر", "Satr", "معالجة النصوص"),
+    ("minbar", "منبر", "Minbar", "العروض التقديمية"),
+    ("kashf", "كشف", "Kashf", "الجداول الحسابية"),
+    ("mukhattat", "مخطط", "Mukhattat", "التصميم الهندسي CAD"),
+    ("sada", "صدى", "Sada", "تحرير الصوت"),
 ]
-LAUNCHER = ("craft-launcher", "artcraft-launcher", "ورشة", "Warsha", "منصة تثبيت التطبيقات وتحديثها", "ArtCraft Launcher")
+LAUNCHER = ("warsha", "ورشة", "Warsha", "منصة تثبيت التطبيقات وتحديثها")
 
 README = """{ar} — {what}
 جزء من منصة «ورشة» WARSHA
 
-تعريب وتطوير: محمد الشطي
+تصميم وتطوير: محمد الشطي
 الموقع: https://malshatti.com
 البريد: info@malshatti.com
 الشيفرة المصدرية: {repo}
 
-هذا التطبيق نسخة عربية معدّلة من {based} (مشروع ArtCraft مفتوح المصدر)، مرخّصة
-بموجب MIT أو Apache-2.0 (انظر LICENSE-MIT وLICENSE-APACHE وNOTICE). ليست منتجاً
-رسمياً من فريق ArtCraft ولا يتبنّاها الفريق.
+مبني على برمجيات مفتوحة المصدر ومرخّص بموجب MIT أو Apache-2.0
+(انظر LICENSE-MIT وLICENSE-APACHE، وحقوق المؤلفين الأصليين في NOTICE).
 
 ---------------------------------------------------------------------------------
 {latin} — part of the Warsha (ورشة) suite.
-Arabic edition and development: Mohammed Al-Shatti — https://malshatti.com — info@malshatti.com
+Designed and developed by Mohammad Al Shatti — https://malshatti.com — info@malshatti.com
 Source: {repo}
-Based on {based} by the ArtCraft team (MIT OR Apache-2.0). Not an ArtCraft product.
+Built on open-source software, MIT OR Apache-2.0 (LICENSE-MIT, LICENSE-APACHE; the original
+authors' copyright is in NOTICE).
 """
 
 
@@ -71,37 +71,45 @@ def app_guid(name):
 
 
 def stage(app, version):
-    repo, binary, ar, latin, what, based = app
+    repo, ar, latin, what = app
     d = STAGE / repo
     shutil.rmtree(d, ignore_errors=True)
     d.mkdir(parents=True)
-    exe = BIN / f"{binary}.exe"
+    exe = BIN / f"{repo}.exe"
     if not exe.exists():
         raise SystemExit(f"missing {exe}")
-    shutil.copy2(exe, d / f"{binary}.exe")
+    shutil.copy2(exe, d / f"{repo}.exe")
     # The AI link: each app's MCP server beside it; the bridge AI apps start, beside Warsha.
-    extra = "warsha-mcp.exe" if repo == "craft-launcher" else f"{binary}-cli.exe"
+    extra = "warsha-mcp.exe" if repo == "warsha" else f"{repo}-cli.exe"
     if not (BIN / extra).exists():
         raise SystemExit(f"missing {BIN / extra}")
     shutil.copy2(BIN / extra, d / extra)
     for f in ("LICENSE-MIT", "LICENSE-APACHE", "NOTICE"):
         if (UP / repo / f).exists():
             shutil.copy2(UP / repo / f, d / f)
-    (d / "README-Warsha.txt").write_text(README.format(ar=ar, what=what, latin=latin, based=based, repo=REPO), encoding="utf-8-sig")
+    (d / "README-Warsha.txt").write_text(README.format(ar=ar, what=what, latin=latin, repo=REPO), encoding="utf-8-sig")
+    # Satr's Arabic spelling dictionary (Ayaspell, GPL/LGPL/MPL, with its license and authors).
+    if repo == "satr":
+        dicts = ROOT / "shared" / "dictionaries"
+        if not (dicts / "ar_warsha.dic").exists():
+            raise SystemExit(f"missing {dicts / 'ar_warsha.dic'}")
+        (d / "dictionaries").mkdir()
+        for f in dicts.glob("ar_warsha*"):
+            shutil.copy2(f, d / "dictionaries" / f.name)
     return d
 
 
 def portable_zip(app, version, d):
-    repo, binary = app[0], app[1]
-    stem = binary  # the launcher matches assets by its app id (artcraft-launcher for itself)
-    z = DIST / f"{stem}-{version}-windows-x64-portable.zip"
+    # The launcher matches release assets by app id.
+    z = DIST / f"{app[0]}-{version}-windows-x64-portable.zip"
     with zipfile.ZipFile(z, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
-        for f in sorted(d.iterdir()):
-            zf.write(f, f.name)
+        for f in sorted(d.rglob("*")):
+            if f.is_file():
+                zf.write(f, f.relative_to(d).as_posix())
     return z
 
 
-ISS_APP = r"""; Generated by package.py — {latin} ({ar}), Warsha. تعريب وتطوير: محمد الشطي
+ISS_APP = r"""; Generated by package.py — {latin} ({ar}), Warsha. تصميم وتطوير: محمد الشطي
 [Setup]
 AppId={guid}
 AppName={ar}
@@ -111,8 +119,8 @@ AppPublisher={publisher}
 AppPublisherURL=https://malshatti.com
 AppSupportURL={repo}
 AppUpdatesURL={repo}/releases
-AppCopyright=© 2026 محمد الشطي (Arabic edition) — based on {based} by the ArtCraft team, MIT OR Apache-2.0
-VersionInfoCompany=Mohammed Al-Shatti (malshatti.com)
+AppCopyright=© 2026 محمد الشطي — MIT OR Apache-2.0 (original authors: see NOTICE)
+VersionInfoCompany=Mohammad Al Shatti (malshatti.com)
 VersionInfoDescription={latin} Setup (Warsha)
 VersionInfoProductName={latin}
 VersionInfoVersion={version}
@@ -143,6 +151,10 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 [Tasks]
 Name: "desktopicon"; Description: "{{cm:CreateDesktopIcon}}"; GroupDescription: "{{cm:AdditionalIcons}}"
 
+[InstallDelete]
+; Programs of earlier versions (their names changed in 2.2).
+Type: files; Name: "{{app}}\*.exe"
+
 [Files]
 Source: "{stage}\*"; DestDir: "{{app}}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
@@ -156,10 +168,10 @@ Filename: "{{app}}\{binary}.exe"; Description: "{{cm:LaunchProgram,{ar}}}"; Flag
 
 
 def iss_app(app, version, d):
-    repo, binary, ar, latin, what, based = app
-    icon = ICONS / ("warsha.ico" if repo == "craft-launcher" else f"{repo}.ico")
-    text = ISS_APP.format(guid="{" + app_guid(latin), ar=ar, latin=latin, binary=binary, version=version, publisher=PUBLISHER,
-                          repo=REPO, based=based, out=DIST, icon=icon, stage=d)
+    repo, ar, latin, what = app
+    icon = ICONS / f"{repo}.ico"
+    text = ISS_APP.format(guid="{" + app_guid(latin), ar=ar, latin=latin, binary=repo, version=version, publisher=PUBLISHER,
+                          repo=REPO, out=DIST, icon=icon, stage=d)
     p = DIST / "iss" / f"{latin}.iss"
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(text, encoding="utf-8-sig")
@@ -167,17 +179,18 @@ def iss_app(app, version, d):
 
 
 def iss_suite(version, staged):
-    comps, files, icons = [], [], []
+    comps, files, icons, olds = [], [], [], []
     for app, d in staged:
-        repo, binary, ar, latin, what, based = app
+        repo, ar, latin, what = app
+        olds.append(f'Type: files; Name: "{{app}}\\{latin}\\*.exe"')
         # the launcher (the hub) is always installed; the apps are ticked for a full install
-        if repo == "craft-launcher":
+        if repo == "warsha":
             comps.append(f'Name: "{latin.lower()}"; Description: "{ar} — {what}"; Types: full compact custom; Flags: fixed')
         else:
             comps.append(f'Name: "{latin.lower()}"; Description: "{ar} — {what}"; Types: full custom')
         files.append(f'Source: "{d}\\*"; DestDir: "{{app}}\\{latin}"; Components: {latin.lower()}; Flags: ignoreversion recursesubdirs createallsubdirs')
-        icons.append(f'Name: "{{autoprograms}}\\ورشة\\{ar}"; Filename: "{{app}}\\{latin}\\{binary}.exe"; Components: {latin.lower()}')
-    text = f"""; Generated by package.py — the Warsha (ورشة) suite: every app, pick what to install. تعريب وتطوير: محمد الشطي
+        icons.append(f'Name: "{{autoprograms}}\\ورشة\\{ar}"; Filename: "{{app}}\\{latin}\\{repo}.exe"; Components: {latin.lower()}')
+    text = f"""; Generated by package.py — the Warsha (ورشة) suite: every app, pick what to install. تصميم وتطوير: محمد الشطي
 [Setup]
 AppId={{{app_guid("Warsha Suite")}
 AppName=ورشة WARSHA
@@ -187,7 +200,7 @@ AppPublisher={PUBLISHER}
 AppPublisherURL=https://malshatti.com
 AppSupportURL={REPO}
 AppUpdatesURL={REPO}/releases
-VersionInfoCompany=Mohammed Al-Shatti (malshatti.com)
+VersionInfoCompany=Mohammad Al Shatti (malshatti.com)
 VersionInfoDescription=Warsha Suite Setup
 VersionInfoProductName=Warsha
 VersionInfoVersion={version}
@@ -202,12 +215,12 @@ MinVersion=10.0
 OutputDir={DIST}
 OutputBaseFilename=Warsha-Suite-Setup-{version}-x64
 SetupIconFile={ICONS / "warsha.ico"}
-UninstallDisplayIcon={{app}}\\Warsha\\artcraft-launcher.exe
+UninstallDisplayIcon={{app}}\\Warsha\\warsha.exe
 UninstallDisplayName=ورشة WARSHA
 Compression=lzma2/ultra64
 SolidCompression=yes
 WizardStyle=modern
-LicenseFile={STAGE / "craft-launcher" / "LICENSE-MIT"}
+LicenseFile={STAGE / "warsha" / "LICENSE-MIT"}
 ShowLanguageDialog=yes
 LanguageDetectionMethod=none
 
@@ -234,15 +247,19 @@ Name: "custom"; Description: "{{cm:CustomInstallation}}"; Flags: iscustom
 [Tasks]
 Name: "desktopicon"; Description: "{{cm:CreateDesktopIcon}}"; GroupDescription: "{{cm:AdditionalIcons}}"
 
+[InstallDelete]
+; Programs of earlier versions (their names changed in 2.2).
+{chr(10).join(olds)}
+
 [Files]
 {chr(10).join(files)}
 
 [Icons]
 {chr(10).join(icons)}
-Name: "{{autodesktop}}\\ورشة"; Filename: "{{app}}\\Warsha\\artcraft-launcher.exe"; Tasks: desktopicon
+Name: "{{autodesktop}}\\ورشة"; Filename: "{{app}}\\Warsha\\warsha.exe"; Tasks: desktopicon
 
 [Run]
-Filename: "{{app}}\\Warsha\\artcraft-launcher.exe"; Description: "{{cm:LaunchProgram,ورشة}}"; Flags: nowait postinstall skipifsilent
+Filename: "{{app}}\\Warsha\\warsha.exe"; Description: "{{cm:LaunchProgram,ورشة}}"; Flags: nowait postinstall skipifsilent
 """
     p = DIST / "iss" / "Warsha-Suite.iss"
     p.write_text(text, encoding="utf-8-sig")
@@ -274,8 +291,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--version", default="1.0.0")
     ap.add_argument("--skip-installers", action="store_true")
+    ap.add_argument("--dist", help="output folder (default dist/; its zips and installers are replaced)")
     a = ap.parse_args()
-    DIST.mkdir(exist_ok=True)
+    global DIST, STAGE
+    if a.dist:
+        DIST = Path(a.dist).resolve()
+        STAGE = DIST / "stage"
+    DIST.mkdir(parents=True, exist_ok=True)
     for old in list(DIST.glob("*.zip")) + list(DIST.glob("*.exe")):
         old.unlink()
     staged = []
@@ -283,12 +305,12 @@ def main():
         d = stage(app, a.version)
         staged.append((app, d))
         z = portable_zip(app, a.version, d)
-        print(f"{app[3]:10s} {z.name} {z.stat().st_size / 1e6:.1f} MB")
+        print(f"{app[2]:10s} {z.name} {z.stat().st_size / 1e6:.1f} MB")
         if not a.skip_installers:
             compile_iss(iss_app(app, a.version, d))
     if not a.skip_installers:
         # launcher first in the suite: it is the hub and always installed
-        compile_iss(iss_suite(a.version, [s for s in staged if s[0][0] == "craft-launcher"] + [s for s in staged if s[0][0] != "craft-launcher"]))
+        compile_iss(iss_suite(a.version, [s for s in staged if s[0][0] == "warsha"] + [s for s in staged if s[0][0] != "warsha"]))
     files = sorted(list(DIST.glob("*.zip")) + list(DIST.glob("*.exe")))
     lines = [f"{sha256(f)}  {f.name}" for f in files]
     # LF endings, so `sha256sum -c` reads it on Linux and macOS too

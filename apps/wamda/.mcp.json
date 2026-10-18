@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "wamda": {
+      "command": "cargo",
+      "args": ["run", "--quiet", "--release", "-p", "wamda-cli", "--", "mcp", "--demo"]
+    },
+    "wamda-app": {
+      "command": "cargo",
+      "args": ["run", "--quiet", "--release", "-p", "wamda-cli", "--", "mcp", "--bridge", "9877"]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+[package]
+name = "minbar-mcp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Minbar MCP server: JSON-RPC 2.0 over stdio, driving a running app or a headless session"
+
+[lints]
+workspace = true
+
+[dependencies]
+minbar-engine = { workspace = true }
+minbar-render = { workspace = true }
+serde_json = { workspace = true }
+log = { workspace = true }

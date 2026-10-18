@@ -1,6 +1,6 @@
-"""Write the Arabic tables of the apps whose catalogs are Rust source (designcraft, gridcraft).
+"""Write the Arabic tables of the apps whose catalogs are Rust source (nasaq, kashf).
 
-  python gen_rs.py [designcraft] [gridcraft]
+  python gen_rs.py [nasaq] [kashf]
 """
 import json
 import pathlib
@@ -10,7 +10,7 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from tm import KEYS, key_of, load_tm, is_untranslatable  # noqa: E402
 
-UP = pathlib.Path(r"E:\craft-ar\upstream")
+UP = pathlib.Path(r"E:\warsha-src\upstream")
 CREDIT = "تعريب وتطوير: محمد الشطي — https://malshatti.com — info@malshatti.com"
 LIT = r'"((?:[^"\\]|\\.)*)"'
 
@@ -52,20 +52,20 @@ def rows(app):
     return out, missing
 
 
-def designcraft():
-    pairs, missing = rows("designcraft")
+def nasaq():
+    pairs, missing = rows("nasaq")
     body = "".join(f"    ({rust(a)}, {rust(b)}),\n" for a, b in pairs)
     text = (f"//! Arabic interface translations, stored in logical Unicode order. {CREDIT}\n"
             "pub(super) const TABLE: &[(&str, &str)] = &[\n" + body + "];\n")
-    p = UP / "designcraft/crates/ui-egui/src/i18n/ar.rs"
+    p = UP / "nasaq/crates/ui-egui/src/i18n/ar.rs"
     p.write_text(text, encoding="utf-8", newline="\n")
-    print(f"designcraft: {len(pairs)} rows, {len(missing)} missing -> {p}")
+    print(f"nasaq: {len(pairs)} rows, {len(missing)} missing -> {p}")
 
 
-def gridcraft():
-    pairs, missing = rows("gridcraft")
+def kashf():
+    pairs, missing = rows("kashf")
     # The Japanese table in i18n.rs may hold labels the per-language files lack: report them.
-    src = (UP / "gridcraft/crates/ui-egui/src/i18n.rs").read_text(encoding="utf-8")
+    src = (UP / "kashf/crates/ui-egui/src/i18n.rs").read_text(encoding="utf-8")
     ja = re.findall(r"\(\s*" + LIT + r"\s*,\s*" + LIT + r"\s*\)", src.split("#[cfg(test)]")[0])
     have = {a for a, _ in pairs}
     def unrust(t):
@@ -77,17 +77,17 @@ def gridcraft():
             "//! Anything absent falls back to English.\n\n"
             "pub(super) fn translate(text: &str) -> Option<&'static str> {\n"
             "    Some(match text {\n" + body + "        _ => return None,\n    })\n}\n")
-    p = UP / "gridcraft/crates/ui-egui/src/i18n/ar.rs"
+    p = UP / "kashf/crates/ui-egui/src/i18n/ar.rs"
     p.write_text(text, encoding="utf-8", newline="\n")
-    print(f"gridcraft: {len(pairs)} rows, {len(missing)} missing, {len(extra)} only in the Japanese table -> {p}")
+    print(f"kashf: {len(pairs)} rows, {len(missing)} missing, {len(extra)} only in the Japanese table -> {p}")
     for e in extra[:20]:
         print("   ja-only:", e)
 
 
-def effectcraft():
+def wamda():
     tm = load_tm()
     menu, ui, missing, seen = [], [], [], set()
-    for r in json.loads((KEYS / "effectcraft.json").read_text(encoding="utf-8")):
+    for r in json.loads((KEYS / "wamda.json").read_text(encoding="utf-8")):
         ctx, src = r["ctx"], r["src"]
         if (ctx, src) in seen:
             continue
@@ -108,15 +108,15 @@ def effectcraft():
             + "];\n\npub(super) const UI: &[(&str, &str)] = &[\n"
             + "".join(f"    ({rust(a)}, {rust(b)}),\n" for a, b in ui)
             + "];\n")
-    p = UP / "effectcraft/crates/ui-egui/src/i18n/ar.rs"
+    p = UP / "wamda/crates/ui-egui/src/i18n/ar.rs"
     p.write_text(text, encoding="utf-8", newline="\n")
-    print(f"effectcraft: {len(menu)} menu rows, {len(ui)} panel rows, {len(missing)} missing -> {p}")
+    print(f"wamda: {len(menu)} menu rows, {len(ui)} panel rows, {len(missing)} missing -> {p}")
 
 
-def lightcraft():
+def tayf():
     tm = load_tm()
     plain, formats, missing = {}, {}, []
-    for r in json.loads((KEYS / "lightcraft.json").read_text(encoding="utf-8")):
+    for r in json.loads((KEYS / "tayf.json").read_text(encoding="utf-8")):
         ctx, src = r["ctx"], r["src"]
         ar = tm.get(key_of(ctx, src))
         if ar is None:
@@ -128,10 +128,10 @@ def lightcraft():
             if ar is None:
                 continue
         (formats if ctx == "@format" else plain)[src] = ar
-    loc = UP / "lightcraft/crates/ui-egui/locales"
+    loc = UP / "tayf/crates/ui-egui/locales"
     for name, d in (("ar.json", plain), ("ar-formats.json", formats)):
         (loc / name).write_text(json.dumps(dict(sorted(d.items())), ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-    print(f"lightcraft: {len(plain)} labels, {len(formats)} formats, {len(missing)} missing -> {loc}")
+    print(f"tayf: {len(plain)} labels, {len(formats)} formats, {len(missing)} missing -> {loc}")
 
 
 EXTRA = {"Interface language": "لغة الواجهة", "End": "النهاية", "Untitled": "بلا عنوان", "saved": "محفوظ",
@@ -143,7 +143,7 @@ def tsv_escape(s):
 
 
 def hooked(app):
-    """deckcraft / soundcraft: src/ar.tsv read by the egui label hook (shared/i18n_hook.rs)."""
+    """minbar / sada: src/ar.tsv read by the egui label hook (shared/i18n_hook.rs)."""
     pairs, missing = rows(app)
     pairs = [(a, b) for a, b in pairs if a not in EXTRA] + list(EXTRA.items())
     # identical rows (ids, shortcuts) are left out: the label shows as it is anyway
@@ -155,14 +155,14 @@ def hooked(app):
     print(f"{app}: {len(pairs)} rows, {len(missing)} missing -> {p}")
 
 
-def deckcraft():
-    hooked("deckcraft")
+def minbar():
+    hooked("minbar")
 
 
-def soundcraft():
-    hooked("soundcraft")
+def sada():
+    hooked("sada")
 
 
 if __name__ == "__main__":
-    for app in sys.argv[1:] or ["designcraft", "gridcraft", "effectcraft", "lightcraft", "deckcraft", "soundcraft"]:
+    for app in sys.argv[1:] or ["nasaq", "kashf", "wamda", "tayf", "minbar", "sada"]:
         globals()[app]()

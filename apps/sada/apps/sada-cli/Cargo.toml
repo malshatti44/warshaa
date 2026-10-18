@@ -1,0 +1,21 @@
+[package]
+name = "sada-cli"
+description = "Sada command line: headless editing, conversion, bounce, MCP server, app control"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[[bin]]
+name = "sada-cli"
+path = "src/main.rs"
+
+[lints]
+workspace = true
+
+[dependencies]
+sada-engine.workspace = true
+sada-automation.workspace = true
+sada-audio-io.workspace = true
+sada-dsp.workspace = true
+serde_json.workspace = true

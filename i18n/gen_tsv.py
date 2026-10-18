@@ -1,6 +1,6 @@
 """Write ar.tsv for the TSV-catalog apps from the translation memory.
 
-  python gen_tsv.py wordcraft [photocraft ...]   (default: every TSV app)
+  python gen_tsv.py satr [retoush ...]   (default: every TSV app)
 """
 import json
 import pathlib
@@ -9,19 +9,19 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from tm import KEYS, key_of, load_tm, esc, is_untranslatable  # noqa: E402
 
-UP = pathlib.Path(r"E:\craft-ar\upstream")
+UP = pathlib.Path(r"E:\warsha-src\upstream")
 TSV_APPS = {
-    "photocraft": "crates/ui-egui/src/i18n/ar.tsv",
-    "vectorcraft": "crates/ui-egui/src/i18n/ar.tsv",
-    "filmcraft": "crates/ui-egui/src/i18n/ar.tsv",
-    "pdfcraft": "crates/ui-egui/src/i18n/ar.tsv",
-    "wordcraft": "crates/ui-egui/src/i18n/ar.tsv",
-    "cadcraft": "crates/ui-egui/src/i18n/ar.tsv",
-    "craft-launcher": "crates/ui-egui/src/i18n/ar.tsv",
+    "retoush": "crates/ui-egui/src/i18n/ar.tsv",
+    "reesha": "crates/ui-egui/src/i18n/ar.tsv",
+    "monteer": "crates/ui-egui/src/i18n/ar.tsv",
+    "watheeq": "crates/ui-egui/src/i18n/ar.tsv",
+    "satr": "crates/ui-egui/src/i18n/ar.tsv",
+    "mukhattat": "crates/ui-egui/src/i18n/ar.tsv",
+    "warsha": "crates/ui-egui/src/i18n/ar.tsv",
 }
 NAMES = {
-    "photocraft": "ريتوش", "vectorcraft": "ريشة", "filmcraft": "مونتير", "pdfcraft": "وثيق",
-    "wordcraft": "سطر", "cadcraft": "مخطط", "craft-launcher": "ورشة",
+    "retoush": "ريتوش", "reesha": "ريشة", "monteer": "مونتير", "watheeq": "وثيق",
+    "satr": "سطر", "mukhattat": "مخطط", "warsha": "ورشة",
 }
 
 HEADER = """# Arabic (ar) interface catalog. Columns, separated by a TAB:

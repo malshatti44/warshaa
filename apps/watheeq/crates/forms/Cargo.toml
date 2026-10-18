@@ -1,0 +1,19 @@
+[package]
+name = "watheeq-forms"
+description = "Interactive forms (AcroForm): field model, filling, appearances, reset (ISO 32000-2 §12.7)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+watheeq-cos = { workspace = true }
+watheeq-fonts = { workspace = true }
+watheeq-content = { workspace = true }
+watheeq-model = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+hayro-syntax = { workspace = true }

@@ -1,0 +1,5696 @@
+[
+ {
+  "ctx": "",
+  "src": "Click to add first slide",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Cut",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Copy",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Paste",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Edit Text",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Bring to Front",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Bring Forward",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Send to Back",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Send Backward",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Group",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Ungroup",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Link…",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Edit Alt Text…",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Set as Default Shape",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Format Shape…",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Layout",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reset Slide",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Format Background…",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "New Comment",
+  "ar": null,
+  "hint": "canvas.rs"
+ },
+ {
+  "ctx": "",
+  "src": "missing `command`",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "",
+  "src": "missing `events`",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "unknown pointer kind `{kind}`",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "",
+  "src": "pointer events need x and y",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "",
+  "src": "missing `key`",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "",
+  "src": "missing `text`",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "",
+  "src": "missing `tool`",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "unknown tool `{name}`",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "",
+  "src": "missing `id`",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "",
+  "src": "no presentation open",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "no slide {i}",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "",
+  "src": "no writer",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "",
+  "src": "missing `path`",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "",
+  "src": "not every presentation could be saved",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "unknown method `{other}`",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "",
+  "src": "no writer configured",
+  "ar": null,
+  "hint": "control.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Username",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Display name",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Real name",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Name (A–Z)",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Name",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Merged PRs",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "PRs",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Commits",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Lines added",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "+LOC",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Lines deleted",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "−LOC",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Line delta",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "ΔLOC",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Binary assets added",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "+Bin",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Binary assets removed",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "−Bin",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "First commit",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "First",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Last commit",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Last",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "@{}: {} PRs, {} commits, +{} / −{} lines (Δ {}), +{} / −{} binary assets, {} – {}",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Show",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Sort",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reverse the order",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Grab bag",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Table",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{} contributors · {} commits",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No contributor data was built into this copy.",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No model credits were built into this copy.",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Company",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Model",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Version",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "% of all commits",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Lines +/−",
+  "ar": null,
+  "hint": "credits.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Insert Table",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slide Size",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Header and Footer",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Insert Hyperlink",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Set Up Slide Show",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Zoom",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Alt Text",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slides from Outline",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rename Section",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rename",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rename Layout",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "About Minbar",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Preferences",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Export",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Symbol",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Equation",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Spelling",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Accessibility Checker",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Language",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Custom Shows",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Chart Data",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Trim Media",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Choose a SmartArt Graphic",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Minbar",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Cancel",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Number of columns:",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Number of rows:",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Insert",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slides sized for:",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Custom",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Width (in):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Height (in):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Maximize content (else ensure fit)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "OK",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Date and time",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "  Fixed date (empty = update automatically):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slide number",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Footer",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "  Footer text:",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Don't show on title slide",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Apply to All",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Apply",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Web Page or File",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "This Document",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Email Address",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Email address:",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Address:",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "ScreenTip:",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Show type",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Presented by a speaker (full screen)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Browsed by an individual (window)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Browsed at a kiosk (full screen)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Loop continuously until 'Esc'",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Show without narration",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Show without animation",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Use timings, if present",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{} presentations",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Do you want to save the changes you made to {what}?",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Your changes will be lost if you don't save them.",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Don't Save",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Save",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Fit",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Start a conversation",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Post",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "How would you describe this object and its context to someone who is blind or has low vision?",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Mark as decorative",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Paste or type an outline. Unindented lines become slide titles; tab-indented lines become bullets.",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Name:",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Before text (in):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Special — hanging (in):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Spacing before (pt):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Spacing after (pt):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Line spacing (lines):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Export the presentation as:",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "PDF document (.pdf)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "PNG images (current slide)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "PNG images (all slides)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "JPEG image (current slide)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "PowerPoint Presentation (.pptx)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Print layout:",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Notes Pages",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Handouts (1 slide per page)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Handouts (2 slides per page)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Handouts (3 slides per page)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Handouts (4 slides per page)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Handouts (6 slides per page)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Handouts (9 slides per page)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Full Page Slides",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Include hidden slides",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Presentation",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Exported {path}",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Click a symbol to insert it at the insertion point.",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Punctuation",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Currency",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Math",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Greek",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Arrows",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Shapes",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Close",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Type an equation in linear form (e.g. a^2+b^2=c^2, x=(-b±√(b^2-4ac))/2a).",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Liberation Serif",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "The spelling check is complete. No issues found.",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Slide {}: “{w}”",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Go to",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No accessibility issues found. People with disabilities should not have difficulty reading this document.",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Slide {}: {}{}",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Mark selected text as:",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "English (United States)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "English (United Kingdom)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Español",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Français",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Deutsch",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Italiano",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Português",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{} ({} slides)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Delete",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "New show name:",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Custom Show 1",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slides (e.g. 1,3,5):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Create",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Custom Show",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Select a chart first.",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Edit the data: first row = series names, first column = categories.",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "+ Row",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "+ Series",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Start time (s):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "End trim (s):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Fade in (s):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Fade out (s):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Pick a graphic; type one item per line.",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Basic List",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Basic Process",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Basic Cycle",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Hierarchy",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Pyramid",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Matrix",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Plan\nBuild\nLaunch",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "About",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Contributors",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Models",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "General",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Dark appearance",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Interface size",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Interface language",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Editing",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Show smart guides",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Snap objects to grid",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Replace straight quotes with smart quotes",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "AutoCorrect as you type",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Your name (comments):",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Done",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "“{}” is not available yet.",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Presentations and slide shows, rebuilt from scratch in pure Rust.",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "An open-source, clean-room project. Not affiliated with Microsoft.",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Contact the Developer",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Source on GitHub",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Free and open source (MIT OR Apache-2.0)",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "تعريب وتطوير: محمد الشطي · malshatti.com",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "info@malshatti.com",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Version {}",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "← Back to {title}",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Esc",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "New presentation",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Open…",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Open the sample deck",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Recent",
+  "ar": null,
+  "hint": "dialogs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "From center",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "From top left",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "From top right",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "From bottom left",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "From bottom right",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Preset gradients",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Linear",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rectangular",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Path",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Radial",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Type",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Direction",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "From ",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Angle",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{id}-angle",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Gradient stops",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Color",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Remove stop",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Position",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{id}-pos-{sel}",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Transparency",
+  "ar": null,
+  "hint": "fillui.rs"
+ },
+ {
+  "ctx": "",
+  "src": "English",
+  "ar": null,
+  "hint": "i18n.rs"
+ },
+ {
+  "ctx": "",
+  "src": "models-3d",
+  "ar": null,
+  "hint": "icons.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Aa",
+  "ar": null,
+  "hint": "icons.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Home",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Normal",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Outline View",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slide Sorter",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Notes Page",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reading View",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Notes",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Ruler",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Gridlines",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Shift+F9",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Guides",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Alt+F9",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Zoom In",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Cmd+=",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Zoom Out",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Cmd+-",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Zoom…",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Fit to Window",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Task Pane",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Ribbon Tab",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Collapse the Ribbon",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Cmd+F1",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Dark Mode",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Grayscale",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slide Show",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Presenter View",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "End Show",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Command Palette",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Cmd+Shift+P",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Preferences…",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Cmd+,",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Picture from File…",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Audio from File…",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Video from File…",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Save As…",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Export…",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Open Dialog",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Community Links",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "missing `percent`",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "missing `tab`",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "unknown UI command `{id}`",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Saved {path}",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Saved",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{name}: Minbar can't open this kind of file",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Couldn't save AutoRecover information: {e}",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "dropped file",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "no frame was presented (screen locked or window hidden); use ui.render",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Enter",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Escape",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Backspace",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Tab",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Left",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Right",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Up",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Down",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "End",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "PageUp",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "PageDown",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Space",
+  "ar": null,
+  "hint": "lib.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "video {id}: {e}",
+  "ar": null,
+  "hint": "media.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "media-{id}",
+  "ar": null,
+  "hint": "media.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "No sound: {err}",
+  "ar": null,
+  "hint": "media.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Search commands…",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "File",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "New Presentation",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Properties",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Edit",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Undo",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Redo",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Paste and Match Formatting",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Select All",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Duplicate",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Delete Slide",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Find…",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "View",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slide Master",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "New Slide",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Duplicate Slide",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Section",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Text Box",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "WordArt",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Date and Time",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slide Number",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Table…",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Chart",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Format",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Bold",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Italic",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Underline",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Align Left",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Center",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Align Right",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Justify",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Right-to-Left Text Direction",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Arrange",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Regroup",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rotate Left 90°",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rotate Right 90°",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Flip Horizontal",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Flip Vertical",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Play from Start",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Play from Current Slide",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Hide Slide",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Set Up Show…",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Help",
+  "ar": null,
+  "hint": "menus.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Format Shape",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Format Background",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Animation Pane",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Selection",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Comments",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Design Ideas",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Pane",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Select a shape to format it.",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Fill & Line",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Effects",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Size & Properties",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Text Options",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Picture",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Shadow",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "None",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Outer",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Bottom",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Inner",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Perspective",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reflection",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Tight",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Half",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Full",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Glow",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "size (pt)",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Soft Edges",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reset Effects",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Size",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Height",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Width",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rotation",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Horizontal",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Vertical",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Vertical alignment",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Top",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Middle",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Do not Autofit",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Shrink text on overflow",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Resize shape to fit text",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Wrap text in shape",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Margins (pt)",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Columns",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Brightness",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Contrast",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Saturation",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reset Picture",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Fill",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No fill",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Solid fill",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Gradient fill",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Pattern fill",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Automatic",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No Fill",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rotate with shape",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Line",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No line",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Solid line",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No Outline",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Dash",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Picture or texture fill",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Follow the layout",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Foreground",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Background",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Insert picture from file…",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Hide background graphics",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reset Background",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "▶ Play All",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Select an object on the slide and add an animation from the Animations tab.",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Shape {}",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Start On Click",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Start With Previous",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Start After Previous",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Move Up",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Move Down",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Remove",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Show All",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Hide All",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rename…",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "+ New Comment",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No comments on this slide.",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reply…",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reopen",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Resolve",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Pick a look for your slides. Ideas are generated on your device.",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "idea-{}",
+  "ar": null,
+  "hint": "panes.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Save (⌘S)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Undo (⌘Z)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Redo (⌘Y)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Play from Start (F5)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": " — Edited",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Search commands (⇧⌘P)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "  Present  ",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Light/Dark appearance",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Shape Format",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Picture Format",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Table Design",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Chart Design",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Playback",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Draw",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Design",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Transitions",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Animations",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Record",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Review",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Cmd+",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Shift+",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Alt+",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Ctrl+",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Paste (⌘V)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Paste Formatting",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Format Painter (double-click to keep it on)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "layout-{li}",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "New\nSlide",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "New Slide (⇧⌘N)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Duplicate Selected Slides",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slides from Outline…",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reset",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Add Section",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Remove All Sections",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{f} (Headings)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{f} (Body)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Increase Font Size",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Decrease Font Size",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Clear All Formatting",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Strikethrough",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Superscript",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Subscript",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Character Spacing",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Very Tight",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Loose",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Very Loose",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Change Case",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Sentence case.",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "UPPERCASE",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Capitalize Each Word",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "tOGGLE cASE",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Text Highlight Color",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No Color",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Font Color",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Bullets",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{ch}  Bullet",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Numbering",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "I. II. III.",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "i. ii. iii.",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Decrease List Level",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Increase List Level",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Line Spacing",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Line Spacing Options…",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{n} Column{}",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Text Direction",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rotate all text 90°",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rotate all text 270°",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Stacked",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Align Text",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Quick\nStyles",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Shape Fill",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Shape Outline",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Shape Effects",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Weight",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{w} pt",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Dashes",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Solid",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Round Dot",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Square Dot",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Dash Dot",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Long Dash",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Long Dash Dot",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Arrow at end",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Arrow at start",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Arrows at both ends",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Stealth end",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Oval ends",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No Shadow",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Centered",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No Reflection",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No Glow",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{r} pt glow",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No Soft Edges",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{r} pt",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Bevel",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Abc",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Order Objects",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Group Objects",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Position Objects",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Align",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rotate",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Selection Pane…",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Align Center",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Align Top",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Align Middle",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Align Bottom",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Distribute Horizontally",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Distribute Vertically",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Design\nIdeas",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Insert Table…",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Pictures",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Screenshot",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Screenshot (not available yet)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Icons",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "SmartArt",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Link",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Action",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Action Button: {k}",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Comment",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Text\nBox",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Header &\nFooter",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "WordArt style {}",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Date &\nTime",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slide\nNumber",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Video",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Audio",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{}x{} Table",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Star",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Heart",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Lightning",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Sun",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Moon",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Cloud",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Smile",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Not allowed",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Plus",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Multiply",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Equals",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Chevron",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Arrow",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Move",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Return",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Decision",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Database",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Document",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Speech",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Thought",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Pin",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Ring",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Burst",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Banner",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Select",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Eraser",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Black Pen",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Red Pen",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Blue Pen",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Pencil",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Highlighter",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Ink to\nShape",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Ink to Shape (coming soon)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Ink to\nText",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Ink to Text (coming soon)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Ink to\nMath",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Ink to Math (coming soon)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Colors",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Fonts",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Background\nStyles",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Style {i}",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reset Slide Background",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slide\nSize",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Standard (4:3)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Widescreen (16:9)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Page Setup…",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Format\nBackground",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Preview",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Subtle",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Exciting",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Dynamic Content",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Effect\nOptions",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Duration:",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "On Mouse Click",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "After:",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Apply\nTo All",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "From Left",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "From Right",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "From Top",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "From Bottom",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "In",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Out",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Entrance",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Emphasis",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Exit",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Motion Paths",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "As One Object",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "By Paragraph",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Add\nAnimation",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Motion",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Animation\nPane",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Trigger",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "On Click of… (none)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "On Click of {name}",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Animation\nPainter",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Animation Painter (double-click to keep it on)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Start:",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "On Click",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "With Previous",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "After Previous",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Delay:",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Play from\nStart",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Play from\nCurrent Slide",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Presenter\nView",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Custom\nShow",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Set Up\nSlide Show",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Hide\nSlide",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rehearse\nTimings",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Recording narration needs audio capture (coming soon)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Use Timings",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Play Narrations",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Show Media Controls",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Cameo",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Camera capture is not available yet",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "From\nBeginning",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "From\nCurrent Slide",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Learn\nMore",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Thesaurus",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Thesaurus (coming soon)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Check\nAccessibility",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Translate",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Translation needs a language model (not bundled)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "New\nComment",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Show\nComments",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Outline\nView",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slide\nSorter",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Notes\nPage",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reading\nView",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slide\nMaster",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Handout\nMaster",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Handout Master (coming soon)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Notes\nMaster",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Notes Master (coming soon)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Fit to\nWindow",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Dark\nMode",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Edit\nShape",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Change Shape",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Merge\nShapes",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Merge Shapes",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Shape\nStyles",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Gradient…",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Text Fill",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Text Outline",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Text Effects",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Alt\nText",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Format\nPane",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Bring\nForward",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Send\nBackward",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Selection\nPane",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Height:",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Width:",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Width: ",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Remove\nBackground",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Remove Background (coming soon)",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Corrections",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Brightness {:+}%",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Contrast {:+}%",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Saturation {}%",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Change Picture",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Picture\nStyles",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Simple Frame, White",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Drop Shadow Rectangle",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rounded Diagonal Corner",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "round2DiagRect",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Soft Edge Rectangle",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reflected Rounded Rectangle",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Oval",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Crop",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Crop to Shape",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Crop 10% each side",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Crop 20% each side",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Reset Crop",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Header Row",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "First Column",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Total Row",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Last Column",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Banded Rows",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Banded Columns",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Shading",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Delete Columns",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Delete Rows",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Delete Table",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Insert\nAbove",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Insert\nBelow",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Insert\nLeft",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Insert\nRight",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Merge\nCells",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Split\nCells",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Distribute Rows",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Distribute Columns",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Change\nChart Type",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Edit\nData",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Pause",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Play",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Trim",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Start Automatically",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Play Across Slides",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Loop until Stopped",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Hide During Show",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rewind after Playing",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Play Full Screen",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Volume",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Low",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Medium",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "High",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Mute",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Insert\nLayout",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Insert\nPlaceholder",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Content",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Text",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Media",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Themes",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Close\nMaster View",
+  "ar": null,
+  "hint": "ribbon.rs"
+ },
+ {
+  "ctx": "",
+  "src": "End of slide show, click to exit.",
+  "ar": null,
+  "hint": "show.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Slide {} of {}",
+  "ar": null,
+  "hint": "show.rs"
+ },
+ {
+  "ctx": "",
+  "src": "✏ on",
+  "ar": null,
+  "hint": "show.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "Slide {:02}:{:04.1}   Total {:02}:{:02}",
+  "ar": null,
+  "hint": "show.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Slide timings recorded.",
+  "ar": null,
+  "hint": "show.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Presenter View — Minbar",
+  "ar": null,
+  "hint": "show.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Next ▶",
+  "ar": null,
+  "hint": "show.rs"
+ },
+ {
+  "ctx": "",
+  "src": "◀ Previous",
+  "ar": null,
+  "hint": "show.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Next",
+  "ar": null,
+  "hint": "show.rs"
+ },
+ {
+  "ctx": "",
+  "src": "End of slide show",
+  "ar": null,
+  "hint": "show.rs"
+ },
+ {
+  "ctx": "",
+  "src": "No notes.",
+  "ar": null,
+  "hint": "show.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Click to add text",
+  "ar": null,
+  "hint": "sorter.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Fit slide to current window",
+  "ar": null,
+  "hint": "status.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Click to add notes",
+  "ar": null,
+  "hint": "status.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "thumb-{index}",
+  "ar": null,
+  "hint": "textures.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Inter",
+  "ar": null,
+  "hint": "theme.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Regular",
+  "ar": null,
+  "hint": "theme.rs"
+ },
+ {
+  "ctx": "",
+  "src": "SemiBold",
+  "ar": null,
+  "hint": "theme.rs"
+ },
+ {
+  "ctx": "",
+  "src": "BIZ UDPGothic",
+  "ar": null,
+  "hint": "theme.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Noto Sans Arabic",
+  "ar": null,
+  "hint": "theme.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "warsha-{i}-{}-{}",
+  "ar": null,
+  "hint": "theme.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Rename Section…",
+  "ar": null,
+  "hint": "thumbs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Remove Section",
+  "ar": null,
+  "hint": "thumbs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Remove Section & Slides",
+  "ar": null,
+  "hint": "thumbs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Move Section Up",
+  "ar": null,
+  "hint": "thumbs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Move Section Down",
+  "ar": null,
+  "hint": "thumbs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "+ New Slide",
+  "ar": null,
+  "hint": "thumbs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Show Slide",
+  "ar": null,
+  "hint": "thumbs.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "ml-{mi}-{li:?}",
+  "ar": null,
+  "hint": "thumbs.rs"
+ },
+ {
+  "ctx": "@template",
+  "src": "{} Slide Master",
+  "ar": null,
+  "hint": "thumbs.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Theme Colors",
+  "ar": null,
+  "hint": "widgets.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Standard Colors",
+  "ar": null,
+  "hint": "widgets.rs"
+ },
+ {
+  "ctx": "",
+  "src": "More Colors… #",
+  "ar": null,
+  "hint": "widgets.rs"
+ },
+ {
+  "ctx": "",
+  "src": "RRGGBB",
+  "ar": null,
+  "hint": "widgets.rs"
+ },
+ {
+  "ctx": "",
+  "src": "Animation Styles",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Animation",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Add Animation",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Advanced Animation",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Remove Animation",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Reorder Animation",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Timing",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Effect Options",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Remove All Animations",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Animation Painter",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Apply Animation",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Animation Gallery",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Animations on Slide",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Reorder Objects",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Align or Distribute",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Distribute",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Rotate or Flip",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Nudge",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Theme Gallery",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Variants",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Customize",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Hide Background Graphics",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Header and Footer…",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Master Views",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Close Master View",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Insert Layout",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Edit Master",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Delete Layout",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Insert Placeholder",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Master Layout",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Clipboard",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Deselect",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Select Objects",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Open Data",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Save as Template…",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Save to Data",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Render Slide",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Save AutoRecover Information",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Recovered Presentations",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Open Recovered Presentations",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Discard Recovered Presentations",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Revert",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Next Window",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Window",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Font",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Font Size",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Caps",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Text Shadow",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "WordArt Styles",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph…",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Autofit",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Wrap Text in Shape",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Text Box Margins",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Format Painter",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Formatting State",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Illustrations",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Shape Gallery",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Images",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Tables",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Chart…",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Date & Time",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Symbols",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Links",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Change Chart Type",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Edit Data",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Data",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Chart Elements",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Chart Layouts",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Action Buttons",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Inspect Presentation",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Inspect Slide",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Inspect Shape",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "List Commands",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Play/Pause",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Stop",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Seek",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Media Info",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Poster Frame",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Video Format",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Adjust",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Play/Pause GIF",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Insert Shapes",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Reply",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Delete Comment",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Resolve Thread",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Check Accessibility",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Accessibility",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Proofing",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Start Slide Show",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Set Up Slide Show…",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Set Up",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Custom Slide Show",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Connect Shapes",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Freeform",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Connection Sites",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Position and Size",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Flip",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Adjust Shape",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Edit Shape",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Shape Styles",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Quick Styles",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Drawing",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Selection Pane",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Lock",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Slides",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Move Slide",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Go to Slide",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Next Slide",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Previous Slide",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "First Slide",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Last Slide",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Select Slides",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Rename Slide",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Move Section",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Slides From",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Insert Above",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Table Layout",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Rows & Columns",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Insert Below",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Insert Left",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Insert Right",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Merge Cells",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Merge",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Split Cells",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Table Styles",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Table Style Options",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Cell Size",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Select Cells",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Stop Editing Text",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Type Text",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Delete Text",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Move Insertion Point",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Select Text",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Select All Text",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Select Word",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Select Paragraph",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Set Text",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Get Text",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Transition",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Transition to This Slide",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Apply To All",
+  "ar": null,
+  "hint": "menu"
+ },
+ {
+  "ctx": "",
+  "src": "Transition Gallery",
+  "ar": null,
+  "hint": "menu"
+ }
+]

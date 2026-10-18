@@ -1,0 +1,47 @@
+[package]
+name = "watheeq-engine"
+description = "Watheeq engine façade: session, documents, command/tool catalogue"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+watheeq-measure = { workspace = true }
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "tiff"] }
+watheeq-render = { workspace = true }
+watheeq-cos = { workspace = true }
+watheeq-organize = { workspace = true }
+watheeq-annot = { workspace = true }
+watheeq-forms = { workspace = true }
+watheeq-xfa = { workspace = true }
+watheeq-edit = { workspace = true }
+watheeq-audit = { workspace = true }
+watheeq-redact = { workspace = true }
+watheeq-print = { workspace = true }
+watheeq-xfdf = { workspace = true }
+watheeq-sign = { workspace = true }
+watheeq-optimize = { workspace = true }
+watheeq-a11y = { workspace = true }
+watheeq-ocr = { workspace = true }
+watheeq-js = { workspace = true }
+watheeq-compare = { workspace = true }
+watheeq-preflight = { workspace = true }
+watheeq-export = { workspace = true }
+watheeq-fonts = { workspace = true }
+watheeq-create = { workspace = true }
+watheeq-model = { workspace = true }
+watheeq-geom = { workspace = true }
+thiserror = { workspace = true }
+png = "0.18"
+# Already in the graph (url and idna through webbrowser, icu_properties through boa): they show
+# the host of a document's link the way the browser reads it (links::display_host).
+url = "2.5"
+idna = "1.1"
+icu_properties = "2.3"
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+# Already in the graph through lopdf; used only for the local UTC offset ("today").
+chrono = { version = "0.4", default-features = false, features = ["clock"] }

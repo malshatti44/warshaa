@@ -1,0 +1,38 @@
+[package]
+name = "wamda-export"
+description = "Render Queue jobs and output modules: H.264 MP4 (+AAC), ProRes and uncompressed MOV (+PCM) via Monteer, HEVC / AV1 MP4 (+AAC) and WebM (VP9 or AV1 + Opus) via Wamda encoders, PNG/JPEG/TIFF/EXR sequences, animated GIF, WAV/AIFF"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+wamda-time = { workspace = true }
+wamda-project = { workspace = true }
+wamda-raster = { workspace = true }
+wamda-render = { workspace = true }
+monteer-h264enc = { workspace = true }
+monteer-prores = { workspace = true }
+monteer-aac = { workspace = true }
+monteer-isobmff = { workspace = true }
+wamda-opusenc = { workspace = true }
+wamda-vp9enc = { workspace = true }
+wamda-hevcenc = { workspace = true }
+wamda-av1enc = { workspace = true }
+image = { workspace = true, features = ["png", "jpeg", "tiff", "exr"] }
+gif = { workspace = true }
+rayon = { workspace = true }
+web-time = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+
+[dev-dependencies]
+wamda-media = { workspace = true }
+wamda-effects = { workspace = true }
+wamda-color = { workspace = true }
+monteer-opus = { workspace = true }
+monteer-vp9 = { workspace = true }
+wamda-keyframe = { workspace = true }

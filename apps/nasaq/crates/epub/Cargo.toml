@@ -1,0 +1,14 @@
+[package]
+name = "nasaq-epub"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Nasaq EPUB 3 (reflowable) export: stories in reading order, CSS from styles, images"
+
+[lints]
+workspace = true
+
+[dependencies]
+nasaq-doc = { workspace = true }
+nasaq-color = { workspace = true }
+zip = { workspace = true }

@@ -1,0 +1,21 @@
+[package]
+name = "tayf-merge"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Tayf Photo Merge: HDR merge (align, deghost) and panorama stitching (L3)"
+
+[lints]
+workspace = true
+
+[dependencies]
+tayf-geom = { workspace = true }
+tayf-color = { workspace = true }
+tayf-raster = { workspace = true }
+tayf-raw = { workspace = true }
+tayf-codecs = { workspace = true }
+tayf-meta = { workspace = true }
+tayf-scenes = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+rayon = { workspace = true }

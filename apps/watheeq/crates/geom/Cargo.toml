@@ -1,0 +1,11 @@
+[package]
+name = "watheeq-geom"
+description = "Geometry primitives for Watheeq (points, rects, page transforms)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]

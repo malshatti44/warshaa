@@ -1,0 +1,44 @@
+[package]
+name = "reesha-engine"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Reesha engine: sessions, history, selection, the command registry"
+
+[lints]
+workspace = true
+
+[dependencies]
+reesha-geom = { workspace = true }
+reesha-color = { workspace = true }
+reesha-doc = { workspace = true }
+reesha-tools = { workspace = true }
+reesha-text = { workspace = true }
+reesha-render = { workspace = true }
+reesha-pathops = { workspace = true }
+reesha-brush = { workspace = true }
+reesha-trace = { workspace = true }
+reesha-svg = { workspace = true }
+reesha-format = { workspace = true }
+reesha-pdf = { workspace = true }
+reesha-cad = { workspace = true }
+reesha-eps = { workspace = true }
+reesha-metafile = { workspace = true }
+reesha-plugins = { workspace = true }
+reesha-affinity = { workspace = true }
+image = { workspace = true }
+flate2 = { workspace = true }
+kurbo = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+
+[dev-dependencies]
+reesha-affinity = { workspace = true, features = ["synth"] }
+crc32fast = { workspace = true }
+reesha-testkit = { workspace = true }
+proptest = { workspace = true }
+wat = { workspace = true }
+# Zstandard streams for the Illustrator editing data fuzz tests.
+ruzstd = { workspace = true }

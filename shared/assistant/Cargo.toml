@@ -1,0 +1,38 @@
+[package]
+name = "warsha-assistant"
+version = "2.2.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "Warsha (ورشة) in-app AI assistant: a chat panel that operates the app through its MCP server, with a free local model or Claude / ChatGPT / Gemini."
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+egui = "0.36"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = { version = "3.4", default-features = false, features = ["rustls", "json"] }
+sha2 = "0.10"
+base64 = "0.22"
+png = "0.17"
+log = "0.4"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = [
+    "Win32_Foundation",
+    "Win32_Security",
+    "Win32_Security_Cryptography",
+    "Win32_System_JobObjects",
+    "Win32_System_Threading",
+    "Win32_System_Memory",
+] }
+
+[dev-dependencies]
+
+# Standalone checks use the Arabic build's egui (as every Warsha app does through its own patch).
+[workspace]
+
+[patch.crates-io]
+epaint = { path = "../epaint" }
+egui = { path = "../egui" }

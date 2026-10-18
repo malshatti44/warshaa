@@ -1,4 +1,4 @@
-"""Collect every translatable source string of each Craft app from its existing catalogs.
+"""Collect every translatable source string of each Warsha app from its existing catalogs.
 
 Writes i18n/keys/<app>.json: a list of {"ctx": str, "src": str, "ar": str|None} (ar = an existing
 upstream Arabic row, if any), and i18n/keys/_summary.txt.
@@ -7,8 +7,8 @@ import json
 import pathlib
 import re
 
-UP = pathlib.Path(r"E:\craft-ar\upstream")
-OUT = pathlib.Path(r"E:\craft-ar\i18n\keys")
+UP = pathlib.Path(r"E:\warsha-src\upstream")
+OUT = pathlib.Path(r"E:\warsha-src\i18n\keys")
 OUT.mkdir(parents=True, exist_ok=True)
 
 LIT = r'"((?:[^"\\]|\\.)*)"'
@@ -81,19 +81,19 @@ def collect(app: str):
     entries, arabic = {}, {}
     if (ui / "src" / "i18n").is_dir() and list((ui / "src" / "i18n").glob("*.tsv")):
         entries, arabic = tsv_entries(ui / "src" / "i18n")
-    elif app == "craft-launcher":
+    elif app == "warsha":
         entries, arabic = tsv_entries(ui / "src" / "i18n")
-    elif app == "designcraft":
+    elif app == "nasaq":
         for f in sorted((ui / "src" / "i18n").glob("*.rs")):
             for a, b in pairs(f.read_text(encoding="utf-8"), r"\(\s*" + LIT + r"\s*,\s*" + LIT + r"\s*\)"):
                 entries.setdefault(("", a), None)
                 if f.stem == "ar":
                     arabic[("", a)] = b
-    elif app == "gridcraft":
+    elif app == "kashf":
         for f in sorted((ui / "src" / "i18n").glob("*.rs")):
             for a, b in pairs(f.read_text(encoding="utf-8"), LIT + r"\s*=>\s*" + LIT):
                 entries.setdefault(("", a), None)
-    elif app == "effectcraft":
+    elif app == "wamda":
         menu = (ui / "src" / "i18n.rs").read_text(encoding="utf-8")
         for cmd, label, _ in re.findall(r"\(\s*" + LIT + r"\s*,\s*" + LIT + r"\s*,\s*" + LIT + r"\s*\)", menu, flags=re.S):
             entries.setdefault(("@" + unrust(cmd), unrust(label)), None)
@@ -101,7 +101,7 @@ def collect(app: str):
         panel = panel.split("#[cfg(test)]")[0]
         for a, _ in pairs(panel, r"\(\s*" + LIT + r"\s*,\s*" + LIT + r"\s*\)"):
             entries.setdefault(("", a), None)
-    elif app == "lightcraft":
+    elif app == "tayf":
         for f in sorted((ui / "locales").glob("*.json")):
             ctx = "@format" if f.stem.endswith("-formats") else ""
             for k in json.loads(f.read_text(encoding="utf-8")):
@@ -110,8 +110,8 @@ def collect(app: str):
 
 
 HINTS = {}
-APPS = ["photocraft", "vectorcraft", "filmcraft", "lightcraft", "pdfcraft", "effectcraft",
-        "designcraft", "wordcraft", "deckcraft", "gridcraft", "cadcraft", "soundcraft", "craft-launcher"]
+APPS = ["retoush", "reesha", "monteer", "tayf", "watheeq", "wamda",
+        "nasaq", "satr", "minbar", "kashf", "mukhattat", "sada", "warsha"]
 summary, all_src = [], {}
 for app in APPS:
     HINTS.clear()

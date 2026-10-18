@@ -1,0 +1,19 @@
+[package]
+name = "satr-doc"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Satr document model: stories, paragraphs, runs, tables, sections, styles, numbering, fields, notes, comments, revisions; edit primitives"
+
+[lints]
+workspace = true
+
+[dependencies]
+satr-geom = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+unicode-segmentation = { workspace = true }
+
+[dev-dependencies]
+proptest = { workspace = true }

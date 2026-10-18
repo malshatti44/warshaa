@@ -1,0 +1,23 @@
+[package]
+name = "reesha-testkit"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Reesha test helpers: fixtures, generators, render comparison, geometry assertions"
+publish = false
+
+[lints]
+workspace = true
+
+[dependencies]
+reesha-geom = { workspace = true }
+reesha-color = { workspace = true }
+reesha-doc = { workspace = true }
+reesha-engine = { workspace = true }
+reesha-render = { workspace = true }
+reesha-format = { workspace = true }
+reesha-svg = { workspace = true }
+kurbo = { workspace = true }
+serde_json = { workspace = true }
+proptest = { workspace = true }
+image = { workspace = true }

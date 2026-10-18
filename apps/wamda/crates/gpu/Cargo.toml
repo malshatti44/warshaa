@@ -1,0 +1,34 @@
+[package]
+name = "wamda-gpu"
+description = "The GPU compositor (wgpu compute): layer transforms, masks/mattes, the 38 blend modes, motion blur, bit-depth quantisation and GPU effects, with the CPU renderer as the reference"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+wamda-time = { workspace = true }
+wamda-geom = { workspace = true }
+wamda-color = { workspace = true }
+wamda-project = { workspace = true }
+wamda-raster = { workspace = true }
+wamda-effects = { workspace = true }
+wamda-render = { workspace = true }
+wamda-keyframe = { workspace = true }
+wgpu = { workspace = true }
+bytemuck = { workspace = true }
+log = { workspace = true }
+web-time = { workspace = true }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+pollster = { workspace = true }
+
+[dev-dependencies]
+wamda-text = { workspace = true }
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+wasm-bindgen = "=0.2.129"
+js-sys = "0.3"

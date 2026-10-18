@@ -1,0 +1,17 @@
+[package]
+name = "satr-mcp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Satr MCP server: every command as a tool, headless or bridged to the running app"
+
+[lints]
+workspace = true
+
+[dependencies]
+satr-doc = { workspace = true }
+satr-engine = { workspace = true }
+satr-render = { workspace = true }
+satr-control-key = { workspace = true }
+serde_json = { workspace = true }
+log = { workspace = true }

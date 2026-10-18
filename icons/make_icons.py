@@ -1,5 +1,5 @@
 """Cut the 12 app icons out of the user's sheet (source_0.png) and write PNG + ICO per app,
-plus the Warsha hub icon (a 2x2 mosaic of four apps).
+(the suite's icon is make_brand.py's).
 
   python make_icons.py
 """
@@ -12,9 +12,9 @@ SHEET = Image.open(HERE / "source_0.png").convert("RGB")
 
 # Row-major, as on the sheet: (repo, Latin name)
 APPS = [
-    ("photocraft", "Retoush"), ("vectorcraft", "Reesha"), ("filmcraft", "Monteer"), ("lightcraft", "Tayf"),
-    ("pdfcraft", "Watheeq"), ("effectcraft", "Wamda"), ("designcraft", "Nasaq"), ("wordcraft", "Satr"),
-    ("deckcraft", "Minbar"), ("gridcraft", "Kashf"), ("cadcraft", "Mukhattat"), ("soundcraft", "Sada"),
+    ("retoush", "Retoush"), ("reesha", "Reesha"), ("monteer", "Monteer"), ("tayf", "Tayf"),
+    ("watheeq", "Watheeq"), ("wamda", "Wamda"), ("nasaq", "Nasaq"), ("satr", "Satr"),
+    ("minbar", "Minbar"), ("kashf", "Kashf"), ("mukhattat", "Mukhattat"), ("sada", "Sada"),
 ]
 ICO_SIZES = [(16, 16), (24, 24), (32, 32), (48, 48), (64, 64), (128, 128), (256, 256)]
 
@@ -88,26 +88,7 @@ def main():
         icon.save(out_dir / f"{repo}.ico", sizes=ICO_SIZES)
         print(f"{repo:12s} {latin:10s} tile {x1 - x0}x{y1 - y0}")
 
-    # Warsha hub: four apps on a dark rounded plate
-    size = 512
-    plate = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-    base = Image.new("RGB", (size, size), (24, 26, 34))
-    plate = rounded(base)
-    pad, gap = 40, 24
-    cell = (size - 2 * pad - gap) // 2
-    for k, repo in enumerate(["photocraft", "filmcraft", "pdfcraft", "soundcraft"]):
-        t = tiles[repo].resize((cell, cell), Image.LANCZOS)
-        x = pad + (k % 2) * (cell + gap)
-        y = pad + (k // 2) * (cell + gap)
-        shadow = Image.new("RGBA", (cell, cell), (0, 0, 0, 0))
-        shadow.putalpha(t.getchannel("A").point(lambda a: a * 0.45))
-        shadow = shadow.filter(ImageFilter.GaussianBlur(6))
-        plate.alpha_composite(shadow, (x + 3, y + 5))
-        plate.alpha_composite(t, (x, y))
-    plate.save(out_dir / "warsha.png")
-    plate.resize((256, 256), Image.LANCZOS).save(out_dir / "warsha-256.png")
-    plate.save(out_dir / "warsha.ico", sizes=ICO_SIZES)
-    print("warsha hub icon written")
+    # The suite's own icon (warsha.png/.ico) is drawn by make_brand.py.
 
 
 if __name__ == "__main__":

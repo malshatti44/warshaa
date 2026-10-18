@@ -1,0 +1,20 @@
+[package]
+name = "minbar-pdf"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Minbar PDF export (krilla): slides, notes pages and handouts with a selectable text layer, links and bookmarks"
+
+[lints]
+workspace = true
+
+[dependencies]
+minbar-model = { workspace = true }
+minbar-fonts = { workspace = true }
+minbar-text = { workspace = true }
+minbar-render = { workspace = true }
+krilla = { workspace = true }
+kurbo = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }

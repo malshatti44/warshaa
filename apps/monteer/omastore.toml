@@ -1,0 +1,11 @@
+kind = "app"
+categories = ["AudioVideo", "Video", "AudioVideoEditing"]
+icon = "assets/app-icon/hicolor/256x256/apps/com.malshatti.monteer.png"
+
+[linux.x86_64]
+asset = "monteer-{version}-linux-x86_64.tar.gz"
+exec = "monteer-{version}-linux-x86_64/bin/monteer"
+
+[linux.aarch64]
+asset = "monteer-{version}-linux-aarch64.tar.gz"
+exec = "monteer-{version}-linux-aarch64/bin/monteer"

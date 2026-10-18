@@ -1,0 +1,12 @@
+[package]
+name = "kashf-numfmt"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Kashf number formats: Excel format codes, General display, TEXT()"
+
+[lints]
+workspace = true
+
+[dependencies]
+kashf-core = { workspace = true }

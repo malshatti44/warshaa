@@ -1,0 +1,10172 @@
+[
+ {
+  "ctx": "",
+  "src": "File",
+  "ar": "ملف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit",
+  "ar": "تحرير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layout",
+  "ar": "تخطيط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type",
+  "ar": "نص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object",
+  "ar": "كائن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table",
+  "ar": "جدول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "View",
+  "ar": "عرض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Window",
+  "ar": "نافذة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Help",
+  "ar": "مساعدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New",
+  "ar": "جديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Document…",
+  "ar": "مستند جديد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Document",
+  "ar": "مستند جديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open…",
+  "ar": "فتح…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Close",
+  "ar": "إغلاق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save",
+  "ar": "حفظ",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save As…",
+  "ar": "حفظ باسم…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save a Copy…",
+  "ar": "حفظ نسخة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Revert",
+  "ar": "استعادة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Place…",
+  "ar": "وضع…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export PDF…",
+  "ar": "تصدير PDF…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Print…",
+  "ar": "طباعة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Print",
+  "ar": "طباعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document Setup…",
+  "ar": "إعداد المستند…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document Setup",
+  "ar": "إعداد المستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Package…",
+  "ar": "تجميع…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Undo",
+  "ar": "تراجع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Redo",
+  "ar": "إعادة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cut",
+  "ar": "قص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copy",
+  "ar": "نسخ",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste",
+  "ar": "لصق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear",
+  "ar": "مسح",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete",
+  "ar": "حذف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Duplicate",
+  "ar": "تكرار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select All",
+  "ar": "تحديد الكل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Deselect All",
+  "ar": "إلغاء تحديد الكل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find/Change…",
+  "ar": "البحث/التغيير…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find/Change",
+  "ar": "البحث/التغيير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Check Spelling…",
+  "ar": "تدقيق إملائي…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Preferences…",
+  "ar": "تفضيلات…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Preferences",
+  "ar": "تفضيلات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Keyboard Shortcuts…",
+  "ar": "اختصارات لوحة المفاتيح…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Keyboard Shortcuts",
+  "ar": "اختصارات لوحة المفاتيح",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Interface Language",
+  "ar": "لغة الواجهة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pages",
+  "ar": "صفحات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Panels",
+  "ar": "لوحات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page",
+  "ar": "صفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Margins and Columns…",
+  "ar": "الهوامش والأعمدة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create Guides…",
+  "ar": "إنشاء أدلة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Numbering & Section Options…",
+  "ar": "خيارات الترقيم والأقسام…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go to Page…",
+  "ar": "انتقال إلى صفحة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go to Page",
+  "ar": "انتقال إلى صفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next Page",
+  "ar": "الصفحة التالية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous Page",
+  "ar": "الصفحة السابقة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "First Page",
+  "ar": "الصفحة الأولى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Last Page",
+  "ar": "الصفحة الأخيرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Font",
+  "ar": "خط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Size",
+  "ar": "الحجم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Character",
+  "ar": "حرف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph",
+  "ar": "فقرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph Styles",
+  "ar": "أنماط الفقرات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Character Styles",
+  "ar": "أنماط الحروف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph Style Options",
+  "ar": "خيارات نمط الفقرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Styles",
+  "ar": "أنماط الكائنات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Glyphs",
+  "ar": "محارف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find/Replace Font…",
+  "ar": "البحث عن الخط/استبداله…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find/Replace Font",
+  "ar": "البحث عن الخط/استبداله",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Story Editor",
+  "ar": "محرر القصة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit in Story Editor",
+  "ar": "تحرير في محرر القصة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Special Character",
+  "ar": "إدراج حرف خاص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert White Space",
+  "ar": "إدراج مسافة بيضاء",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Break Character",
+  "ar": "إدراج فاصل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Change Case",
+  "ar": "تغيير الحالة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Frame Options…",
+  "ar": "خيارات إطار النص…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Frame Options",
+  "ar": "خيارات إطار النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Footnote Options",
+  "ar": "خيارات الحواشي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Cross-Reference",
+  "ar": "مرجع متقاطع جديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Arrange",
+  "ar": "ترتيب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transform",
+  "ar": "تحويل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Group",
+  "ar": "تجميع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ungroup",
+  "ar": "فك التجميع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lock",
+  "ar": "قفل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unlock All on Spread",
+  "ar": "إلغاء قفل كل كائنات الحيز",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bring to Front",
+  "ar": "إحضار إلى المقدمة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Send to Back",
+  "ar": "إرسال إلى الخلف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bring Forward",
+  "ar": "إحضار إلى الأمام",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Send Backward",
+  "ar": "إرسال إلى الخلف خطوة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fitting",
+  "ar": "ملاءمة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fit Frame to Content",
+  "ar": "ملاءمة الإطار مع المحتوى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fit Content to Frame",
+  "ar": "ملاءمة المحتوى مع الإطار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fill Frame Proportionally",
+  "ar": "ملء الإطار بشكل متناسب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fit Content Proportionally",
+  "ar": "ملاءمة المحتوى بشكل متناسب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center Content",
+  "ar": "توسيط المحتوى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Frame Fitting Options",
+  "ar": "خيارات ملاءمة الإطار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Generate QR Code",
+  "ar": "إنشاء رمز QR",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create Table",
+  "ar": "إنشاء جدول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Table…",
+  "ar": "إدراج جدول…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert",
+  "ar": "إدراج",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rows",
+  "ar": "صفوف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Columns",
+  "ar": "الأعمدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Row",
+  "ar": "صف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Column",
+  "ar": "عمود",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Merge Cells",
+  "ar": "دمج الخلايا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Split Cell Horizontally",
+  "ar": "تقسيم الخلية أفقياً",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Split Cell Vertically",
+  "ar": "تقسيم الخلية عمودياً",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table Options",
+  "ar": "خيارات الجدول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cell Options",
+  "ar": "خيارات الخلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Header Rows",
+  "ar": "صفوف الرأس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Footer Rows",
+  "ar": "صفوف التذييل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom In",
+  "ar": "تكبير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom Out",
+  "ar": "تصغير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fit Page in Window",
+  "ar": "ملاءمة الصفحة في النافذة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fit Spread in Window",
+  "ar": "ملاءمة الصفحة المزدوجة في النافذة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Actual Size",
+  "ar": "الحجم الفعلي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Screen Mode",
+  "ar": "وضع الشاشة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Normal",
+  "ar": "عادي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Preview",
+  "ar": "معاينة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rulers",
+  "ar": "مساطر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grids & Guides",
+  "ar": "شبكات وأدلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Guides",
+  "ar": "إظهار الأدلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Guides",
+  "ar": "إخفاء الأدلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Rulers",
+  "ar": "إظهار المساطر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Rulers",
+  "ar": "إخفاء المساطر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Extras",
+  "ar": "إضافات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Workspace",
+  "ar": "مساحة العمل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Workspace",
+  "ar": "مساحة عمل جديدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Properties",
+  "ar": "خصائص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layers",
+  "ar": "الطبقات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Swatches",
+  "ar": "عينات الألوان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Colour",
+  "ar": "لون",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color",
+  "ar": "لون",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Stroke",
+  "ar": "حد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fill",
+  "ar": "تعبئة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Gradient",
+  "ar": "التدرج اللوني",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transparency",
+  "ar": "شفافية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Effects",
+  "ar": "تأثيرات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Links",
+  "ar": "روابط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Notes",
+  "ar": "ملاحظات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Conditions",
+  "ar": "شروط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Library",
+  "ar": "مكتبة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Wrap",
+  "ar": "التفاف النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align",
+  "ar": "محاذاة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pathfinder",
+  "ar": "دمج المسارات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transform Again",
+  "ar": "تكرار التحويل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Interactive",
+  "ar": "تفاعلي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Buttons and Forms",
+  "ar": "أزرار ونماذج",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hyperlinks",
+  "ar": "ارتباطات تشعبية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bookmarks",
+  "ar": "إشارات مرجعية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show All Menu Items",
+  "ar": "إظهار كل عناصر القائمة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "About Nasaq",
+  "ar": "حول Nasaq",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Welcome to Nasaq",
+  "ar": "مرحباً بك في Nasaq",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page layout for print and screen — fast, open and scriptable.",
+  "ar": "تخطيط الصفحات للطباعة والشاشة — سريع ومفتوح وقابل للبرمجة.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "  New file  ",
+  "ar": "  ملف جديد  ",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "  Open  ",
+  "ar": "  فتح  ",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "  Open sample magazine  ",
+  "ar": "  فتح نموذج المجلة  ",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start a new document",
+  "ar": "بدء مستند جديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No document open",
+  "ar": "لا يوجد مستند مفتوح",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contact the Developer",
+  "ar": "انضم إلى مجتمع Warsha",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Get help, share your layouts and shape what we build next.",
+  "ar": "احصل على المساعدة وشارك تصميماتك وساهم في تطوير التطبيق.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contact the Developer",
+  "ar": "انضم إلى Discord",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Community",
+  "ar": "المجتمع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Join the community",
+  "ar": "انضم إلى المجتمع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "malshatti.com — help and feedback",
+  "ar": "discord.gg/warsha — مساعدة وآراء وعرض الأعمال",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "  OK  ",
+  "ar": "  موافق  ",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Float panel",
+  "ar": "تعويم اللوحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dock panel",
+  "ar": "إرساء اللوحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "OK",
+  "ar": "موافق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cancel",
+  "ar": "إلغاء",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Can't Open the File",
+  "ar": "تعذّر فتح الملف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Can't Place the File",
+  "ar": "تعذّر إدراج الملف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply",
+  "ar": "تطبيق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Done",
+  "ar": "تم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reset",
+  "ar": "إعادة ضبط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add",
+  "ar": "إضافة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove",
+  "ar": "إزالة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Name",
+  "ar": "الاسم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Width",
+  "ar": "العرض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Height",
+  "ar": "الارتفاع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Portrait",
+  "ar": "عمودي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Landscape",
+  "ar": "أفقي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Orientation",
+  "ar": "اتجاه الصفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Units",
+  "ar": "وحدات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Preset",
+  "ar": "إعداد مسبق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Facing Pages",
+  "ar": "صفحات متقابلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Primary Text Frame",
+  "ar": "إطار النص الرئيسي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Number of Pages",
+  "ar": "عدد الصفحات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start Page #",
+  "ar": "رقم صفحة البداية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Size",
+  "ar": "حجم الصفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Margins",
+  "ar": "هوامش",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bleed",
+  "ar": "نزف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Slug",
+  "ar": "مساحة إضافية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Top",
+  "ar": "أعلى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bottom",
+  "ar": "أسفل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Left",
+  "ar": "يسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Right",
+  "ar": "يمين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Inside",
+  "ar": "داخلي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Outside",
+  "ar": "خارجي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Gutter",
+  "ar": "فاصل الأعمدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Binding",
+  "ar": "اتجاه التجليد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Left to Right",
+  "ar": "من اليسار إلى اليمين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Right to Left",
+  "ar": "من اليمين إلى اليسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No Selection",
+  "ar": "لا يوجد تحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rectangle",
+  "ar": "مستطيل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ellipse",
+  "ar": "شكل بيضاوي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polygon",
+  "ar": "مضلع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polygon Settings",
+  "ar": "إعدادات المضلع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text",
+  "ar": "نص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Image",
+  "ar": "صورة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Line",
+  "ar": "خط مستقيم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Position",
+  "ar": "الموضع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Appearance",
+  "ar": "مظهر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Opacity",
+  "ar": "العتامة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Corner",
+  "ar": "زاوية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rotation",
+  "ar": "دوران",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rulers & Grids",
+  "ar": "مساطر وشبكات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Guides",
+  "ar": "أدلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Flex Layout",
+  "ar": "تخطيط مرن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Auto Size",
+  "ar": "حجم تلقائي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tracking",
+  "ar": "التتبع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Leading",
+  "ar": "المسافة بين الأسطر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Kerning",
+  "ar": "التقنين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Language",
+  "ar": "لغة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hyphenation",
+  "ar": "وصل الكلمات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Alignment",
+  "ar": "المحاذاة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Indent",
+  "ar": "مسافة بادئة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Space Before",
+  "ar": "المسافة قبل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Space After",
+  "ar": "المسافة بعد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Layer",
+  "ar": "طبقة جديدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Swatch",
+  "ar": "عينة لون جديدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Layer Options",
+  "ar": "خيارات طبقات الكائن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Colour Picker",
+  "ar": "منتقي الألوان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color Picker",
+  "ar": "أداة اختيار الألوان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color Settings",
+  "ar": "إعدادات الألوان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "User Dictionary",
+  "ar": "قاموس المستخدم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Menu Customization",
+  "ar": "تخصيص القوائم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Import Options",
+  "ar": "خيارات الاستيراد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Place PDF",
+  "ar": "وضع PDF",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find",
+  "ar": "بحث",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Change",
+  "ar": "تغيير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find What",
+  "ar": "البحث عن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Change To",
+  "ar": "تغيير إلى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find Next",
+  "ar": "البحث عن التالي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Change All",
+  "ar": "تغيير الكل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Search",
+  "ar": "بحث",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document",
+  "ar": "مستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Selection",
+  "ar": "تحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "All Documents",
+  "ar": "كل المستندات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Direction",
+  "ar": "اتجاه",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Horizontal",
+  "ar": "أفقي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Vertical",
+  "ar": "عمودي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "On",
+  "ar": "تشغيل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Off",
+  "ar": "إيقاف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "None",
+  "ar": "بدون",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "[None]",
+  "ar": "[بدون]",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Place with Import Options…",
+  "ar": "وضع مع خيارات الاستيراد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Print Booklet…",
+  "ar": "طباعة كتيب…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export",
+  "ar": "تصدير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export Page as PNG…",
+  "ar": "تصدير الصفحة بصيغة PNG…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export IDML…",
+  "ar": "تصدير IDML…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export EPUB…",
+  "ar": "تصدير EPUB…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export EPUB (Fixed Layout)…",
+  "ar": "تصدير EPUB بتخطيط ثابت…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export PDF (Interactive)…",
+  "ar": "تصدير PDF تفاعلي…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export HTML…",
+  "ar": "تصدير HTML…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export XML…",
+  "ar": "تصدير XML…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export Text…",
+  "ar": "تصدير النص…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quick Actions",
+  "ar": "الإجراءات السريعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Import File",
+  "ar": "استيراد ملف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Page",
+  "ar": "إدراج صفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit Page",
+  "ar": "تحرير الصفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Adjust Layout",
+  "ar": "ضبط التخطيط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Smart Guides",
+  "ar": "أدلة ذكية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lock Guides",
+  "ar": "قفل الأدلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Document Grid",
+  "ar": "إظهار شبكة المستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Baseline Grid",
+  "ar": "إظهار شبكة خطوط الأساس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Options",
+  "ar": "خيارات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "More Options",
+  "ar": "خيارات أكثر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dialog",
+  "ar": "مربع حوار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "General",
+  "ar": "عام",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Basic Character Formats",
+  "ar": "تنسيقات الأحرف الأساسية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Indents and Spacing",
+  "ar": "المسافات البادئة والتباعد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Justification",
+  "ar": "الضبط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drop Caps and Nested Styles",
+  "ar": "الأحرف الاستهلالية والأنماط المتداخلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "GREP Style",
+  "ar": "نمط GREP",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Character Color",
+  "ar": "لون الأحرف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export Tagging",
+  "ar": "وسوم التصدير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Numbering and Formatting",
+  "ar": "الترقيم والتنسيق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Spacing Options",
+  "ar": "خيارات التباعد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "First Baseline",
+  "ar": "خط الأساس الأول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rule Above",
+  "ar": "خط علوي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Numbering",
+  "ar": "الترقيم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Footnote Reference Number in Text",
+  "ar": "رقم مرجع الحاشية في النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Footnote Formatting",
+  "ar": "تنسيق الحواشي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Span Footnotes Across Columns",
+  "ar": "امتداد الحواشي عبر الأعمدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rule On",
+  "ar": "إظهار الخط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ascent",
+  "ar": "الصعود",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cap Height",
+  "ar": "ارتفاع الأحرف الكبيرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "x Height",
+  "ar": "ارتفاع x",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fixed",
+  "ar": "ثابت",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Never (continuous)",
+  "ar": "أبدًا (ترقيم متصل)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Spread",
+  "ar": "صفحتان متقابلتان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Section",
+  "ar": "قسم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Footnote Reference",
+  "ar": "مرجع الحاشية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Footnote Text",
+  "ar": "نص الحاشية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Both",
+  "ar": "كلاهما",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Superscript",
+  "ar": "تطبيق مرتفع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Subscript",
+  "ar": "تطبيق منخفض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Normal",
+  "ar": "تطبيق عادي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "OpenType Superscript",
+  "ar": "مرتفع OpenType",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "through",
+  "ar": "حتى شاملًا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "up to",
+  "ar": "حتى باستثناء",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "line",
+  "ar": "سطر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "lines",
+  "ar": "أسطر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "sentences",
+  "ar": "جمل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "words",
+  "ar": "كلمات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "characters",
+  "ar": "محارف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "letters",
+  "ar": "حروف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "digits",
+  "ar": "أرقام",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "tab",
+  "ar": "جدولة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "forcedLineBreak",
+  "ar": "فاصل سطر إجباري",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "emSpace",
+  "ar": "مسافة em",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "enSpace",
+  "ar": "مسافة en",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "chars",
+  "ar": "محارف محددة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "[Automatic]",
+  "ar": "[تلقائي]",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Size:",
+  "ar": "الحجم:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tracking:",
+  "ar": "التتبع:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Left Indent:",
+  "ar": "المسافة البادئة اليسرى:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Right Indent:",
+  "ar": "المسافة البادئة اليمنى:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "First Line Indent:",
+  "ar": "المسافة البادئة للسطر الأول:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Space Before:",
+  "ar": "المسافة قبل:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Space After:",
+  "ar": "المسافة بعد:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Words with at Least:",
+  "ar": "الحد الأدنى لطول الكلمة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "After First:",
+  "ar": "الأحرف قبل الواصلة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Before Last:",
+  "ar": "الأحرف بعد الواصلة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hyphen Limit:",
+  "ar": "الحد الأقصى للواصلات:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Word Spacing:",
+  "ar": "تباعد الكلمات:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Letter Spacing:",
+  "ar": "تباعد الحروف:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Glyph Scaling:",
+  "ar": "قياس الحروف الرسومية:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Kashidas:",
+  "ar": "إدراج الكشيدة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "In justified Arabic text",
+  "ar": "في النص العربي المضبوط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Korean Line Breaks:",
+  "ar": "فواصل الأسطر الكورية:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Between syllables (not only at spaces)",
+  "ar": "بين المقاطع (وليس عند المسافات فقط)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Minimum Space Before First Footnote:",
+  "ar": "أقل مسافة قبل الحاشية الأولى:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Space Between Footnotes:",
+  "ar": "المسافة بين الحواشي:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Offset:",
+  "ar": "الإزاحة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Min:",
+  "ar": "الحد الأدنى:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Weight:",
+  "ar": "السماكة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color:",
+  "ar": "اللون:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Width:",
+  "ar": "العرض:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Style:",
+  "ar": "النمط:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start at:",
+  "ar": "بدء الترقيم من:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Restart Numbering Every:",
+  "ar": "إعادة بدء الترقيم كل:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Prefix/Suffix in:",
+  "ar": "إظهار البادئة واللاحقة في:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Prefix:",
+  "ar": "البادئة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Suffix:",
+  "ar": "اللاحقة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Position:",
+  "ar": "الموضع:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Character Style:",
+  "ar": "نمط الحروف:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph Style:",
+  "ar": "نمط الفقرة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Separator:",
+  "ar": "الفاصل:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "EPUB and HTML",
+  "ar": "EPUB وHTML",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tag:",
+  "ar": "الوسم:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Class:",
+  "ar": "الفئة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Nested Styles",
+  "ar": "الأنماط المتداخلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Nested Line Styles",
+  "ar": "أنماط الأسطر المتداخلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Nested Style",
+  "ar": "نمط متداخل جديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Line Style",
+  "ar": "نمط سطر جديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "GREP Styles",
+  "ar": "أنماط GREP",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Style:",
+  "ar": "تطبيق النمط:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "To Text:",
+  "ar": "على النص:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New GREP Style",
+  "ar": "نمط GREP جديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Font Family:",
+  "ar": "عائلة الخط:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Font Style:",
+  "ar": "نمط الخط:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Leading:",
+  "ar": "المسافة بين الأسطر:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Alignment:",
+  "ar": "المحاذاة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hyphenate",
+  "ar": "إضافة واصلات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Minimum",
+  "ar": "الحد الأدنى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Desired",
+  "ar": "المرغوب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Maximum",
+  "ar": "الحد الأقصى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Composer:",
+  "ar": "منضّد النص:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph Composer",
+  "ar": "منضّد الفقرات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Single-line Composer",
+  "ar": "منضّد السطر الواحد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Style Name:",
+  "ar": "اسم النمط:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Based On:",
+  "ar": "مبني على:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "for",
+  "ar": "لعدد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hyphenation Exceptions",
+  "ar": "استثناءات الواصلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Binding:",
+  "ar": "اتجاه التجليد:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dynamic Spelling",
+  "ar": "التدقيق الإملائي التلقائي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "UI Scaling",
+  "ar": "تحجيم الواجهة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ruby:",
+  "ar": "روبي:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set over the selected text; empty removes it.",
+  "ar": "تُضاف فوق النص المحدد؛ اتركها فارغة للإزالة.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document Footnote Options…",
+  "ar": "خيارات حواشي المستند…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Footnote",
+  "ar": "إدراج حاشية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go to Footnote Reference",
+  "ar": "الانتقال إلى مرجع الحاشية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Footnotes",
+  "ar": "الحواشي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph Style Options…",
+  "ar": "خيارات نمط الفقرة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Paragraph Style…",
+  "ar": "نمط فقرة جديد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Character Style…",
+  "ar": "نمط أحرف جديد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "[Basic Paragraph]",
+  "ar": "[فقرة أساسية]",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "[No Paragraph Style]",
+  "ar": "[بلا نمط فقرة]",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align left",
+  "ar": "محاذاة إلى اليسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align center",
+  "ar": "محاذاة إلى الوسط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align right",
+  "ar": "محاذاة إلى اليمين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Justify with last line aligned left",
+  "ar": "ضبط مع محاذاة السطر الأخير إلى اليسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Justify with last line aligned center",
+  "ar": "ضبط مع توسيط السطر الأخير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Justify with last line aligned right",
+  "ar": "ضبط مع محاذاة السطر الأخير إلى اليمين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Justify all lines",
+  "ar": "ضبط جميع الأسطر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align towards spine",
+  "ar": "محاذاة نحو الكعب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align away from spine",
+  "ar": "محاذاة بعيدًا عن الكعب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create New Style from Selection",
+  "ar": "إنشاء نمط جديد من التحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No text selected",
+  "ar": "لم يتم تحديد نص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Essentials",
+  "ar": "الأساسيات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Advanced",
+  "ar": "متقدم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Book",
+  "ar": "كتاب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Digital Publishing",
+  "ar": "النشر الرقمي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Interactive for PDF",
+  "ar": "التفاعل في PDF",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Printing and Proofing",
+  "ar": "الطباعة والتدقيق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Typography",
+  "ar": "تنضيد النصوص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No errors",
+  "ar": "لا توجد أخطاء",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "error",
+  "ar": "خطأ",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "errors",
+  "ar": "أخطاء",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Display All Blacks as Rich Black",
+  "ar": "عرض كل درجات الأسود كأسود غني",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Display All Blacks Accurately",
+  "ar": "عرض كل درجات الأسود بدقة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Output All Blacks as Rich Black",
+  "ar": "إخراج كل درجات الأسود كأسود غني",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Output All Blacks Accurately",
+  "ar": "إخراج كل درجات الأسود بدقة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Top Margin",
+  "ar": "الهامش العلوي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Top of Page",
+  "ar": "أعلى الصفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph Styles panel",
+  "ar": "لوحة أنماط الفقرات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Character Styles panel",
+  "ar": "لوحة أنماط الأحرف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create new style",
+  "ar": "إنشاء نمط جديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear overrides",
+  "ar": "مسح التجاوزات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Accept",
+  "ar": "قبول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reject",
+  "ar": "رفض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Selection",
+  "ar": "إضافة التحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add the selection",
+  "ar": "إضافة التحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add to Swatches",
+  "ar": "إضافة إلى عينات الألوان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align Stroke:",
+  "ar": "محاذاة الحد:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "All Caps",
+  "ar": "جميع الأحرف كبيرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Angle",
+  "ar": "الزاوية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Angle:",
+  "ar": "الزاوية:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Baseline",
+  "ar": "خط الأساس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cap:",
+  "ar": "نهاية الخط:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cell Text",
+  "ar": "نص الخلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cell Type",
+  "ar": "نوع الخلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Column Width",
+  "ar": "عرض العمود",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Column Rules",
+  "ar": "خطوط الأعمدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Column Rule",
+  "ar": "إدراج خط بين الأعمدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tint %",
+  "ar": "درجة اللون %",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Top Inset",
+  "ar": "الإزاحة العلوية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bottom Inset",
+  "ar": "الإزاحة السفلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Horizontal Offset",
+  "ar": "الإزاحة الأفقية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Composer",
+  "ar": "منضّد النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert Selection to Multi-State Object",
+  "ar": "تحويل التحديد إلى كائن متعدد الحالات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert to Text",
+  "ar": "تحويل إلى نص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create New Layer",
+  "ar": "إنشاء طبقة جديدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Default",
+  "ar": "افتراضي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete DTD",
+  "ar": "حذف DTD",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Layer",
+  "ar": "حذف الطبقة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Page",
+  "ar": "حذف الصفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Digits",
+  "ar": "الأرقام",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Distance",
+  "ar": "المسافة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Distribute ↔",
+  "ar": "توزيع أفقي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Distribute ↕",
+  "ar": "توزيع عمودي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Drop Shadow",
+  "ar": "إسقاط الظل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Effects: Drop Shadow",
+  "ar": "التأثيرات: ظل ساقط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Favorites",
+  "ar": "المفضلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "First Spread",
+  "ar": "أول صفحتين متقابلتين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Frame Fitting",
+  "ar": "ملاءمة الإطار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Gap Color:",
+  "ar": "لون الفجوة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go To",
+  "ar": "انتقال إلى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Graphic…",
+  "ar": "رسم…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Home",
+  "ar": "الرئيسية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hyperlink from the selected text or frames",
+  "ar": "إنشاء رابط من النص أو الإطارات المحددة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Include when exporting",
+  "ar": "تضمين عند التصدير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Join:",
+  "ar": "وصلة الخط:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Last Spread",
+  "ar": "آخر صفحتين متقابلتين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Linked Stories",
+  "ar": "النصوص المرتبطة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Load DTD…",
+  "ar": "تحميل DTD…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Location:",
+  "ar": "الموقع:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Miter Limit:",
+  "ar": "حد الوصلة الحادة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move",
+  "ar": "نقل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Article from Selection",
+  "ar": "مقال جديد من التحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Note at Cursor",
+  "ar": "ملاحظة جديدة عند المؤشر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New condition name",
+  "ar": "اسم الشرط الجديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New group…",
+  "ar": "مجموعة جديدة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New tag",
+  "ar": "وسم جديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next Spread",
+  "ar": "الصفحتان التاليتان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Note text",
+  "ar": "نص الملاحظة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Offset",
+  "ar": "الإزاحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Offsets",
+  "ar": "الإزاحات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open",
+  "ar": "فتح",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph alignment",
+  "ar": "محاذاة الفقرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pick a file in the folder holding the moved graphics",
+  "ar": "اختر ملفًا من المجلد الذي يحتوي على الرسومات المنقولة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Place",
+  "ar": "وضع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous Spread",
+  "ar": "الصفحتان السابقتان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Release to Objects",
+  "ar": "تحرير إلى كائنات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reverse the gradient",
+  "ar": "عكس التدرج",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rotate 90° Counterclockwise",
+  "ar": "تدوير 90° عكس عقارب الساعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rotation Angle",
+  "ar": "زاوية الدوران",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Row Height",
+  "ar": "ارتفاع الصف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Run",
+  "ar": "تشغيل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Scale X Percentage",
+  "ar": "نسبة التحجيم الأفقي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Scale Y Percentage",
+  "ar": "نسبة التحجيم العمودي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Search commands",
+  "ar": "البحث عن الأوامر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Search fonts",
+  "ar": "البحث عن الخطوط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Search styles and commands…",
+  "ar": "البحث عن الأنماط والأوامر…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Search: character or U+code",
+  "ar": "البحث بحرف أو رمز U+",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Separated by commas",
+  "ar": "مفصولة بفواصل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Share",
+  "ar": "مشاركة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Shear X Angle",
+  "ar": "زاوية الميل الأفقي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show / hide text with this condition",
+  "ar": "إظهار أو إخفاء النص بهذا الشرط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Favorites Only",
+  "ar": "إظهار المفضلة فقط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show in the text",
+  "ar": "إظهار في النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Spreads of up to 10 pages",
+  "ar": "مجموعات تصل إلى 10 صفحات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Stop Color:",
+  "ar": "لون الإيقاف:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Strikethrough",
+  "ar": "يتوسطه خط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Structure",
+  "ar": "البنية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Style",
+  "ar": "النمط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Style source",
+  "ar": "مصدر الأنماط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Styles panel",
+  "ar": "لوحة الأنماط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Superscript",
+  "ar": "النص المرتفع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tag the selection",
+  "ar": "إضافة وسم للتحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "The structure is valid.",
+  "ar": "البنية صالحة.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Toggle double column",
+  "ar": "تبديل التخطيط بعمودين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type:",
+  "ar": "النوع:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Underline",
+  "ar": "تسطير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Untag Selection",
+  "ar": "إزالة الوسم عن التحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update",
+  "ar": "تحديث",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Validate",
+  "ar": "تحقق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Weight",
+  "ar": "السماكة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Subtract",
+  "ar": "طرح",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Intersect",
+  "ar": "تقاطع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Exclude Overlap",
+  "ar": "استبعاد التداخل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Minus Back",
+  "ar": "طرح الخلفية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Make Compound",
+  "ar": "إنشاء مسار مركب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Release",
+  "ar": "تحرير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paths",
+  "ar": "مسارات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align left edges",
+  "ar": "محاذاة الحواف اليسرى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align horizontal centers",
+  "ar": "محاذاة المراكز أفقيًا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align right edges",
+  "ar": "محاذاة الحواف اليمنى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align top edges",
+  "ar": "محاذاة الحواف العليا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align vertical centers",
+  "ar": "محاذاة المراكز عموديًا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align bottom edges",
+  "ar": "محاذاة الحواف السفلى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align to Selection",
+  "ar": "محاذاة إلى التحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align to Key Object",
+  "ar": "محاذاة إلى الكائن الرئيسي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align to Margins",
+  "ar": "محاذاة إلى الهوامش",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align to Page",
+  "ar": "محاذاة إلى الصفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align to Spread",
+  "ar": "محاذاة إلى الصفحات المتقابلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No Text Wrap",
+  "ar": "بلا التفاف للنص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Wrap Around Bounding Box",
+  "ar": "التفاف حول المربع المحيط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Wrap Around Object Shape",
+  "ar": "التفاف حول شكل الكائن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Jump Object",
+  "ar": "تجاوز الكائن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Jump to Next Column",
+  "ar": "انتقال إلى العمود التالي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bulleted List",
+  "ar": "قائمة نقطية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Numbered List",
+  "ar": "قائمة مرقمة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "UPPERCASE",
+  "ar": "أحرف كبيرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Small Caps",
+  "ar": "الأحرف الكبيرة المصغّرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Butt",
+  "ar": "مسطحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Round",
+  "ar": "مستديرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Projecting",
+  "ar": "بارزة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Miter",
+  "ar": "حادة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bevel",
+  "ar": "مشطوفة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center",
+  "ar": "وسط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start/End:",
+  "ar": "البداية/النهاية:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "First",
+  "ar": "الأول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Last",
+  "ar": "الأخير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Before",
+  "ar": "قبل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "After",
+  "ar": "بعد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Shading",
+  "ar": "التظليل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Border",
+  "ar": "إطار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Overprint Fill",
+  "ar": "طباعة فوقية للتعبئة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Overprint Stroke",
+  "ar": "طباعة فوقية للحد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Overprint Gap",
+  "ar": "طباعة الفجوة فوقيًا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Nonprinting",
+  "ar": "غير قابل للطباعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "At Least",
+  "ar": "على الأقل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Exactly",
+  "ar": "بالضبط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Justify",
+  "ar": "ضبط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Underline Options",
+  "ar": "خيارات التسطير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Strikethrough Options",
+  "ar": "خيارات الخط المتوسط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Character Style Options",
+  "ar": "خيارات نمط الأحرف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Advanced Character Formats",
+  "ar": "تنسيقات الأحرف المتقدمة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "OpenType Features",
+  "ar": "ميزات OpenType",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Style Settings:",
+  "ar": "إعدادات النمط:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Kerning:",
+  "ar": "تقنين الأزواج:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Case:",
+  "ar": "حالة الأحرف:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "OpenType All Small Caps",
+  "ar": "كل الأحرف الكبيرة المصغّرة OpenType",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Subscript",
+  "ar": "النص المنخفض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "OpenType Subscript",
+  "ar": "منخفض OpenType",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "OpenType Numerator",
+  "ar": "بسط OpenType",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "OpenType Denominator",
+  "ar": "مقام OpenType",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ligatures",
+  "ar": "الحروف المركبة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No Break",
+  "ar": "بدون فصل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Horizontal Scale:",
+  "ar": "المقياس الأفقي:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Vertical Scale:",
+  "ar": "المقياس الرأسي:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Baseline Shift:",
+  "ar": "إزاحة خط الأساس:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Skew:",
+  "ar": "الإمالة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Language:",
+  "ar": "اللغة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tint:",
+  "ar": "الصبغة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Figure Style:",
+  "ar": "نمط الأرقام:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Underline On",
+  "ar": "تشغيل التسطير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Strikethrough On",
+  "ar": "تشغيل الخط المتوسط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit \"{name}\"…",
+  "ar": "تحرير \"{name}\"…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Discretionary Ligatures",
+  "ar": "روابط اختيارية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fractions",
+  "ar": "كسور",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ordinal",
+  "ar": "ترتيبي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Swash",
+  "ar": "زخرفي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Titling Alternates",
+  "ar": "بدائل العناوين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contextual Alternates",
+  "ar": "بدائل سياقية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Slashed Zero",
+  "ar": "صفر مشطوب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tabular Lining",
+  "ar": "أرقام منتظمة ثابتة العرض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Proportional Oldstyle",
+  "ar": "أرقام قديمة متناسبة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Proportional Lining",
+  "ar": "أرقام منتظمة متناسبة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tabular Oldstyle",
+  "ar": "أرقام قديمة ثابتة العرض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Default Figure Style",
+  "ar": "نمط الأرقام الافتراضي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Not a button",
+  "ar": "ليس زرًا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go To Next Page",
+  "ar": "انتقال إلى الصفحة التالية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go To Previous Page",
+  "ar": "انتقال إلى الصفحة السابقة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go To First Page",
+  "ar": "انتقال إلى الصفحة الأولى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go To Last Page",
+  "ar": "انتقال إلى الصفحة الأخيرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go To Page",
+  "ar": "انتقال إلى صفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go To URL",
+  "ar": "انتقال إلى عنوان URL",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Not a form field",
+  "ar": "ليس حقل نموذج",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Field",
+  "ar": "حقل نص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Check Box",
+  "ar": "خانة اختيار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Radio Button",
+  "ar": "زر اختيار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Combo Box",
+  "ar": "مربع تحرير وسرد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "List Box",
+  "ar": "مربع قائمة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Signature",
+  "ar": "توقيع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Resize width",
+  "ar": "تغيير العرض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Resize height",
+  "ar": "تغيير الارتفاع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pin top",
+  "ar": "تثبيت الأعلى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pin bottom",
+  "ar": "تثبيت الأسفل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pin left",
+  "ar": "تثبيت اليسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pin right",
+  "ar": "تثبيت اليمين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Inward",
+  "ar": "إلى الداخل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Metrics",
+  "ar": "المقاييس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Optical",
+  "ar": "بصري",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Applies to fill",
+  "ar": "يُطبّق على التعبئة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Applies to text",
+  "ar": "يُطبّق على النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Gray",
+  "ar": "رمادي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Linear",
+  "ar": "خطي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Radial",
+  "ar": "شعاعي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Arabic",
+  "ar": "العربية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Beveled Rectangle",
+  "ar": "مستطيل مشطوف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Chinese",
+  "ar": "الصينية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Constrain proportions for width and height",
+  "ar": "تقييد نسب العرض والارتفاع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Custom",
+  "ar": "مخصص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Czech",
+  "ar": "التشيكية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Danish",
+  "ar": "الدنماركية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dashed",
+  "ar": "متقطع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dotted",
+  "ar": "منقط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dutch: 2005 Reform",
+  "ar": "الهولندية: إصلاح 2005",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Embedded",
+  "ar": "مضمّن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "English: Canadian",
+  "ar": "الإنجليزية: كندا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "English: UK",
+  "ar": "الإنجليزية: المملكة المتحدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "English: USA",
+  "ar": "الإنجليزية: الولايات المتحدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Farsi",
+  "ar": "الفارسية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Finnish",
+  "ar": "الفنلندية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "French",
+  "ar": "الفرنسية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "French: Canadian",
+  "ar": "الفرنسية: كندا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "German: 2006 Reform",
+  "ar": "الألمانية: إصلاح 2006",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "German: Swiss 2006 Reform",
+  "ar": "الألمانية: الإصلاح السويسري 2006",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Greek",
+  "ar": "اليونانية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hebrew",
+  "ar": "العبرية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hindi",
+  "ar": "الهندية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hungarian",
+  "ar": "المجرية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Inverse Rounded Rectangle",
+  "ar": "مستطيل بزوايا دائرية معكوسة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Italian",
+  "ar": "الإيطالية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Japanese",
+  "ar": "اليابانية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Korean",
+  "ar": "الكورية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Make all settings the same",
+  "ar": "توحيد جميع الإعدادات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Native",
+  "ar": "أرقام محلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Norwegian: Bokmål",
+  "ar": "النرويجية: بوكمول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Orthogonal Line",
+  "ar": "خط متعامد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polish",
+  "ar": "البولندية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Portuguese",
+  "ar": "البرتغالية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Portuguese: Brazilian",
+  "ar": "البرتغالية: البرازيل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rounded Rectangle",
+  "ar": "مستطيل مستدير الزوايا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Russian",
+  "ar": "الروسية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Solid",
+  "ar": "متصل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Spanish",
+  "ar": "الإسبانية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Swedish",
+  "ar": "السويدية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Thick - Thick",
+  "ar": "سميك - سميك",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Thick - Thin",
+  "ar": "سميك - رفيع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Thin - Thick",
+  "ar": "رفيع - سميك",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Thin - Thin",
+  "ar": "رفيع - رفيع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Thin - Thick - Thin",
+  "ar": "رفيع - سميك - رفيع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Thick - Thin - Thick",
+  "ar": "سميك - رفيع - سميك",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Wavy",
+  "ar": "متموج",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Straight Hash",
+  "ar": "شرطات مائلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Stripes",
+  "ar": "خطوط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Triangle",
+  "ar": "مثلث",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Turkish",
+  "ar": "التركية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ukrainian",
+  "ar": "الأوكرانية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cell Style",
+  "ar": "نمط الخلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table Style",
+  "ar": "نمط الجدول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Col ←",
+  "ar": "إدراج عمود يسارًا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Col →",
+  "ar": "إدراج عمود يمينًا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Row ↑",
+  "ar": "إدراج صف أعلى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Row ↓",
+  "ar": "إدراج صف أسفل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Others",
+  "ar": "إخفاء الطبقات الأخرى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lock Others",
+  "ar": "قفل الطبقات الأخرى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show All Layers",
+  "ar": "إظهار كل الطبقات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unlock",
+  "ar": "إلغاء القفل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unlock All Layers",
+  "ar": "إلغاء قفل كل الطبقات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Added",
+  "ar": "مضاف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Deleted",
+  "ar": "محذوف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Guide-based",
+  "ar": "استنادًا إلى الأدلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Loop",
+  "ar": "تكرار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object-based",
+  "ar": "استنادًا إلى الكائنات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Play on Page Load",
+  "ar": "تشغيل عند تحميل الصفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Re-center",
+  "ar": "إعادة التوسيط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Controls",
+  "ar": "إظهار عناصر التحكم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Signature Field",
+  "ar": "حقل توقيع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select text to apply a condition",
+  "ar": "حدد نصًا لتطبيق شرط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Blinds",
+  "ar": "ستائر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Box",
+  "ar": "مربع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Comb",
+  "ar": "مشط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cover",
+  "ar": "تغطية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dissolve",
+  "ar": "تلاشي متناثر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fade",
+  "ar": "تلاشي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Push",
+  "ar": "دفع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Split",
+  "ar": "انقسام",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Uncover",
+  "ar": "كشف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Wipe",
+  "ar": "مسح",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Simple",
+  "ar": "بسيط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Simple - Wide",
+  "ar": "بسيط - عريض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Triangle - Wide",
+  "ar": "مثلث - عريض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Barbed",
+  "ar": "مسنن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Curved",
+  "ar": "منحني",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Circle",
+  "ar": "دائرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Circle - Solid",
+  "ar": "دائرة مصمتة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Square",
+  "ar": "مربع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Square - Solid",
+  "ar": "مربع مصمت",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bar",
+  "ar": "شرطة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide",
+  "ar": "إخفاء",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show",
+  "ar": "إظهار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select",
+  "ar": "تحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fit Text",
+  "ar": "ملاءمة النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Preview (W)",
+  "ar": "معاينة (W)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Normal (W)",
+  "ar": "عادي (W)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Conveyor",
+  "ar": "ناقل المحتوى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "objects",
+  "ar": "كائنات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "pages",
+  "ar": "صفحات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "stories",
+  "ar": "نصوص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "items",
+  "ar": "عناصر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "warnings",
+  "ar": "تحذيرات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Render",
+  "ar": "تصيير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set",
+  "ar": "مجموعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "unused",
+  "ar": "غير مستخدم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "⚠ Missing",
+  "ar": "⚠ مفقود",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "▲ Modified",
+  "ar": "▲ معدّل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "(Text Color)",
+  "ar": "(لون النص)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{count} glyphs — click to insert at the text cursor",
+  "ar": "عدد المحارف: {count} — انقر للإدراج عند مؤشر النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{pages} Pages in {spreads} Spreads",
+  "ar": "عدد الصفحات: {pages}، المجموعات: {spreads}",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Frame",
+  "ar": "إطار النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Style",
+  "ar": "نمط النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": " (auto)",
+  "ar": " (تلقائي)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Absolute Numbering (instead of Section Numbering)",
+  "ar": "ترقيم مطلق بدلًا من ترقيم الأقسام",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add and remove pages as the primary text frame's story grows and shrinks",
+  "ar": "إضافة الصفحات وحذفها مع زيادة نص الإطار الرئيسي أو نقصانه",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Added Text (highlighted)",
+  "ar": "النص المضاف (مميز)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Adjust Layout (objects follow the new page size)",
+  "ar": "ضبط التخطيط وفق حجم الصفحة الجديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Auto-Fit",
+  "ar": "الملاءمة التلقائية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Case sensitive",
+  "ar": "مراعاة حالة الأحرف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Custom Tracking/Kerning",
+  "ar": "التتبع/التقنين المخصص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dimensions Include Stroke Weight",
+  "ar": "تضمين سماكة الحد في الأبعاد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enable Autocorrect",
+  "ar": "تمكين التصحيح التلقائي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Enable Dynamic Spelling (underline misspelled words)",
+  "ar": "تمكين التدقيق الإملائي التلقائي (تسطير الأخطاء)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grids in Back",
+  "ar": "الشبكات في الخلف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "H&J Violations",
+  "ar": "انتهاكات H&J",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Include Bleed",
+  "ar": "تضمين النزف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Include Stroke Weight",
+  "ar": "تضمين سماكة الحد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Keep Violations",
+  "ar": "مخالفات خيارات إبقاء النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Overprint [Black] Swatch at 100%",
+  "ar": "طباعة عينة اللون [الأسود] بنسبة 100% فوقيًا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Printer's Marks",
+  "ar": "علامات الطباعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove Styles and Formatting from Text and Tables",
+  "ar": "إزالة الأنماط والتنسيق من النص والجداول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ruby",
+  "ar": "روبي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Note Anchors in Layout View",
+  "ar": "إظهار مراسي الملاحظات في عرض التخطيط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Spreads",
+  "ar": "صفحات متقابلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export PDF",
+  "ar": "تصدير PDF",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Standard",
+  "ar": "معيار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Standard:",
+  "ar": "المعيار:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Compress images",
+  "ar": "ضغط الصور",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Flattener preset",
+  "ar": "إعداد تسوية الشفافية المسبق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Include document bleed",
+  "ar": "تضمين نزف المستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Crop Marks",
+  "ar": "علامات القص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bleed Marks",
+  "ar": "علامات النزف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Information",
+  "ar": "معلومات الصفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Range",
+  "ar": "نطاق الصفحات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Range:",
+  "ar": "نطاق الصفحات:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tagged PDF",
+  "ar": "PDF موسوم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Desktop Printing",
+  "ar": "طباعة مكتبية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Commercial Printing",
+  "ar": "طباعة تجارية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Screen and Email",
+  "ar": "الشاشة والبريد الإلكتروني",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "PDF/X-4",
+  "ar": "PDF/X-4",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "PDF/A-2b",
+  "ar": "PDF/A-2b",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Compression",
+  "ar": "ضغط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Marks and Bleeds",
+  "ar": "العلامات والنزف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Preset:",
+  "ar": "الإعداد المسبق:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Substituted Fonts",
+  "ar": "الخطوط المستبدلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transformations are Totals",
+  "ar": "عرض قيم التحويل الإجمالية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Use Black Point Compensation",
+  "ar": "استخدام تعويض النقطة السوداء",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Use Typographer's Quotes",
+  "ar": "استخدام علامات الاقتباس الطباعية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Whole word",
+  "ar": "كلمة كاملة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "  Close  ",
+  "ar": "  إغلاق  ",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "(Top Level)",
+  "ar": "(المستوى الأعلى)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "(import)",
+  "ar": "(استيراد)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Accept All",
+  "ar": "قبول الكل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Document…",
+  "ar": "إضافة مستند…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add to Previous Spread",
+  "ar": "إضافة إلى الصفحات المتقابلة السابقة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align From:",
+  "ar": "محاذاة من:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align to baseline grid",
+  "ar": "محاذاة إلى شبكة خطوط الأساس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "All Spots to Process",
+  "ar": "تحويل كل الألوان الموضعية إلى ألوان معالجة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Allow Spread to Shuffle",
+  "ar": "السماح بإعادة ترتيب الصفحات المتقابلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Alternating Row Fills",
+  "ar": "تعبئة الصفوف بالتناوب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Gradient",
+  "ar": "تطبيق التدرج اللوني",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply None (/)",
+  "ar": "تطبيق بلا لون (/)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Parent",
+  "ar": "تطبيق الصفحة الأصلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply to All Spreads",
+  "ar": "تطبيق على كل الصفحات المتقابلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply to Stroke",
+  "ar": "تطبيق على الحد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Art",
+  "ar": "حدود الرسم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Baseline Grid",
+  "ar": "شبكة خطوط الأساس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bleed and Slug",
+  "ar": "النزف ومنطقة المعلومات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Body Rows",
+  "ar": "صفوف المتن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Break Link to Style",
+  "ar": "فك الارتباط بالنمط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bullets and Numbering",
+  "ar": "التعداد النقطي والرقمي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Business Card",
+  "ar": "بطاقة عمل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Buttons act in interactive PDF export.",
+  "ar": "تعمل الأزرار عند التصدير إلى PDF تفاعلي.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Change to:",
+  "ar": "تغيير إلى:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Character Settings",
+  "ar": "إعدادات الأحرف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Characters",
+  "ar": "الأحرف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Checked by default",
+  "ar": "محدد افتراضيًا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Choices",
+  "ar": "الخيارات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Choose Image…",
+  "ar": "اختيار صورة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Choose a link.",
+  "ar": "اختر رابطًا.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Content Fitting",
+  "ar": "ملاءمة المحتوى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert Shape",
+  "ar": "تحويل الشكل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copies:",
+  "ar": "عدد النسخ:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Count",
+  "ar": "عدّ",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create",
+  "ar": "إنشاء",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create Alternate Layout",
+  "ar": "إنشاء تخطيط بديل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create Table…",
+  "ar": "إنشاء جدول…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Crop",
+  "ar": "قص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Crop Amount",
+  "ar": "مقدار القص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Crop to:",
+  "ar": "القص إلى:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cross-Reference Format",
+  "ar": "تنسيق المرجع المتقاطع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cursor Key:",
+  "ar": "مفتاح المؤشر:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Default Fill and Stroke (D)",
+  "ar": "التعبئة والحد الافتراضيان (D)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Default View:",
+  "ar": "العرض الافتراضي:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Column",
+  "ar": "حذف العمود",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Condition",
+  "ar": "حذف الشرط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Row",
+  "ar": "حذف الصف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Swatch",
+  "ar": "حذف عينة الألوان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Unused Layers",
+  "ar": "حذف الطبقات غير المستخدمة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Workspace",
+  "ar": "حذف مساحة العمل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document Grid",
+  "ar": "شبكة المستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document Recovery Data",
+  "ar": "بيانات استرداد المستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Duplicate Spread",
+  "ar": "تكرار الصفحات المتقابلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Email",
+  "ar": "بريد إلكتروني",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Embed",
+  "ar": "تضمين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fast",
+  "ar": "سريع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fill (X)",
+  "ar": "تعبئة (X)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fill with Placeholder Text",
+  "ar": "ملء بنص مؤقت",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find All",
+  "ar": "بحث عن الكل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find what:",
+  "ar": "البحث عن:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fit frame height to text",
+  "ar": "ملاءمة ارتفاع الإطار للنص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fitting:",
+  "ar": "الملاءمة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Flip Horizontal",
+  "ar": "قلب أفقي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Flip Vertical",
+  "ar": "قلب عمودي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Font Size:",
+  "ar": "حجم الخط:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Form Field",
+  "ar": "حقل نموذج",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Format:",
+  "ar": "التنسيق:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Height:",
+  "ar": "الارتفاع:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Bar",
+  "ar": "إخفاء الشريط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "High Quality",
+  "ar": "جودة عالية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Highlight",
+  "ar": "الإبراز",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Horizontal Gridline Every:",
+  "ar": "تباعد خطوط الشبكة الأفقية:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Horizontal Margins:",
+  "ar": "الهوامش الأفقية:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Import XML…",
+  "ar": "استيراد XML…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Increment Every:",
+  "ar": "مقدار الزيادة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ink Manager",
+  "ar": "مدير الأحبار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Column",
+  "ar": "إدراج عمود",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Page After",
+  "ar": "إدراج صفحة بعدها",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Row",
+  "ar": "إدراج صف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Inset spacing",
+  "ar": "التباعد الداخلي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Intent:",
+  "ar": "الغرض:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Invert",
+  "ar": "عكس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Keyboard Increments",
+  "ar": "زيادات لوحة المفاتيح",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Kind:",
+  "ar": "النوع:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Link To:",
+  "ar": "الربط إلى:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Liquid guides",
+  "ar": "أدلة التخطيط المرن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Load Profile…",
+  "ar": "تحميل ملف تعريف…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Load Swatches…",
+  "ar": "تحميل عينات الألوان…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Load…",
+  "ar": "تحميل…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Media",
+  "ar": "وسائط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Merge into Active Layer",
+  "ar": "دمج في الطبقة النشطة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Misspelled word → Correction (one per line):",
+  "ar": "كلمة خاطئة ← تصحيح (واحد في كل سطر):",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Mobile",
+  "ar": "جوال",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "More Warsha apps",
+  "ar": "المزيد من تطبيقات Warsha",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move Selection Here",
+  "ar": "نقل التحديد إلى هنا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move to Color Group",
+  "ar": "نقل إلى مجموعة ألوان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move to Group",
+  "ar": "نقل إلى مجموعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multiline",
+  "ar": "متعدد الأسطر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multiple Objects",
+  "ar": "كائنات متعددة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Name:",
+  "ar": "الاسم:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Bookmark for This Page",
+  "ar": "إشارة مرجعية جديدة لهذه الصفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Book…",
+  "ar": "كتاب جديد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Color Group",
+  "ar": "مجموعة ألوان جديدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Color Group with Swatch",
+  "ar": "مجموعة ألوان جديدة من عينة اللون",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Library…",
+  "ar": "مكتبة جديدة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Workspace…",
+  "ar": "مساحة عمل جديدة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No articles: exports follow page order.",
+  "ar": "لا توجد مقالات؛ يتبع التصدير ترتيب الصفحات.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No book open.",
+  "ar": "لا يوجد كتاب مفتوح.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No bookmarks. They become the PDF outline.",
+  "ar": "لا توجد إشارات مرجعية. تظهر في مخطط PDF.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No changes.",
+  "ar": "لا توجد تغييرات.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No conditions. Create one, then select text and click it to apply.",
+  "ar": "لا توجد شروط. أنشئ شرطًا ثم حدد النص وانقر عليه لتطبيقه.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No document.",
+  "ar": "لا يوجد مستند.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No hyperlinks. Select text or a frame, type a URL and click New.",
+  "ar": "لا توجد روابط. حدد نصًا أو إطارًا وأدخل عنوان URL ثم انقر على جديد.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No library open.",
+  "ar": "لا توجد مكتبة مفتوحة.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No notes in this document.",
+  "ar": "لا توجد ملاحظات في هذا المستند.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No placed graphics.",
+  "ar": "لا توجد رسومات مدرجة.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No scripts. Add one below.",
+  "ar": "لا توجد نصوص برمجية. أضف واحدًا أدناه.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No spot inks",
+  "ar": "لا توجد أحبار موضعية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No text anchors in this document.",
+  "ar": "لا توجد مراسي نصية في هذا المستند.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Number of Pages:",
+  "ar": "عدد الصفحات:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Number of Sides:",
+  "ar": "عدد الأضلاع:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Number of columns",
+  "ar": "عدد الأعمدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "OK changes all: text and paragraph/character styles.",
+  "ar": "تطبّق الموافقة التغييرات على النص وأنماط الفقرات والأحرف.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "OVERSET",
+  "ar": "نص فائض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "On Release",
+  "ar": "عند الإفلات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "On Screen:",
+  "ar": "على الشاشة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open source. No telemetry.",
+  "ar": "مفتوح المصدر. بلا تتبع للاستخدام.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Options for Black on RGB and Grayscale Devices",
+  "ar": "خيارات الأسود لأجهزة RGB والتدرج الرمادي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Orientation:",
+  "ar": "الاتجاه:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Numbering",
+  "ar": "ترقيم الصفحات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page · PPI",
+  "ar": "صفحة · PPI",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pages:",
+  "ar": "الصفحات:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Part of Warsha.",
+  "ar": "جزء من مجموعة Warsha للأدوات الإبداعية المفتوحة.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pasteboard Options",
+  "ar": "خيارات مساحة اللصق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Path",
+  "ar": "مسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Place the insertion point in a table, or create one.",
+  "ar": "ضع نقطة الإدراج داخل جدول أو أنشئ جدولًا.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plain Text",
+  "ar": "نص عادي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Plays in EPUB export; print and PDF show the poster.",
+  "ar": "يعمل في تصدير EPUB؛ وتعرض الطباعة وPDF صورة الغلاف.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Poster",
+  "ar": "صورة الغلاف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Printer:",
+  "ar": "الطابعة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Printing / Exporting:",
+  "ar": "الطباعة / التصدير:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Properties Panel",
+  "ar": "لوحة الخصائص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Recently Used",
+  "ar": "المستخدمة مؤخرًا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reject All",
+  "ar": "رفض الكل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Relative To:",
+  "ar": "بالنسبة إلى:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Relink to Folder…",
+  "ar": "إعادة الربط بمجلد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Relink…",
+  "ar": "إعادة الربط…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove Conditions from Selection",
+  "ar": "إزالة الشروط عن التحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Repeat Header Rows",
+  "ar": "تكرار صفوف الرأس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Replace With",
+  "ar": "الاستبدال بـ",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Required",
+  "ar": "مطلوب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reset All to Defaults",
+  "ar": "إعادة تعيين الكل إلى الافتراضي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reverse",
+  "ar": "عكس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Right-click: stroke, groups",
+  "ar": "نقرة يمنى: الحد والمجموعات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rotate 90° Clockwise",
+  "ar": "تدوير 90° مع عقارب الساعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ruler Units",
+  "ar": "وحدات المسطرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save Swatches for Exchange…",
+  "ar": "حفظ عينات الألوان للتبادل…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save recovery data every:",
+  "ar": "حفظ بيانات الاسترداد كل:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Saves which bars show and where the panels are.",
+  "ar": "يحفظ الأشرطة الظاهرة ومواضع اللوحات.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Search:",
+  "ar": "البحث:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an object to color its fill or stroke.",
+  "ar": "حدد كائنًا لتلوين تعبئته أو حده.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an object to give its fill a gradient.",
+  "ar": "حدد كائنًا لإضافة تدرج إلى تعبئته.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an object to make it a button.",
+  "ar": "حدد كائنًا لتحويله إلى زر.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select an object.",
+  "ar": "حدد كائنًا.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select text or a text frame.",
+  "ar": "حدد نصًا أو إطار نص.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select two or more objects (or a group) to make a multi-state object.",
+  "ar": "حدد كائنين أو أكثر (أو مجموعة) لإنشاء كائن متعدد الحالات.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Tag Markers",
+  "ar": "إظهار علامات الوسوم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Single-line",
+  "ar": "سطر واحد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Smart Text Reflow",
+  "ar": "التدفق الذكي للنص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Speed",
+  "ar": "السرعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Star Inset:",
+  "ar": "تقعر النجمة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start Page #:",
+  "ar": "رقم صفحة البداية:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Start:",
+  "ar": "البداية:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Status",
+  "ar": "الحالة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Stroke (X)",
+  "ar": "حد (X)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Style Mapping",
+  "ar": "ربط الأنماط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Style Name Conflicts",
+  "ar": "تعارض أسماء الأنماط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Stylistic Sets",
+  "ar": "المجموعات الأسلوبية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Subdivisions:",
+  "ar": "التقسيمات الفرعية:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Swap Fill and Stroke (Shift+X)",
+  "ar": "تبديل التعبئة والحد (Shift+X)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Synchronize",
+  "ar": "مزامنة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "System default",
+  "ar": "افتراضي النظام",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table Dimensions",
+  "ar": "أبعاد الجدول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Display Options",
+  "ar": "خيارات عرض النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Message",
+  "ar": "رسالة نصية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "The fill isn't a gradient.",
+  "ar": "التعبئة ليست تدرجًا.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "The library is empty. Select objects and Add Selection.",
+  "ar": "المكتبة فارغة. حدد كائنات ثم أضف التحديد.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "This PDF has no layers.",
+  "ar": "ملف PDF هذا لا يحتوي على طبقات.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Track Changes in All Stories",
+  "ar": "تتبع التغييرات في جميع النصوص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transitions play in interactive PDF (full-screen mode).",
+  "ar": "تعمل الانتقالات في PDF التفاعلي بوضع ملء الشاشة.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Trim",
+  "ar": "حدود التشذيب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type Options",
+  "ar": "خيارات النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Typical",
+  "ar": "نموذجي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "UI Size:",
+  "ar": "حجم الواجهة:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ungroup Color Group",
+  "ar": "فك مجموعة الألوان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unmerge",
+  "ar": "إلغاء الدمج",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update Numbering",
+  "ar": "تحديث الترقيم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Use Global Light",
+  "ar": "استخدام الإضاءة العامة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "User Dictionary (this document)",
+  "ar": "قاموس المستخدم (هذا المستند)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Variable Font",
+  "ar": "خط متغير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Vertical Gridline Every:",
+  "ar": "تباعد خطوط الشبكة العمودية:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Vertical Margins:",
+  "ar": "الهوامش العمودية:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Vertical justification",
+  "ar": "المحاذاة العمودية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "View Threshold:",
+  "ar": "حد العرض:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Web",
+  "ar": "ويب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Web Hyperlink",
+  "ar": "رابط ويب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "When Scaling",
+  "ar": "عند التحجيم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Words, one per line:",
+  "ar": "الكلمات، واحدة في كل سطر:",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "[Basic] (working) ▾",
+  "ar": "[أساسي] (قيد العمل) ▾",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "[Black] Overprint",
+  "ar": "طباعة [الأسود] فوقيًا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "[No Group]",
+  "ar": "[بلا مجموعة]",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "[None] — choose a colour on the ramp.",
+  "ar": "[بلا] — اختر لونًا على شريط التدرج.",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "⌥-click clears overrides",
+  "ar": "النقر مع ⌥ يمسح التجاوزات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "⚠ out of date",
+  "ar": "⚠ غير محدّث",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Interface",
+  "ar": "الواجهة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Advanced Type",
+  "ar": "كتابة متقدمة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Composition",
+  "ar": "التركيب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Font Names in English",
+  "ar": "إظهار أسماء الخطوط بالإنجليزية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Missing Glyphs",
+  "ar": "الحروف الناقصة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Draw Missing Glyphs from Fallback Fonts",
+  "ar": "رسم الحروف الناقصة بخطوط بديلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Units & Increments",
+  "ar": "الوحدات والزيادات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Grids",
+  "ar": "الشبكات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Guides & Pasteboard",
+  "ar": "الأدلة ولوحة اللصق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dictionary",
+  "ar": "القاموس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Spelling",
+  "ar": "التدقيق الإملائي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Autocorrect",
+  "ar": "التصحيح التلقائي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Track Changes",
+  "ar": "تعقب التغييرات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Story Editor Display",
+  "ar": "عرض محرر القصة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Display Performance",
+  "ar": "أداء العرض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Appearance of Black",
+  "ar": "مظهر الأسود",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "File Handling",
+  "ar": "معالجة الملفات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Formatting affects container (J)",
+  "ar": "تطبيق التنسيق على الحاوية (J)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Formatting affects text (J)",
+  "ar": "تطبيق التنسيق على النص (J)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Color",
+  "ar": "تطبيق اللون",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply None",
+  "ar": "إزالة اللون",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Height Only",
+  "ar": "الارتفاع فقط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Width Only",
+  "ar": "العرض فقط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Height and Width",
+  "ar": "الارتفاع والعرض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Height only",
+  "ar": "الارتفاع فقط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Width only",
+  "ar": "العرض فقط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Height and width",
+  "ar": "الارتفاع والعرض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Version",
+  "ar": "الإصدار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "{count} characters don't fit",
+  "ar": "عدد الأحرف الزائدة: {count}",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "document",
+  "ar": "المستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "story",
+  "ar": "القصة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "selection",
+  "ar": "التحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "top",
+  "ar": "أعلى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "center",
+  "ar": "وسط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "bottom",
+  "ar": "أسفل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "justify",
+  "ar": "ضبط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "text",
+  "ar": "نص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "graphic",
+  "ar": "رسم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "unassigned",
+  "ar": "غير معين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Perceptual",
+  "ar": "إدراكي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Relative Colorimetric",
+  "ar": "قياس لوني نسبي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Saturation",
+  "ar": "التشبع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Absolute Colorimetric",
+  "ar": "قياس لوني مطلق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No conflicts",
+  "ar": "لا توجد تعارضات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page (1–{count}):",
+  "ar": "الصفحة (1–{count}):",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fonts in Document: {count}    Missing: {missing}",
+  "ar": "الخطوط في المستند: {count}    المفقودة: {missing}",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Story Direction",
+  "ar": "اتجاه القصة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tate-Chu-Yoko",
+  "ar": "نص أفقي داخل النص العمودي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ruby…",
+  "ar": "روبي…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Kenten",
+  "ar": "علامات توكيد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Warichu",
+  "ar": "واريشو",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tabs",
+  "ar": "علامات الجدولة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Story",
+  "ar": "القصة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create Outlines",
+  "ar": "إنشاء حدود خارجية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Hidden Characters",
+  "ar": "إظهار الأحرف المخفية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unmerge Cells",
+  "ar": "إلغاء دمج الخلايا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Snap to Guides",
+  "ar": "محاذاة إلى الأدلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Snap to Document Grid",
+  "ar": "محاذاة إلى شبكة المستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align to Object Edges",
+  "ar": "محاذاة إلى حواف الكائنات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align to Object Centers",
+  "ar": "محاذاة إلى مراكز الكائنات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Smart Dimensions",
+  "ar": "الأبعاد الذكية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Smart Spacing",
+  "ar": "التباعد الذكي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Snap to Zone",
+  "ar": "نطاق المحاذاة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Info",
+  "ar": "معلومات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Index",
+  "ar": "فهرس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Articles",
+  "ar": "مقالات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tags",
+  "ar": "وسوم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object States",
+  "ar": "حالات الكائن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Liquid Layout",
+  "ar": "التخطيط المرن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Split Window",
+  "ar": "تقسيم النافذة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Window",
+  "ar": "نافذة جديدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "CMYK",
+  "ar": "CMYK",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Lab",
+  "ar": "Lab",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "OpenType",
+  "ar": "OpenType",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "RGB",
+  "ar": "RGB",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Accept All Changes",
+  "ar": "قبول جميع التغييرات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Activate Document",
+  "ar": "تنشيط المستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Anchor Point",
+  "ar": "إضافة نقطة ارتساء",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Document",
+  "ar": "إضافة مستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Hyphenation Exception",
+  "ar": "إضافة استثناء لتقسيم الكلمات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Item",
+  "ar": "إضافة عنصر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Page to Spread",
+  "ar": "إضافة صفحة إلى الصفحات المتقابلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Allow Selected Spread to Shuffle",
+  "ar": "السماح بإعادة ترتيب الصفحات المتقابلة المحددة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Anchored Object Options…",
+  "ar": "خيارات الكائن المثبت…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Anchored Objects",
+  "ar": "الكائنات المثبتة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Attributes (Eyedropper)",
+  "ar": "تطبيق السمات (القطارة)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Cell Style",
+  "ar": "تطبيق نمط الخلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Condition",
+  "ar": "تطبيق شرط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Parent to Pages…",
+  "ar": "تطبيق الصفحة الأصلية على الصفحات…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Warsha App Page…",
+  "ar": "صفحة تطبيق Warsha…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Warsha Website…",
+  "ar": "موقع Warsha…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Attributes",
+  "ar": "السمات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bevel and Emboss",
+  "ar": "القطع المشطوف والنقش البارز",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Buttons",
+  "ar": "أزرار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cell Style Options…",
+  "ar": "خيارات نمط الخلية…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Change All (Object)",
+  "ar": "تغيير الكل (الكائن)",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Changes",
+  "ar": "تغييرات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Character Formatting",
+  "ar": "تنسيق الأحرف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear Conveyor",
+  "ar": "إفراغ ناقل المحتوى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear Transformations",
+  "ar": "مسح التحويلات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clipping Path…",
+  "ar": "مسار القص…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Close Book",
+  "ar": "إغلاق الكتاب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Close Library",
+  "ar": "إغلاق المكتبة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Collect",
+  "ar": "تجميع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color Settings…",
+  "ar": "إعدادات الألوان…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Community & Project Links",
+  "ar": "روابط المجتمع والمشروع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Container",
+  "ar": "حاوية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Content",
+  "ar": "محتوى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contextual Task Bar",
+  "ar": "شريط المهام السياقي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Control",
+  "ar": "التحكم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert Cell to Graphic Cell",
+  "ar": "تحويل الخلية إلى خلية رسومية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert Cell to Graphic Cell…",
+  "ar": "تحويل الخلية إلى خلية رسومية…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert Cell to Text Cell",
+  "ar": "تحويل الخلية إلى خلية نصية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert Color",
+  "ar": "تحويل اللون",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert Direction Point",
+  "ar": "تحويل نقطة الاتجاه",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert Note to Text",
+  "ar": "تحويل الملاحظة إلى نص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert Table to Text",
+  "ar": "تحويل الجدول إلى نص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert Text to Table",
+  "ar": "تحويل النص إلى جدول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert to Button",
+  "ar": "تحويل إلى زر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert to Form Field",
+  "ar": "تحويل إلى حقل نموذج",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copy Link(s) To…",
+  "ar": "نسخ الروابط إلى…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Corner Options…",
+  "ar": "خيارات الزوايا…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create Alternate Layout…",
+  "ar": "إنشاء تخطيط بديل…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create Frame",
+  "ar": "إنشاء إطار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create Merged Document…",
+  "ar": "إنشاء مستند مدمج…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cross-Reference Formats",
+  "ar": "تنسيقات المراجع المتقاطعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cross-References",
+  "ar": "مراجع متقاطعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data Merge Fields",
+  "ar": "حقول دمج البيانات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Define Cross-Reference Format…",
+  "ar": "تعريف تنسيق المرجع المتقاطع…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Define Lists…",
+  "ar": "تعريف القوائم…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Define Text Variable…",
+  "ar": "تعريف متغير نصي…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete All Guides on Spread",
+  "ar": "حذف جميع الأدلة على الصفحات المتقابلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Anchor Point",
+  "ar": "حذف نقطة ارتساء",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Item",
+  "ar": "حذف عنصر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Text Variable",
+  "ar": "حذف متغير نصي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Workspace…",
+  "ar": "حذف مساحة العمل…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Nasaq Website…",
+  "ar": "موقع Nasaq…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Nasaq on GitHub…",
+  "ar": "Nasaq على GitHub…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Detach All Objects from Parent",
+  "ar": "فصل جميع الكائنات عن الصفحة الأصلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Directional Feather",
+  "ar": "الحواف المنعمة الاتجاهية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Distribute",
+  "ar": "توزيع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dock Panel",
+  "ar": "إرساء اللوحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document Endnote Options…",
+  "ar": "خيارات الحواشي الختامية للمستند…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document Preferences",
+  "ar": "تفضيلات المستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document Presets",
+  "ar": "الإعدادات المسبقة للمستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document…",
+  "ar": "مستند…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit Parents",
+  "ar": "تحرير الصفحات الأصلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit Story",
+  "ar": "تحرير القصة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Endnotes",
+  "ar": "حواشٍ ختامية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Entire Pasteboard",
+  "ar": "لوحة اللصق بأكملها",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Erase",
+  "ar": "محو",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export Book to PDF…",
+  "ar": "تصدير الكتاب إلى PDF…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export EPUB (Reflowable)…",
+  "ar": "تصدير EPUB (قابل لإعادة التدفق)…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export Selection as Snippet",
+  "ar": "تصدير التحديد كمقتطف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Extend Text Selection",
+  "ar": "توسيع تحديد النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fast Display",
+  "ar": "العرض السريع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find Object",
+  "ar": "بحث عن كائن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Find by Script Label",
+  "ar": "بحث حسب تسمية البرنامج النصي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "First Object Above",
+  "ar": "أول كائن أعلى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fit Selection in Window",
+  "ar": "ملاءمة التحديد في النافذة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Flattener Preview",
+  "ar": "معاينة التسطيح",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Float Panel",
+  "ar": "تعويم اللوحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fonts in Document",
+  "ar": "الخطوط في المستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Form Fields",
+  "ar": "حقول النماذج",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Frame Fitting Options…",
+  "ar": "خيارات ملاءمة الإطار…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Generate Index…",
+  "ar": "إنشاء فهرس…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Generate QR Code…",
+  "ar": "إنشاء رمز QR…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Generate Static Caption",
+  "ar": "إنشاء تعليق توضيحي ثابت",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Get Story",
+  "ar": "جلب القصة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Get Table",
+  "ar": "جلب الجدول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Global Light…",
+  "ar": "الإضاءة العامة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go To Link",
+  "ar": "انتقال إلى الرابط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Go To Source",
+  "ar": "انتقال إلى المصدر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Gradient Feather",
+  "ar": "الحواف المنعمة المتدرجة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Gridify",
+  "ar": "تقسيم إلى شبكة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Group Transparency",
+  "ar": "شفافية المجموعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide Menu Item",
+  "ar": "إخفاء عنصر القائمة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hide/Lock Others",
+  "ar": "إخفاء/قفل العناصر الأخرى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "High Quality Display",
+  "ar": "عرض عالي الجودة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "History",
+  "ar": "سجل الإجراءات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Import Options: Styles",
+  "ar": "خيارات الاستيراد: الأنماط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Index Page References",
+  "ar": "مراجع صفحات الفهرس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Inner Glow",
+  "ar": "التوهج الداخلي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Inner Shadow",
+  "ar": "الظل الداخلي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Anchored Object…",
+  "ar": "إدراج كائن مثبت…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Cross-Reference…",
+  "ar": "إدراج مرجع متقاطع…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Endnote",
+  "ar": "إدراج حاشية ختامية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Math Expression…",
+  "ar": "إدراج تعبير رياضي…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Pages…",
+  "ar": "إدراج صفحات…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Variable",
+  "ar": "إدراج متغير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Inspect Document",
+  "ar": "فحص المستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Interface Color Theme",
+  "ar": "نسق ألوان الواجهة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contact the Developer…",
+  "ar": "الانضمام إلى Discord الخاص بـ Warsha…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Last Object Below",
+  "ar": "آخر كائن أسفل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Library Contents",
+  "ar": "محتويات المكتبة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Library Items",
+  "ar": "عناصر المكتبة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Liquid Page Rule",
+  "ar": "قاعدة الصفحة المرنة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "List Documents",
+  "ar": "سرد المستندات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "List Styles",
+  "ar": "سرد الأنماط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "List Tools",
+  "ar": "سرد الأدوات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Load Place Cursor",
+  "ar": "تحميل مؤشر الإدراج",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Make Compound Path",
+  "ar": "إنشاء مسار مركب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Map Styles to Tags",
+  "ar": "ربط الأنماط بالوسوم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Math Expression SVG",
+  "ar": "تعبير رياضي بصيغة SVG",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Media Options",
+  "ar": "خيارات الوسائط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Menus…",
+  "ar": "القوائم…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Merge Layers",
+  "ar": "دمج الطبقات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move Caret",
+  "ar": "تحريك مؤشر النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move Gap",
+  "ar": "تحريك الفجوة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move Row",
+  "ar": "نقل صف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Book",
+  "ar": "كتاب جديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Cell Style…",
+  "ar": "نمط خلية جديد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Color Swatch…",
+  "ar": "عينة لون جديدة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Condition…",
+  "ar": "شرط جديد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Guide",
+  "ar": "دليل جديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Hyperlink Destination…",
+  "ar": "وجهة ارتباط تشعبي جديدة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Hyperlink…",
+  "ar": "ارتباط تشعبي جديد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Library",
+  "ar": "مكتبة جديدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Page Reference…",
+  "ar": "مرجع صفحة جديد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Stroke Style…",
+  "ar": "نمط حد جديد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Table Style…",
+  "ar": "نمط جدول جديد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next Cell",
+  "ar": "الخلية التالية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next Document",
+  "ar": "المستند التالي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next Object Above",
+  "ar": "الكائن التالي أعلى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next Object Below",
+  "ar": "الكائن التالي أسفل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next Object in Group",
+  "ar": "الكائن التالي في المجموعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Export Options",
+  "ar": "خيارات تصدير الكائن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Export Options…",
+  "ar": "خيارات تصدير الكائن…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Layer Options…",
+  "ar": "خيارات طبقات الكائن…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Layers",
+  "ar": "طبقات الكائن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object Liquid Settings",
+  "ar": "إعدادات الكائن المرن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open Book",
+  "ar": "فتح كتاب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open Bytes",
+  "ar": "فتح بيانات بايت",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open IDML",
+  "ar": "فتح IDML",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open Library",
+  "ar": "فتح مكتبة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Outer Glow",
+  "ar": "التوهج الخارجي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Overprint Preview",
+  "ar": "معاينة الطباعة الفوقية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Override All Parent Page Items",
+  "ar": "تجاوز جميع عناصر الصفحة الأصلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Transition",
+  "ar": "انتقال الصفحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Transitions",
+  "ar": "انتقالات الصفحات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph Formatting",
+  "ar": "تنسيق الفقرات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste Into",
+  "ar": "لصق داخل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste without Formatting",
+  "ar": "لصق دون تنسيق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Place Caret",
+  "ar": "وضع مؤشر النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Place Item",
+  "ar": "إدراج عنصر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Place Snippet",
+  "ar": "وضع مقتطف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Place and Link",
+  "ar": "وضع وربط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Polygon Settings…",
+  "ar": "إعدادات المضلع…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Preflight Document",
+  "ar": "فحص المستند قبل الطباعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous Cell",
+  "ar": "الخلية السابقة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous Document",
+  "ar": "المستند السابق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous Object in Group",
+  "ar": "الكائن السابق في المجموعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Printers",
+  "ar": "طابعات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Proof Colors",
+  "ar": "ألوان المعاينة الطباعية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Proof Setup",
+  "ar": "إعداد المعاينة الطباعية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quick Apply…",
+  "ar": "تطبيق سريع…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Recover Documents",
+  "ar": "استعادة المستندات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Recovery Data",
+  "ar": "بيانات الاستعادة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reject All Changes",
+  "ar": "رفض جميع التغييرات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Release Compound Path",
+  "ar": "فك المسار المركب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove All Local Overrides",
+  "ar": "إزالة جميع التجاوزات المحلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove Document",
+  "ar": "إزالة المستند",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Report an Issue…",
+  "ar": "الإبلاغ عن مشكلة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reset Shortcuts",
+  "ar": "إعادة تعيين الاختصارات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reset Workspace",
+  "ar": "إعادة تعيين مساحة العمل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Resize",
+  "ar": "تغيير الحجم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rotate Spread",
+  "ar": "تدوير الصفحات المتقابلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Run Script",
+  "ar": "تشغيل برنامج نصي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sample Document",
+  "ar": "مستند نموذجي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Satin",
+  "ar": "الساتان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save Recovery Data",
+  "ar": "حفظ بيانات الاستعادة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Script Label",
+  "ar": "تسمية البرنامج النصي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select All on Layer",
+  "ar": "تحديد الكل في الطبقة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select Cells",
+  "ar": "تحديد خلايا",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select Column",
+  "ar": "تحديد عمود",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select Frame",
+  "ar": "تحديد إطار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select Row",
+  "ar": "تحديد صف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select Table",
+  "ar": "تحديد جدول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select Text",
+  "ar": "تحديد نص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select Tool",
+  "ar": "اختيار أداة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select Word",
+  "ar": "تحديد كلمة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Selection Attributes",
+  "ar": "سمات التحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Separations Preview",
+  "ar": "معاينة فصل الألوان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Serialize",
+  "ar": "تحويل إلى صيغة متسلسلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Active Layer",
+  "ar": "تعيين الطبقة النشطة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Shortcut",
+  "ar": "تعيين اختصار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Visibility / Lock",
+  "ar": "تعيين الظهور / القفل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show Panel",
+  "ar": "إظهار اللوحة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide Baseline Grid",
+  "ar": "إظهار/إخفاء شبكة خط الأساس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide Frame Edges",
+  "ar": "إظهار/إخفاء حواف الإطارات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide Guides",
+  "ar": "إظهار/إخفاء الأدلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide Hidden Characters",
+  "ar": "إظهار/إخفاء الأحرف المخفية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide Panels",
+  "ar": "إظهار/إخفاء اللوحات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide Panels Except Tools",
+  "ar": "إظهار/إخفاء اللوحات باستثناء الأدوات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide Rulers",
+  "ar": "إظهار/إخفاء المساطر",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide Tagged Frames",
+  "ar": "إظهار/إخفاء الإطارات الموسومة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show/Hide Text Threads",
+  "ar": "إظهار/إخفاء روابط الإطارات النصية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Smooth",
+  "ar": "تنعيم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sort",
+  "ar": "فرز",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Split Path",
+  "ar": "تقسيم المسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Step and Repeat…",
+  "ar": "خطوة وتكرار…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Stroke Styles",
+  "ar": "أنماط الحدود",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Style Source",
+  "ar": "مصدر الأنماط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Synchronize Book",
+  "ar": "مزامنة الكتاب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table Panel",
+  "ar": "لوحة الجدول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table Style Options…",
+  "ar": "خيارات نمط الجدول…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table of Contents Entries",
+  "ar": "مدخلات جدول المحتويات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table of Contents…",
+  "ar": "جدول المحتويات…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Anchors",
+  "ar": "نقاط ارتساء النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Text Variables",
+  "ar": "متغيرات النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Toggle Normal/Preview",
+  "ar": "تبديل العرض العادي/المعاينة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Toggle Selection",
+  "ar": "تبديل التحديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tools: Double Column",
+  "ar": "الأدوات: عمودان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transform Panel",
+  "ar": "لوحة التحويل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transform Values",
+  "ar": "قيم التحويل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transparency Blend Space",
+  "ar": "مساحة مزج الشفافية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transparency Flattener Presets",
+  "ar": "إعدادات تسطيح الشفافية المسبقة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type on a Path",
+  "ar": "الكتابة على مسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type on a Path Options…",
+  "ar": "خيارات الكتابة على مسار…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Typical Display",
+  "ar": "عرض قياسي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update Link",
+  "ar": "تحديث الرابط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "User Dictionary Words",
+  "ar": "كلمات قاموس المستخدم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "User Dictionary…",
+  "ar": "قاموس المستخدم…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Zoom To",
+  "ar": "تكبير إلى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "⇧",
+  "ar": "⇧",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "⌃",
+  "ar": "⌃",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "⌘",
+  "ar": "⌘",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "⌥",
+  "ar": "⌥",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Accept Change",
+  "ar": "قبول التغيير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Anchor",
+  "ar": "إضافة نقطة ارتساء",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Selection to Article",
+  "ar": "إضافة التحديد إلى المقالة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add Unnamed Colors",
+  "ar": "إضافة ألوان غير مُسماة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Add to Dictionary",
+  "ar": "إضافة إلى القاموس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align Center",
+  "ar": "محاذاة إلى الوسط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align Left",
+  "ar": "محاذاة إلى اليسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Align Right",
+  "ar": "محاذاة إلى اليمين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Character Style",
+  "ar": "تطبيق نمط الحروف",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Object Style",
+  "ar": "تطبيق نمط الكائن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Paragraph Style",
+  "ar": "تطبيق نمط الفقرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Table Style",
+  "ar": "تطبيق نمط الجدول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Article Options",
+  "ar": "خيارات المقالة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Basic Feather",
+  "ar": "الحواف المنعمة الأساسية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bold",
+  "ar": "عريض",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Character Style Options…",
+  "ar": "خيارات نمط الأحرف…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Close Path",
+  "ar": "إغلاق المسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color Group Options",
+  "ar": "خيارات مجموعة الألوان",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Condition Options…",
+  "ar": "خيارات الشرط…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert to Liquid Guide",
+  "ar": "تحويل إلى دليل مرن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert to Object",
+  "ar": "تحويل إلى كائن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create Line",
+  "ar": "إنشاء خط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create Path",
+  "ar": "إنشاء مسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Decrease Point Size",
+  "ar": "تقليل حجم الخط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Article",
+  "ar": "حذف مقالة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Bookmark",
+  "ar": "حذف إشارة مرجعية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Endnote",
+  "ar": "حذف حاشية ختامية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Footnote",
+  "ar": "حذف حاشية سفلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Guide",
+  "ar": "حذف دليل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Hyperlink",
+  "ar": "حذف ارتباط تشعبي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete List",
+  "ar": "حذف قائمة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Note",
+  "ar": "حذف ملاحظة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Pages",
+  "ar": "حذف صفحات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Paragraph Style",
+  "ar": "حذف نمط فقرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Stroke Style",
+  "ar": "حذف نمط حد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Table",
+  "ar": "حذف جدول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Tag",
+  "ar": "حذف وسم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Text",
+  "ar": "حذف نص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Distribute Columns Evenly",
+  "ar": "توزيع الأعمدة بالتساوي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit Endnote",
+  "ar": "تحرير الحاشية الختامية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit Note",
+  "ar": "تحرير الملاحظة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Embed Link",
+  "ar": "تضمين الرابط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Flip",
+  "ar": "قلب",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hyperlink Options…",
+  "ar": "خيارات الارتباط التشعبي…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Increase Point Size",
+  "ar": "زيادة حجم الخط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Column Left",
+  "ar": "إدراج عمود إلى اليسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Column Right",
+  "ar": "إدراج عمود إلى اليمين",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Row Above",
+  "ar": "إدراج صف أعلى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Row Below",
+  "ar": "إدراج صف أسفل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Italic",
+  "ar": "مائل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Justify Left",
+  "ar": "ضبط مع محاذاة السطر الأخير إلى اليسار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layer Options…",
+  "ar": "خيارات الطبقة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move Anchors",
+  "ar": "تحريك نقاط الارتساء",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move Column",
+  "ar": "نقل عمود",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move Guide",
+  "ar": "تحريك دليل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move Layer",
+  "ar": "نقل طبقة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move Pages…",
+  "ar": "نقل صفحات…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move to Layer",
+  "ar": "نقل إلى طبقة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Article",
+  "ar": "مقالة جديدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Bookmark",
+  "ar": "إشارة مرجعية جديدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Layer…",
+  "ar": "طبقة جديدة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Note",
+  "ar": "ملاحظة جديدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Object Style…",
+  "ar": "نمط كائن جديد…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Parent…",
+  "ar": "صفحة أصلية جديدة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Tag",
+  "ar": "وسم جديد",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paste in Place",
+  "ar": "لصق في الموضع نفسه",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Place Loaded Graphic",
+  "ar": "وضع الرسم المحمل",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Reject Change",
+  "ar": "رفض التغيير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Release State to Objects",
+  "ar": "تحويل الحالة إلى كائنات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove Hyphenation Exception",
+  "ar": "إزالة استثناء لتقسيم الكلمات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Remove from Article",
+  "ar": "إزالة من المقالة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rename",
+  "ar": "إعادة تسمية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rename Bookmark",
+  "ar": "إعادة تسمية الإشارة المرجعية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rotate",
+  "ar": "تدوير",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Scale",
+  "ar": "تحجيم",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Cross-Reference Format",
+  "ar": "تعيين تنسيق المرجع المتقاطع",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Footnote Text",
+  "ar": "تعيين نص الحاشية السفلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Set Story Text",
+  "ar": "تعيين نص القصة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Shear",
+  "ar": "إمالة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show All on Spread",
+  "ar": "إظهار الكل على الصفحات المتقابلة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Show State",
+  "ar": "إظهار الحالة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "State Options",
+  "ar": "خيارات الحالة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tag Frame",
+  "ar": "وسم الإطار",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tag Text",
+  "ar": "وسم النص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unlink",
+  "ar": "فك الارتباط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update Index",
+  "ar": "تحديث الفهرس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Update Table of Contents",
+  "ar": "تحديث جدول المحتويات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bulleted and Numbered Lists",
+  "ar": "قوائم نقطية ومرقمة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hyperlinks Cross-References",
+  "ar": "الارتباطات التشعبية والمراجع المتقاطعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document Footnote Options...",
+  "ar": "خيارات الحواشي السفلية للمستند...",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Anchored Object",
+  "ar": "كائن مثبت",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Attributes (Eyedropper",
+  "ar": "تطبيق السمات (القطارة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Captions",
+  "ar": "تعليقات توضيحية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Change All (Object",
+  "ar": "تغيير الكل (الكائن",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clipping Path",
+  "ar": "مسار القص",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Convert Cell Type",
+  "ar": "تحويل نوع الخلية",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copy Link(s",
+  "ar": "نسخ الروابط",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Nasaq",
+  "ar": "Nasaq",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export EPUB (Fixed Layout",
+  "ar": "تصدير EPUB (تخطيط ثابت",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export EPUB (Reflowable",
+  "ar": "تصدير EPUB (قابل لإعادة التدفق",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hyperlinks & Cross-References",
+  "ar": "الارتباطات التشعبية والمراجع المتقاطعة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hyphens and Dashes",
+  "ar": "الواصلات والشرطات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Markers",
+  "ar": "علامات",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Other",
+  "ar": "أخرى",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Output",
+  "ar": "الإخراج",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quotation Marks",
+  "ar": "علامات الاقتباس",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Symbols",
+  "ar": "رموز",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type & Tables",
+  "ar": "النص والجداول",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Utilities",
+  "ar": "أدوات مساعدة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph Rules…",
+  "ar": "خطوط الفقرة…",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph Rules",
+  "ar": "خطوط الفقرة",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rule Below",
+  "ar": "خط سفلي",
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "No data source",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Select Data Source…",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Data Merge",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Record",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Merge options",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "All records",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "One record",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Range",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Records per page",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Single record",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Multiple records",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Rows first",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Columns first",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Column spacing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Row spacing",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fit proportionally",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fill proportionally",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Fit content to frame",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Center in frame",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Link images",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Limit",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bind to frame",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert field",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Pass csv, rows, or bytes from the control channel.",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Anchored Object Options",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Apply Parent to Pages",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Warsha App Page",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Warsha Website",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Check Spelling",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Corner Options",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Create Guides",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Define Cross-Reference Format",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Define Lists",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Define Text Variable",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Nasaq on GitHub",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Nasaq Website",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document Endnote Options",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document Footnote Options",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export EPUB",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export EPUB (Fixed Layout)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export EPUB (Reflowable)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export HTML",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export IDML",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export Page as PNG",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export PDF (Interactive)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export Text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Export XML",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Generate Index",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Global Light",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Graphic",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Import XML",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Anchored Object",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Cross-Reference",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Math Expression",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Insert Pages",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Contact the Developer",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Load DTD",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Load Swatches",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Margins and Columns",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Menus",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Move Pages",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Condition",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Hyperlink",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Hyperlink Destination",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Page Reference",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Parent",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "New Stroke Style",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Numbering & Section Options",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Package",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Place with Import Options",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Print Booklet",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quick Apply",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Relink",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Relink to Folder",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Report an Issue",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save a Copy",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save As",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Save Swatches for Exchange",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Step and Repeat",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table of Contents",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type on a Path Options",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit/Interface Language",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit/Spelling",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit/Transparency Blend Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Edit/Transparency Flattener Presets",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "File/Export",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layout/Index",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Layout/Pages",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Anchored Object",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Arrange",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Captions",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Clipping Path",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Content",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Convert Shape",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Effects",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Fitting",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Pathfinder",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Paths",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Select",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Transform",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Object/Transform Again",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table/Convert Cell Type",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table/Delete",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table/Insert",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Table/Select",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Bulleted and Numbered Lists",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Change Case",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Hyperlinks & Cross-References",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Insert Break Character",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Insert Special Character/Hyphens and Dashes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Insert Special Character/Markers",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Insert Special Character/Other",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Insert Special Character/Quotation Marks",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Insert Special Character/Symbols",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Insert White Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Proof Setup",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Rotate Spread",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Separations Preview",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Story Direction",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Text Variables",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Track Changes",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Type/Type on a Path",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "View/Display Performance",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "View/Grids & Guides",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Window/Arrange",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Window/Interactive",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Window/Interface Color Theme",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Window/Output",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Window/Panels",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Window/Type & Tables",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Window/Utilities",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "90° CCW",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "90° CW",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "a, b, c, d...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "A, B, C, D...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Alpha Channel",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Black",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bleed:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bottom:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Bullet Character",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Clear Rotation",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Closed Path",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "CMYK:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color Blindness – Deuteranopia",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Color Blindness – Protanopia",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Column Break",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Columns:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Conditional Text",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Copyright Symbol",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Current Page Number",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Cyan",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Dark",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Delete Type from Path",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Detect Edges",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Discretionary Hyphen",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document CMYK",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Document RGB",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Double Left Quotation Marks",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Double Right Quotation Marks",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ellipsis",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Em Dash",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Em Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "En Dash",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "En Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Figure Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Flush Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Forced Line Break",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Frame Break",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Generate Live Caption",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "GREP",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Hair Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "High Contrast",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "High Resolution",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Horizontal:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "i, ii, iii, iv...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "I, II, III, IV...",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Indent to Here",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Ink Limit 300%",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Internet Standard RGB (sRGB)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Left:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Legacy Macintosh RGB",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Light",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Low Resolution",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "lowercase",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Magenta",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Margins:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Medium Dark",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Medium Light",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Medium Resolution",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Monitor RGB",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Next Page Number",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Nonbreaking Hyphen",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Nonbreaking Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "None (keep transparency)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Open Path",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Page Break",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph Return",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Paragraph Symbol",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Picas",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Preflight",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Previous Page Number",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Punctuation Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Quarter Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Registered Trademark Symbol",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "RGB:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Right Indent Tab",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Right:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Scripts",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Section Marker",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Section Symbol",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sentence case",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Simulate Paper Color",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Single Left Quotation Mark",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Single Right Quotation Mark",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Sixth Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Slug:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Smart Guide Options",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Story Column Direction",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Straight Double Quotation Marks",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Straight Single Quotation Mark (Apostrophe)",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Subscript:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Superscript:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Tab",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Thin Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Third Space",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Title Case",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Top:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Trademark Symbol",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transform Again Individually",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transform Sequence Again",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Transform Sequence Again Individually",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Unassigned",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "URL:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Vertical:",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Working CMYK",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "Yellow",
+  "ar": null,
+  "hint": null
+ },
+ {
+  "ctx": "",
+  "src": "ja",
+  "ar": null,
+  "hint": null
+ }
+]

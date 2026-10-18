@@ -7,20 +7,20 @@
 
 A key is the English source, or "ctx\x1fsource" for a disambiguating context (not @id/@plural).
 Batch files hold one row per key: "id <TAB> ctx <TAB> source" in, "id <TAB> arabic" out
-(\\n and \\t escaped). Seeds: the upstream Arabic rows of pdfcraft and designcraft.
+(\\n and \\t escaped). Seeds: the upstream Arabic rows of watheeq and nasaq.
 """
 import json
 import pathlib
 import re
 import sys
 
-ROOT = pathlib.Path(r"E:\craft-ar\i18n")
+ROOT = pathlib.Path(r"E:\warsha-src\i18n")
 KEYS = ROOT / "keys"
 BATCH = ROOT / "batches"
 BATCH.mkdir(exist_ok=True)
 TM = ROOT / "tm.json"
-APP_ORDER = ["craft-launcher", "gridcraft", "effectcraft", "cadcraft", "designcraft", "wordcraft",
-             "deckcraft", "soundcraft", "pdfcraft", "photocraft", "lightcraft", "filmcraft", "vectorcraft"]
+APP_ORDER = ["warsha", "kashf", "wamda", "mukhattat", "nasaq", "satr",
+             "minbar", "sada", "watheeq", "retoush", "tayf", "monteer", "reesha"]
 BATCH_WORDS = 1500
 BATCH_ROWS = 260
 

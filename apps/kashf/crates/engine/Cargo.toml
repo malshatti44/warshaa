@@ -1,0 +1,29 @@
+[package]
+name = "kashf-engine"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Kashf engine: sessions, commands, history, clipboard, fill, sort, filter"
+
+[lints]
+workspace = true
+
+[dependencies]
+kashf-core = { workspace = true }
+kashf-numfmt = { workspace = true }
+kashf-formula = { workspace = true }
+kashf-functions = { workspace = true }
+kashf-model = { workspace = true }
+kashf-calc = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+kashf-xlsx = { workspace = true }
+kashf-chart = { workspace = true }
+kashf-pdf = { workspace = true }
+image = { workspace = true }
+
+[dev-dependencies]
+kashf-xlsx = { workspace = true, features = ["test-support"] }
+zip = { workspace = true }

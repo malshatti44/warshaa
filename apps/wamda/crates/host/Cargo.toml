@@ -1,0 +1,36 @@
+[package]
+name = "wamda-host"
+description = "Builds a fully wired Wamda session: media decoding (Monteer codecs), importer, the expression engine and scripting"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+wamda-engine = { workspace = true }
+wamda-project = { workspace = true }
+wamda-media = { workspace = true }
+wamda-expr = { workspace = true }
+wamda-script = { workspace = true }
+wamda-export = { workspace = true }
+wamda-plugin = { workspace = true }
+
+# WebAssembly effect plug-ins run in wasmi on native builds.
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+wamda-plugin = { workspace = true, features = ["wasm"] }
+
+[dev-dependencies]
+serde_json = { workspace = true }
+wamda-psd = { workspace = true }
+wamda-svg = { workspace = true }
+wamda-pdf = { workspace = true }
+wamda-raster = { workspace = true }
+wamda-time = { workspace = true }
+wamda-interchange = { workspace = true }
+image = { workspace = true }
+gif = { workspace = true }
+exr = { workspace = true }
+rayon = { workspace = true }

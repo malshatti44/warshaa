@@ -1,0 +1,22 @@
+[package]
+name = "satr-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+description = "Satr command line: convert, inspect, render, run commands, MCP server"
+
+[[bin]]
+name = "satr-cli"
+path = "src/main.rs"
+
+[lints]
+workspace = true
+
+[dependencies]
+satr-doc = { workspace = true }
+satr-engine = { workspace = true }
+satr-render = { workspace = true }
+satr-mcp = { workspace = true }
+satr-zotero = { workspace = true }
+serde_json = { workspace = true }

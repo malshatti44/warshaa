@@ -1,0 +1,11 @@
+kind = "app"
+categories = ["Graphics", "Photography"]
+icon = "assets/app-icon/hicolor/256x256/apps/com.malshatti.tayf.png"
+
+[linux.x86_64]
+asset = "tayf-{version}-linux-x86_64.tar.gz"
+exec = "tayf-{version}-linux-x86_64/bin/tayf"
+
+[linux.aarch64]
+asset = "tayf-{version}-linux-aarch64.tar.gz"
+exec = "tayf-{version}-linux-aarch64/bin/tayf"

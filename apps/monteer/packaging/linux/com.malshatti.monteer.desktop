@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Monteer
+GenericName=Video Editor
+Comment=Edit video, color and sound
+Exec=monteer %F
+TryExec=monteer
+Icon=com.malshatti.monteer
+Terminal=false
+StartupNotify=true
+StartupWMClass=com.malshatti.monteer
+Categories=AudioVideo;Video;AudioVideoEditing;
+Keywords=video;editor;film;timeline;color;grading;nle;

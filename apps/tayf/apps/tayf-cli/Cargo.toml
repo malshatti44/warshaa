@@ -1,0 +1,39 @@
+[package]
+name = "tayf-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+description = "Tayf command-line tool: headless render, command listing and the MCP server"
+
+[[bin]]
+name = "tayf-cli"
+path = "src/main.rs"
+
+[lints]
+workspace = true
+
+[dependencies]
+tayf-engine = { workspace = true }
+tayf-denoise = { workspace = true }
+tayf-sysmem = { workspace = true }
+tayf-mcp = { workspace = true }
+tayf-ui-egui = { workspace = true }
+tayf-codecs = { workspace = true }
+tayf-raster = { workspace = true }
+tayf-merge = { workspace = true }
+serde_json = { workspace = true }
+dhat = { workspace = true, optional = true }
+
+[features]
+default = ["denoise"]
+denoise = ["tayf-engine/denoise"]
+rawnind-model = ["denoise", "tayf-engine/rawnind-model"]
+# Heap profiling: `cargo run --release -p tayf-cli --features dhat-heap -- snapshot …` counts
+# every allocation (live/peak bytes in `library.memory` / `ui.inspect`) and writes dhat-heap.json
+# (open it in DHAT's viewer: allocation sites by bytes at the peak). Slows allocation-heavy work.
+dhat-heap = ["dep:dhat"]
+
+# Open HEIC/HEIF photos (the optional tayf-heif crate). Not default so distributors choose
+# it (HEVC patents); build with `--features heif` to include it.
+heif = ["tayf-codecs/heif"]

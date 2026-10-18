@@ -1,0 +1,17 @@
+[package]
+name = "mukhattat-cli"
+description = "Mukhattat command-line tool: info, convert, run scripts, export, commands, MCP server"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[lints]
+workspace = true
+
+[dependencies]
+mukhattat-engine = { workspace = true }
+mukhattat-io = { workspace = true }
+mukhattat-mcp = { workspace = true }
+mukhattat-render = { workspace = true }
+serde_json = { workspace = true }

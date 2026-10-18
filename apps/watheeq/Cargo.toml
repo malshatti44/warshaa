@@ -1,0 +1,116 @@
+[workspace]
+resolver = "3"
+members = ["crates/*", "apps/*", "xtask"]
+exclude = ["vendor"]
+default-members = ["crates/*", "apps/watheeq", "apps/watheeq-cli", "xtask"]
+
+[workspace.package]
+version = "0.7.1"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+rust-version = "1.95"
+repository = "https://github.com/malshatti44/warshaa"
+
+[workspace.dependencies]
+# Shared frontend components; engines remain independent of egui.
+warsha-ui = { path = "../../shared/warsha-libs/crates/ui", version = "0.1.0", features = ["serde"] }
+# Shared system spooler; document composition remains in watheeq-print.
+warsha-print = { path = "../../shared/warsha-libs-print/crates/print", version = "0.1.0" }
+# internal
+watheeq-geom = { path = "crates/geom", version = "0.7.0" }
+watheeq-filters = { path = "crates/filters", version = "0.7.0" }
+watheeq-cos = { path = "crates/cos", version = "0.7.0" }
+watheeq-crypt = { path = "crates/crypt", version = "0.7.0" }
+watheeq-organize = { path = "crates/organize", version = "0.7.0" }
+watheeq-measure = { path = "crates/measure", version = "0.7.0" }
+watheeq-annot = { path = "crates/annot", version = "0.7.0" }
+watheeq-audit = { path = "crates/audit", version = "0.7.0" }
+watheeq-fonts = { path = "crates/fonts", version = "0.7.0" }
+watheeq-model = { path = "crates/model", version = "0.7.0" }
+watheeq-content = { path = "crates/content", version = "0.7.0" }
+watheeq-redact = { path = "crates/redact", version = "0.7.0" }
+watheeq-print = { path = "crates/print", version = "0.7.0" }
+watheeq-xfdf = { path = "crates/xfdf", version = "0.7.0" }
+watheeq-sign = { path = "crates/sign", version = "0.7.0" }
+watheeq-optimize = { path = "crates/optimize", version = "0.7.0" }
+watheeq-a11y = { path = "crates/a11y", version = "0.7.0" }
+watheeq-ocr = { path = "crates/ocr", version = "0.7.0" }
+watheeq-js = { path = "crates/js", version = "0.7.0" }
+watheeq-compare = { path = "crates/compare", version = "0.7.0" }
+watheeq-preflight = { path = "crates/preflight", version = "0.7.0" }
+watheeq-export = { path = "crates/export", version = "0.7.0" }
+watheeq-edit = { path = "crates/edit", version = "0.7.0" }
+watheeq-create = { path = "crates/create", version = "0.7.0" }
+watheeq-forms = { path = "crates/forms", version = "0.7.0" }
+watheeq-xfa = { path = "crates/xfa", version = "0.7.0" }
+watheeq-render = { path = "crates/render", version = "0.7.0" }
+watheeq-engine = { path = "crates/engine", version = "0.7.0" }
+watheeq-platform = { path = "crates/platform", version = "0.7.0" }
+watheeq-ui-egui = { path = "crates/ui-egui", version = "0.7.0" }
+watheeq-automation = { path = "crates/automation", version = "0.7.0", default-features = false }
+
+# pdf
+hayro = "0.7.1"
+hayro-syntax = "0.7.2"
+lopdf = "0.45"
+flate2 = { version = "1.1", default-features = false, features = ["rust_backend"] }
+weezl = "0.2"
+
+# foundation
+thiserror = "2"
+serde = { version = "1", features = ["derive", "rc"] }
+serde_json = "1"
+log = "0.4"
+kurbo = "0.13"
+
+# testing
+proptest = "1"
+
+# ui
+egui = "0.36"
+egui_extras = { version = "0.36", default-features = false, features = ["svg"] }
+eframe = { version = "0.36", default-features = false }
+egui_kittest = "0.36"
+rfd = "0.17"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+dbg_macro = "warn"
+todo = "warn"
+
+# `"*"` matches every non-workspace package: crates.io dependencies and the
+# vendored crates under `vendor/` (excluded from the workspace). Our own crates
+# keep full debug info. Dependencies keep only line tables, so backtraces still
+# show file and line, but debug info for the whole dependency graph stays out of
+# every test binary (each UI test binary had a 500-600 MB PDB on Windows, #454).
+[profile.dev.package."*"]
+opt-level = 2
+debug = "line-tables-only"
+
+[profile.dev]
+opt-level = 1
+
+[profile.low-disk]
+inherits = "dev"
+debug = "line-tables-only"
+incremental = false
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+
+# Vendored, patched third-party crates (see vendor/README.md). Each patch is meant to go upstream.
+[patch.crates-io]
+hayro-interpret = { path = "vendor/hayro-interpret" }
+hayro = { path = "vendor/hayro" }
+hayro-syntax = { path = "vendor/hayro-syntax" }
+hayro-jbig2 = { path = "vendor/hayro-jbig2" }
+lopdf = { path = "vendor/lopdf" }
+winit = { path = "vendor/winit" }
+egui-wgpu = { path = "vendor/egui-wgpu" }
+# Arabic builds (ورشة): right-to-left rows and an Arabic fallback font in egui text.
+epaint = { path = "../../shared/epaint" }
+# Window titles with the Arabic app names, and the label hook (shared/egui).
+egui = { path = "../../shared/egui" }

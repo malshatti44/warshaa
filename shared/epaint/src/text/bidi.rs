@@ -1,6 +1,6 @@
 //! Right-to-left text (Arabic, Hebrew, Persian, Urdu) in laid-out rows.
 //!
-//! Added for the Arabic builds of the Craft apps (تعريب وتطوير: محمد الشطي).
+//! Added for the Arabic builds of the Warsha apps (تعريب وتطوير: محمد الشطي).
 //!
 //! Upstream epaint 0.36 shapes every font run with HarfRust, so the letters of an
 //! Arabic word join and read right to left, but it places the runs of a line left to

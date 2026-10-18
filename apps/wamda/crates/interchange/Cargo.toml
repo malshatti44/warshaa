@@ -1,0 +1,25 @@
+[package]
+name = "wamda-interchange"
+description = "Premiere Pro interop through timeline interchange: Final Cut Pro 7 XML (xmeml), FCPXML, OpenTimelineIO and CMX 3600 EDL sequences to and from compositions (via monteer-interchange)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+wamda-time = { workspace = true }
+wamda-color = { workspace = true }
+wamda-keyframe = { workspace = true }
+wamda-project = { workspace = true }
+monteer-interchange = { workspace = true }
+monteer-project = { workspace = true }
+monteer-media = { workspace = true }
+monteer-time = { workspace = true }
+monteer-geom = { workspace = true }
+monteer-color = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }

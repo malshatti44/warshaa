@@ -1,0 +1,27 @@
+[package]
+name = "retoush-compose"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+retoush-geom = { workspace = true }
+retoush-color = { workspace = true }
+retoush-raster = { workspace = true }
+retoush-doc = { workspace = true }
+retoush-vector = { workspace = true }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+rayon = { workspace = true }
+
+[dev-dependencies]
+proptest = { workspace = true }
+criterion = { workspace = true }
+retoush-paint = { workspace = true }
+
+[[bench]]
+name = "compose"
+harness = false

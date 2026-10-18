@@ -2,9 +2,9 @@
 import pathlib
 import shutil
 
-root = pathlib.Path(r"E:\craft-ar\shared\epaint")
+root = pathlib.Path(r"E:\warsha-ar\shared\epaint")
 (root / "fonts").mkdir(exist_ok=True)
-src = pathlib.Path(r"E:\craft-ar\upstream\craft-fonts\fonts\noto-sans-arabic")
+src = pathlib.Path(r"E:\warsha-ar\upstream\warsha-fonts\fonts\noto-sans-arabic")
 shutil.copy(src / "NotoSansArabic.ttf", root / "fonts" / "NotoSansArabic.ttf")
 shutil.copy(src / "OFL.txt", root / "fonts" / "NotoSansArabic-OFL.txt")
 
@@ -67,7 +67,7 @@ sub("""    /// Recycled `harfrust` shaping buffer to avoid per-layout allocation
     shape_buffer: Option<harfrust::UnicodeBuffer>,
 
     /// Noto Sans Arabic, regular and bold, appended to every family so Arabic
-    /// labels never fall back to tofu (Arabic builds of the Craft apps).
+    /// labels never fall back to tofu (Arabic builds of the Warsha apps).
     arabic_fallback: [Option<FontFaceKey>; 2],
 }""")
 
@@ -116,7 +116,7 @@ const ARABIC_FALLBACK_FONT: &[u8] = include_bytes!("../../fonts/NotoSansArabic.t
 
 /// Face names and `wght` values of the Arabic fallback faces.
 const ARABIC_FALLBACK_FACES: [(&str, f32); 2] =
-    [("craft-arabic-ui", 400.0), ("craft-arabic-ui-bold", 650.0)];
+    [("warsha-arabic-ui", 400.0), ("warsha-arabic-ui-bold", 650.0)];
 
 pub struct FontsImpl {""")
 

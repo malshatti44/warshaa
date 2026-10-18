@@ -1,0 +1,19 @@
+[package]
+name = "minbar-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Minbar on the command line: render, convert, run commands, inspect, and serve MCP"
+publish = false
+
+[lints]
+workspace = true
+
+[[bin]]
+name = "minbar-cli"
+path = "src/main.rs"
+
+[dependencies]
+minbar-engine = { workspace = true }
+minbar-mcp = { workspace = true }
+serde_json = { workspace = true }

@@ -1,0 +1,19 @@
+[package]
+name = "retoush-vector"
+description = "Vector paths, shape layers, strokes and vector masks → anti-aliased coverage and surfaces"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+retoush-geom = { workspace = true }
+retoush-color = { workspace = true }
+retoush-raster = { workspace = true }
+retoush-doc = { workspace = true }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+rayon = { workspace = true }

@@ -1,0 +1,7 @@
+# Local development builds embed the warsha-fonts checkout next to this repo when it exists
+# (build.rs warns and continues without it). CI and releases set WARSHA_FONTS_DIR explicitly.
+[env]
+WARSHA_FONTS_DIR = { value = "../warsha-fonts", relative = true }
+
+[alias]
+xtask = "run --package xtask --"

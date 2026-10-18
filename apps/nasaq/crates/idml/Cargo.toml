@@ -1,0 +1,20 @@
+[package]
+name = "nasaq-idml"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Nasaq IDML (InDesign Markup Language) import and export"
+
+[lints]
+workspace = true
+
+[dependencies]
+nasaq-geom = { workspace = true }
+nasaq-color = { workspace = true }
+nasaq-doc = { workspace = true }
+thiserror = { workspace = true }
+quick-xml = { workspace = true }
+zip = { workspace = true }
+
+[dev-dependencies]
+nasaq-compose = { workspace = true }

@@ -1,0 +1,17 @@
+[package]
+name = "retoush-paint"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+retoush-geom = { workspace = true }
+retoush-color = { workspace = true }
+retoush-raster = { workspace = true }
+serde = { workspace = true }
+
+[dev-dependencies]
+serde_json = { workspace = true }

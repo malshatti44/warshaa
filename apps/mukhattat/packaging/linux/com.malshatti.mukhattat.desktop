@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Mukhattat
+GenericName=Computer-Aided Design
+Comment=Draft, dimension and plot 2D drawings; open DXF and DWG files
+Exec=mukhattat %F
+TryExec=mukhattat
+Icon=com.malshatti.mukhattat
+Terminal=false
+StartupNotify=true
+StartupWMClass=com.malshatti.mukhattat
+Categories=Graphics;Engineering;VectorGraphics;
+MimeType=image/vnd.dxf;image/vnd.dwg;application/x-dxf;application/acad;
+Keywords=cad;drafting;dxf;dwg;drawing;engineering;architecture;mechanical;

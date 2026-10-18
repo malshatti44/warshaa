@@ -1,0 +1,39 @@
+[package]
+name = "wamda-engine"
+description = "The Wamda engine: session, undo history, editor state and the command registry every frontend (UI, CLI, control channel, MCP) dispatches through"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+wamda-time = { workspace = true }
+wamda-geom = { workspace = true }
+wamda-color = { workspace = true }
+wamda-keyframe = { workspace = true }
+wamda-project = { workspace = true }
+wamda-raster = { workspace = true }
+wamda-path = { workspace = true }
+wamda-text = { workspace = true }
+wamda-effects = { workspace = true }
+wamda-render = { workspace = true }
+wamda-segment = { workspace = true }
+wamda-track = { workspace = true }
+wamda-model = { workspace = true }
+wamda-lottie = { workspace = true }
+wamda-interchange = { workspace = true }
+wamda-psd = { workspace = true }
+kurbo = { workspace = true }
+wamda-svg = { workspace = true }
+wamda-pdf = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+rayon = { workspace = true }
+image = { workspace = true }
+web-time = { workspace = true }
+exr = { workspace = true }

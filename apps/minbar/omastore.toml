@@ -1,0 +1,11 @@
+kind = "app"
+categories = ["Office"]
+icon = "assets/app-icon/hicolor/256x256/apps/com.malshatti.minbar.png"
+
+[linux.x86_64]
+asset = "minbar-{version}-linux-x86_64.tar.gz"
+exec = "minbar-{version}-linux-x86_64/bin/minbar"
+
+[linux.aarch64]
+asset = "minbar-{version}-linux-aarch64.tar.gz"
+exec = "minbar-{version}-linux-aarch64/bin/minbar"

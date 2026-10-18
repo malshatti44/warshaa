@@ -1,0 +1,25 @@
+[package]
+name = "wamda-cli"
+description = "Wamda headless CLI: render frames and sequences, run commands, MCP server"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[[bin]]
+name = "wamda-cli"
+path = "src/main.rs"
+
+[dependencies]
+wamda-engine = { workspace = true }
+wamda-host = { workspace = true }
+wamda-automation = { workspace = true }
+wamda-ui-egui = { workspace = true }
+wamda-render = { workspace = true }
+wamda-gpu = { workspace = true }
+wamda-time = { workspace = true }
+serde_json = { workspace = true }
+image = { workspace = true }
+cpu-time = "1"

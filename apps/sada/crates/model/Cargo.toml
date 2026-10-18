@@ -1,0 +1,22 @@
+[package]
+name = "sada-model"
+description = "Sada session document: tracks, playlists, clips, mixer, routing, automation, markers"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+
+[dependencies]
+sada-time.workspace = true
+sada-audio-io.workspace = true
+sada-midi.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+
+[lints]
+workspace = true

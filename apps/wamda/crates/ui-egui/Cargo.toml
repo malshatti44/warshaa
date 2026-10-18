@@ -1,0 +1,47 @@
+[package]
+name = "wamda-ui-egui"
+description = "The Wamda egui frontend (swappable): docking panels, composition viewer, timeline, effect controls, control channel"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+warsha-ui = { workspace = true }
+wamda-time = { workspace = true }
+wamda-geom = { workspace = true }
+wamda-color = { workspace = true }
+wamda-keyframe = { workspace = true }
+wamda-project = { workspace = true }
+wamda-path = { workspace = true }
+wamda-text = { workspace = true }
+wamda-render = { workspace = true }
+wamda-engine = { workspace = true }
+wamda-gpu = { workspace = true }
+egui = { workspace = true }
+eframe = { workspace = true, features = ["default_fonts", "wgpu", "accesskit"] }
+serde = { workspace = true }
+serde_json = { workspace = true }
+log = { workspace = true }
+rayon = { workspace = true }
+web-time = { workspace = true }
+kurbo = { workspace = true }
+image = { workspace = true }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+# Warsha (ورشة): the in-app AI assistant panel.
+warsha-assistant = { path = "../../../../shared/assistant" }
+sys-locale = { workspace = true }
+
+[dev-dependencies]
+egui_kittest = { workspace = true, features = ["eframe", "wgpu"] }
+pollster = "0.4"
+wamda-host = { workspace = true }
+exr = { workspace = true }
+
+[build-dependencies]
+serde_json = { workspace = true }
+toml = "1"

@@ -10,11 +10,11 @@ export CARGO_TARGET_DIR="$ROOT/target"
 export CARGO_TARGET_X86_64_PC_WINDOWS_MSVC_RUSTFLAGS="-C target-feature=+crt-static"
 TARGET=x86_64-pc-windows-msvc
 LOGS="$ROOT/logs"; mkdir -p "$LOGS"
-declare -A PKG=([craft-launcher]=artcraft-launcher)
+declare -A PKG=([warsha]=warsha)
 # with each app its MCP server (`<app>-cli`, the AI link); with the launcher the bridge AI apps start
-declare -A EXTRA=([craft-launcher]=warsha-mcp)
+declare -A EXTRA=([warsha]=warsha-mcp)
 apps=("$@")
-[ ${#apps[@]} -eq 0 ] && apps=(deckcraft soundcraft photocraft vectorcraft filmcraft lightcraft pdfcraft effectcraft designcraft wordcraft gridcraft cadcraft craft-launcher)
+[ ${#apps[@]} -eq 0 ] && apps=(minbar sada retoush reesha monteer tayf watheeq wamda nasaq satr kashf mukhattat warsha)
 echo "--- release build $(date '+%F %H:%M') (${apps[*]})" >> "$LOGS/_summary.txt"
 for r in "${apps[@]}"; do
   pkg=${PKG[$r]:-$r}

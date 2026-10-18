@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Warsha
+GenericName=App Launcher
+Comment=Install, update and launch the Warsha App Suite
+Exec=warsha
+TryExec=warsha
+Icon=com.malshatti.warsha
+Terminal=false
+StartupNotify=true
+StartupWMClass=warsha
+Categories=Utility;PackageManager;
+Keywords=warsha;warsha;launcher;installer;updater;retoush;monteer;apps;

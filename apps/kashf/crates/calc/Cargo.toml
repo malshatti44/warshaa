@@ -1,0 +1,17 @@
+[package]
+name = "kashf-calc"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Kashf calculation engine: dependency graph, recalculation, evaluator, dynamic arrays"
+
+[lints]
+workspace = true
+
+[dependencies]
+kashf-core = { workspace = true }
+kashf-formula = { workspace = true }
+kashf-functions = { workspace = true }
+kashf-numfmt = { workspace = true }
+kashf-model = { workspace = true }
+log = { workspace = true }

@@ -1,0 +1,25 @@
+[package]
+name = "tayf-pipeline"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Tayf develop pipeline: scene-referred, float, resolution independent (CPU reference) (L2)"
+
+[lints]
+workspace = true
+
+[dependencies]
+tayf-geom = { workspace = true }
+tayf-color = { workspace = true }
+tayf-raster = { workspace = true }
+tayf-develop = { workspace = true }
+tayf-raw = { workspace = true }
+tayf-inpaint = { workspace = true }
+rayon = { workspace = true }
+serde = { workspace = true }
+
+[dev-dependencies]
+tayf-scenes = { workspace = true }
+proptest = { workspace = true }
+image = { workspace = true }
+serde_json = { workspace = true }

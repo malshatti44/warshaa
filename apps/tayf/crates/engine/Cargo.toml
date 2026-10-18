@@ -1,0 +1,59 @@
+[package]
+name = "tayf-engine"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Tayf engine: session, command registry, history, render jobs, view-models (L4)"
+
+[lints]
+workspace = true
+
+[dependencies]
+tayf-geom = { workspace = true }
+tayf-color = { workspace = true }
+tayf-raster = { workspace = true }
+tayf-develop = { workspace = true }
+tayf-scenes = { workspace = true }
+tayf-pipeline = { workspace = true }
+tayf-gpu = { workspace = true }
+tayf-catalog = { workspace = true }
+web-time = { workspace = true }
+tayf-preview = { workspace = true }
+tayf-codecs = { workspace = true }
+tayf-raw = { workspace = true }
+tayf-denoise-core = { workspace = true }
+tayf-denoise = { workspace = true, optional = true }
+tayf-meta = { workspace = true }
+tayf-lensdb = { workspace = true }
+tayf-faces = { workspace = true }
+miniz_oxide = { workspace = true }
+tayf-merge = { workspace = true }
+tayf-geocode = { workspace = true }
+rayon = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+ab_glyph = { workspace = true }
+# Apply the font’s vertical substitutions and origins to Japanese watermarks.
+harfrust = { version = "0.12", default-features = false, features = ["std"] }
+unicode-segmentation = "1.13"
+tayf-segment = { workspace = true, optional = true }
+
+# model downloads run natively only (the web build fetches no models)
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+tayf-fetch = { workspace = true }
+
+[features]
+# AI masks with SAM 3 (Object / Describe). Off for the web and CLI builds.
+sam = ["dep:tayf-segment"]
+denoise = ["dep:tayf-denoise", "tayf-denoise/runtime", "tayf-gpu/denoise"]
+rawnind-model = ["denoise", "tayf-denoise/rawnind-model", "tayf-denoise-core/rawnind-model"]
+
+[dev-dependencies]
+# HDR JPEG XL tests read the file's colour encoding
+jxl-oxide = { workspace = true }
+# Lossless synthetic HEIC files (the import test; decoded when the codecs' `heif` feature is on).
+tayf-heif = { workspace = true, features = ["testdata"] }
+libc = { workspace = true }
+tayf-tiff = { workspace = true }

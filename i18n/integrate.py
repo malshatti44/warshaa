@@ -1,13 +1,13 @@
 """Wire the Arabic catalog into each app's language registry (idempotent).
 
-  python integrate.py vectorcraft photocraft ...   (default: every app listed in PATCHES)
+  python integrate.py reesha retoush ...   (default: every app listed in PATCHES)
 
 Each patch is (file, old, new): `old` must occur exactly once unless `new` is already there.
 """
 import pathlib
 import sys
 
-UP = pathlib.Path(r"E:\craft-ar\upstream")
+UP = pathlib.Path(r"E:\warsha-src\upstream")
 
 PLURAL_AR = '''/// Arabic (CLDR `ar`, integer counts): zero (0), one (1), two (2), few (3–10, 103–110),
 /// many (11–99, 111–199), other (100–102, 200–202). Arabic build (تعريب: محمد الشطي).
@@ -31,7 +31,7 @@ RTL_HOOK = '''    // Arabic reads right to left even when a label starts with a 
 AR_COMMENT = "    // Arabic, the default interface of the Arabic build (تعريب وتطوير: محمد الشطي — malshatti.com).\n"
 
 PATCHES = {
-    "vectorcraft": [
+    "reesha": [
         ("crates/ui-egui/src/i18n/mod.rs", "/// The registry. English first", PLURAL_AR + "/// The registry. English first"),
         ("crates/ui-egui/src/i18n/mod.rs", "pub static LANGUAGES: [LangInfo; 14] = [", "pub static LANGUAGES: [LangInfo; 15] = ["),
         ("crates/ui-egui/src/i18n/mod.rs",
@@ -44,7 +44,7 @@ PATCHES = {
          "    CURRENT.store(i, Ordering::Relaxed);\n" + RTL_HOOK + "}"),
         ("crates/engine/src/lib.rs", 'interface_language: s("auto"),', 'interface_language: s("ar"),'),
     ],
-    "photocraft": [
+    "retoush": [
         ("crates/ui-egui/src/i18n/mod.rs", "/// A catalog file as deflated by build.rs", PLURAL_AR + "/// A catalog file as deflated by build.rs"),
         ("crates/ui-egui/src/i18n/mod.rs", "pub static LANGUAGES: [LangInfo; 20] = [", "pub static LANGUAGES: [LangInfo; 21] = ["),
         ("crates/ui-egui/src/i18n/mod.rs",
@@ -57,8 +57,8 @@ PATCHES = {
          "pub fn set_current(lang: Lang) {\n    CURRENT.set(lang);\n" + RTL_HOOK + "}"),
         ("crates/engine/src/prefs.rs", 'language: "auto".into(),', 'language: "ar".into(),'),
     ],
-    "pdfcraft": [
-        # pdfcraft already registers Arabic; its own visual reordering steps aside for epaint's.
+    "watheeq": [
+        # watheeq already registers Arabic; its own visual reordering steps aside for epaint's.
         ("crates/ui-egui/src/i18n/mod.rs",
          "pub fn set_current(lang: Lang) {\n    CURRENT.set(lang);\n}",
          "pub fn set_current(lang: Lang) {\n    CURRENT.set(lang);\n" + RTL_HOOK + "}"),
@@ -82,7 +82,7 @@ PATCHES = {
          "            if line.rtl && !egui::epaint::text::bidi::reorder() {\n                line.text.insert_str(0, ELLIPSIS);"),
         ("crates/ui-egui/src/lib.rs", "            language: i18n::AUTO.to_string(),", '            language: "ar".to_string(),'),
     ],
-    "designcraft": [
+    "nasaq": [
         ("crates/ui-egui/src/rtl.rs",
          "fn layout(ctx: &egui::Context, job: LayoutJob) -> Arc<Galley> {\n    if !may_have_rtl(&job.text) {",
          "fn layout(ctx: &egui::Context, job: LayoutJob) -> Arc<Galley> {\n"
@@ -90,7 +90,7 @@ PATCHES = {
          "    if !may_have_rtl(&job.text) || egui::epaint::text::bidi::reorder() {"),
         ("crates/ui-egui/src/lib.rs", "            language: String::new(),", '            language: "ar".into(),'),
     ],
-    "cadcraft": [
+    "mukhattat": [
         ("crates/ui-egui/src/i18n/mod.rs",
          "pub enum Preference {\n    #[default]\n    #[serde(rename = \"auto\")]\n    Auto,\n",
          "pub enum Preference {\n    #[serde(rename = \"auto\")]\n    Auto,\n"
@@ -116,7 +116,7 @@ PATCHES = {
          "    // Arabic reads right to left even when a label starts with a Latin word.\n"
          "    egui::epaint::text::bidi::set_prefer_rtl(language == \"ar\");\n"),
     ],
-    "craft-launcher": [
+    "warsha": [
         ("crates/ui-egui/src/i18n/lang.rs", "pub static LANGUAGES: [LangInfo; 11] = [", "pub static LANGUAGES: [LangInfo; 12] = ["),
         ("crates/ui-egui/src/i18n/lang.rs",
          '        complete_menus: false,\n        catalog: OnceLock::new(),\n    },\n',
@@ -133,7 +133,7 @@ PATCHES = {
     ],
 }
 
-PATCHES["filmcraft"] = [
+PATCHES["monteer"] = [
     ("crates/ui-egui/src/i18n/mod.rs", "    #[default]\n    En,\n    Ja,\n",
      "    En,\n    /// Arabic, the default of the Arabic build (تعريب وتطوير: محمد الشطي — malshatti.com).\n    #[default]\n    Ar,\n    Ja,\n"),
     ("crates/ui-egui/src/i18n/mod.rs", "static JAPANESE: OnceLock<Catalog> = OnceLock::new();\n",
@@ -170,7 +170,7 @@ PATCHES["filmcraft"] = [
      "        }\n"),
 ]
 
-PATCHES["gridcraft"] = [
+PATCHES["kashf"] = [
     ("crates/ui-egui/src/i18n.rs", "mod cs;\n", "mod ar;\nmod cs;\n"),
     ("crates/ui-egui/src/i18n.rs", "pub enum Language {\n    #[default]\n    En,\n",
      "pub enum Language {\n    En,\n    /// Arabic, the default of the Arabic build (تعريب وتطوير: محمد الشطي — malshatti.com).\n    #[default]\n    Ar,\n"),
@@ -186,11 +186,11 @@ PATCHES["gridcraft"] = [
      "    // Arabic reads right to left even when a label starts with a Latin word.\n"
      "    egui::epaint::text::bidi::set_prefer_rtl(language == Language::Ar);\n}"),
     ("crates/ui-egui/src/lib.rs", "            language: i18n::Language::En,\n", "            language: i18n::Language::Ar,\n"),
-    ("apps/gridcraft/src/main.rs",
-     "    app.ui.language = gridcraft_ui_egui::i18n::Language::system();\n",
-     "    // The Arabic build opens in Arabic; View ▸ Language switches.\n    app.ui.language = gridcraft_ui_egui::i18n::Language::Ar;\n"),
+    ("apps/kashf/src/main.rs",
+     "    app.ui.language = kashf_ui_egui::i18n::Language::system();\n",
+     "    // The Arabic build opens in Arabic; View ▸ Language switches.\n    app.ui.language = kashf_ui_egui::i18n::Language::Ar;\n"),
 ]
-PATCHES["effectcraft"] = [
+PATCHES["wamda"] = [
     ("crates/ui-egui/src/i18n.rs", "mod ui;\n", "mod ui;\n/// Arabic (تعريب وتطوير: محمد الشطي — malshatti.com): the menu tree and the panels.\nmod ar;\n"),
     ("crates/ui-egui/src/i18n.rs", 'const CATALOG_CODES: [&str; 10] = ["ja",', 'const CATALOG_CODES: [&str; 11] = ["ar", "ja",'),
     ("crates/ui-egui/src/i18n.rs", '        "ja" => lookup(JAPANESE, command, source),\n',
@@ -208,7 +208,7 @@ PATCHES["effectcraft"] = [
     ("crates/engine/src/prefs.rs", '    ("English", "en"),\n    ("日本語", "ja"),\n', '    ("English", "en"),\n    ("العربية", "ar"),\n    ("日本語", "ja"),\n'),
     ("crates/engine/src/prefs.rs", '    language: String = "system".into(),', '    language: String = "ar".into(),'),
 ]
-PATCHES["lightcraft"] = [
+PATCHES["tayf"] = [
     ("crates/ui-egui/src/i18n.rs", '    En, "en";\n',
      '    En, "en";\n    // Arabic, the default of the Arabic build (تعريب وتطوير: محمد الشطي — malshatti.com).\n'
      '    Ar, "ar", "العربية", "Arab", include_str!("../locales/ar.json");\n'),
@@ -224,28 +224,28 @@ PATCHES["lightcraft"] = [
     ("crates/ui-egui/src/menus.rs", '        "app.language.english" => Some(crate::i18n::Locale::En),\n',
      '        "app.language.english" => Some(crate::i18n::Locale::En),\n        "app.language.arabic" => Some(crate::i18n::Locale::Ar),\n'),
 ]
-PATCHES["deckcraft"] = [
+PATCHES["minbar"] = [
     ("Cargo.toml", 'epaint = { path = "../../shared/epaint" }\n',
      'epaint = { path = "../../shared/epaint" }\n# The label hook that shows the interface in Arabic (crates/ui-egui/src/i18n.rs).\negui = { path = "../../shared/egui" }\n'),
     ("crates/ui-egui/src/lib.rs", "pub mod icons;\n", "/// Arabic interface (تعريب وتطوير: محمد الشطي — malshatti.com).\npub mod i18n;\npub mod icons;\n"),
-    ("apps/deckcraft/src/main.rs", '    eframe::run_native(\n        "DeckCraft",',
+    ("apps/minbar/src/main.rs", '    eframe::run_native(\n        "Minbar",',
      '    // The Arabic build opens in Arabic; Preferences ▸ Interface language switches to English.\n'
-     '    deckcraft_ui_egui::i18n::install(config_dir().map(|d| d.join("language")));\n'
-     '    eframe::run_native(\n        "DeckCraft",'),
+     '    minbar_ui_egui::i18n::install(config_dir().map(|d| d.join("language")));\n'
+     '    eframe::run_native(\n        "Minbar",'),
     ("crates/ui-egui/src/dialogs.rs",
      '                app.ui.ui_scale = scale;\n            }\n            ui.label(egui::RichText::new("Editing")',
      '                app.ui.ui_scale = scale;\n            }\n'
      '            ui.horizontal(|ui| {\n                ui.label("Interface language");\n                crate::i18n::language_picker(ui);\n            });\n'
      '            ui.label(egui::RichText::new("Editing")'),
 ]
-PATCHES["soundcraft"] = [
+PATCHES["sada"] = [
     ("Cargo.toml", 'epaint = { path = "../../shared/epaint" }\n',
      'epaint = { path = "../../shared/epaint" }\n# The label hook that shows the interface in Arabic (crates/ui-egui/src/i18n.rs).\negui = { path = "../../shared/egui" }\n'),
     ("crates/ui-egui/src/lib.rs", "pub mod icons;\n", "/// Arabic interface (تعريب وتطوير: محمد الشطي — malshatti.com).\npub mod i18n;\npub mod icons;\n"),
-    ("apps/soundcraft/src/main.rs", '    eframe::run_native(\n        "SoundCraft",',
+    ("apps/sada/src/main.rs", '    eframe::run_native(\n        "Sada",',
      '    // The Arabic build opens in Arabic; Window ▸ UI Customization ▸ Interface language switches to English.\n'
-     '    soundcraft_ui_egui::i18n::install(config::config_dir().map(|d| d.join("language")));\n'
-     '    eframe::run_native(\n        "SoundCraft",'),
+     '    sada_ui_egui::i18n::install(config::config_dir().map(|d| d.join("language")));\n'
+     '    eframe::run_native(\n        "Sada",'),
     ("crates/ui-egui/src/extra_windows.rs",
      '                ui.label("Reduce motion");\n                ui.checkbox(&mut app.extra.reduce_motion, "");\n                ui.end_row();\n',
      '                ui.label("Reduce motion");\n                ui.checkbox(&mut app.extra.reduce_motion, "");\n                ui.end_row();\n'

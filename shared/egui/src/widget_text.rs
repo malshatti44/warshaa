@@ -926,8 +926,8 @@ pub fn translate_label(text: String) -> String {
     if let Some((_, arabic)) = APP_NAMES.iter().find(|(english, _)| *english == text) {
         return (*arabic).to_owned();
     }
-    // Inside an English sentence ("About VectorCraft"), the app's Latin Warsha name.
-    if !text.contains("Craft") {
+    // Inside an English sentence ("About Reesha"), the app's Latin Warsha name.
+    if !text.contains("Warsha") {
         return text;
     }
     let mut text = text;
@@ -941,47 +941,47 @@ pub fn translate_label(text: String) -> String {
 
 /// The Latin spellings of the Warsha names, for English text.
 const LATIN_NAMES: [(&str, &str); 16] = [
-    ("ArtCraft Launcher", "Warsha"),
-    ("PhotoCraft", "Retoush"),
-    ("VectorCraft", "Reesha"),
-    ("FilmCraft", "Monteer"),
-    ("LightCraft", "Tayf"),
-    ("PdfCraft", "Watheeq"),
-    ("PDFCraft", "Watheeq"),
-    ("EffectCraft", "Wamda"),
-    ("DesignCraft", "Nasaq"),
-    ("WordCraft", "Satr"),
-    ("DeckCraft", "Minbar"),
-    ("GridCraft", "Kashf"),
-    ("CADCraft", "Mukhattat"),
-    ("CadCraft", "Mukhattat"),
-    ("SoundCraft", "Sada"),
-    ("Craft Launcher", "Warsha"),
+    ("Warsha", "Warsha"),
+    ("Retoush", "Retoush"),
+    ("Reesha", "Reesha"),
+    ("Monteer", "Monteer"),
+    ("Tayf", "Tayf"),
+    ("Watheeq", "Watheeq"),
+    ("Watheeq", "Watheeq"),
+    ("Wamda", "Wamda"),
+    ("Nasaq", "Nasaq"),
+    ("Satr", "Satr"),
+    ("Minbar", "Minbar"),
+    ("Kashf", "Kashf"),
+    ("Mukhattat", "Mukhattat"),
+    ("Mukhattat", "Mukhattat"),
+    ("Sada", "Sada"),
+    ("Warsha Launcher", "Warsha"),
 ];
 
-/// The Arabic names of the Craft apps (ورشة), shown in window titles.
+/// The Arabic names of the Warsha apps (ورشة), shown in window titles.
 const APP_NAMES: [(&str, &str); 16] = [
-    ("ArtCraft Launcher", "ورشة"),
-    ("PhotoCraft", "ريتوش"),
-    ("VectorCraft", "ريشة"),
-    ("FilmCraft", "مونتير"),
-    ("LightCraft", "طيف"),
-    ("PdfCraft", "وثيق"),
-    ("PDFCraft", "وثيق"),
-    ("EffectCraft", "ومضة"),
-    ("DesignCraft", "نسق"),
-    ("WordCraft", "سطر"),
-    ("DeckCraft", "منبر"),
-    ("GridCraft", "كشف"),
-    ("CADCraft", "مخطط"),
-    ("CadCraft", "مخطط"),
-    ("SoundCraft", "صدى"),
-    ("Craft Launcher", "ورشة"),
+    ("Warsha", "ورشة"),
+    ("Retoush", "ريتوش"),
+    ("Reesha", "ريشة"),
+    ("Monteer", "مونتير"),
+    ("Tayf", "طيف"),
+    ("Watheeq", "وثيق"),
+    ("Watheeq", "وثيق"),
+    ("Wamda", "ومضة"),
+    ("Nasaq", "نسق"),
+    ("Satr", "سطر"),
+    ("Minbar", "منبر"),
+    ("Kashf", "كشف"),
+    ("Mukhattat", "مخطط"),
+    ("Mukhattat", "مخطط"),
+    ("Sada", "صدى"),
+    ("Warsha Launcher", "ورشة"),
 ];
 
 /// `title` with the app's English name replaced by its Arabic one.
 pub fn app_title(title: String) -> String {
-    if !title.contains("Craft") {
+    if !title.contains("Warsha") {
         return title;
     }
     let mut title = title;

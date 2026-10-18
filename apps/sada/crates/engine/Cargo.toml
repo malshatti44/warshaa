@@ -1,0 +1,31 @@
+[package]
+name = "sada-engine"
+description = "Sada command engine: commands, undo, editing operations, import/export, bounce, parity catalog"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+
+[dependencies]
+sada-time.workspace = true
+sada-audio-io.workspace = true
+sada-midi.workspace = true
+sada-dsp.workspace = true
+sada-clap-host.workspace = true
+sada-vst3-host.workspace = true
+sada-au-host.workspace = true
+sada-model.workspace = true
+sada-mix.workspace = true
+sada-video.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+log.workspace = true
+zip.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+
+[lints]
+workspace = true

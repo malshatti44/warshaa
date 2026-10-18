@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Watheeq
+GenericName=PDF Editor
+Comment=Read, organize, combine, split and secure PDFs
+Exec=watheeq %U
+TryExec=watheeq
+Icon=com.malshatti.watheeq
+Terminal=false
+StartupNotify=true
+StartupWMClass=com.malshatti.watheeq
+Categories=Office;Viewer;
+Keywords=pdf;viewer;editor;annotate;sign;forms;merge;split;
+MimeType=application/pdf;

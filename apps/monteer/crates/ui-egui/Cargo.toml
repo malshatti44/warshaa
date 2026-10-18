@@ -1,0 +1,64 @@
+[package]
+name = "monteer-ui-egui"
+description = "The Monteer egui frontend (swappable): panels, docking, timeline, monitors, control channel"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+warsha-ui = { workspace = true }
+monteer-time = { workspace = true }
+monteer-geom = { workspace = true }
+monteer-color = { workspace = true }
+monteer-frame = { workspace = true }
+monteer-media = { workspace = true }
+monteer-project = { workspace = true }
+monteer-tts = { workspace = true }
+monteer-edit = { workspace = true }
+monteer-render = { workspace = true }
+monteer-text = { workspace = true }
+monteer-audio-dsp = { workspace = true }
+monteer-engine = { workspace = true }
+monteer-export = { workspace = true }
+monteer-gpu = { workspace = true }
+monteer-scopes = { workspace = true }
+egui = { workspace = true }
+eframe = { workspace = true, features = ["default_fonts", "wgpu", "accesskit"] }
+serde = { workspace = true }
+serde_json = { workspace = true }
+log = { workspace = true }
+rayon = { workspace = true }
+web-time = "1"
+# Unicode Bidirectional Algorithm for Arabic and Hebrew captions in reading order (MIT OR Apache-2.0).
+unicode-bidi = "0.3.18"
+# Warsha wordmark (PNG) for the About dialog and Home screen.
+image = { version = "0.25", default-features = false, features = ["png"] }
+
+# Thread/process CPU clocks for frame-job profiling (safe wrappers; see frames.rs).
+[target.'cfg(unix)'.dependencies]
+rustix = { version = "1", default-features = false, features = ["std", "time"] }
+# the same clocks on Windows (GetThreadTimes / GetProcessTimes behind a safe API; MIT OR Apache-2.0)
+[target.'cfg(windows)'.dependencies]
+cpu-time = "1"
+
+[dev-dependencies]
+pollster = "0.4"
+monteer-codecs = { workspace = true }
+# the bench registers OS hardware decoders as the desktop app does (dev-dependency only: ui-egui
+# itself stays OS-independent and web-portable)
+monteer-platform = { workspace = true }
+monteer-interchange = { workspace = true }
+egui_kittest = { workspace = true, features = ["eframe", "wgpu"] }
+
+# build.rs bakes contributors/contributors.json into the binary (About ▸ Contributors).
+[build-dependencies]
+serde_json = { workspace = true }
+toml = "1"
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+# Warsha (ورشة): the in-app AI assistant panel.
+warsha-assistant = { path = "../../../../shared/assistant" }

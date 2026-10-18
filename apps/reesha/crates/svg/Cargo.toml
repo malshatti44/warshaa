@@ -1,0 +1,38 @@
+[package]
+name = "reesha-svg"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Reesha SVG import and export"
+
+[lints]
+workspace = true
+
+[dependencies]
+reesha-geom = { workspace = true }
+reesha-color = { workspace = true }
+reesha-doc = { workspace = true }
+reesha-effects = { workspace = true }
+reesha-brush = { workspace = true }
+reesha-text = { workspace = true }
+kurbo = { workspace = true }
+usvg = { workspace = true }
+thiserror = { workspace = true }
+serde = { workspace = true }
+# Live effect params read from filters.
+serde_json = { workspace = true }
+# SVGZ (gzip, pure-Rust backend: builds for wasm).
+flate2 = { workspace = true }
+image = { workspace = true }
+# Colour / transform / length parsing for the <text> fallback (MIT OR Apache-2.0; already used by usvg).
+svgtypes = "0.16"
+
+[dev-dependencies]
+# Reading embedded font subsets back.
+skrifa = { workspace = true }
+# A variable font built in code (no font file is committed).
+reesha-text = { workspace = true, features = ["test-fonts"] }
+resvg = { version = "0.45", default-features = false }
+reesha-testkit = { workspace = true }
+proptest = { workspace = true }
+image = { workspace = true }

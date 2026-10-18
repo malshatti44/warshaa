@@ -1,0 +1,14 @@
+*~
+plan/
+/target
+/target-*/
+/dist
+/corpus
+/log
+.DS_Store
+/.claude/
+/warsha-fonts/
+packaging/env.sh
+/packaging/linux/flatpak/cargo-sources.json
+/build-flatpak/
+/.flatpak-builder/

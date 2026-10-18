@@ -1,0 +1,16 @@
+[package]
+name = "watheeq-print"
+description = "Printing: page selection, sizing (fit, actual, shrink, custom), multiple pages per sheet, booklets, posters, comments & forms; print-ready PDF and the system spooler"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+warsha-print = { workspace = true }
+watheeq-cos = { workspace = true }
+watheeq-content = { workspace = true }
+watheeq-model = { workspace = true }
+thiserror = { workspace = true }

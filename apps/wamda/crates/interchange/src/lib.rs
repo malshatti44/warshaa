@@ -1,0 +1,210 @@
+//! Premiere Pro interop through the public timeline interchange formats Premiere itself reads and
+//! writes (After Effects' File ▸ Import / Export ▸ Adobe Premiere Pro Project…):
+//!
+//! - **Final Cut Pro 7 XML** (`xmeml`, `.xml`): Premiere's File ▸ Export ▸ Final Cut Pro XML and
+//!   File ▸ Import; the default for export;
+//! - **FCPXML** 1.9–1.11 (`.fcpxml`);
+//! - **OpenTimelineIO** (`.otio`);
+//! - **CMX 3600 EDL** (`.edl`);
+//! - **AAF** (`.aaf`) and **OMF** (`.omf`) (embedded audio is not extracted).
+//!
+//! Parsing and writing is Monteer's `monteer-interchange` (our first-party sibling project);
+//! this crate maps its timeline model to compositions and back:
+//!
+//! - [`import`]: sequences → compositions (size, rate, duration, pixel aspect, start timecode,
+//!   markers); video tracks → layers stacked by track (top track = top layer); clips → footage
+//!   layers with in/out/start, speed and reverse (time stretch), frame holds (time remapping),
+//!   Motion (position/scale/rotation/anchor point) and Opacity with keyframes; cross dissolves and
+//!   dips → overlapping layers with opacity keyframes; nested sequences → precomps; audio tracks →
+//!   audio-only layers with Audio Levels; bins → Project panel folders; missing media →
+//!   placeholders.
+//! - [`export`]: a composition → one sequence with one track per layer (bottom layer = V1),
+//!   footage clips with their timing, Motion and Opacity; precomps as nested sequences; solids as
+//!   colour mattes; layers only Wamda can draw (text, shapes, effects, masks, 3D…) are
+//!   either left out or pre-rendered by the caller (ProRes 4444 with alpha, see
+//!   [`plan_prerender`]) and referenced as media.
+//!
+//! The native `.prproj` format has no public specification and is not read or written.
+//!
+//! This crate is L3 and does no file I/O: media files are probed through a callback, pre-rendered
+//! media come in as paths, and documents are bytes.
+
+#![deny(clippy::unwrap_used, clippy::expect_used, clippy::panic, clippy::unimplemented, clippy::todo, clippy::unreachable)]
+
+mod export;
+mod import;
+#[cfg(test)]
+mod tests;
+
+pub use export::{ExportOptions, ExportOutput, PrecompMode, PrerenderMode, Prerendered, export, plan_prerender, prerender_reason};
+pub use import::{ImportOptions, ImportResult, import};
+
+pub use monteer_geom as fc_geom;
+/// Monteer's interchange crate (format readers/writers) and timeline model, re-exported so
+/// tests and tools can build documents in code.
+pub use monteer_interchange as fc;
+pub use monteer_media as fc_media;
+pub use monteer_project as fc_project;
+pub use monteer_time as fc_time;
+
+use serde::{Deserialize, Serialize};
+
+/// A timeline interchange format.
+#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub enum TimelineFormat {
+    /// Final Cut Pro 7 XML (`xmeml`), the format Premiere Pro imports and exports.
+    Fcp7Xml,
+    /// FCPXML 1.9–1.11.
+    Fcpxml,
+    /// OpenTimelineIO JSON.
+    Otio,
+    /// CMX 3600 edit decision list.
+    Edl,
+    /// Advanced Authoring Format (AAF Edit Protocol), as Premiere Pro exports for audio post.
+    Aaf,
+    /// OMF Interchange 2.0.
+    Omf,
+}
+
+impl TimelineFormat {
+    pub const ALL: [TimelineFormat; 6] =
+        [TimelineFormat::Fcp7Xml, TimelineFormat::Fcpxml, TimelineFormat::Otio, TimelineFormat::Edl, TimelineFormat::Aaf, TimelineFormat::Omf];
+
+    /// Id used by commands (`xml`, `fcpxml`, `otio`, `edl`).
+    pub fn id(self) -> &'static str {
+        match self {
+            TimelineFormat::Fcp7Xml => "xml",
+            TimelineFormat::Fcpxml => "fcpxml",
+            TimelineFormat::Otio => "otio",
+            TimelineFormat::Edl => "edl",
+            TimelineFormat::Aaf => "aaf",
+            TimelineFormat::Omf => "omf",
+        }
+    }
+
+    pub fn label(self) -> &'static str {
+        match self {
+            TimelineFormat::Fcp7Xml => "Final Cut Pro XML (Premiere Pro)",
+            TimelineFormat::Fcpxml => "FCPXML",
+            TimelineFormat::Otio => "OpenTimelineIO",
+            TimelineFormat::Edl => "CMX 3600 EDL",
+            TimelineFormat::Aaf => "AAF",
+            TimelineFormat::Omf => "OMF",
+        }
+    }
+
+    /// File extension (without the dot).
+    pub fn extension(self) -> &'static str {
+        self.fc().extension()
+    }
+
+    /// Parse a command parameter: a format id, a name or an extension.
+    pub fn parse(s: &str) -> Option<TimelineFormat> {
+        match s.trim().trim_start_matches('.').to_ascii_lowercase().replace([' ', '_', '-'], "").as_str() {
+            "xml" | "fcp7" | "fcp7xml" | "xmeml" | "finalcutproxml" | "premiere" | "premierepro" | "prproj" => Some(TimelineFormat::Fcp7Xml),
+            "fcpxml" | "fcpxmld" | "fcpx" => Some(TimelineFormat::Fcpxml),
+            "otio" | "opentimelineio" => Some(TimelineFormat::Otio),
+            "edl" | "cmx3600" | "cmx" => Some(TimelineFormat::Edl),
+            "aaf" => Some(TimelineFormat::Aaf),
+            "omf" | "omfi" => Some(TimelineFormat::Omf),
+            _ => None,
+        }
+    }
+
+    /// Format of a file from its extension.
+    pub fn from_path(path: &str) -> Option<TimelineFormat> {
+        let ext = path.rsplit_once('.').map(|(_, e)| e)?;
+        if ext.contains('/') || ext.contains('\\') {
+            return None;
+        }
+        monteer_interchange::Format::from_extension(ext).map(TimelineFormat::from_fc)
+    }
+
+    /// Sniff a document (bytes first, the extension as a hint for ambiguous `.xml`).
+    pub fn detect(bytes: &[u8], path: Option<&str>) -> Option<TimelineFormat> {
+        let ext = path.and_then(|p| p.rsplit_once('.')).map(|(_, e)| e);
+        monteer_interchange::detect(bytes, ext).map(TimelineFormat::from_fc)
+    }
+
+    pub(crate) fn fc(self) -> monteer_interchange::Format {
+        match self {
+            TimelineFormat::Fcp7Xml => monteer_interchange::Format::Fcp7Xml,
+            TimelineFormat::Fcpxml => monteer_interchange::Format::Fcpxml,
+            TimelineFormat::Otio => monteer_interchange::Format::Otio,
+            TimelineFormat::Edl => monteer_interchange::Format::Edl,
+            TimelineFormat::Aaf => monteer_interchange::Format::Aaf,
+            TimelineFormat::Omf => monteer_interchange::Format::Omf,
+        }
+    }
+
+    pub(crate) fn from_fc(f: monteer_interchange::Format) -> TimelineFormat {
+        match f {
+            monteer_interchange::Format::Fcp7Xml => TimelineFormat::Fcp7Xml,
+            monteer_interchange::Format::Fcpxml => TimelineFormat::Fcpxml,
+            monteer_interchange::Format::Otio => TimelineFormat::Otio,
+            monteer_interchange::Format::Edl => TimelineFormat::Edl,
+            monteer_interchange::Format::Aaf => TimelineFormat::Aaf,
+            monteer_interchange::Format::Omf => TimelineFormat::Omf,
+        }
+    }
+}
+
+#[derive(Debug, thiserror::Error)]
+pub enum Error {
+    #[error("{0}")]
+    Interchange(#[from] monteer_interchange::Error),
+    #[error("not a timeline document (expected Final Cut Pro XML, FCPXML, OpenTimelineIO or EDL)")]
+    UnknownFormat,
+    #[error("no composition {0}")]
+    NoComp(u64),
+    #[error("the timeline document nests more than {0} levels deep")]
+    TooDeep(usize),
+}
+
+pub type Result<T> = std::result::Result<T, Error>;
+
+// ---------------------------------------------------------------- shared conversions
+
+pub(crate) fn rate_in(r: monteer_time::FrameRate) -> wamda_time::FrameRate {
+    if r.num <= 0 || r.den <= 0 { wamda_time::FrameRate::new(30, 1) } else { wamda_time::FrameRate::new(r.num, r.den) }
+}
+
+pub(crate) fn rate_out(r: wamda_time::FrameRate) -> monteer_time::FrameRate {
+    monteer_time::FrameRate { num: r.num, den: r.den }
+}
+
+// Both projects count time in the same ticks (254 016 000 000 per second).
+const _: () = assert!(monteer_time::TICKS_PER_SECOND == wamda_time::TICKS_PER_SECOND);
+
+pub(crate) fn tick_in(t: monteer_time::Tick) -> wamda_time::Tick {
+    wamda_time::Tick(t.0)
+}
+
+pub(crate) fn tick_out(t: wamda_time::Tick) -> monteer_time::Tick {
+    monteer_time::Tick(t.0)
+}
+
+/// A pixel aspect ratio as a small fraction (1.0 → 1:1, 0.9 → 9:10, 1.2121 → 40:33…).
+pub(crate) fn par_fraction(par: f64) -> (u32, u32) {
+    if !par.is_finite() || par <= 0.0 || (par - 1.0).abs() < 1e-6 {
+        return (1, 1);
+    }
+    let mut best = (1u32, 1u32);
+    let mut err = f64::MAX;
+    for den in 1..=200u32 {
+        let num = (par * den as f64).round() as u32;
+        if num == 0 {
+            continue;
+        }
+        let e = (num as f64 / den as f64 - par).abs();
+        if e < err - 1e-9 {
+            err = e;
+            best = (num, den);
+        }
+        if e < 1e-6 {
+            break;
+        }
+    }
+    best
+}

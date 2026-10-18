@@ -1,0 +1,23 @@
+[package]
+name = "reesha-tools"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Reesha tool state machines: pointer events in, commands and overlays out"
+
+[lints]
+workspace = true
+
+[dependencies]
+reesha-geom = { workspace = true }
+reesha-color = { workspace = true }
+reesha-doc = { workspace = true }
+reesha-pathops = { workspace = true }
+reesha-text = { workspace = true }
+kurbo = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+
+[dev-dependencies]
+image = { workspace = true }
+reesha-text = { workspace = true, features = ["test-fonts"] }

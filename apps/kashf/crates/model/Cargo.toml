@@ -1,0 +1,19 @@
+[package]
+name = "kashf-model"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Kashf document model: workbooks, sheets, cells, styles, tables, charts"
+
+[lints]
+workspace = true
+
+[dependencies]
+kashf-core = { workspace = true }
+sha2 = { workspace = true }
+kashf-formula = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+serde_json = { workspace = true }

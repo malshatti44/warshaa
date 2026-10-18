@@ -1,7 +1,7 @@
 """Patch epaint 0.36.2 text_layout.rs: direction-aware runs and bidi row reordering."""
 import pathlib
 
-p = pathlib.Path(r"E:\craft-ar\shared\epaint\src\text\text_layout.rs")
+p = pathlib.Path(r"E:\warsha-ar\shared\epaint\src\text\text_layout.rs")
 s = p.read_text(encoding="utf-8")
 
 
@@ -82,13 +82,13 @@ sub("""    let justify = job.justify && job.wrap.max_width.is_finite();
     let justify = job.justify && job.wrap.max_width.is_finite();
 """)
 
-helpers = pathlib.Path(r"E:\craft-ar\shared\bidi_layout_helpers.rs").read_text(encoding="utf-8")
+helpers = pathlib.Path(r"E:\warsha-ar\shared\bidi_layout_helpers.rs").read_text(encoding="utf-8")
 marker = "// ----------------------------------------------------------------------------\n\n#[cfg(test)]\nmod tests {"
 sub(marker, helpers.strip("\n") + "\n\n" + marker)
 
 p.write_text(s, encoding="utf-8", newline="\n")
 
-m = pathlib.Path(r"E:\craft-ar\shared\epaint\src\text\mod.rs")
+m = pathlib.Path(r"E:\warsha-ar\shared\epaint\src\text\mod.rs")
 ms = m.read_text(encoding="utf-8")
 if "pub mod bidi;" not in ms:
     ms = ms.replace("pub mod cursor;", "pub mod bidi;\npub mod cursor;", 1)

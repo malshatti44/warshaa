@@ -1,0 +1,25 @@
+[package]
+name = "sada-mix"
+description = "Sada mix engine: renders a session's tracks, plugins, sends, busses and automation to audio"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+
+[dependencies]
+sada-time.workspace = true
+sada-audio-io.workspace = true
+sada-midi.workspace = true
+sada-dsp.workspace = true
+sada-clap-host.workspace = true
+sada-vst3-host.workspace = true
+sada-au-host.workspace = true
+sada-model.workspace = true
+log.workspace = true
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+rayon.workspace = true
+
+[lints]
+workspace = true

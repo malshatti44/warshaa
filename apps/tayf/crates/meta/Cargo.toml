@@ -1,0 +1,19 @@
+[package]
+name = "tayf-meta"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Tayf metadata: EXIF, XMP, IPTC (L1)"
+
+[lints]
+workspace = true
+
+[dependencies]
+tayf-tiff = { workspace = true }
+tayf-geom = { workspace = true }
+serde = { workspace = true }
+quick-xml = { workspace = true }
+
+[dev-dependencies]
+proptest = { workspace = true }
+serde_json = { workspace = true }

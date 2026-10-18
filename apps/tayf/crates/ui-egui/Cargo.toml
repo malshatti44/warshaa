@@ -1,0 +1,42 @@
+[package]
+name = "tayf-ui-egui"
+version.workspace = true
+edition.workspace = true
+rust-version = "1.95"
+license.workspace = true
+description = "Tayf egui frontend (Lightroom-style UI); swappable — nothing below depends on it (L5)"
+
+[lints]
+workspace = true
+
+[dependencies]
+warsha-ui = { workspace = true }
+tayf-geom = { workspace = true }
+tayf-meta = { workspace = true }
+tayf-color = { workspace = true }
+tayf-raster = { workspace = true }
+tayf-develop = { workspace = true }
+tayf-pipeline = { workspace = true }
+tayf-catalog = { workspace = true }
+web-time = { workspace = true }
+tayf-engine = { workspace = true }
+tayf-preview = { workspace = true }
+egui = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+log = { workspace = true }
+
+[dev-dependencies]
+egui_kittest = { workspace = true, features = ["wgpu", "snapshot"] }
+tayf-denoise = { workspace = true, features = ["runtime"] }
+tayf-codecs = { workspace = true }
+tayf-faces = { workspace = true }
+tayf-merge = { workspace = true }
+
+[build-dependencies]
+serde_json = { workspace = true }
+toml = "1"
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+# Warsha (ورشة): the in-app AI assistant panel.
+warsha-assistant = { path = "../../../../shared/assistant" }

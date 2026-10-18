@@ -1,0 +1,9 @@
+Watheeq portable mode
+
+While this file sits next to watheeq.exe, Watheeq keeps its settings, log files, crash-recovery
+autosaves and new digital IDs in the WatheeqData folder beside it, and writes nothing to
+%APPDATA% or %LOCALAPPDATA%. Copy the whole folder to move Watheeq with its settings.
+
+Delete this file to use the normal per-user folders (%APPDATA%\Watheeq and
+%LOCALAPPDATA%\Watheeq) instead. If WatheeqData can't be written (for example on a read-only
+drive), Watheeq says so and uses the per-user folders instead.

@@ -1,0 +1,25 @@
+[package]
+name = "nasaq-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[lints]
+workspace = true
+
+[[bin]]
+name = "nasaq-cli"
+path = "src/main.rs"
+
+[dependencies]
+nasaq-engine = { workspace = true }
+nasaq-render = { workspace = true }
+nasaq-doc = { workspace = true }
+nasaq-geom = { workspace = true }
+nasaq-color = { workspace = true }
+nasaq-compose = { workspace = true }
+nasaq-format = { workspace = true }
+nasaq-pdf = { workspace = true }
+nasaq-mcp = { workspace = true }
+serde_json = { workspace = true }

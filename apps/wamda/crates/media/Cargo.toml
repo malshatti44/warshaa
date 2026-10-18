@@ -1,0 +1,33 @@
+[package]
+name = "wamda-media"
+description = "Footage import: probing, stills, image sequences, video and audio via Monteer's pure-Rust codecs, memory-budgeted frame cache"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+wamda-time = { workspace = true }
+wamda-project = { workspace = true }
+wamda-raster = { workspace = true }
+wamda-render = { workspace = true }
+wamda-psd = { workspace = true }
+wamda-svg = { workspace = true }
+wamda-pdf = { workspace = true }
+wamda-model = { workspace = true }
+monteer-codecs = { workspace = true }
+monteer-media = { workspace = true }
+monteer-isobmff = { workspace = true }
+monteer-frame = { workspace = true }
+monteer-color = { workspace = true }
+monteer-time = { workspace = true }
+exr = { workspace = true }
+gif = { workspace = true }
+image = { workspace = true, features = ["gif", "webp", "tiff", "bmp", "exr", "tga", "hdr"] }
+rayon = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }

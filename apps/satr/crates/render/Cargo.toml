@@ -1,0 +1,22 @@
+[package]
+name = "satr-render"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Satr rasteriser: pages and thumbnails from the layout display list (vello_cpu), PNG/JPEG export"
+
+[lints]
+workspace = true
+
+[dependencies]
+satr-geom = { workspace = true }
+satr-doc = { workspace = true }
+satr-fonts = { workspace = true }
+satr-layout = { workspace = true }
+satr-metafile = { workspace = true }
+vello_cpu = { workspace = true }
+image = { workspace = true }
+log = { workspace = true }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+vello_cpu = { workspace = true, features = ["multithreading"] }
