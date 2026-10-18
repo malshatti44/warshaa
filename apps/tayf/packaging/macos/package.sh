@@ -102,6 +102,9 @@ echo "==> assembling $APP"
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 # Executable and icon carry the display name (CFBundleExecutable / CFBundleIconFile).
 cp "$WORK/bin/tayf" "$APP/Contents/MacOS/Tayf"
+# Warsha: the assistant inside the app talks to it through its MCP server, which it looks for
+# beside its own executable.
+cp "$WORK/bin/tayf-cli" "$APP/Contents/MacOS/tayf-cli"
 cp "$ROOT/assets/app-icon/tayf.icns" "$APP/Contents/Resources/Tayf.icns"
 sed -e "s/@VERSION@/$VERSION/g" -e "s/@SHORT_VERSION@/$SHORT_VERSION/g" \
   -e "s/@BUILD_SHA@/${TAYF_BUILD_SHA:-unknown}/g" \
@@ -118,6 +121,7 @@ xattr -cr "$APP"
 
 # Sign inside-out: nested code first, then the bundle itself (no --deep on the final signature).
 # Today the only nested code is the main executable; frameworks/helpers would be signed here too.
+sign --options runtime "$APP/Contents/MacOS/tayf-cli"
 sign --options runtime --entitlements "$HERE/entitlements.plist" "$APP/Contents/MacOS/Tayf"
 sign --options runtime --entitlements "$HERE/entitlements.plist" "$APP"
 codesign --verify --strict --deep --verbose=2 "$APP"

@@ -18,12 +18,29 @@ pub struct Asset {
     pub size: u64,
 }
 
-/// llama.cpp b11700, Windows x64, Vulkan + CPU (MIT).
+/// llama.cpp b11700 (MIT): Windows x64 with Vulkan + CPU.
+#[cfg(not(target_os = "macos"))]
 pub const RUNTIME: Asset = Asset {
     file: "llama-b11700-bin-win-vulkan-x64.zip",
     url: "https://github.com/ggml-org/llama.cpp/releases/download/b11700/llama-b11700-bin-win-vulkan-x64.zip",
     sha256: "d93ccad5992d6640d7081407c24d3ceddf717bc0a1c3c269225c9bef0182f83e",
     size: 32_240_958,
+};
+/// llama.cpp b11700 (MIT): macOS on Apple silicon, with Metal.
+#[cfg(all(target_os = "macos", target_arch = "aarch64"))]
+pub const RUNTIME: Asset = Asset {
+    file: "llama-b11700-bin-macos-arm64.tar.gz",
+    url: "https://github.com/ggml-org/llama.cpp/releases/download/b11700/llama-b11700-bin-macos-arm64.tar.gz",
+    sha256: "75d795f8826e09893d44e040742ca5dd604d9402dc40393aed0aea6866aadd73",
+    size: 12_231_542,
+};
+/// llama.cpp b11700 (MIT): macOS on Intel.
+#[cfg(all(target_os = "macos", not(target_arch = "aarch64")))]
+pub const RUNTIME: Asset = Asset {
+    file: "llama-b11700-bin-macos-x64.tar.gz",
+    url: "https://github.com/ggml-org/llama.cpp/releases/download/b11700/llama-b11700-bin-macos-x64.tar.gz",
+    sha256: "957911e205758c5ffc5e835e631dd428ba7a46c91f8824e3a3e1a2f107aa7c79",
+    size: 11_715_425,
 };
 /// Qwen3.5-4B (Apache-2.0), Q4_K_M.
 pub const MODEL: Asset = Asset {
@@ -44,10 +61,11 @@ pub fn total_size() -> u64 {
     RUNTIME.size + MODEL.size + VISION.size
 }
 
-/// %LOCALAPPDATA%\Warsha\assistant (`Warsha\ai` belongs to the AI link's bridge).
+/// `assistant` in Warsha's data folder: `%LOCALAPPDATA%\Warsha\assistant` on Windows
+/// (`Warsha\ai` belongs to the AI link's bridge), `~/Library/Application Support/Warsha/assistant`
+/// on macOS.
 pub fn dir() -> PathBuf {
-    let base = std::env::var_os("LOCALAPPDATA").map(PathBuf::from).unwrap_or_else(std::env::temp_dir);
-    base.join("Warsha").join("assistant")
+    crate::config::data_dir().join("assistant")
 }
 
 fn runtime_dir() -> PathBuf {
@@ -58,8 +76,10 @@ fn models_dir() -> PathBuf {
     dir().join("models")
 }
 
+const SERVER: &str = if cfg!(windows) { "llama-server.exe" } else { "llama-server" };
+
 fn server_exe() -> PathBuf {
-    runtime_dir().join("llama-server.exe")
+    runtime_dir().join(SERVER)
 }
 
 /// Everything downloaded and verified?
@@ -211,23 +231,45 @@ fn verify(path: &Path, sha: &str) -> Result<(), String> {
     Ok(())
 }
 
-/// Windows' own tar (bsdtar) reads zip files; keep the server and its libraries.
-fn unpack_runtime(zip: &Path) -> Result<(), String> {
+/// The system's tar (bsdtar on Windows and macOS) reads the zip and the tar.gz; keep the server and
+/// its libraries, at the top of the runtime folder (the macOS archives hold them in a subfolder).
+fn unpack_runtime(archive: &Path) -> Result<(), String> {
     let dir = runtime_dir();
     let mut cmd = Command::new("tar");
-    cmd.arg("-xf").arg(zip).arg("-C").arg(&dir);
+    cmd.arg("-xf").arg(archive).arg("-C").arg(&dir);
     no_window(&mut cmd);
     let st = cmd.status().map_err(|e| format!("unpack: {e}"))?;
     if !st.success() {
         return Err("unpack failed".into());
     }
+    if !server_exe().exists() {
+        if let Some(found) = find_file(&dir, SERVER, 4) {
+            let from = found.parent().map(Path::to_path_buf).unwrap_or_else(|| dir.clone());
+            for e in std::fs::read_dir(&from).map_err(|e| e.to_string())?.flatten() {
+                let _ = std::fs::rename(e.path(), dir.join(e.file_name()));
+            }
+        }
+    }
     for e in std::fs::read_dir(&dir).map_err(|e| e.to_string())?.flatten() {
         let name = e.file_name().to_string_lossy().to_lowercase();
-        if name.ends_with(".exe") && name != "llama-server.exe" {
+        let program = name.ends_with(".exe") || (!cfg!(windows) && name.starts_with("llama-") && !name.contains('.'));
+        if program && name != SERVER {
             let _ = std::fs::remove_file(e.path());
         }
     }
-    if !server_exe().exists() { Err("llama-server.exe missing from the runtime".into()) } else { Ok(()) }
+    if !server_exe().exists() { Err(format!("{SERVER} missing from the runtime")) } else { Ok(()) }
+}
+
+/// The first file called `name` under `dir`, at most `depth` folders down.
+fn find_file(dir: &Path, name: &str, depth: u32) -> Option<PathBuf> {
+    let entries: Vec<_> = std::fs::read_dir(dir).ok()?.flatten().collect();
+    if let Some(e) = entries.iter().find(|e| e.file_name() == name && e.path().is_file()) {
+        return Some(e.path());
+    }
+    if depth == 0 {
+        return None;
+    }
+    entries.iter().filter(|e| e.path().is_dir()).find_map(|e| find_file(&e.path(), name, depth - 1))
 }
 
 fn no_window(cmd: &mut Command) {
@@ -280,7 +322,7 @@ pub fn ensure_server(on_status: &dyn Fn(&str)) -> Result<(String, String), Strin
     let port = std::net::TcpListener::bind("127.0.0.1:0").and_then(|l| l.local_addr()).map(|a| a.port()).map_err(|e| e.to_string())?;
     let key = random_hex(24);
     let log = std::fs::File::create(dir().join("server.log")).map_err(|e| e.to_string())?;
-    let mut cmd = Command::new(server_exe());
+    let mut cmd = server_command();
     cmd.current_dir(runtime_dir())
         .arg("-m")
         .arg(models_dir().join(MODEL.file))
@@ -319,10 +361,43 @@ pub fn ensure_server(on_status: &dyn Fn(&str)) -> Result<(String, String), Strin
 pub fn stop_server() {
     if let Ok(mut own) = OWN.lock() {
         if let Some(mut c) = own.take() {
-            let _ = c.kill();
+            terminate(&mut c);
             let _ = c.wait();
             let _ = std::fs::remove_file(info_file());
         }
+    }
+}
+
+/// The command that runs the server. On Windows the server itself (a job object ends it with
+/// this process); elsewhere a shell that starts it and ends it when this process is gone or the
+/// shell is asked to stop (SIGTERM).
+#[cfg(windows)]
+fn server_command() -> Command {
+    Command::new(server_exe())
+}
+
+#[cfg(not(windows))]
+fn server_command() -> Command {
+    let watch = format!(
+        r#""$0" "$@" & s=$!; trap 'kill $s 2>/dev/null; exit 0' TERM INT HUP; while kill -0 {} 2>/dev/null && kill -0 $s 2>/dev/null; do sleep 2; done; kill $s 2>/dev/null; wait $s"#,
+        std::process::id()
+    );
+    let mut cmd = Command::new("/bin/sh");
+    cmd.arg("-c").arg(watch).arg(server_exe());
+    cmd
+}
+
+#[cfg(windows)]
+fn terminate(c: &mut Child) {
+    let _ = c.kill();
+}
+
+/// SIGTERM, so the watching shell stops the server before it goes.
+#[cfg(not(windows))]
+fn terminate(c: &mut Child) {
+    let stopped = Command::new("kill").arg("-TERM").arg(c.id().to_string()).status().is_ok_and(|s| s.success());
+    if !stopped {
+        let _ = c.kill();
     }
 }
 
@@ -365,11 +440,15 @@ pub fn random_hex(bytes: usize) -> String {
     }
     #[cfg(not(windows))]
     {
-        use std::hash::{BuildHasher, Hasher};
-        for (i, b) in buf.iter_mut().enumerate() {
-            let mut h = std::collections::hash_map::RandomState::new().build_hasher();
-            h.write_usize(i);
-            *b = h.finish() as u8;
+        // The kernel's generator; the hasher's random keys only if it can't be read.
+        let read = std::fs::File::open("/dev/urandom").and_then(|mut f| f.read_exact(&mut buf));
+        if read.is_err() {
+            use std::hash::{BuildHasher, Hasher};
+            for (i, b) in buf.iter_mut().enumerate() {
+                let mut h = std::collections::hash_map::RandomState::new().build_hasher();
+                h.write_usize(i);
+                *b = h.finish() as u8;
+            }
         }
     }
     buf.iter().map(|b| format!("{b:02x}")).collect()

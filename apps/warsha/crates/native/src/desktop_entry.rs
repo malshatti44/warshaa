@@ -2,7 +2,7 @@
 //!
 //! An AppImage installs nothing by itself, so without an entry the app is missing from the
 //! desktop's menu and, on Wayland, the dock can't match the window's app id to an icon. The
-//! launcher writes `<data>/applications/ai.storyteller.<app>.desktop` (the id each app's window
+//! launcher writes `<data>/applications/com.malshatti.<app>.desktop` (the id each app's window
 //! reports) and marks it as its own, so it only ever replaces or removes entries it wrote.
 //!
 //! The text is built by pure functions, tested on every platform; only Linux writes the files.

@@ -102,6 +102,9 @@ echo "==> assembling $APP"
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 # Executable and icon carry the display name (CFBundleExecutable / CFBundleIconFile).
 cp "$WORK/bin/monteer" "$APP/Contents/MacOS/Monteer"
+# Warsha: the assistant inside the app talks to it through its MCP server, which it looks for
+# beside its own executable.
+cp "$WORK/bin/monteer-cli" "$APP/Contents/MacOS/monteer-cli"
 cp "$ROOT/assets/app-icon/monteer.icns" "$APP/Contents/Resources/Monteer.icns"
 sed -e "s/@VERSION@/$VERSION/g" -e "s/@SHORT_VERSION@/$SHORT_VERSION/g" \
   -e "s/@BUILD_SHA@/${MONTEER_BUILD_SHA:-unknown}/g" \
@@ -113,6 +116,7 @@ copy_font_licences "$APP/Contents/Resources"
 
 # Sign inside-out: nested code first, then the bundle itself (no --deep on the final signature).
 # Today the only nested code is the main executable; frameworks/helpers would be signed here too.
+sign --options runtime "$APP/Contents/MacOS/monteer-cli"
 sign --options runtime --entitlements "$HERE/entitlements.plist" "$APP/Contents/MacOS/Monteer"
 sign --options runtime --entitlements "$HERE/entitlements.plist" "$APP"
 codesign --verify --strict --deep --verbose=2 "$APP"

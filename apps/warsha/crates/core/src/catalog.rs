@@ -50,9 +50,9 @@ pub struct WarshaApp {
 }
 
 impl WarshaApp {
-    /// `ai.storyteller.<id>`: macOS bundle id, Flatpak id and Linux desktop-file id.
+    /// `com.malshatti.<id>`: macOS bundle id, Flatpak id and Linux desktop-file id (as each app's Info.plist).
     pub fn bundle_id(&self) -> String {
-        format!("ai.storyteller.{}", self.id)
+        format!("com.malshatti.{}", self.id)
     }
 
     pub fn releases_url(&self) -> String {

@@ -871,9 +871,11 @@ pub mod macos {
         Ok(user)
     }
 
-    /// The Apple Developer team that signs every Warsha App and Warsha (Learning
-    /// Machines LLC): the macOS side of the Windows publisher check.
-    pub const TEAM_ID: &str = "DJ6XS33FX8";
+    /// The Apple Developer team whose Developer ID signs the Warsha apps: the macOS side of the
+    /// Windows publisher check. Empty while Warsha's Mac builds have no Developer ID (they are
+    /// ad-hoc signed, like the unsigned Windows builds): the download's checksum from the feed is
+    /// then what proves it, and the version check still applies.
+    pub const TEAM_ID: &str = "";
 
     /// What a new copy must prove before it replaces anything. The checksum shows the download is
     /// the file the release lists; these show the app inside is the one the release promises.
@@ -887,7 +889,7 @@ pub mod macos {
 
     impl<'a> Expect<'a> {
         pub fn release(release: &'a Release) -> Self {
-            Self { team: Some(TEAM_ID), version: release.version.as_ref() }
+            Self { team: (!TEAM_ID.is_empty()).then_some(TEAM_ID), version: release.version.as_ref() }
         }
     }
 

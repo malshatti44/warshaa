@@ -102,11 +102,15 @@ echo "==> assembling $APP"
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 # Executable and icon carry the display name (CFBundleExecutable / CFBundleIconFile).
 cp "$WORK/bin/watheeq" "$APP/Contents/MacOS/Watheeq"
+# Warsha: the assistant inside the app talks to it through its MCP server, which it looks for
+# beside its own executable.
+cp "$WORK/bin/watheeq-cli" "$APP/Contents/MacOS/watheeq-cli"
 cp "$ROOT/assets/app-icon/watheeq.icns" "$APP/Contents/Resources/Watheeq.icns"
 copy_font_licences "$APP/Contents/Resources"
 # OCR models: the app finds them at Contents/MacOS/../Resources/models. Before signing, so the
 # bundle's seal covers them.
-stage_models "$APP/Contents/Resources/models"
+# Warsha builds skip them (WARSHA_NO_OCR_MODELS=1), as on Windows: the assistant reads Arabic scans.
+[ -n "${WARSHA_NO_OCR_MODELS:-}" ] || stage_models "$APP/Contents/Resources/models"
 sed -e "s/@VERSION@/$VERSION/g" -e "s/@SHORT_VERSION@/$SHORT_VERSION/g" \
   -e "s/@BUILD_SHA@/${WATHEEQ_BUILD_SHA:-unknown}/g" \
   "$HERE/Info.plist.in" >"$APP/Contents/Info.plist"
@@ -115,6 +119,7 @@ printf 'APPL????' >"$APP/Contents/PkgInfo"
 
 # Sign inside-out: nested code first, then the bundle itself (no --deep on the final signature).
 # Today the only nested code is the main executable; frameworks/helpers would be signed here too.
+sign --options runtime "$APP/Contents/MacOS/watheeq-cli"
 sign --options runtime --entitlements "$HERE/entitlements.plist" "$APP/Contents/MacOS/Watheeq"
 sign --options runtime --entitlements "$HERE/entitlements.plist" "$APP"
 codesign --verify --strict --deep --verbose=2 "$APP"

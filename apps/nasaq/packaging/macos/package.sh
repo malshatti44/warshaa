@@ -102,6 +102,9 @@ echo "==> assembling $APP"
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 # Executable and icon carry the display name (CFBundleExecutable / CFBundleIconFile).
 cp "$WORK/bin/nasaq" "$APP/Contents/MacOS/Nasaq"
+# Warsha: the assistant inside the app talks to it through its MCP server, which it looks for
+# beside its own executable.
+cp "$WORK/bin/nasaq-cli" "$APP/Contents/MacOS/nasaq-cli"
 cp "$ROOT/assets/app-icon/nasaq.icns" "$APP/Contents/Resources/Nasaq.icns"
 # Licences of the embedded warsha-fonts fonts (only when built with WARSHA_FONTS_DIR).
 copy_font_licences "$APP/Contents/Resources"
@@ -113,6 +116,7 @@ printf 'APPL????' >"$APP/Contents/PkgInfo"
 
 # Sign inside-out: nested code first, then the bundle itself (no --deep on the final signature).
 # Today the only nested code is the main executable; frameworks/helpers would be signed here too.
+sign --options runtime "$APP/Contents/MacOS/nasaq-cli"
 sign --options runtime --entitlements "$HERE/entitlements.plist" "$APP/Contents/MacOS/Nasaq"
 sign --options runtime --entitlements "$HERE/entitlements.plist" "$APP"
 codesign --verify --strict --deep --verbose=2 "$APP"

@@ -53,6 +53,8 @@ pub fn search_dirs(lo_exts: Option<&[String]>) -> Vec<PathBuf> {
     // Dictionaries shipped with the program (Warsha's installer puts them next to satr.exe).
     if let Some(exe_dir) = std::env::current_exe().ok().and_then(|e| e.parent().map(Path::to_path_buf)) {
         dirs.push(exe_dir.join("dictionaries"));
+        // In the macOS app: Satr.app/Contents/MacOS/satr → Satr.app/Contents/Resources/dictionaries
+        dirs.push(exe_dir.join("..").join("Resources").join("dictionaries"));
     }
     // LibreOffice keeps each language under `…/share/extensions/<dict-xx>`.
     let lo_dirs =

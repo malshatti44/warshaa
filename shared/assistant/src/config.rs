@@ -1,5 +1,6 @@
-//! The assistant's settings, shared by every Warsha app (%APPDATA%\Warsha\assistant.json).
-//! API keys are stored encrypted for this Windows user (DPAPI).
+//! The assistant's settings, shared by every Warsha app (`assistant.json` in [`config_dir`]).
+//! API keys are stored encrypted for this Windows user (DPAPI); on macOS and Linux the file is
+//! readable by its owner only.
 
 use std::collections::BTreeMap;
 use std::path::PathBuf;
@@ -33,10 +34,49 @@ fn pname(p: Provider) -> String {
     format!("{p:?}")
 }
 
-fn file() -> PathBuf {
-    let base = std::env::var_os("APPDATA").map(PathBuf::from).unwrap_or_else(std::env::temp_dir);
-    base.join("Warsha").join("assistant.json")
+fn home() -> Option<PathBuf> {
+    std::env::var_os(if cfg!(windows) { "USERPROFILE" } else { "HOME" }).filter(|h| !h.is_empty()).map(PathBuf::from)
 }
+
+/// Warsha's settings folder: `%APPDATA%\Warsha`, `~/Library/Application Support/Warsha` on macOS,
+/// `$XDG_CONFIG_HOME/warsha` (`~/.config/warsha`) elsewhere.
+pub fn config_dir() -> PathBuf {
+    let env = |k: &str| std::env::var_os(k).filter(|v| !v.is_empty()).map(PathBuf::from);
+    if cfg!(windows) {
+        env("APPDATA").unwrap_or_else(std::env::temp_dir).join("Warsha")
+    } else if cfg!(target_os = "macos") {
+        home().map(|h| h.join("Library").join("Application Support").join("Warsha")).unwrap_or_else(|| std::env::temp_dir().join("Warsha"))
+    } else {
+        env("XDG_CONFIG_HOME").or_else(|| home().map(|h| h.join(".config"))).unwrap_or_else(std::env::temp_dir).join("warsha")
+    }
+}
+
+/// Warsha's data folder (the model and its runtime): `%LOCALAPPDATA%\Warsha`, the same folder as
+/// [`config_dir`] on macOS, `$XDG_DATA_HOME/warsha` (`~/.local/share/warsha`) elsewhere.
+pub fn data_dir() -> PathBuf {
+    let env = |k: &str| std::env::var_os(k).filter(|v| !v.is_empty()).map(PathBuf::from);
+    if cfg!(windows) {
+        env("LOCALAPPDATA").unwrap_or_else(std::env::temp_dir).join("Warsha")
+    } else if cfg!(target_os = "macos") {
+        config_dir()
+    } else {
+        env("XDG_DATA_HOME").or_else(|| home().map(|h| h.join(".local").join("share"))).unwrap_or_else(std::env::temp_dir).join("warsha")
+    }
+}
+
+fn file() -> PathBuf {
+    config_dir().join("assistant.json")
+}
+
+/// Keys are in the file in clear outside Windows: only its owner may read it.
+#[cfg(unix)]
+fn owner_only(path: &std::path::Path) {
+    use std::os::unix::fs::PermissionsExt;
+    let _ = std::fs::set_permissions(path, std::fs::Permissions::from_mode(0o600));
+}
+
+#[cfg(not(unix))]
+fn owner_only(_path: &std::path::Path) {}
 
 impl Settings {
     pub fn load() -> Self {
@@ -51,6 +91,7 @@ impl Settings {
         if let Ok(s) = serde_json::to_string_pretty(self) {
             let tmp = f.with_extension("json.tmp");
             if std::fs::write(&tmp, s).is_ok() {
+                owner_only(&tmp);
                 let _ = std::fs::rename(&tmp, &f);
             }
         }
