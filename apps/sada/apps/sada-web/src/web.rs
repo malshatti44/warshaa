@@ -24,6 +24,8 @@ pub fn start() {
             log::error!("missing <canvas id=\"{CANVAS_ID}\">");
             return;
         };
+        // Warsha: the browser edition opens in Arabic like the desktop one (no saved preference on the web).
+        sada_ui_egui::i18n::install(None);
         let mut options = eframe::WebOptions::default();
         if query().contains("webgl")
             && let eframe::egui_wgpu::WgpuSetup::CreateNew(create) = &mut options.wgpu_options.wgpu_setup

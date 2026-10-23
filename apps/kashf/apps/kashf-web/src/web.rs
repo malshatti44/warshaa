@@ -40,15 +40,8 @@ pub fn start() {
                     }
                     let mut app = SheetApp::new(session, services(inbox.clone(), cc.egui_ctx.clone()));
                     app.ui.system_theme = true;
-                    // Follow the browser's language, except a CJK one: the web build has no system
-                    // CJK fonts (none are bundled), so that interface would render as tofu.
-                    let browser = kashf_ui_egui::i18n::Language::system();
-                    if !matches!(
-                        browser,
-                        kashf_ui_egui::i18n::Language::Zh | kashf_ui_egui::i18n::Language::Ja | kashf_ui_egui::i18n::Language::Ko
-                    ) {
-                        app.ui.language = browser;
-                    }
+                    // Warsha: the browser edition opens in Arabic like the desktop one; View ▸ Language switches.
+                    app.ui.language = kashf_ui_egui::i18n::Language::Ar;
                     SheetApp::setup_context_for_language(&cc.egui_ctx, false, app.ui.language);
                     Ok(Box::new(WebShell { app, inbox }))
                 }),
