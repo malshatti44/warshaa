@@ -1596,6 +1596,7 @@ impl WatheeqApp {
     fn show_progress(&mut self, ctx: &egui::Context) {
         if widgets::progress_notice(self, ctx) {
             self.cancel_optimize();
+            #[cfg(not(target_arch = "wasm32"))]
             self.cancel_ai_ocr();
         }
     }
