@@ -7,7 +7,7 @@
   <project_license>MIT OR Apache-2.0</project_license>
   <name>Sada</name>
   <summary>Record, edit and mix audio and MIDI</summary>
-  <developer id="ai.storyteller">
+  <developer id="com.malshatti">
     <name>Learning Machines LLC</name>
   </developer>
   <description>

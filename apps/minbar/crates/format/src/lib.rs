@@ -10,9 +10,11 @@ use std::sync::Arc;
 use minbar_model::text::{Paragraph, TextBody};
 use minbar_model::{LayoutType, Presentation, defaults};
 
-pub const MIMETYPE: &str = "application/vnd.storyteller.minbar+zip";
-/// Files written before the Minbar → Minbar rename (`.minbar`) are still read.
-pub const LEGACY_MIMETYPE: &str = concat!("application/vnd.storyteller.", "slide", "warsha+zip");
+pub const MIMETYPE: &str = "application/vnd.malshatti.minbar+zip";
+/// The mimetype Warsha 2.2 wrote: still read.
+pub const PREVIOUS_MIMETYPE: &str = "application/vnd.storyteller.minbar+zip";
+/// The mimetype Warsha 2.1 and earlier wrote: still read.
+pub const LEGACY_MIMETYPE: &str = "application/vnd.storyteller.deckcraft+zip";
 pub const EXTENSION: &str = "minbar";
 /// Format version written into the manifest.
 pub const VERSION: u32 = 1;
@@ -83,7 +85,7 @@ fn is_compressed(ct: &str) -> bool {
 
 /// Does this look like a `.minbar` file?
 pub fn sniff(bytes: &[u8]) -> bool {
-    bytes.starts_with(b"PK") && [MIMETYPE, LEGACY_MIMETYPE].iter().any(|m| bytes.windows(m.len()).take(200).any(|w| w == m.as_bytes()))
+    bytes.starts_with(b"PK") && [MIMETYPE, PREVIOUS_MIMETYPE, LEGACY_MIMETYPE].iter().any(|m| bytes.windows(m.len()).take(200).any(|w| w == m.as_bytes()))
 }
 
 fn read_entry(z: &mut zip::ZipArchive<Cursor<&[u8]>>, name: &str) -> Result<Vec<u8>> {

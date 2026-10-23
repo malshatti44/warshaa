@@ -1,6 +1,6 @@
 //! Community and project links: the Help menu, the About dialog, the start screen and the title
 //! bar all open these. URLs follow the warsha-app pattern (`malshatti.com/apps/<app>`,
-//! `github.com/storytold/<app>`).
+//! `github.com/malshatti44/<app>`).
 
 use serde_json::{Value, json};
 

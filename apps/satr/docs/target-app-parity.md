@@ -168,7 +168,7 @@ mainstream.
 
 Base ≈ **80%**; **80% × 0.787 ≈ 63%**.
 
-### User evidence (GitHub, 2026-10-10; no issue was filed by a storytold org member)
+### User evidence (GitHub, 2026-10-10; no issue was filed by a maintainer)
 
 - **120 issues** filed by 80+ outside users in 5 days; about 60 closed, most fixed within a day.
 - **Praise:** 4 issues or comments ("Awesome job guys!" #28, "amazing how much it advanced" #146,

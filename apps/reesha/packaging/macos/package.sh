@@ -138,7 +138,7 @@ ln -s /Applications "$STAGE/Applications"
 # Finder window layout: background, icon size and positions (packaging/macos/dmg/README.md).
 mkdir -p "$STAGE/.background"
 cp "$HERE/dmg/background.tiff" "$STAGE/.background/background.tiff"
-cp "$HERE/dmg/DS_Store" "$STAGE/.DS_Store"
+cp "$HERE/dmg/dmg-layout.DS_Store" "$STAGE/.DS_Store"
 rm -f "$DMG"
 # `hdiutil create -srcfolder` writes the files as they are. `makehybrid -hfs` gave every file a
 # com.apple.FinderInfo, which `codesign --verify --strict` rejects as "Finder information, or

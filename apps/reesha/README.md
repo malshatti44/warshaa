@@ -331,7 +331,7 @@ And [**Warsha**](https://malshatti.com/apps/) itself, our AI image and video stu
 
 ## Star history
 
-[![Star History Chart](https://api.star-history.com/svg?repos=malshatti44/warshaa&type=Date&legend=top-left)](https://www.star-history.com/?repos=storytold%2Freesha&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=malshatti44/warshaa&type=Date&legend=top-left)](https://www.star-history.com/?repos=malshatti44%2Freesha&type=date&legend=top-left)
 
 ## License and credits
 

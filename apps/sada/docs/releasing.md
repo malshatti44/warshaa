@@ -142,7 +142,7 @@ shared-mime-info file declaring `application/x-sada-session` (`*.sada`).
 
 - **AppImage** (maintained `AppImage/appimagetool`, static runtime: no libfuse2 needed). Each
   embeds the update information
-  `gh-releases-zsync|storytold|sada|latest|sada-*-linux-<arch>.AppImage.zsync`, and
+  `gh-releases-zsync|malshatti44|sada|latest|sada-*-linux-<arch>.AppImage.zsync`, and
   the `.zsync` next to it (written when `zsyncmake` from the `zsync` package is installed, as in
   CI) lets AppImageUpdate fetch only the changed blocks of the newest non-pre-release.
 - **.deb** and **.rpm** by [nfpm](https://nfpm.goreleaser.com/) from one `nfpm.yaml`; the

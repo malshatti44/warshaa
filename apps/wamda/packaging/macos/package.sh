@@ -114,6 +114,8 @@ printf 'APPL????' >"$APP/Contents/PkgInfo"
 
 # Sign inside-out: nested code first, then the bundle itself (no --deep on the final signature).
 # Today the only nested code is the main executable; frameworks/helpers would be signed here too.
+# Warsha: drop extended attributes picked up during the build before signing (--strict rejects them).
+xattr -cr "$APP"
 sign --options runtime "$APP/Contents/MacOS/wamda-cli"
 sign --options runtime --entitlements "$HERE/entitlements.plist" "$APP/Contents/MacOS/Wamda"
 sign --options runtime --entitlements "$HERE/entitlements.plist" "$APP"
@@ -134,20 +136,21 @@ mkdir -p "$STAGE"
 ditto "$APP" "$STAGE/Wamda.app"
 ln -s /Applications "$STAGE/Applications"
 # Finder window layout: background, icon size and positions (packaging/macos/dmg/README.md).
-# The background is rendered from its SVG (1x + 2x in one HiDPI TIFF), so no bitmap is committed.
-command -v resvg >/dev/null || { echo "resvg not found (cargo install resvg --locked --version 0.48.1)" >&2; exit 1; }
 mkdir -p "$STAGE/.background"
-resvg --skip-system-fonts -w 660 "$HERE/dmg/background.svg" "$WORK/background.png"
-resvg --skip-system-fonts -w 1320 "$HERE/dmg/background.svg" "$WORK/background@2x.png"
-sips -s dpiWidth 144 -s dpiHeight 144 "$WORK/background@2x.png" >/dev/null
-tiffutil -cathidpicheck "$WORK/background.png" "$WORK/background@2x.png" -out "$STAGE/.background/background.tiff"
+cp "$HERE/dmg/background.tiff" "$STAGE/.background/background.tiff"
 cp "$HERE/dmg/dmg-layout.DS_Store" "$STAGE/.DS_Store"
 rm -f "$DMG" "$WORK/raw.dmg"
 # makehybrid + convert builds the image without attaching a device, unlike `create -srcfolder`,
 # which is flaky on CI runners ("Resource busy") and hangs in sandboxed sessions.
 # The volume name has no version: .DS_Store finds the background through an alias that includes it.
-hdiutil makehybrid -hfs -hfs-volume-name "Wamda" -hfs-openfolder "$STAGE" -o "$WORK/raw.dmg" "$STAGE"
-hdiutil convert "$WORK/raw.dmg" -format UDZO -imagekey zlib-level=9 -o "$DMG"
+# Warsha: `hdiutil create -srcfolder` writes the files as they are; `makehybrid -hfs` gave every
+# file a com.apple.FinderInfo, which `codesign --verify --strict` rejects ("Finder information, or
+# similar detritus") on the app inside the image. `create` is retried: it fails now and then on CI.
+for attempt in 1 2 3 4 5; do
+  hdiutil create -srcfolder "$STAGE" -volname "Wamda" -fs HFS+ -format UDZO -imagekey zlib-level=9 -ov "$DMG" && break
+  [ "$attempt" = 5 ] && { echo "hdiutil create failed 5 times" >&2; exit 1; }
+  sleep $((attempt * 10))
+done
 rm -f "$WORK/raw.dmg"
 sign "$DMG"
 codesign --verify --strict --verbose=2 "$DMG"

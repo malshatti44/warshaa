@@ -24,7 +24,9 @@
 | صدى | Sada | تحرير الصوت | `apps/sada` |
 | **ورشة** | Warsha | منصة تثبيت التطبيقات وتحديثها | `apps/warsha` |
 
-## التنزيل والتثبيت (ويندوز 10/11، 64 بت)
+## التنزيل والتثبيت
+
+### ويندوز 10/11 (64 بت)
 
 من صفحة التطبيقات في موقعي: **[malshatti.com/apps](https://malshatti.com/apps/)**، أو من [إصدارات GitHub](https://github.com/malshatti44/warshaa/releases).
 
@@ -42,7 +44,17 @@ Get-FileHash .\Warsha-Suite-Setup-2.2.0-x64.exe -Algorithm SHA256
 
 الواجهة بالعربية افتراضياً، ويمكن التحويل إلى الإنجليزية من إعدادات اللغة في كل تطبيق.
 
-**لينكس وماك:** الشيفرة تُبنى عليهما، لكن الحزم الجاهزة لهما لم تُنشر بعد.
+### ماك (macOS 11 أو أحدث، Apple silicon وIntel)
+
+- **`Warsha-Suite-<الإصدار>-macos-universal.dmg`**: كل التطبيقات في ملف واحد؛ افتحه واسحب ما تريد إلى مجلد «التطبيقات».
+- **`<المعرّف>-<الإصدار>-macos-universal.dmg`**: تطبيق واحد.
+- **`SHA256SUMS-macos.txt`**: البصمات (`shasum -a 256 <الملف>`).
+
+التطبيقات موقّعة توقيعاً محلياً (ad-hoc) وغير موثّقة من Apple بعد، فعند أول فتح قد يظهر أن ماك لا يستطيع التحقق منها:
+اضغط «تم»، ثم افتح «إعدادات النظام ← الخصوصية والأمان» واضغط «فتح على أي حال».
+تُبنى نسخة ماك على خوادم GitHub من [`.github/workflows/macos.yml`](.github/workflows/macos.yml).
+
+**لينكس:** الشيفرة تُبنى عليه، لكن الحزم الجاهزة له لم تُنشر بعد.
 
 ## المساعد الذكي (الإصدار ٢٫٢)
 
@@ -90,10 +102,8 @@ python packaging/package.py --version 2.2.0 --dist dist-2.2.0    # الحزم و
 
 ## الترخيص والإسناد
 
-هذا المشروع نسخة عربية معدّلة من [تطبيقات Craft مفتوحة المصدر](https://github.com/storytold) لفريق ArtCraft،
-المرخّصة بموجب **MIT أو Apache-2.0** حسب اختيارك. ملفات الترخيص الأصلية `LICENSE-MIT` و`LICENSE-APACHE` و`NOTICE`
-محفوظة في كل مجلد تحت `apps/`. ورشة **ليست منتجاً من فريق ArtCraft** ولا يتبنّاها الفريق، وقد استُبدلت علاماته التجارية
-(الاسم والشعار) بعلامة ورشة كما تشترط شروطه للنسخ المعدّلة.
+ورشة مبنية على شيفرة مفتوحة المصدر مرخّصة بموجب **MIT أو Apache-2.0** حسب اختيارك. ملفات الترخيص
+`LICENSE-MIT` و`LICENSE-APACHE` و`NOTICE` محفوظة في كل مجلد تحت `apps/` كما يشترط الترخيصان.
 
 قاموس آياسبل العربي في `shared/dictionaries` بترخيصه الثلاثي GPL-2.0 / LGPL-2.1 / MPL-1.1 (انظر ملفات `ar_warsha-*` بجانبه)،
 والنموذج المحلي Qwen3.5 بترخيص Apache-2.0 يُنزَّل من مصدره ولا يُضمَّن في هذا المستودع.
@@ -114,11 +124,11 @@ Designed and developed by **Mohammed Al-Shatti** — [malshatti.com](https://mal
   Satr spell-checks Arabic with the Ayaspell dictionary (`shared/dictionaries`, GPL-2.0 / LGPL-2.1 / MPL-1.1).
 - **2.1:** link the apps to Claude Desktop, the ChatGPT desktop app (Codex) and Gemini CLI through each app's MCP server.
 
-Warsha is a modified Arabic edition of the open-source [Craft apps](https://github.com/storytold) by the ArtCraft team
-(MIT OR Apache-2.0). It is **not an ArtCraft product** and is not endorsed by the ArtCraft Team; the ArtCraft marks were
-removed and replaced with Warsha's own, as their brand terms require for modified versions. Each app's original
-`LICENSE-MIT`, `LICENSE-APACHE` and `NOTICE` are kept under `apps/<id>/`.
+Warsha builds on open-source code licensed under MIT OR Apache-2.0; each app's `LICENSE-MIT`, `LICENSE-APACHE` and
+`NOTICE` are kept under `apps/<id>/`, as both licences require.
 
-Downloads (Windows x64): **[malshatti.com/apps](https://malshatti.com/apps/)** or the
-[GitHub releases](https://github.com/malshatti44/warshaa/releases) — the suite installer, one installer per app (Arabic
-wizard), portable zips, and SHA-256 checksums. Builds are not code-signed yet.
+Downloads: **[malshatti.com/apps](https://malshatti.com/apps/)** or the
+[GitHub releases](https://github.com/malshatti44/warshaa/releases). Windows x64: the suite installer, one installer per
+app (Arabic wizard), portable zips. macOS 11+ (universal: Apple silicon and Intel): one .dmg per app and the suite .dmg,
+built by `.github/workflows/macos.yml`. SHA-256 checksums for both. Builds are not code-signed with a vendor certificate
+yet (the Mac apps are ad-hoc signed; on first open use System Settings › Privacy & Security › Open Anyway).

@@ -37,7 +37,7 @@ case "$ARCH" in
   aarch64 | arm64) ARCH=aarch64; DEB_ARCH=arm64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export SATR_MAINTAINER="${SATR_MAINTAINER:-Satr maintainers <satr@storyteller.ai>}"
+export SATR_MAINTAINER="${SATR_MAINTAINER:-Satr maintainers <info@malshatti.com>}"
 BASENAME="satr-$VERSION-linux-$ARCH"
 
 echo "==> Satr $VERSION for Linux $ARCH ($FORMATS)"
@@ -65,6 +65,9 @@ sed -e "s/@VERSION@/$VERSION/g" -e "s/@DATE@/$SATR_BUILD_DATE/g" \
   "$HERE/$APP_ID.metainfo.xml.in" >"$STAGE/usr/share/metainfo/$APP_ID.metainfo.xml"
 mkdir -p "$STAGE/usr/share/icons"
 cp -R "$ROOT/assets/app-icon/hicolor" "$STAGE/usr/share/icons/"
+# Warsha: the Arabic spelling dictionary (Ayaspell) Satr reads from usr/share/satr/dictionaries.
+mkdir -p "$STAGE/usr/share/satr/dictionaries"
+cp "$ROOT"/../../shared/dictionaries/ar_warsha* "$STAGE/usr/share/satr/dictionaries/"
 mkdir -p "$STAGE/usr/share/doc/satr"
 copy_docs "$STAGE/usr/share/doc/satr"
 

@@ -564,4 +564,4 @@ Warsha 团队的商标，不在本许可范围内。它们只能在未修改的�
 
 ## Star history
 
-[![Star History Chart](https://api.star-history.com/svg?repos=malshatti44/warshaa&type=Date&legend=top-left)](https://www.star-history.com/?repos=storytold%2Ftayf&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=malshatti44/warshaa&type=Date&legend=top-left)](https://www.star-history.com/?repos=malshatti44%2Ftayf&type=date&legend=top-left)

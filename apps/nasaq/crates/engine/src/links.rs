@@ -45,7 +45,7 @@ mod tests {
     #[test]
     fn links_follow_the_app_slug() {
         assert!(APP_PAGE.ends_with(&format!("/apps/{APP}")));
-        assert!(GITHUB.ends_with(&format!("/storytold/{APP}")));
+        assert!(GITHUB.ends_with(&format!("/apps/{APP}.html")));
         assert!(ISSUES.starts_with(GITHUB));
         for k in ["discord", "website", "appPage", "github", "issues"] {
             assert!(get(k).is_some_and(|u| u.starts_with("https://")), "{k}");

@@ -41,7 +41,7 @@ case "$ARCH" in
   aarch64 | arm64) ARCH=aarch64; DEB_ARCH=arm64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export WAMDA_MAINTAINER="${WAMDA_MAINTAINER:-Wamda maintainers <wamda@storyteller.ai>}"
+export WAMDA_MAINTAINER="${WAMDA_MAINTAINER:-Wamda maintainers <info@malshatti.com>}"
 BASENAME="wamda-$VERSION-linux-$ARCH"
 
 echo "==> Wamda $VERSION for Linux $ARCH ($FORMATS)"

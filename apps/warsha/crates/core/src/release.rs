@@ -207,7 +207,7 @@ mod tests {
     #[test]
     fn reads_the_latest_release() {
         let r = parse_github_release(
-            &api_json("https://github.com/malshatti44/warshaa"),
+            &api_json("https://github.com/malshatti44/warshaa/releases/download/v0.5.0/retoush-0.5.0-macos-universal.dmg"),
             REPO,
         )
         .unwrap();
@@ -246,11 +246,11 @@ mod tests {
     fn reads_checksums_and_redirects() {
         let sums = parse_sha256sums(&format!("{HASH}  retoush-0.5.0-macos-universal.dmg\n{HASH} *b.zip\nnot a line\n{HASH}  ../escape\n"));
         assert_eq!(sums, [(HASH.to_string(), "retoush-0.5.0-macos-universal.dmg".to_string()), (HASH.to_string(), "b.zip".to_string())]);
-        assert_eq!(tag_from_redirect("https://github.com/malshatti44/warshaa", REPO).as_deref(), Some("v0.5.0"));
-        assert_eq!(tag_from_redirect("https://github.com/malshatti44/warshaa", REPO), None);
+        assert_eq!(tag_from_redirect("https://github.com/malshatti44/warshaa/releases/tag/v0.5.0", REPO).as_deref(), Some("v0.5.0"));
+        assert_eq!(tag_from_redirect("https://github.com/someone/else/releases/tag/v0.5.0", REPO), None);
         assert_eq!(tag_from_redirect("https://evil/malshatti44/warshaa/releases/tag/v1", REPO), None);
         let r = release_from_sums(REPO, "v0.5.0", &sums);
-        assert_eq!(r.assets[0].url, "https://github.com/malshatti44/warshaa");
+        assert_eq!(r.assets[0].url, "https://github.com/malshatti44/warshaa/releases/download/v0.5.0/retoush-0.5.0-macos-universal.dmg");
         assert_eq!(r.version, Some(Version::new(0, 5, 0)));
     }
 

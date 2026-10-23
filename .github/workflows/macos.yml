@@ -11,10 +11,10 @@ on:
     inputs:
       version:
         description: Version the apps report and the file names carry
-        default: "2.2.0"
+        default: "2.3.0"
       release_tag:
         description: Release to attach the DMGs to
-        default: "v2.2.0"
+        default: "v2.3.0"
       upload:
         description: Attach the DMGs to the release
         type: boolean

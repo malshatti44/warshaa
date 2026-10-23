@@ -1,6 +1,6 @@
-//! The release feed from storyteller-web: `GET https://api.storyteller.ai/v1/warsha_apps/release_info`.
+//! The release feed from the Warsha feed (malshatti.com): `GET https://malshatti.com/apps/release_info.json`.
 //!
-//! storyteller-web polls GitHub for every Warsha App on a schedule and serves the result, so the
+//! the Warsha feed (malshatti.com) polls GitHub for every Warsha App on a schedule and serves the result, so the
 //! launcher doesn't have to (GitHub allows 60 unauthenticated requests an hour). GitHub stays the
 //! fallback: for apps the feed doesn't list, apps it hasn't fetched within [`MAX_AGE`], or when
 //! the feed doesn't answer.
@@ -26,7 +26,7 @@ use crate::version;
 /// Warsha (ورشة): the feed is a file in the Warsha repository, rewritten with every release.
 pub const FEED_URL: &str = "https://malshatti.com/apps/release_info.json";
 
-/// An app's entry is trusted for this long after storyteller-web fetched it.
+/// An app's entry is trusted for this long after the Warsha feed (malshatti.com) fetched it.
 pub const MAX_AGE: i64 = 24 * 3600;
 
 /// The feed, read leniently.
@@ -51,7 +51,7 @@ pub struct FeedApp {
     pub repo: Option<String>,
     /// Present when the repo has a published release. Meaningless unless `fetched_at` is set.
     pub release: Option<FeedRelease>,
-    /// When storyteller-web last fetched this app (Unix seconds).
+    /// When the Warsha feed (malshatti.com) last fetched this app (Unix seconds).
     pub fetched_at: Option<i64>,
 }
 
@@ -440,7 +440,7 @@ mod tests {
     const NOW: i64 = 1_791_500_000; // 2026-10-09T…
     const HASH: &str = "8a5edab282632443219e051e4ade2d1d5bbc671c781051bf1437897cbdfea0f1";
 
-    /// What storyteller-web serves (its `GetWarshaAppsReleaseInfoResponse`), abridged.
+    /// What the Warsha feed (malshatti.com) serves (its `GetWarshaAppsReleaseInfoResponse`), abridged.
     fn sample() -> String {
         format!(
             r#"{{
@@ -456,7 +456,7 @@ mod tests {
                 "prerelease": false, "notes_markdown": "Notes",
                 "assets": [
                   {{ "name": "retoush-0.6.0-macos-universal.dmg", "size_bytes": 123,
-                     "download_url": "https://github.com/malshatti44/warshaa",
+                     "download_url": "https://github.com/malshatti44/warshaa/releases/download/v0.6.0/retoush-0.6.0-macos-universal.dmg",
                      "sha256": "{HASH}", "platform": {{ "os": "macos", "arch": "universal", "package_type": "dmg" }} }},
                   {{ "name": "evil.dmg", "size_bytes": 1, "download_url": "https://evil.example/evil.dmg", "sha256": null }}
                 ]
@@ -526,28 +526,23 @@ mod tests {
 
     #[test]
     fn follows_repo_renames_but_never_trusts_a_repo_it_was_not_told_about() {
+        let rename = r#"{"old_name": "malshatti44/warshaa", "new_name": "malshatti44/warsha-apps", "renamed_at": null}"#;
         let moved = sample()
-            .replace(
-                "\"repo_renames\": []",
-                r#""repo_renames": [{"old_name": "Storytold/retoush", "new_name": "malshatti44/warshaa", "renamed_at": null}]"#,
-            )
-            .replace(
-                "\"name\": \"Retoush\", \"repo\": \"malshatti44/warshaa\"",
-                "\"name\": \"Retoush\", \"repo\": \"malshatti44/warshaa\"",
-            )
-            .replace("github.com/malshatti44/warshaa/releases", "github.com/malshatti44/warshaa/releases");
+            .replace("\"repo_renames\": []", &format!("\"repo_renames\": [{rename}]"))
+            .replace("\"name\": \"Retoush\", \"repo\": \"malshatti44/warshaa\"", "\"name\": \"Retoush\", \"repo\": \"malshatti44/warsha-apps\"")
+            .replace("github.com/malshatti44/warshaa/releases", "github.com/malshatti44/warsha-apps/releases");
         let feed = Feed::parse(&moved).unwrap();
-        assert_eq!(feed.repo_for(app("retoush")), "malshatti44/warshaa");
+        assert_eq!(feed.repo_for(app("retoush")), "malshatti44/warsha-apps");
         let FeedAnswer::Fresh(Some(r)) = feed.answer(app("retoush"), NOW) else { panic!() };
-        assert!(r.assets[0].url.starts_with("https://github.com/malshatti44/warshaa"));
+        assert!(r.assets[0].url.starts_with("https://github.com/malshatti44/warsha-apps/releases/download/"));
         // The same entry without the rename: the repo doesn't match, so GitHub decides.
-        let unannounced = moved.replace(r#"{"old_name": "Storytold/retoush", "new_name": "malshatti44/warshaa", "renamed_at": null}"#, "");
+        let unannounced = moved.replace(rename, "");
         let feed = Feed::parse(&unannounced).unwrap();
         assert_eq!(feed.answer(app("retoush"), NOW), FeedAnswer::AskGitHub);
     }
 
     #[test]
-    fn a_rename_out_of_storytold_is_dropped() {
+    fn a_rename_out_of_the_account_is_dropped() {
         // Even a feed that vouches for the new repository, with matching links and checksums,
         // can't send an app's downloads to another account (#90).
         let moved = sample()
@@ -555,7 +550,7 @@ mod tests {
                 "\"repo_renames\": []",
                 r#""repo_renames": [{"old_name": "malshatti44/warshaa", "new_name": "art/retoush", "renamed_at": null},
                                   {"old_name": "art/retoush", "new_name": "malshatti44/warshaa", "renamed_at": null},
-                                  {"old_name": "malshatti44/warshaa", "new_name": "storytold.evil.example/retoush", "renamed_at": null}]"#,
+                                  {"old_name": "malshatti44/warshaa", "new_name": "elsewhere.evil.example/retoush", "renamed_at": null}]"#,
             )
             .replace("\"name\": \"Retoush\", \"repo\": \"malshatti44/warshaa\"", "\"name\": \"Retoush\", \"repo\": \"art/retoush\"")
             .replace("github.com/malshatti44/warshaa/releases", "github.com/art/retoush/releases");
@@ -568,7 +563,7 @@ mod tests {
     #[test]
     fn a_local_mirror_is_trusted_only_when_asked_for_and_never_goes_stale() {
         const MIRROR: &str = "http://127.0.0.1:8787/";
-        let local = sample().replace("https://github.com/malshatti44/warshaa", "http://127.0.0.1:8787/retoush/v0.6.0/");
+        let local = sample().replace("https://github.com/malshatti44/warshaa/releases/download/v0.6.0/", "http://127.0.0.1:8787/retoush/v0.6.0/");
         // Without the mirror, the local link is dropped like any other stranger's.
         let FeedAnswer::Fresh(Some(r)) = Feed::parse(&local).unwrap().answer(app("retoush"), NOW) else { panic!() };
         assert!(r.assets.is_empty());
@@ -585,11 +580,11 @@ mod tests {
         assert_eq!(Feed::default().with_mirror("http://127.0.0.1:8787").mirror, None);
     }
 
-    /// Contract check against what storyteller-web really serves: point `WARSHA_APPS_FEED_SAMPLE`
+    /// Contract check against what the Warsha feed (malshatti.com) really serves: point `WARSHA_APPS_FEED_SAMPLE`
     /// at a response it produced (its `live_round_fetches_real_releases` test writes one).
     #[test]
-    #[ignore = "needs a sample written by storyteller-web"]
-    fn reads_what_storyteller_web_serves() {
+    #[ignore = "needs a sample written by the Warsha feed (malshatti.com)"]
+    fn reads_what_the_feed_serves() {
         let Ok(path) = std::env::var("WARSHA_APPS_FEED_SAMPLE") else { return };
         let json = std::fs::read_to_string(path).unwrap();
         let feed = Feed::parse(&json).unwrap();

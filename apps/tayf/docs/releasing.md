@@ -30,7 +30,7 @@ and the WASM web app. The platform scripts in [`packaging/`](../packaging/) writ
 - Windows: MSI installer and portable ZIP for each architecture.
 - Linux: AppImage (with its `.AppImage.zsync`), `.deb`, `.rpm`, and `.tar.gz` for each
   architecture (`packaging/linux/package.sh`). Each AppImage embeds
-  `gh-releases-zsync|storytold|tayf|latest|tayf-*-linux-<arch>.AppImage.zsync`, so
+  `gh-releases-zsync|malshatti44|tayf|latest|tayf-*-linux-<arch>.AppImage.zsync`, so
   AppImageUpdate fetches only the changed blocks from the latest published (non-pre-) release.
 - Linux riscv64: `.tar.gz` only, cross-compiled on Ubuntu 24.04 against its riscv64 ports
   libraries (so glibc 2.39 or newer), with the CLI smoke-tested under QEMU (`CROSS_*` variables

@@ -103,13 +103,13 @@ fn release(id: &str, v: &str, at: i64) -> Release {
         version: version::parse(v),
         name: format!("v{v}"),
         published_at: Some(at),
-        html_url: format!("https://github.com/storytold/{id}/releases/tag/v{v}"),
+        html_url: format!("https://github.com/malshatti44/{id}/releases/tag/v{v}"),
         notes: "## What's Changed\n* Faster things by @a in https://github.com/malshatti44/warshaa".into(),
         prerelease: false,
         assets: vec![Asset {
             name: name.clone(),
             size: 150 << 20,
-            url: format!("https://github.com/storytold/{id}/releases/download/v{v}/{name}"),
+            url: format!("https://github.com/malshatti44/{id}/releases/download/v{v}/{name}"),
             sha256: None,
         }],
     }
@@ -676,7 +676,6 @@ fn links_open_the_right_pages() {
     assert_eq!(click_opens(&mut h, "Discord").as_deref(), Some("https://malshatti.com"));
     // The footer's Warsha links and each card's own pages.
     let github = all_opened(&mut h, "GitHub");
-    assert!(github.contains(&"https://github.com/storytold".to_string()), "{github:?}");
     assert!(github.contains(&"https://github.com/malshatti44/warshaa".to_string()), "{github:?}");
     let sites = all_opened(&mut h, "Website");
     assert!(sites.contains(&"https://malshatti.com".to_string()), "{sites:?}");

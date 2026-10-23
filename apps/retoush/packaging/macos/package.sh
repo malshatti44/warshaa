@@ -119,6 +119,8 @@ printf 'APPL????' >"$APP/Contents/PkgInfo"
 
 # Sign inside-out: nested code first, then the bundle itself (no --deep on the final signature).
 # Today the only nested code is the main executable; frameworks/helpers would be signed here too.
+# Warsha: drop extended attributes picked up during the build before signing (--strict rejects them).
+xattr -cr "$APP"
 sign --options runtime "$APP/Contents/MacOS/retoush-cli"
 sign --options runtime --entitlements "$HERE/entitlements.plist" "$APP/Contents/MacOS/Retoush"
 sign --options runtime --entitlements "$HERE/entitlements.plist" "$APP"
@@ -146,8 +148,14 @@ rm -f "$DMG" "$WORK/raw.dmg"
 # makehybrid + convert builds the image without attaching a device, unlike `create -srcfolder`,
 # which is flaky on CI runners ("Resource busy") and hangs in sandboxed sessions.
 # The volume name has no version: .DS_Store finds the background through an alias that includes it.
-hdiutil makehybrid -hfs -hfs-volume-name "Retoush" -hfs-openfolder "$STAGE" -o "$WORK/raw.dmg" "$STAGE"
-hdiutil convert "$WORK/raw.dmg" -format UDZO -imagekey zlib-level=9 -o "$DMG"
+# Warsha: `hdiutil create -srcfolder` writes the files as they are; `makehybrid -hfs` gave every
+# file a com.apple.FinderInfo, which `codesign --verify --strict` rejects ("Finder information, or
+# similar detritus") on the app inside the image. `create` is retried: it fails now and then on CI.
+for attempt in 1 2 3 4 5; do
+  hdiutil create -srcfolder "$STAGE" -volname "Retoush" -fs HFS+ -format UDZO -imagekey zlib-level=9 -ov "$DMG" && break
+  [ "$attempt" = 5 ] && { echo "hdiutil create failed 5 times" >&2; exit 1; }
+  sleep $((attempt * 10))
+done
 rm -f "$WORK/raw.dmg"
 sign "$DMG"
 codesign --verify --strict --verbose=2 "$DMG"

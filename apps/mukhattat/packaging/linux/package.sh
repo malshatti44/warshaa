@@ -39,7 +39,7 @@ case "$ARCH" in
   aarch64 | arm64) ARCH=aarch64; DEB_ARCH=arm64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export MUKHATTAT_MAINTAINER="${MUKHATTAT_MAINTAINER:-Mukhattat maintainers <mukhattat@storyteller.ai>}"
+export MUKHATTAT_MAINTAINER="${MUKHATTAT_MAINTAINER:-Mukhattat maintainers <info@malshatti.com>}"
 BASENAME="mukhattat-$VERSION-linux-$ARCH"
 
 echo "==> Mukhattat $VERSION for Linux $ARCH ($FORMATS)"

@@ -65,7 +65,7 @@ impl WarshaApp {
 
     /// The app's page on malshatti.com.
     pub fn website(&self) -> String {
-        format!("https://github.com/malshatti44/warshaa/tree/main/apps/{}", self.id)
+        format!("https://malshatti.com/apps/{}.html", self.id)
     }
 
     /// Asset stems this app's releases may use, current first.
@@ -241,8 +241,8 @@ mod tests {
         ids.dedup();
         assert_eq!(ids.len(), SUITE.len());
         for a in &SUITE {
-            assert_eq!(a.repo, format!("storytold/{}", a.id));
-            assert_eq!(a.name.to_lowercase(), a.id);
+            assert_eq!(a.repo, "malshatti44/warshaa");
+            assert!(!a.name.is_empty());
         }
     }
 
@@ -250,8 +250,8 @@ mod tests {
     fn watheeq_also_answers_to_warshaprint() {
         let pdf = WarshaApp::by_id("watheeq").unwrap();
         assert_eq!(pdf.stems().collect::<Vec<_>>(), ["watheeq", "warshaprint"]);
-        assert_eq!(pdf.names().collect::<Vec<_>>(), ["Watheeq", "WarshaPrint"]);
-        assert_eq!(pdf.website(), "https://github.com/malshatti44/warshaa");
-        assert_eq!(WarshaApp::by_id("satr").unwrap().website(), "https://github.com/malshatti44/warshaa");
+        assert_eq!(pdf.names().collect::<Vec<_>>(), ["وثيق", "WarshaPrint"]);
+        assert_eq!(pdf.website(), "https://malshatti.com/apps/watheeq.html");
+        assert_eq!(WarshaApp::by_id("satr").unwrap().website(), "https://malshatti.com/apps/satr.html");
     }
 }

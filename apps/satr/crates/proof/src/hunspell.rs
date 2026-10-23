@@ -55,6 +55,8 @@ pub fn search_dirs(lo_exts: Option<&[String]>) -> Vec<PathBuf> {
         dirs.push(exe_dir.join("dictionaries"));
         // In the macOS app: Satr.app/Contents/MacOS/satr → Satr.app/Contents/Resources/dictionaries
         dirs.push(exe_dir.join("..").join("Resources").join("dictionaries"));
+        // Linux packages and the AppImage: usr/bin/satr → usr/share/satr/dictionaries
+        dirs.push(exe_dir.join("..").join("share").join("satr").join("dictionaries"));
     }
     // LibreOffice keeps each language under `…/share/extensions/<dict-xx>`.
     let lo_dirs =

@@ -41,7 +41,7 @@ case "$ARCH" in
   riscv64) DEB_ARCH=riscv64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export SADA_MAINTAINER="${SADA_MAINTAINER:-Sada maintainers <sada@storyteller.ai>}"
+export SADA_MAINTAINER="${SADA_MAINTAINER:-Sada maintainers <info@malshatti.com>}"
 BASENAME="sada-$VERSION-linux-$ARCH"
 
 echo "==> Sada $VERSION for Linux $ARCH ($FORMATS)"

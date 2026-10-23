@@ -41,7 +41,7 @@ case "$ARCH" in
   aarch64 | arm64) ARCH=aarch64; DEB_ARCH=arm64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export MONTEER_MAINTAINER="${MONTEER_MAINTAINER:-Monteer maintainers <monteer@storyteller.ai>}"
+export MONTEER_MAINTAINER="${MONTEER_MAINTAINER:-Monteer maintainers <info@malshatti.com>}"
 BASENAME="monteer-$VERSION-linux-$ARCH"
 
 echo "==> Monteer $VERSION for Linux $ARCH ($FORMATS)"

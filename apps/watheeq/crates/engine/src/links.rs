@@ -4,7 +4,7 @@
 use icu_properties::props::Script;
 use std::path::{Path, PathBuf};
 
-/// The app's name in Warsha URLs (`malshatti.com/apps/{APP}`, `github.com/storytold/{APP}`).
+/// The app's name in Warsha URLs (`malshatti.com/apps/{APP}.html`).
 pub const APP: &str = "watheeq";
 
 pub const DISCORD: &str = "https://malshatti.com";
@@ -489,7 +489,7 @@ mod tests {
     #[test]
     fn urls_follow_the_warsha_scheme() {
         assert_eq!(super::APP_PAGE, format!("{}/apps/{}", super::WEBSITE, super::APP));
-        assert_eq!(super::GITHUB, format!("https://github.com/storytold/{}", super::APP));
+        assert_eq!(super::GITHUB, format!("https://malshatti.com/apps/{}.html", super::APP));
         for l in super::LINKS {
             assert!(l.url.starts_with("https://"), "{}", l.url);
             assert!(crate::commands::command(l.command).is_some(), "{} is a registered command", l.command);

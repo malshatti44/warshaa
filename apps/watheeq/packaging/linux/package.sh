@@ -42,7 +42,7 @@ case "$ARCH" in
   aarch64 | arm64) ARCH=aarch64; DEB_ARCH=arm64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export WATHEEQ_MAINTAINER="${WATHEEQ_MAINTAINER:-Watheeq maintainers <watheeq@storyteller.ai>}"
+export WATHEEQ_MAINTAINER="${WATHEEQ_MAINTAINER:-Watheeq maintainers <info@malshatti.com>}"
 BASENAME="watheeq-$VERSION-linux-$ARCH"
 
 echo "==> Watheeq $VERSION for Linux $ARCH ($FORMATS)"
@@ -73,7 +73,7 @@ cp -R "$ROOT/assets/app-icon/hicolor" "$STAGE/usr/share/icons/"
 mkdir -p "$STAGE/usr/share/doc/watheeq"
 copy_docs "$STAGE/usr/share/doc/watheeq"
 # OCR models: the app finds them at <bin>/../share/watheeq/models, so in every format below.
-stage_models "$STAGE/usr/share/watheeq/models"
+[ -n "${WARSHA_NO_OCR_MODELS:-}" ] || stage_models "$STAGE/usr/share/watheeq/models"
 
 if command -v desktop-file-validate >/dev/null; then
   desktop-file-validate "$STAGE/usr/share/applications/$APP_ID.desktop"

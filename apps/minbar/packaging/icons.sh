@@ -4,7 +4,7 @@
 #   assets/app-icon/minbar.ico    Windows (16–256 px, from hicolor/*)
 #   assets/app-icon/minbar.icns   macOS (16–1024 px, from minbar-1024.png; needs sips + iconutil)
 #
-# The PNGs themselves are rendered by Minbar from assets/app-icon/icon-source.minbar.
+# The PNGs themselves come from Warsha's icon set (icons/make_icns.py in the repository).
 # The outputs are committed, so builds and packaging never need these tools; package scripts
 # call this only when an output is missing.
 #

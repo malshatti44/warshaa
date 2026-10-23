@@ -17,7 +17,7 @@ pub fn app_page_url() -> String {
 
 /// This app's source repository.
 pub fn github_url() -> String {
-    format!("https://github.com/storytold/{APP_ID}")
+    format!("https://github.com/malshatti44/warshaa/tree/main/apps/{APP_ID}")
 }
 
 pub fn specs() -> Vec<CommandSpec> {

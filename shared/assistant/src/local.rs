@@ -18,8 +18,24 @@ pub struct Asset {
     pub size: u64,
 }
 
-/// llama.cpp b11700 (MIT): Windows x64 with Vulkan + CPU.
-#[cfg(not(target_os = "macos"))]
+/// llama.cpp b11700 (MIT): Linux x86_64 with Vulkan + CPU.
+#[cfg(all(target_os = "linux", not(target_arch = "aarch64")))]
+pub const RUNTIME: Asset = Asset {
+    file: "llama-b11700-bin-ubuntu-vulkan-x64.tar.gz",
+    url: "https://github.com/ggml-org/llama.cpp/releases/download/b11700/llama-b11700-bin-ubuntu-vulkan-x64.tar.gz",
+    sha256: "7a72ae05c3054077a90a4d33d1079271cf2360a20019927d147feaa9be647983",
+    size: 30_536_818,
+};
+/// llama.cpp b11700 (MIT): Linux arm64 with Vulkan + CPU.
+#[cfg(all(target_os = "linux", target_arch = "aarch64"))]
+pub const RUNTIME: Asset = Asset {
+    file: "llama-b11700-bin-ubuntu-vulkan-arm64.tar.gz",
+    url: "https://github.com/ggml-org/llama.cpp/releases/download/b11700/llama-b11700-bin-ubuntu-vulkan-arm64.tar.gz",
+    sha256: "a270ba756019220b2153943b3a11d340ba163282e9f252d1a4cc720271474891",
+    size: 24_230_064,
+};
+/// llama.cpp b11700 (MIT): Windows x64 with Vulkan + CPU (also the fallback on other systems).
+#[cfg(not(any(target_os = "macos", target_os = "linux")))]
 pub const RUNTIME: Asset = Asset {
     file: "llama-b11700-bin-win-vulkan-x64.zip",
     url: "https://github.com/ggml-org/llama.cpp/releases/download/b11700/llama-b11700-bin-win-vulkan-x64.zip",

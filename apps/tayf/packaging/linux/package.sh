@@ -39,7 +39,7 @@ case "$ARCH" in
   aarch64 | arm64) ARCH=aarch64; DEB_ARCH=arm64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export TAYF_MAINTAINER="${TAYF_MAINTAINER:-Tayf maintainers <tayf@storyteller.ai>}"
+export TAYF_MAINTAINER="${TAYF_MAINTAINER:-Tayf maintainers <info@malshatti.com>}"
 BASENAME="tayf-$VERSION-linux-$ARCH"
 
 echo "==> Tayf $VERSION for Linux $ARCH ($FORMATS)"

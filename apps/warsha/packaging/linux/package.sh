@@ -50,7 +50,7 @@ case "$ARCH" in
   aarch64 | arm64) ARCH=aarch64; DEB_ARCH=arm64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export WARSHA_LAUNCHER_MAINTAINER="${WARSHA_LAUNCHER_MAINTAINER:-Warsha maintainers <warsha@storyteller.ai>}"
+export WARSHA_LAUNCHER_MAINTAINER="${WARSHA_LAUNCHER_MAINTAINER:-Warsha maintainers <info@malshatti.com>}"
 BASENAME="$PKG-$VERSION-linux-$ARCH"
 
 echo "==> Warsha $VERSION for Linux $ARCH ($FORMATS)"

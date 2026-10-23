@@ -43,7 +43,7 @@ case "$ARCH" in
   aarch64 | arm64) ARCH=aarch64; DEB_ARCH=arm64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export RETOUSH_MAINTAINER="${RETOUSH_MAINTAINER:-Retoush maintainers <retoush@storyteller.ai>}"
+export RETOUSH_MAINTAINER="${RETOUSH_MAINTAINER:-Retoush maintainers <info@malshatti.com>}"
 BASENAME="retoush-$VERSION-linux-$ARCH"
 
 echo "==> Retoush $VERSION for Linux $ARCH ($FORMATS)"

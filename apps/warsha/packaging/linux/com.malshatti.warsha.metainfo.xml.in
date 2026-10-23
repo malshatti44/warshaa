@@ -7,7 +7,7 @@
   <project_license>MIT OR Apache-2.0</project_license>
   <name>Warsha</name>
   <summary>Install, update and launch the Warsha App Suite</summary>
-  <developer id="ai.storyteller">
+  <developer id="com.malshatti">
     <name>Learning Machines LLC</name>
   </developer>
   <description>

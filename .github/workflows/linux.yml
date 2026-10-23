@@ -1,0 +1,129 @@
+# The Linux edition of Warsha (ورشة): each app as an AppImage (any distro), .deb (Debian, Ubuntu,
+# Mint…), .rpm (Fedora, openSUSE…) and a plain .tar.gz, for x86_64 and arm64 (aarch64). Built on
+# Ubuntu 22.04 so the programs run on that and every newer distro (glibc 2.35+).
+#
+# Run it from the Actions tab (Run workflow). With "upload", the packages and their checksums are
+# attached to the release named by "release_tag".
+name: Linux builds
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version the apps report and the file names carry
+        default: "2.3.0"
+      release_tag:
+        description: Release to attach the packages to
+        default: "v2.3.0"
+      upload:
+        description: Attach the packages to the release
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+env:
+  CARGO_TERM_COLOR: never
+  # As the other builds: the assistant reads Arabic scans, so Watheeq ships no OCR models.
+  WARSHA_NO_OCR_MODELS: "1"
+
+jobs:
+  app:
+    name: ${{ matrix.app }} (${{ matrix.arch }})
+    runs-on: ${{ matrix.arch == 'aarch64' && 'ubuntu-22.04-arm' || 'ubuntu-22.04' }}
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        app: [retoush, reesha, monteer, tayf, watheeq, wamda, nasaq, satr, minbar, kashf, mukhattat, sada, warsha]
+        arch: [x86_64, aarch64]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build tools and libraries
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q --no-install-recommends \
+            build-essential pkg-config clang nasm cmake curl file zsync desktop-file-utils appstream \
+            libgtk-3-dev libasound2-dev libpulse-dev libudev-dev libdbus-1-dev libssl-dev libxdo-dev \
+            libgl1-mesa-dev libegl1-mesa-dev libwayland-dev libx11-dev libx11-xcb-dev libxcursor-dev libxi-dev \
+            libxkbcommon-dev libxkbcommon-x11-dev libxrandr-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev \
+            libfontconfig1-dev libfreetype-dev libvulkan-dev
+          deb_arch=$(dpkg --print-architecture)
+          curl -fsSL -o /tmp/nfpm.deb "https://github.com/goreleaser/nfpm/releases/download/v2.47.0/nfpm_2.47.0_${deb_arch}.deb"
+          sudo dpkg -i /tmp/nfpm.deb
+          nfpm --version
+
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: "1.99.0"
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: apps/${{ matrix.app }}
+          key: linux-${{ matrix.arch }}-${{ matrix.app }}
+
+      - name: Build and package
+        env:
+          V: ${{ inputs.version }}
+        run: |
+          app="${{ matrix.app }}"
+          if [ "$app" = warsha ]; then export WARSHA_LAUNCHER_VERSION="$V"; else export "$(echo "$app" | tr a-z A-Z)_VERSION=$V"; fi
+          export DIST="$GITHUB_WORKSPACE/out"
+          mkdir -p "$DIST"
+          bash "apps/$app/packaging/linux/package.sh" --formats "appimage deb rpm tar"
+
+      - name: Check the app
+        run: |
+          app="${{ matrix.app }}"
+          ls -la out
+          img="$(ls out/$app-${{ inputs.version }}-linux-*.AppImage | head -1)"
+          test -f "$img"
+          file "$img"
+          dpkg-deb --info out/$app-${{ inputs.version }}-linux-*.deb | grep -E "Package|Version|Architecture"
+          tar -tzf out/$app-${{ inputs.version }}-linux-*.tar.gz | grep -E "/bin/" | head
+          if [ "$app" != warsha ]; then
+            dir="$(mktemp -d)"; tar -xzf out/$app-${{ inputs.version }}-linux-*.tar.gz -C "$dir"
+            "$dir"/*/bin/$app-cli --version || "$dir"/*/bin/$app-cli --help | head -5 || true
+          fi
+          if [ "$app" = satr ]; then tar -tzf out/satr-*.tar.gz | grep dictionaries/; fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux-${{ matrix.arch }}-${{ matrix.app }}
+          path: |
+            out/*.AppImage
+            out/*.AppImage.zsync
+            out/*.deb
+            out/*.rpm
+            out/*.tar.gz
+          if-no-files-found: error
+          retention-days: 14
+
+  release:
+    needs: app
+    if: ${{ always() }}
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: linux-*
+          merge-multiple: true
+          path: pkg
+
+      - name: Checksums
+        run: |
+          cd pkg && sha256sum *.AppImage *.deb *.rpm *.tar.gz > SHA256SUMS-linux.txt && cat SHA256SUMS-linux.txt && ls -la
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux-release
+          path: pkg/
+          retention-days: 14
+
+      - name: Attach to the release
+        if: ${{ inputs.upload }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ inputs.release_tag }}" pkg/* --clobber --repo "$GITHUB_REPOSITORY"

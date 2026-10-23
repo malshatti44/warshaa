@@ -36,10 +36,10 @@ pub const ALLOWED_LICENCES: &[&str] = &[
 ];
 
 /// The closed list of Adobe-authored, non-visual technical data (AGENTS.md §1.1): (crate, path).
-/// Storyteller's own brand marks (the Warsha name and logos): shipped in the app and docs, but
+/// Warsha's own brand marks (the Warsha name and logos): shipped in the app and docs, but
 /// not licensed for reuse by forks. Allowed only for `kind = "logo"` entries under `docs/brand/`
 /// (AGENTS.md §1.2).
-pub const BRAND_LICENCE: &str = "LicenseRef-Storyteller-Trademark";
+pub const BRAND_LICENCE: &str = "LicenseRef-Warsha-Trademark";
 
 pub const ADOBE_DATA_ALLOWED: &[(&str, &str)] = &[("hayro-cmap", "assets/cmaps.brotli"), ("hayro-interpret", "src/font/generated/metrics.rs")];
 
@@ -551,7 +551,7 @@ mod tests {
             ("docs/brand/warsha-mark.svg", "icon", false),
             ("assets/icons/mark.svg", "logo", false),
         ] {
-            let mut a = asset(path, "Storyteller", kind, BRAND_LICENCE);
+            let mut a = asset(path, "Mohammad Al Shatti", kind, BRAND_LICENCE);
             a.licence_file = "docs/brand/LICENSE-brand.txt".into();
             let m = Manifest { asset: vec![a], ..Default::default() };
             let p = check(&root, &m, &[], &BTreeSet::new());

@@ -37,7 +37,7 @@ case "$ARCH" in
   aarch64 | arm64) ARCH=aarch64; DEB_ARCH=arm64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export NASAQ_MAINTAINER="${NASAQ_MAINTAINER:-Nasaq maintainers <nasaq@storyteller.ai>}"
+export NASAQ_MAINTAINER="${NASAQ_MAINTAINER:-Nasaq maintainers <info@malshatti.com>}"
 BASENAME="nasaq-$VERSION-linux-$ARCH"
 
 echo "==> Nasaq $VERSION for Linux $ARCH ($FORMATS)"

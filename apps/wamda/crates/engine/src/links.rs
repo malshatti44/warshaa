@@ -20,7 +20,7 @@ pub const SIBLINGS: &[(&str, &str)] = &[
 ];
 
 pub fn github_of(slug: &str) -> String {
-    format!("https://github.com/storytold/{slug}")
+    format!("https://github.com/malshatti44/warshaa/tree/main/apps/{slug}")
 }
 pub fn page_of(slug: &str) -> String {
     format!("https://malshatti.com/apps/")

@@ -171,7 +171,7 @@ pub const INSTALL_CANCELLED: &str = "install cancelled";
 /// Which service an app's release information came from (the footer names them).
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, Serialize, Deserialize)]
 pub enum Origin {
-    /// Warsha's release feed (storyteller-web), which polls GitHub for everyone.
+    /// Warsha's release feed (the Warsha feed (malshatti.com)), which polls GitHub for everyone.
     WarshaApi,
     /// GitHub directly: the fallback.
     GitHub,
@@ -189,7 +189,7 @@ impl Origin {
 /// Where release information came from.
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Serialize, Deserialize)]
 pub enum Source {
-    /// Warsha's release feed (storyteller-web), which polls GitHub for everyone.
+    /// Warsha's release feed (the Warsha feed (malshatti.com)), which polls GitHub for everyone.
     Feed,
     /// The GitHub REST API.
     GitHubApi,

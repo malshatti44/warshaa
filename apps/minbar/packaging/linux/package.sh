@@ -37,7 +37,7 @@ case "$ARCH" in
   aarch64 | arm64) ARCH=aarch64; DEB_ARCH=arm64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export MINBAR_MAINTAINER="${MINBAR_MAINTAINER:-Minbar maintainers <minbar@storyteller.ai>}"
+export MINBAR_MAINTAINER="${MINBAR_MAINTAINER:-Minbar maintainers <info@malshatti.com>}"
 BASENAME="minbar-$VERSION-linux-$ARCH"
 
 echo "==> Minbar $VERSION for Linux $ARCH ($FORMATS)"

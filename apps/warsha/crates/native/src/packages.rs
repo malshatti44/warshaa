@@ -108,7 +108,7 @@ mod tests {
         assert_eq!(parse_rpm("kashf|0.3.0\n"), [("kashf".into(), "0.3.0".into())]);
         assert_eq!(parse_pacman("retoush-bin 0.5.0-1\nlinux 6.11.1.arch1-1\n").len(), 2);
         assert_eq!(
-            parse_flatpak_list("com.malshatti.satr\t\nai.storyteller.mukhattat\t0.3.0\n"),
+            parse_flatpak_list("com.malshatti.satr\t\nai.warsha.mukhattat\t0.3.0\n"),
             [("com.malshatti.satr".into(), String::new()), ("com.malshatti.mukhattat".into(), "0.3.0".into())]
         );
         let info = "\nSatr - Word processor\n\n          ID: com.malshatti.satr\n     Version: 0.3.0\n      Branch: master\n";

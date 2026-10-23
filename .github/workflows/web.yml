@@ -1,0 +1,101 @@
+# The browser edition of Warsha (ورشة): each app compiled to WebAssembly and packed as a static site
+# (`<id>-web-<version>.zip`) that runs from any folder of a web server, e.g. malshatti.com/apps/web/<id>/.
+# Everything runs in the visitor's browser; no files are sent to the server.
+#
+# Run it from the Actions tab (Run workflow). With "upload", the zips and their checksums are
+# attached to the release named by "release_tag".
+name: Web builds
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version the apps report and the file names carry
+        default: "2.3.0"
+      release_tag:
+        description: Release to attach the zips to
+        default: "v2.3.0"
+      upload:
+        description: Attach the zips to the release
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+env:
+  CARGO_TERM_COLOR: never
+  TRUNK_VERSION: 0.21.14
+
+jobs:
+  app:
+    name: ${{ matrix.app }}
+    runs-on: ubuntu-22.04
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        app: [retoush, reesha, monteer, tayf, watheeq, wamda, nasaq, satr, minbar, kashf, mukhattat, sada]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: "1.99.0"
+          targets: wasm32-unknown-unknown
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: apps/${{ matrix.app }}
+          key: web-${{ matrix.app }}
+
+      - name: Install trunk
+        run: |
+          curl -fsSL "https://github.com/trunk-rs/trunk/releases/download/v${TRUNK_VERSION}/trunk-x86_64-unknown-linux-gnu.tar.gz" \
+            | tar -xz -C "$HOME/.cargo/bin" trunk
+          trunk --version
+
+      - name: Build and package
+        env:
+          V: ${{ inputs.version }}
+        run: |
+          app="${{ matrix.app }}"
+          export "$(echo "$app" | tr a-z A-Z)_VERSION=$V"
+          export DIST="$GITHUB_WORKSPACE/out"
+          mkdir -p "$DIST"
+          bash "apps/$app/packaging/web/package.sh"
+          ls -la out
+          unzip -l "out/$app-web-$V.zip" | tail -15
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: web-${{ matrix.app }}
+          path: out/${{ matrix.app }}-web-${{ inputs.version }}.zip
+          if-no-files-found: error
+          retention-days: 14
+
+  release:
+    needs: app
+    if: ${{ always() }}
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: web-*
+          merge-multiple: true
+          path: web
+
+      - name: Checksums
+        run: cd web && sha256sum *.zip > SHA256SUMS-web.txt && cat SHA256SUMS-web.txt
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: web-release
+          path: web/
+          retention-days: 14
+
+      - name: Attach to the release
+        if: ${{ inputs.upload }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ inputs.release_tag }}" web/* --clobber --repo "$GITHUB_REPOSITORY"
